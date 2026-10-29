@@ -249,7 +249,7 @@ function homeView(){
   return `<main class="wrap"><section class="hero"><div class="specimen" aria-hidden="true"><span>Яя</span><span class="s-hand">Жж</span><span>Aa</span><span class="s-ar">ض</span></div>
   <h1>الروسية والإنجليزية والعربية، من الحرف الأول حتى مستوى C2</h1>
   <p class="h1-ru">Русский, английский и арабский — от первой буквы до уровня C2</p>
-  <div class="stats"><span><b>4</b> مسارات · направления</span><span><b>6</b> مستويات · уровней</span><span><b>${tot.w}</b> كلمة بالصور · слов с картинками</span><span><b>${tot.g}</b> دروس قواعد · тем</span></div></section>
+  <div class="stats">${[[4,'مسارات','направления'],[6,'مستويات','уровней'],[tot.w,'كلمة بالصور','слов с картинками'],[tot.g,'درس قواعد','тем грамматики']].map(([n,a,r])=>`<div class="stat"><b>${n}</b><span class="s-ar" dir="rtl">${a}</span><span class="s-ru" dir="ltr">${r}</span></div>`).join('')}</div></section>
   <section class="tracks">${cards}</section>
   <section class="how" dir="rtl"><div><h3>اسمع وكرّر</h3><p>كل حرف وكلمة وجملة لها صوت، ويمكنك التحكم بالسرعة وطبقة الصوت واختيار الصوت. اضغط على أي كلمة في النصوص لتسمعها وترى معناها.</p></div>
   <div><h3>اكتب بيدك</h3><p>تتبّع الحروف بالخط المطبوع وخط اليد، ثم تدرّب على الإملاء ونسخ الجمل بلوحة مفاتيح اللغة.</p></div>
