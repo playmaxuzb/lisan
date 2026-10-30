@@ -80,7 +80,7 @@ function SignInStep({ u, toast, onBack, onDone }){
       else { const r = await phoneStart(full, 'phone-submit'); if (r === 'code') setStage('code'); else onDone(); } }
     catch (err){ toast(u.invalid); } setBusy(false); };
   const verify = async (e) => { e.preventDefault(); setBusy(true); try { await phoneVerify(code.trim()); onDone(); } catch (err){ toast(u.invalid); } setBusy(false); };
-  const google = async () => { if (!Auth.enabled){ toast(u.needFirebase); return; } setGoing(true); try { const r = await googleSignIn(); if (r !== 'redirect'){ setGoing(false); onDone(); } } catch (e){ setGoing(false); if (!/popup-closed|cancelled-popup/.test((e && e.code) || '')) toast(u.invalid); } };
+  const google = async () => { if (!Auth.enabled){ toast(u.needFirebase); return; } setGoing(true); try { const r = await googleSignIn(); if (r !== 'redirect'){ setGoing(false); onDone(); } } catch (e){ setGoing(false); if (!/popup-closed|cancelled-popup/.test((e && e.code) || '')) toast('Google: ' + ((e && (e.code || e.message)) || 'error')); } };
   const nat = Store.meta.pendingNative;
   return <div>
     <div className="flex items-center justify-between gap-3">

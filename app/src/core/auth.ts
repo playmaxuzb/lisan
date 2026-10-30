@@ -30,7 +30,7 @@ export async function initAuth(){
         const email = localStorage.getItem('lisan.emailForSignIn') || prompt('Email');
         if (email){ const cred = await A.signInWithEmailLink(auth, email, location.href); localStorage.removeItem('lisan.emailForSignIn'); await afterLogin(cred.user, 'email'); history.replaceState(null, '', location.pathname); }
       }
-      A.onAuthStateChanged(auth, (u) => { Auth.user = u; });
+      A.onAuthStateChanged(auth, async (u) => { Auth.user = u; const cur = Store.profile(); if (u && (!cur || cur.uid !== u.uid) && !Store.meta.signedOutUid){ await afterLogin(u, u.providerData && u.providerData[0] && u.providerData[0].providerId === 'phone' ? 'phone' : 'google'); Store.emit(); } });
     } catch (e){ Auth.enabled = false; }
   }
   Auth.ready = true;
@@ -42,7 +42,7 @@ async function syncUp(){ if (!fb || !Auth.user) return; const p = Store.profile(
   try { await fb.F.setDoc(fb.F.doc(fb.db, 'users', Auth.user.uid), { profile: p, progress: Store.d, updated: Date.now() }, { merge: true }); } catch (e){} }
 
 async function afterLogin(user, kind){
-  let remote = null; try { const s = await fb.F.getDoc(fb.F.doc(fb.db, 'users', user.uid)); if (s.exists()) remote = s.data(); } catch (e){}
+  let remote = null; try { const s = await Promise.race([fb.F.getDoc(fb.F.doc(fb.db, 'users', user.uid)), new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 3500))]); if (s && s.exists()) remote = s.data(); } catch (e){}
   const native = (Store.profile() && Store.profile().native) || Store.meta.pendingNative;
   const base = { id: 'fb_' + user.uid, uid: user.uid, kind, email: user.email || '', phone: user.phoneNumber || '', name: user.displayName || '', googlePhoto: user.photoURL || '' };
   const fresh = { native, username: '', avatar: '', photo: '' };
@@ -56,7 +56,6 @@ const mobile = () => /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent
 export async function googleSignIn(){
   if (!fb) throw new Error('nofb');
   const p = new fb.A.GoogleAuthProvider(); p.setCustomParameters({ prompt: 'select_account' });
-  if (mobile()){ await fb.A.signInWithRedirect(fb.auth, p); return 'redirect'; }
   try { const cred = await fb.A.signInWithPopup(fb.auth, p); return afterLogin(cred.user, 'google'); }
   catch (e){ if (e && /popup-blocked|operation-not-supported/.test(e.code || '')){ await fb.A.signInWithRedirect(fb.auth, p); return 'redirect'; } throw e; }
 }
