@@ -25,15 +25,21 @@
 - كتابة: تتبّع الحروف بعدة خطوط، إملاء، نسخ الجمل
 - امتحان من 20 سؤالاً، والنجاح بـ 80٪ يفتح المستوى التالي
 
-## تفعيل الدخول الحقيقي (Firebase)
+## تفعيل الدخول بـ Google والهاتف ورسالة الترحيب
 
 بدون إعداد، تُحفظ الحسابات والتقدّم على جهاز المستخدم.
-لتفعيل التحقق بالبريد والهاتف وGoogle ومزامنة التقدّم بين الأجهزة:
+الإعداد كله في ملف واحد: انسخ `lisan-config.example.json` باسم `lisan-config.json` في جذر الموقع وضع فيه المفاتيح.
 
-1. أنشئ مشروعاً على [Firebase](https://console.firebase.google.com) وأضف تطبيق ويب.
-2. فعّل في Authentication طرق الدخول: Email link، وPhone، وGoogle، وأضف نطاق الموقع إلى Authorized domains.
-3. فعّل Firestore Database.
-4. انسخ `firebase-config.example.json` إلى `firebase-config.json` في جذر الموقع وضع فيه مفاتيح مشروعك.
+**Firebase (الدخول بـ Google والهاتف والبريد، ومزامنة التقدّم):**
+1. أنشئ مشروعاً على [Firebase](https://console.firebase.google.com) وأضف تطبيق ويب، وانسخ قيم `firebaseConfig` إلى قسم `firebase`.
+2. من Authentication ← Sign-in method فعّل: Google، وPhone، وEmail/Password مع Email link.
+3. من Authentication ← Settings ← Authorized domains أضف `playmaxuzb.github.io`.
+4. فعّل Firestore Database.
+
+**EmailJS (رسالة «تم ربط حسابك» إلى بريد المستخدم):**
+1. أنشئ حساباً على [EmailJS](https://www.emailjs.com) واربط Gmail من Email Services.
+2. أنشئ قالباً من Email Templates: في خانة To Email اكتب `{{to_email}}`، وفي Subject اكتب `{{subject}}`، وفي المحتوى `{{message}}` (ويمكن استخدام `{{username}}` و`{{site_url}}`).
+3. ضع Public Key وService ID وTemplate ID في قسم `emailjs`.
 
 لا حاجة لإعادة بناء الموقع: يقرأ الموقع الملف عند التشغيل.
 

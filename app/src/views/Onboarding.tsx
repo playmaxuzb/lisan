@@ -4,7 +4,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import WaveGridBackground from '@/ui/Wave';
 import { Store, LANGS } from '@/core/engine';
 import { SELF } from '@/core/strings_app';
-import { Auth, emailSignIn, googleSignIn, phoneStart, phoneVerify } from '@/core/auth';
+import { Auth, emailSignIn, googleSignIn, phoneStart, phoneVerify, sendWelcome } from '@/core/auth';
+import { COUNTRIES, defaultCountry } from '@/core/countries';
+import { CountryPicker } from '@/views/CountryPicker';
 import { Flag } from '@/core/flags';
 import { useApp, I, Logo } from '@/ui/kit';
 import { AvatarPicker } from '@/views/AvatarPicker';
@@ -59,20 +61,26 @@ function NativeStep({ u, onPick }){
 }
 
 function SignInStep({ u, toast, onBack, onDone }){
+  const { lang } = useApp();
   const [mode, setMode] = useState('email');
+  const [cc, setCc] = useState(() => defaultCountry(lang));
+  const [going, setGoing] = useState(false);
   const [val, setVal] = useState('');
   const [code, setCode] = useState('');
   const [stage, setStage] = useState('input'); // input | sent | code
   const [busy, setBusy] = useState(false);
   const guest = () => { Store.createProfile({ kind: 'guest', native: Store.meta.pendingNative }); onDone(); };
   const submit = async (e) => { e.preventDefault(); const v = val.trim();
-    const ok = mode === 'email' ? /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v) : /^\+?[0-9\s()-]{7,20}$/.test(v);
+    const dial = (COUNTRIES.find((c) => c.code === cc) || COUNTRIES[0]).dial;
+    const digits = v.replace(/[^0-9]/g, '').replace(/^0+/, '');
+    const full = dial + digits;
+    const ok = mode === 'email' ? /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v) : digits.length >= 5 && full.length <= 16;
     if (!ok){ toast(u.invalid); return; } setBusy(true);
     try { if (mode === 'email'){ const r = await emailSignIn(v); if (r === 'sent') setStage('sent'); else onDone(); }
-      else { const r = await phoneStart(v.replace(/[\s()-]/g, ''), 'recaptcha'); if (r === 'code') setStage('code'); else onDone(); } }
+      else { const r = await phoneStart(full, 'phone-submit'); if (r === 'code') setStage('code'); else onDone(); } }
     catch (err){ toast(u.invalid); } setBusy(false); };
   const verify = async (e) => { e.preventDefault(); setBusy(true); try { await phoneVerify(code.trim()); onDone(); } catch (err){ toast(u.invalid); } setBusy(false); };
-  const google = async () => { if (!Auth.enabled){ toast(u.needFirebase); return; } try { await googleSignIn(); onDone(); } catch (e){ toast(u.invalid); } };
+  const google = async () => { if (!Auth.enabled){ toast(u.needFirebase); return; } setGoing(true); try { const r = await googleSignIn(); if (r !== 'redirect'){ setGoing(false); onDone(); } } catch (e){ setGoing(false); if (!/popup-closed|cancelled-popup/.test((e && e.code) || '')) toast(u.invalid); } };
   const nat = Store.meta.pendingNative;
   return <div>
     <div className="flex items-center justify-between gap-3">
@@ -97,10 +105,12 @@ function SignInStep({ u, toast, onBack, onDone }){
           className={`min-h-[40px] rounded-lg text-sm font-semibold inline-flex items-center justify-center gap-2 transition ${mode === k ? 'bg-white text-brand-600 shadow-sm ring-1 ring-line' : 'text-ink-2'}`}><Ic className="w-4 h-4"/>{l}</button>)}
       </div>
       <form onSubmit={submit} className="mt-3 space-y-3">
-        <input className="field" dir="ltr" type={mode === 'email' ? 'email' : 'tel'} autoComplete={mode === 'email' ? 'email' : 'tel'} placeholder={mode === 'email' ? u.emailPh : u.phonePh} value={val} onChange={(e) => setVal(e.target.value)} aria-label={mode === 'email' ? u.email : u.phone}/>
+        {mode === 'email' ? <input className="field" dir="ltr" type="email" autoComplete="email" placeholder={u.emailPh} value={val} onChange={(e) => setVal(e.target.value)} aria-label={u.email}/>
+        : <div className="flex gap-2" dir="ltr"><CountryPicker value={cc} onChange={setCc} lang={lang} u={u}/>
+            <input className="field flex-1 min-w-0" dir="ltr" type="tel" inputMode="tel" autoComplete="tel-national" placeholder="90 123 45 67" value={val} onChange={(e) => setVal(e.target.value)} aria-label={u.phone} data-phone/></div>}
         <button className="btn w-full" disabled={busy} id="phone-submit">{u.cont}</button>
       </form>
-      <button onClick={google} className="mt-3 w-full min-h-[48px] rounded-xl bg-white border-[1.5px] border-line hover:border-brand-500 inline-flex items-center justify-center gap-3 font-semibold text-ink transition"><I.google className="w-5 h-5"/>{u.google}</button>
+      <button onClick={google} disabled={going} data-google className="mt-3 w-full min-h-[48px] rounded-xl bg-white border-[1.5px] border-line hover:border-brand-500 inline-flex items-center justify-center gap-3 font-semibold text-ink transition disabled:opacity-70">{going ? <span className="w-5 h-5 rounded-full border-2 border-brand-100 border-t-brand-500 animate-spin"/> : <I.google className="w-5 h-5"/>}{going ? u.toGoogle : u.google}</button>
       <div className="my-5 flex items-center gap-3 text-xs text-ink-3"><span className="h-px flex-1 bg-line"/>{u.orWith}<span className="h-px flex-1 bg-line"/></div>
       <button onClick={guest} data-guest className="w-full rounded-xl bg-mist border-[1.5px] border-[#E2E6EE] hover:border-brand-400 px-4 py-3 text-start flex items-center gap-3 transition">
         <span className="grid place-items-center w-10 h-10 rounded-full bg-white ring-1 ring-line text-brand-600"><I.user className="w-5 h-5"/></span>
@@ -113,11 +123,11 @@ function SignInStep({ u, toast, onBack, onDone }){
 
 function UsernameStep({ u, onBack }){
   const p = Store.profile() || {};
-  const [name, setName] = useState(p.username || (p.email ? p.email.split('@')[0].replace(/[^\w]/g, '_').slice(0, 20) : ''));
+  const [name, setName] = useState(p.username || (p.email ? p.email.split('@')[0].replace(/[^\w]/g, '_').slice(0, 20) : '') || (p.name ? p.name.replace(/\s+/g, '_').replace(/[^\p{L}\p{N}_]/gu, '').slice(0, 20) : ''));
   const [avatar, setAvatar] = useState(p.avatar || 'p0');
-  const [photo, setPhoto] = useState(p.photo || '');
+  const [photo, setPhoto] = useState(p.photo || p.googlePhoto || '');
   const [err, setErr] = useState(false);
-  const save = (e) => { e.preventDefault(); const v = name.trim(); if (!/^[\p{L}\p{N}_]{3,24}$/u.test(v)){ setErr(true); return; } Store.updateProfile({ username: v, avatar, photo }); location.hash = '#/'; };
+  const save = (e) => { e.preventDefault(); const v = name.trim(); if (!/^[\p{L}\p{N}_]{3,24}$/u.test(v)){ setErr(true); return; } Store.updateProfile({ username: v, avatar, photo }); sendWelcome(); location.hash = '#/'; };
   return <form onSubmit={save}>
     <button type="button" onClick={onBack} className="inline-flex items-center gap-1 text-sm font-semibold text-ink-2 hover:text-brand-600"><I.back className="w-4 h-4 rtl:rotate-180"/>{u.back}</button>
     <h1 className="mt-4 text-2xl sm:text-[1.7rem] font-extrabold text-ink">{u.usernameTitle}</h1>
