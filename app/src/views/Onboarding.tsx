@@ -122,12 +122,13 @@ function SignInStep({ u, toast, onBack, onDone }){
 }
 
 function UsernameStep({ u, onBack }){
+  const { toast } = useApp();
   const p = Store.profile() || {};
   const [name, setName] = useState(p.username || (p.email ? p.email.split('@')[0].replace(/[^\w]/g, '_').slice(0, 20) : '') || (p.name ? p.name.replace(/\s+/g, '_').replace(/[^\p{L}\p{N}_]/gu, '').slice(0, 20) : ''));
   const [avatar, setAvatar] = useState(p.avatar || 'p0');
   const [photo, setPhoto] = useState(p.photo || p.googlePhoto || '');
   const [err, setErr] = useState(false);
-  const save = (e) => { e.preventDefault(); const v = name.trim(); if (!/^[\p{L}\p{N}_]{3,24}$/u.test(v)){ setErr(true); return; } Store.updateProfile({ username: v, avatar, photo }); sendWelcome(); location.hash = '#/'; };
+  const save = (e) => { e.preventDefault(); const v = name.trim(); if (!/^[\p{L}\p{N}_]{3,24}$/u.test(v)){ setErr(true); return; } Store.updateProfile({ username: v, avatar, photo }); location.hash = '#/'; sendWelcome().then((r) => { if (r.ok) toast(u.welcomeSent); else if (r.error !== 'no-email' && r.error !== 'already' && r.error !== 'no-config') toast(u.welcomeFail + r.error); }); };
   return <form onSubmit={save}>
     <button type="button" onClick={onBack} className="inline-flex items-center gap-1 text-sm font-semibold text-ink-2 hover:text-brand-600"><I.back className="w-4 h-4 rtl:rotate-180"/>{u.back}</button>
     <h1 className="mt-4 text-2xl sm:text-[1.7rem] font-extrabold text-ink">{u.usernameTitle}</h1>

@@ -82,14 +82,17 @@ const WELCOME = {
   es: ['Bienvenido a Lisan', 'Tu cuenta se ha conectado correctamente a la plataforma Lisan. Ya puedes aprender desde cualquier dispositivo.'],
   zh: ['欢迎来到 Lisan', '你的账号已成功连接到 Lisan 平台，现在可以在任何设备上继续学习。'],
 };
-export async function sendWelcome(){
-  const p = Store.profile(); if (!p || !p.email || p.welcomed || !Auth.email) return false;
+export async function sendWelcome(force = false){
+  const p = Store.profile();
+  if (!Auth.email) return { ok: false, error: 'no-config' };
+  if (!p || !p.email) return { ok: false, error: 'no-email' };
+  if (p.welcomed && !force) return { ok: false, error: 'already' };
   const [subject, message] = WELCOME[p.native] || WELCOME.en;
   try {
     const r = await fetch('https://api.emailjs.com/api/v1.0/email/send', { method: 'POST', headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ service_id: Auth.email.serviceId, template_id: Auth.email.templateId, user_id: Auth.email.publicKey,
-        template_params: { to_email: p.email, to_name: p.name || p.username, username: p.username, subject, message, site_url: location.origin + location.pathname } }) });
-    if (r.ok){ Store.updateProfile({ welcomed: Date.now() }); return true; }
-  } catch (e){}
-  return false;
+        template_params: { to_email: p.email, email: p.email, to_name: p.name || p.username, username: p.username, subject, message, site_url: location.origin + location.pathname } }) });
+    if (r.ok){ Store.updateProfile({ welcomed: Date.now() }); return { ok: true }; }
+    const t = await r.text().catch(() => ''); console.warn('EmailJS', r.status, t); return { ok: false, error: r.status + ' ' + t };
+  } catch (e){ console.warn('EmailJS', e); return { ok: false, error: String(e && e.message || e) }; }
 }

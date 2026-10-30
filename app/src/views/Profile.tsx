@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { AnimatedNumber } from '@/components/ui/animated-number';
 import { Store, LANGS, LEVELS, COURSES } from '@/core/engine';
 import { SELF, LEARN } from '@/core/strings_app';
-import { signOutAll } from '@/core/auth';
+import { signOutAll, sendWelcome, Auth } from '@/core/auth';
 import { Flag } from '@/core/flags';
 import { COVERS, avatarSrc, fileToDataURL } from '@/core/avatars';
 import { useApp, useStore, I, Sheet } from '@/ui/kit';
@@ -61,7 +61,7 @@ export default function Profile(){
               <Flag lang={COURSES[id].t} size="md"/><span className="flex-1 font-semibold text-ink">{LEARN[p.native](COURSES[id].t)}</span>
               <span className="flex gap-1">{LEVELS.map((L) => <span key={L} className={`w-2.5 h-2.5 rounded-full ${Store.passed(id, L) ? 'bg-brand-500' : 'bg-brand-100'}`}/>)}</span></a>)}</div></section>}
 
-          <div className="mt-8 flex flex-wrap gap-2"><button className="btn ghost" onClick={async () => { await signOutAll(); location.hash = '#/'; }}><I.logout className="w-4 h-4 rtl:rotate-180"/>{u.signOut}</button></div>
+          <div className="mt-8 flex flex-wrap gap-2">{p.email && Auth.email && <button className="btn ghost" data-resend onClick={async () => { const r = await sendWelcome(true); toast(r.ok ? u.welcomeSent : u.welcomeFail + r.error); }}><I.mail className="w-4 h-4"/>{u.resendWelcome}</button>}<button className="btn ghost" onClick={async () => { await signOutAll(); location.hash = '#/'; }}><I.logout className="w-4 h-4 rtl:rotate-180"/>{u.signOut}</button></div>
         </div>
       </div>
     </main>
