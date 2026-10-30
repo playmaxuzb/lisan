@@ -1,4 +1,12 @@
 {
+  "firebase": {
+    "apiKey": "AIzaSyB3Rq8hbho9cQGMe9PDG3ZF8tMrHjJZqSo",
+    "authDomain": "lisan-cf581.firebaseapp.com",
+    "projectId": "lisan-cf581",
+    "storageBucket": "lisan-cf581.firebasestorage.app",
+    "messagingSenderId": "620650321064",
+    "appId": "1:620650321064:web:c61f0dc453365cc711de9d"
+  },
   "emailjs": {
     "publicKey": "00E75MvV-yjSGaVG1cATA",
     "serviceId": "service_3iupkba",

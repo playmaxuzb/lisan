@@ -24,7 +24,7 @@ export async function initAuth(){
       try { auth.languageCode = (Store.profile() && Store.profile().native) || Store.meta.pendingNative || navigator.language; } catch (e){}
       fb = { app, auth, db, A, F }; Auth.enabled = true;
       // back from Google (redirect flow on phones)
-      try { const res = await A.getRedirectResult(auth); if (res && res.user) await afterLogin(res.user, 'google'); } catch (e){}
+      try { const res = await Promise.race([A.getRedirectResult(auth), new Promise((r) => setTimeout(() => r(null), 6000))]); if (res && res.user) await afterLogin(res.user, 'google'); } catch (e){}
       // back from the email sign-in link
       if (A.isSignInWithEmailLink(auth, location.href)){
         const email = localStorage.getItem('lisan.emailForSignIn') || prompt('Email');
@@ -62,13 +62,15 @@ export async function googleSignIn(){
 }
 export async function emailSignIn(email){
   if (!fb){ return Store.createProfile({ kind: 'email', email, native: Store.meta.pendingNative }); }
-  const url = location.origin + location.pathname; await fb.A.sendSignInLinkToEmail(fb.auth, email, { url, handleCodeInApp: true }); localStorage.setItem('lisan.emailForSignIn', email); return 'sent';
+  try { const url = location.origin + location.pathname; await fb.A.sendSignInLinkToEmail(fb.auth, email, { url, handleCodeInApp: true }); localStorage.setItem('lisan.emailForSignIn', email); return 'sent'; }
+  catch (e){ if (/operation-not-allowed|admin-restricted|configuration-not-found/.test((e && e.code) || '')) return Store.createProfile({ kind: 'email', email, native: Store.meta.pendingNative }); throw e; }
 }
 let confirmation = null, verifier = null;
 export async function phoneStart(phone, btnId){
   if (!fb){ return Store.createProfile({ kind: 'phone', phone, native: Store.meta.pendingNative }); }
-  if (!verifier) verifier = new fb.A.RecaptchaVerifier(fb.auth, btnId, { size: 'invisible' });
-  confirmation = await fb.A.signInWithPhoneNumber(fb.auth, phone, verifier); return 'code';
+  try { if (!verifier) verifier = new fb.A.RecaptchaVerifier(fb.auth, btnId, { size: 'invisible' });
+    confirmation = await fb.A.signInWithPhoneNumber(fb.auth, phone, verifier); return 'code'; }
+  catch (e){ if (/operation-not-allowed|admin-restricted|configuration-not-found|billing/.test((e && e.code) || '')) return Store.createProfile({ kind: 'phone', phone, native: Store.meta.pendingNative }); throw e; }
 }
 export async function phoneVerify(code){ const cred = await confirmation.confirm(code); return afterLogin(cred.user, 'phone'); }
 export async function signOutAll(){ try { if (fb) await fb.A.signOut(fb.auth); } catch (e){} Store.signOut(); }
