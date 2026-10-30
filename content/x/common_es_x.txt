@@ -1,0 +1,250 @@
+el|aniqlik artikli (e.)|定冠词（阳性）
+la|aniqlik artikli (a.) / uni|定冠词（阴性）／她
+los|aniqlik artikli (koʻplik) / ularni|定冠词（复数）／他们
+las|aniqlik artikli (a., koʻplik)|定冠词（阴性 复数）
+un|bir (e.)|一个（阳性）
+una|bir (a.)|一个（阴性）
+unos|bir nechta|一些
+unas|bir nechta (a.)|一些（阴性）
+de|-ning, -dan|的，从
+del|-ning (de + el)|的（de + el）
+al|-ga (a + el)|到（a + el）
+a|-ga|到，向
+en|-da|在
+con|bilan|和，用
+sin|-siz|没有
+por|tufayli, orqali|因为，通过
+para|uchun|为了
+sobre|haqida, ustida|关于，在……上
+hasta|-gacha|直到
+desde|-dan beri|从，自从
+entre|orasida|在……之间
+durante|davomida|在……期间
+y|va|和
+o|yoki|或者
+pero|lekin|但是
+que|-ki, qaysiki, -dan|……的，比
+si|agar|如果
+sí|ha|是的
+no|yoʻq, emas|不，没有
+también|ham|也
+tampoco|ham emas|也不
+muy|juda|很
+mucho|koʻp|很多
+mucha|koʻp (a.)|很多
+muchos|koʻplar|很多
+muchas|koʻplar (a.)|很多
+poco|oz|少
+más|koʻproq|更多
+menos|kamroq|更少
+bien|yaxshi|好
+mal|yomon|不好
+ya|allaqachon|已经
+todavía|hali|还
+siempre|doim|总是
+nunca|hech qachon|从不
+a menudo|tez-tez|经常
+ahora|hozir|现在
+hoy|bugun|今天
+ayer|kecha|昨天
+mañana|ertaga / ertalab|明天／早上
+luego|keyin|然后
+después|keyin|以后
+antes|oldin|以前
+aquí|bu yerda|这里
+allí|u yerda|那里
+ahí|u yerda (yaqin)|那里
+donde|qayerdaki|……的地方
+dónde|qayerda|哪里
+qué|nima|什么
+quién|kim|谁
+cuándo|qachon|什么时候
+cómo|qanday|怎么
+cuánto|qancha|多少
+por qué|nega|为什么
+porque|chunki|因为
+cuál|qaysi|哪个
+yo|men|我
+tú|sen|你
+él|u (e.)|他
+ella|u (a.)|她
+usted|siz|您
+nosotros|biz|我们
+vosotros|sizlar|你们
+ellos|ular|他们
+ellas|ular (a.)|她们
+me|menga, meni|我（宾格）
+te|senga, seni|你（宾格）
+se|oʻzini; majhul|自己；被动
+nos|bizga, bizni|我们（宾格）
+le|unga|给他／她
+les|ularga|给他们
+lo|uni, buni|它，他
+mi|mening|我的
+mis|mening (koʻplik)|我的（复数）
+tu|sening|你的
+tus|sening (koʻplik)|你的（复数）
+su|uning, sizning|他的，您的
+sus|uning (koʻplik)|他的（复数）
+nuestro|bizning|我们的
+nuestra|bizning (a.)|我们的
+este|bu|这个
+esta|bu (a.)|这个
+esto|bu|这
+estos|bular|这些
+estas|bular (a.)|这些
+ese|u, oʻsha|那个
+esa|u, oʻsha (a.)|那个
+eso|u, oʻsha narsa|那
+todo|hamma narsa, butun|一切，全部
+toda|butun (a.)|全部
+todos|hamma|大家
+todas|hamma (a.)|所有
+otro|boshqa|另一个
+otra|boshqa (a.)|另一个
+cada|har|每
+nada|hech narsa|什么也没有
+algo|nimadir|某物
+alguien|kimdir|某人
+nadie|hech kim|没有人
+solo|faqat, yolgʻiz|只，独自
+tan|shunchalik|这么
+así|shunday|这样
+ser|boʻlmoq|是
+soy|men …man|我是
+eres|sen …san|你是
+es|u … / boʻlmoq|是
+somos|biz …miz|我们是
+son|ular …|他们是
+era|edi|曾是
+fue|edi / bordi|曾是／去了
+estar|boʻlmoq (holat)|在，处于
+estoy|men …daman|我在
+estás|sen …dasan|你在
+está|u …da|他在
+estamos|biz …damiz|我们在
+están|ular …da|他们在
+estaba|edi|曾在
+hay|bor|有
+había|bor edi|曾有
+tener|ega boʻlmoq|有
+tengo|menda bor|我有
+tienes|senda bor|你有
+tiene|unda bor|他有
+tenemos|bizda bor|我们有
+tienen|ularda bor|他们有
+ir|bormoq|去
+voy|boraman|我去
+vas|borasan|你去
+va|boradi|他去
+vamos|boramiz / ketdik|我们去／走吧
+fui|bordim|我去了
+fuimos|bordik|我们去了
+hacer|qilmoq|做
+hago|qilaman|我做
+hace|qiladi / oldin|他做／……以前
+hizo|qildi|他做了
+he|(yordamchi) men|（助动词）我
+has|(yordamchi) sen|（助动词）你
+ha|(yordamchi) u|（助动词）他
+hemos|(yordamchi) biz|（助动词）我们
+han|(yordamchi) ular|（助动词）他们
+poder|qila olmoq|能
+puedo|qila olaman|我能
+puede|qila oladi|他能
+puedes|qila olasan|你能
+querer|xohlamoq|想要
+quiero|xohlayman|我想要
+quería|xohlardim|我想要（过去）
+gusta|yoqadi|喜欢
+gustan|yoqadi (koʻplik)|喜欢（复数）
+encanta|juda yoqadi|非常喜欢
+necesito|menga kerak|我需要
+saber|bilmoq|知道
+sé|bilaman|我知道
+creo|oʻylayman|我认为
+parece|tuyuladi|好像
+dice|aytadi|他说
+dijo|aytdi|他说了
+decir|aytmoq|说
+hablar|gapirmoq|说话
+vivir|yashamoq|生活
+vive|yashaydi|他住
+trabajar|ishlamoq|工作
+trabaja|ishlaydi|他工作
+comer|yemoq|吃
+beber|ichmoq|喝
+leer|oʻqimoq|读
+ver|koʻrmoq|看
+veo|koʻraman|我看见
+dar|bermoq|给
+dame|menga ber|给我
+llamo|qoʻngʻiroq qilaman / ismim|我打电话／我叫
+me llamo|ismim|我叫
+hola|salom|你好
+adiós|xayr|再见
+gracias|rahmat|谢谢
+por favor|iltimos|请
+perdón|kechirasiz|对不起
+claro|albatta / aniq|当然／清楚
+vale|mayli|好的
+bueno|yaxshi / xoʻsh|好／嗯
+buena|yaxshi (a.)|好
+buen|yaxshi|好
+mejor|yaxshiroq|更好
+peor|yomonroq|更差
+grande|katta|大
+gran|buyuk|伟大
+pequeño|kichik|小
+pequeña|kichik (a.)|小
+nuevo|yangi|新
+nueva|yangi (a.)|新
+viejo|eski, qari|旧，老
+primer|birinchi|第一
+primero|avval / birinchi|首先／第一
+último|oxirgi|最后
+uno|bir|一
+dos|ikki|二
+tres|uch|三
+cuatro|toʻrt|四
+cinco|besh|五
+seis|olti|六
+siete|yetti|七
+ocho|sakkiz|八
+nueve|toʻqqiz|九
+diez|oʻn|十
+veinte|yigirma|二十
+cien|yuz|一百
+mil|ming|一千
+año|yil|年
+años|yillar, yosh|年，岁
+día|kun|天
+días|kunlar|天（复数）
+hora|soat|小时
+horas|soatlar|小时（复数）
+vez|marta|次
+veces|marta (koʻplik)|次（复数）
+semana|hafta|星期
+mes|oy|月
+noche|tun, kechqurun|夜晚
+tarde|kunduz / kech|下午／晚
+mamá|onajon|妈妈
+papá|dadajon|爸爸
+madre|ona|母亲
+padre|ota|父亲
+hermano|aka-uka|兄弟
+hermana|opa-singil|姐妹
+amigo|doʻst|朋友
+amiga|dugona|女性朋友
+amigos|doʻstlar|朋友们
+familia|oila|家庭
+casa|uy|房子，家
+ciudad|shahar|城市
+trabajo|ish|工作
+español|ispan tili|西班牙语
+palabras|soʻzlar|词
+cosa|narsa|东西
+gente|odamlar|人们
+mundo|dunyo|世界
+vida|hayot|生活
+tiempo|vaqt / ob-havo|时间／天气

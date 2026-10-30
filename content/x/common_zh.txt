@@ -1,0 +1,136 @@
+我|أنا|я|I|men|yo
+你|أنت|ты|you|sen|tú
+您|حضرتك|Вы|you (polite)|siz|usted
+他|هو|он|he|u|él
+她|هي|она|she|u (ayol)|ella
+它|هو / هي (لغير العاقل)|оно|it|u (narsa)|ello
+我们|نحن|мы|we|biz|nosotros
+你们|أنتم|вы|you (plural)|sizlar|vosotros
+他们|هم|они|they|ular|ellos
+的|(أداة الملكية) الخاص بـ|(частица принадлежности)|'s, of|-ning|de (posesión)
+了|(علامة حدث مكتمل)|(частица завершённости)|(completed action)|(tugallanganlik belgisi)|(acción terminada)
+过|(علامة التجربة السابقة)|(частица опыта)|(have done before)|(tajriba belgisi)|(experiencia)
+在|في / يفعل الآن|в, находиться; сейчас делать|at, in; be doing|-da; hozir qilmoq|en; estar haciendo
+是|يكون|быть, являться|to be|boʻlmoq (…dir)|ser
+不|لا|не|not|emas, -ma|no
+没|لم / لا يوجد|не (в прошлом), нет|not (past), there isn't|yoʻq, -madi|no (pasado), no hay
+没有|لا يوجد / ليس عنده|нет, не иметь|there isn't, not have|yoʻq|no hay, no tener
+有|يوجد / عنده|есть, иметь|there is, have|bor|hay, tener
+很|جداً|очень|very|juda|muy
+吗|(أداة سؤال)|(вопросительная частица)|(question particle)|(soʻroq yuklamasi)|(partícula interrogativa)
+呢|(وماذا عن…؟)|(а …?)|(what about…?)|(…-chi?)|(¿y…?)
+吧|(اقتراح: هيا)|(давай)|(let's / suggestion)|(-aylik)|(sugerencia: vamos)
+和|و|и|and|va|y
+也|أيضاً|тоже|also|ham|también
+都|كلهم|все, всё|all, both|hammasi|todos
+这|هذا|это, этот|this|bu|esto
+那|ذلك|то, тот|that|u|eso
+这个|هذا|этот|this one|bu|este
+那个|ذلك|тот|that one|oʻsha|ese
+这里|هنا|здесь|here|bu yerda|aquí
+那里|هناك|там|there|u yerda|allí
+哪儿|أين|где|where|qayerda|dónde
+什么|ماذا|что|what|nima|qué
+谁|مَن|кто|who|kim|quién
+为什么|لماذا|почему|why|nega|por qué
+怎么|كيف|как|how|qanday|cómo
+多少|كم|сколько|how much|qancha|cuánto
+几|كم (عدد صغير)|сколько (немного)|how many|nechta|cuántos
+个|(كلمة قياس عامة)|(счётное слово)|(measure word)|(hisob soʻzi)|(clasificador)
+一|واحد|один|one|bir|uno
+二|اثنان|два|two|ikki|dos
+两|اثنان (مع كلمة القياس)|два (со счётным словом)|two (before measure words)|ikki (hisob soʻzi bilan)|dos (con clasificador)
+三|ثلاثة|три|three|uch|tres
+四|أربعة|четыре|four|toʻrt|cuatro
+五|خمسة|пять|five|besh|cinco
+六|ستة|шесть|six|olti|seis
+七|سبعة|семь|seven|yetti|siete
+八|ثمانية|восемь|eight|sakkiz|ocho
+九|تسعة|девять|nine|toʻqqiz|nueve
+十|عشرة|десять|ten|oʻn|diez
+去|يذهب|идти, ехать|go|bormoq|ir
+来|يأتي|приходить|come|kelmoq|venir
+说|يقول / يتكلم|говорить|say, speak|aytmoq|decir, hablar
+看|ينظر / يقرأ|смотреть, читать|look, read, watch|koʻrmoq, oʻqimoq|mirar, leer
+听|يستمع|слушать|listen|eshitmoq|escuchar
+吃|يأكل|есть|eat|yemoq|comer
+喝|يشرب|пить|drink|ichmoq|beber
+做|يفعل / يصنع|делать|do, make|qilmoq|hacer
+买|يشتري|покупать|buy|sotib olmoq|comprar
+想|يرغب / يفكر|хотеть, думать|want, think|xohlamoq, oʻylamoq|querer, pensar
+要|يريد / سوف|хотеть, собираться|want, will|istamoq|querer, ir a
+会|يعرف كيف / سوف|уметь, будет|can, will|bilmoq (qila olmoq)|saber, ir a
+能|يستطيع|мочь|can, be able|qila olmoq|poder
+给|يعطي / لـ|давать, для|give, for|bermoq, -ga|dar, para
+叫|يُدعى / ينادي|звать(ся)|be called, call|atamoq, chaqirmoq|llamar(se)
+住|يسكن|жить|live|yashamoq|vivir
+工作|عمل / يعمل|работа, работать|work|ish, ishlamoq|trabajo, trabajar
+学|يتعلّم|учить|learn|oʻrganmoq|aprender
+学习|يدرس|учиться|study|oʻqimoq|estudiar
+知道|يعرف|знать|know|bilmoq|saber
+喜欢|يحب|нравиться|like|yoqtirmoq|gustar
+觉得|يشعر / يعتقد|считать, чувствовать|feel, think|deb hisoblamoq|creer, sentir
+可以|يمكن|можно|may, can|mumkin|poder (permiso)
+应该|ينبغي|следует|should|kerak|deber
+已经|بالفعل|уже|already|allaqachon|ya
+还|بعد / أيضاً|ещё|still, also|hali, yana|todavía, además
+就|حالاً / إذن|сразу, тогда|then, just|darhol, shunda|entonces, enseguida
+才|فقط / لم … إلا|только (лишь)|only then|endigina|solo entonces
+再|مرة أخرى|снова|again|yana|otra vez
+又|مرة أخرى (حدث)|опять|again (happened)|yana|de nuevo
+一起|معاً|вместе|together|birga|juntos
+现在|الآن|сейчас|now|hozir|ahora
+今天|اليوم|сегодня|today|bugun|hoy
+明天|غداً|завтра|tomorrow|ertaga|mañana
+昨天|أمس|вчера|yesterday|kecha|ayer
+时候|وقت|время, когда|time, when|vaqt|momento
+时间|وقت|время|time|vaqt|tiempo
+年|سنة|год|year|yil|año
+月|شهر|месяц|month|oy|mes
+天|يوم / سماء|день, небо|day, sky|kun, osmon|día, cielo
+点|ساعة / نقطة|час, точка|o'clock, a bit|soat, nuqta|en punto, un poco
+早上|صباحاً|утро|morning|ertalab|mañana
+晚上|مساءً|вечер|evening|kechqurun|noche
+上|فوق / على|на, верх|on, up|ustida|sobre, arriba
+下|تحت|под, низ|under, down|ostida|abajo
+里|في داخل|внутри|in, inside|ichida|dentro
+旁边|بجانب|рядом|beside|yonida|al lado
+对面|مقابل|напротив|opposite|qarshisida|enfrente
+因为|لأنّ|потому что|because|chunki|porque
+所以|لذلك|поэтому|so, therefore|shuning uchun|por eso
+但是|لكن|но|but|lekin|pero
+可是|لكن|однако|but|ammo|pero
+如果|إذا|если|if|agar|si
+虽然|رغم أنّ|хотя|although|garchi|aunque
+或者|أو|или|or|yoki|o
+比|من (للمقارنة)|чем|than|-dan (qiyos)|que (comparación)
+最|الأكثر|самый|most|eng|el más
+太|جداً (زيادة)|слишком|too|haddan tashqari|demasiado
+非常|جداً جداً|очень-очень|extremely|nihoyatda|muchísimo
+好|جيد|хорошо|good|yaxshi|bueno
+大|كبير|большой|big|katta|grande
+小|صغير|маленький|small|kichik|pequeño
+多|كثير|много|many|koʻp|mucho
+少|قليل|мало|few|kam|poco
+新|جديد|новый|new|yangi|nuevo
+人|إنسان|человек|person|odam|persona
+家|بيت / عائلة|дом, семья|home, family|uy, oila|casa, familia
+朋友|صديق|друг|friend|doʻst|amigo
+老师|معلم|учитель|teacher|oʻqituvchi|profesor
+学生|طالب|студент|student|talaba|estudiante
+东西|شيء|вещь|thing|narsa|cosa
+中国|الصين|Китай|China|Xitoy|China
+中文|اللغة الصينية|китайский язык|Chinese|xitoy tili|chino
+汉语|اللغة الصينية|китайский язык|Chinese language|xitoy tili|lengua china
+谢谢|شكراً|спасибо|thank you|rahmat|gracias
+请|من فضلك|пожалуйста|please|iltimos|por favor
+对不起|آسف|извините|sorry|kechirasiz|perdón
+没关系|لا بأس|ничего страшного|it's okay|hechqisi yoʻq|no pasa nada
+再见|إلى اللقاء|до свидания|goodbye|xayr|adiós
+你好|مرحباً|здравствуй|hello|salom|hola
+被|(أداة المجهول)|(пассивная частица)|(passive marker)|(majhul belgisi)|(marca de pasiva)
+把|(أداة تقديم المفعول)|(частица 把)|(object marker 把)|(把 yuklamasi)|(marca de objeto 把)
+从|من|из, от|from|-dan|desde
+到|إلى / يصل|до, прибыть|to, arrive|-gacha, yetmoq|hasta, llegar
+跟|مع|с|with|bilan|con
+对|صحيح / تجاه|правильно; к|right; towards|toʻgʻri; -ga|correcto; hacia

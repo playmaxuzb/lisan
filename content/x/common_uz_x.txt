@@ -1,0 +1,237 @@
+bu|esto, este|这
+u|él, ella, aquel|他／她／那
+va|y|和
+men|yo|我
+sen|tú|你
+biz|nosotros|我们
+siz|usted, vosotros|您／你们
+ular|ellos|他们
+ham|también|也
+yaxshi|bien, bueno|好
+uning|su (de él / ella)|他的／她的
+juda|muy|很
+uchun|para|为了
+emas|no es|不是
+menga|a mí|给我
+mening|mi|我的
+meni|me|我（宾格）
+bor|hay|有
+yo'q|no, no hay|没有
+ha|sí|是的
+lekin|pero|但是
+ammo|pero|可是
+biroq|sin embargo|然而
+har|cada|每
+keyin|después, luego|以后
+oldin|antes|以前
+iltimos|por favor|请
+rahmat|gracias|谢谢
+hamma|todos|大家
+hammasi|todo|一切
+barcha|todos|所有
+yangi|nuevo|新
+katta|grande|大
+kichik|pequeño|小
+kichkina|pequeñito|小
+narsa|cosa|东西
+ko'p|mucho|多
+ko'proq|más|更多
+kam|poco|少
+vaqt|tiempo|时间
+bugun|hoy|今天
+kecha|ayer / noche|昨天／夜里
+ertaga|mañana|明天
+hozir|ahora|现在
+yerda|en el lugar|在……地方
+bu yerda|aquí|这里
+u yerda|allí|那里
+o'z|propio|自己的
+balki|quizá|也许
+haqida|sobre, acerca de|关于
+menimcha|creo que|我认为
+mumkin|se puede|可以
+deb|(introduce una cita)|（引语 标记）
+yana|otra vez, más|又，再
+faqat|solo|只
+aynan|precisamente|正是
+mana|aquí está|这就是
+boshqa|otro|别的
+marta|vez|次
+allaqachon|ya|已经
+hali|todavía|还
+endi|ahora (ya)|现在（从此）
+shuning uchun|por eso|所以
+chunki|porque|因为
+agar|si|如果
+esa|en cuanto a|而
+-chi|¿y…?|……呢？
+birga|juntos|一起
+qachon|cuándo|什么时候
+qayerda|dónde|在哪儿
+qayerga|adónde|去哪儿
+qayerdan|de dónde|从哪儿
+nima|qué|什么
+kim|quién|谁
+nega|por qué|为什么
+qanday|cómo|怎么
+qancha|cuánto|多少
+necha|cuántos|几
+qaysi|cuál|哪个
+nechada|a qué hora|几点
+soat|hora, reloj|小时，点，表
+yil|año|年
+yili|en el año|……年
+kun|día|天
+kuni|el día (de)|……的日子
+kuniga|al día|每天
+oy|mes, luna|月，月亮
+hafta|semana|星期
+ertalab|por la mañana|早上
+kechqurun|por la tarde|晚上
+kechasi|por la noche|夜里
+bir|uno|一
+bitta|uno (pieza)|一个
+ikki|dos|二
+uch|tres|三
+to'rt|cuatro|四
+besh|cinco|五
+olti|seis|六
+yetti|siete|七
+sakkiz|ocho|八
+to'qqiz|nueve|九
+o'n|diez|十
+yigirma|veinte|二十
+o'ttiz|treinta|三十
+yuz|cien / cara|一百／脸
+ming|mil|一千
+qil|haz|做
+qilmoq|hacer|做
+bo'lmoq|ser, llegar a ser|是，成为
+bo'ldi|pasó / ¡basta!|成了／够了
+bo'ladi|será / vale|会是／可以
+bo'lmaydi|no se puede|不行
+edi|era|曾是
+ekan|resulta que|原来
+emish|dicen que|据说
+kerak|hace falta|需要
+kel|ven|来
+keling|venga, pase|请来
+bering|deme|请给
+oling|tome|请拿
+iching|beba|请喝
+ajoyib|estupendo|好极了
+zo'r|genial|棒
+qiziq|interesante|有意思
+muhim|importante|重要
+eski|viejo|旧
+yosh|joven / edad|年轻／年龄
+uzoq|lejos, largo|远，长
+yaqin|cerca|近
+tez|rápido|快
+sekin|despacio|慢
+oson|fácil|容易
+qiyin|difícil|难
+issiq|caliente|热
+sovuq|frío|冷
+yomon|malo|坏
+rost|verdad|真的
+rostini aytsam|para ser sincero|说实话
+assalomu alaykum|hola|你好
+xayr|adiós|再见
+kechirasiz|perdone|对不起
+mayli|vale|好吧
+albatta|por supuesto|当然
+masalan|por ejemplo|比如
+avval|primero, antes|首先
+avvaliga|al principio|一开始
+oxiri|el final|最后
+bilan|con|和，用
+dan|de, desde|从
+ga|a, hacia|向
+da|en|在
+ni|(complemento directo)|（宾语 标记）
+ning|de (posesión)|的
+ustida|encima de|在……上
+ostida|debajo de|在……下
+yonida|al lado de|在……旁边
+oldida|delante de|在……前面
+orqasida|detrás de|在……后面
+ichida|dentro de|在……里
+tashqarisida|fuera de|在……外
+qarshisida|enfrente de|在……对面
+o'rtasida|entre, en medio|在……中间
+bo'yi|durante todo|整个
+beri|desde|以来
+gacha|hasta|到
+sari|a medida que|随着
+kabi|como|像
+tufayli|gracias a, por|由于
+qaramay|a pesar de|尽管
+o'rniga|en lugar de|代替
+aka|hermano mayor|哥哥
+akam|mi hermano mayor|我哥哥
+opa|hermana mayor|姐姐
+opam|mi hermana mayor|我姐姐
+uka|hermano menor|弟弟
+singil|hermana menor|妹妹
+ona|madre|母亲
+onam|mi madre|我妈妈
+ota|padre|父亲
+dadam|mi papá|我爸爸
+bobom|mi abuelo|我爷爷
+buvim|mi abuela|我奶奶
+do'stim|mi amigo|我的朋友
+dugonam|mi amiga|我的女性朋友
+oila|familia|家庭
+ism|nombre|名字
+ismim|me llamo|我的名字
+ismingiz|su nombre|您的名字
+uy|casa|房子，家
+uyda|en casa|在家
+uyga|a casa|回家
+ish|trabajo|工作
+ishda|en el trabajo|在上班
+ishga|al trabajo|去上班
+o'zbek|uzbeko|乌兹别克
+o'zbekcha|en uzbeko|用乌兹别克语
+ruscha|en ruso|用俄语
+inglizcha|en inglés|用英语
+arabcha|en árabe|用阿拉伯语
+tilini|el idioma|语言（宾格）
+bilaman|sé|我知道
+bilmayman|no sé|我不知道
+tushunaman|entiendo|我明白
+tushunmayman|no entiendo|我不明白
+xohlayman|quiero|我想要
+yoqadi|gusta|喜欢
+yoqmaydi|no gusta|不喜欢
+yaxshi ko'raman|me encanta|我喜欢
+qilaman|hago|我做
+qiladi|hace|他做
+qildim|hice|我做了
+qildi|hizo|他做了
+boraman|voy / iré|我去
+bordim|fui|我去了
+keldi|vino|他来了
+keldim|vine|我来了
+kelaman|vendré|我会来
+ko'raman|veo|我看见
+ko'rdim|vi|我看见了
+aytdi|dijo|他说了
+aytdim|dije|我说了
+beradi|da|他给
+berdi|dio|他给了
+oldim|tomé, compré|我买了
+olaman|tomo, compro|我买
+yashayman|vivo|我住
+yashaydi|vive|他住
+ishlayman|trabajo|我工作
+ishlaydi|trabaja|他工作
+o'qiyman|leo, estudio|我读书
+yozaman|escribo|我写
+ichaman|bebo|我喝
+yeyman|como|我吃
+uxlayman|duermo|我睡觉
+ketyapman|me voy|我要走了
+o'rganyapman|estoy aprendiendo|我在学
+gapiraman|hablo|我说
