@@ -126,3 +126,92 @@ function arToRu(src){
   }).join('');
 }
 if (typeof module!=='undefined') module.exports={ruToAr,arToRu};
+
+/* ---- extra transliterations for the new courses ---- */
+const RU_LAT = {а:'a',б:'b',в:'v',г:'g',д:'d',е:'e',ё:'yo',ж:'zh',з:'z',и:'i',й:'y',к:'k',л:'l',м:'m',н:'n',о:'o',п:'p',р:'r',с:'s',т:'t',у:'u',ф:'f',х:'kh',ц:'ts',ч:'ch',ш:'sh',щ:'shch',ъ:'',ы:'y',ь:'',э:'e',ю:'yu',я:'ya'};
+const ACUTE = {a:'á',e:'é',i:'í',o:'ó',u:'ú',y:'ý'};
+function ruToLat(src){
+  return String(src).split(/([А-Яа-яЁё+]+)/).map((w,k)=>{ if(k%2===0) return w;
+    const low=w.toLowerCase(); let out=''; let st=false;
+    for (let i=0;i<low.length;i++){ const c=low[i]; if(c==='+'){ st=true; continue; }
+      const prev=low.slice(0,i).replace(/\+/g,'').slice(-1); let t=RU_LAT[c]!==undefined?RU_LAT[c]:c;
+      if (c==='е' && (i===0 || 'аеёиоуыэюяъь'.includes(prev))) t='ye';
+      if (st && t){ const m=t.match(/[aeiouy](?!.*[aeiouy])/); if (m) t=t.slice(0,m.index)+ACUTE[m[0]]+t.slice(m.index+1); st=false; }
+      if (c==='ё') t=t.replace('o','ó');
+      out+=t; }
+    return /^[А-ЯЁ]/.test(w) ? out.charAt(0).toUpperCase()+out.slice(1) : out; }).join('');
+}
+function arToLat(src){
+  let s=arToRu(src);
+  const R=[['Алла̄һ','Allāh'],['а̄','ā'],['ӣ','ī'],['ӯ','ū'],['с̱','th'],['з̱','dh'],['с̣','ṣ'],['д̣','ḍ'],['т̣','ṭ'],['з̣','ẓ'],['дж','j'],['ль-','l-'],['ҳ','ḥ'],['х','kh'],['ғ','gh'],['қ','q'],['һ','h'],
+    ['а','a'],['и','i'],['у','u'],['б','b'],['т','t'],['д','d'],['р','r'],['з','z'],['с','s'],['ш','sh'],['ф','f'],['к','k'],['л','l'],['м','m'],['н','n'],['в','w'],['й','y'],['А','A']];
+  for (const [a,b] of R) s=s.split(a).join(b);
+  return s.replace(/̄/g,'');
+}
+function uzTokens(w){ // split an Uzbek Latin word into letters (digraphs aware)
+  const out=[]; const s=w.toLowerCase().replace(/[‘’`']/g,'ʻ');
+  for (let i=0;i<s.length;i++){ const two=s.slice(i,i+2);
+    if (two==='oʻ'||two==='gʻ'){ out.push(two); i++; continue; }
+    if (two==='sh'||two==='ch'){ out.push(two); i++; continue; }
+    if (two==='ng' && (i+2>=s.length || !'aeiouo'.includes(s[i+2]))){ out.push('ng'); i++; continue; }
+    out.push(s[i]); }
+  return out;
+}
+const UZ_AR = {b:'ب',d:'د',f:'ف',g:'گ',h:'ه',j:'ج',k:'ك',l:'ل',m:'م',n:'ن',p:'پ',q:'ق',r:'ر',s:'س',t:'ت',v:'ڤ',x:'خ',y:'ي',z:'ز','gʻ':'غ',sh:'ش',ch:'تش',ng:'نگ','ʼ':'ع','ʻ':'ع'};
+const UZ_CY = {a:'а',b:'б',d:'д',e:'е',f:'ф',g:'г',h:'ҳ',i:'и',j:'ж',k:'к',l:'л',m:'м',n:'н',o:'о',p:'п',q:'қ',r:'р',s:'с',t:'т',u:'у',v:'в',x:'х',y:'й',z:'з','oʻ':'ў','gʻ':'ғ',sh:'ш',ch:'ч',ng:'нг','ʼ':'ъ','ʻ':'ъ'};
+const UZ_VOW='aeiouoʻ';
+function uzWord(w, map){
+  const L=uzTokens(w); let out='';
+  for (let i=0;i<L.length;i++){ const c=L[i], prev=L[i-1], init=(i===0);
+    const isV = c==='a'||c==='e'||c==='i'||c==='o'||c==='u'||c==='oʻ';
+    if (map==='ar'){
+      if (isV){ const m={a:'ا',e:'ي',i:'ي',o:'و',u:'و','oʻ':'و'}[c]; out += init ? ({a:'أ',e:'إي',i:'إي',o:'أو',u:'أو','oʻ':'أو'}[c]) : m; }
+      else out += UZ_AR[c]!==undefined?UZ_AR[c]:c;
+    } else {
+      if (c==='y' && L[i+1] && 'aeou'.includes(L[i+1]) && L[i+1]!=='oʻ'){ out += {a:'я',e:'е',o:'ё',u:'ю'}[L[i+1]]; i++; continue; }
+      if (c==='e' && (init || (prev && 'aeiou'.includes(prev)))) { out+='э'; continue; }
+      out += UZ_CY[c]!==undefined?UZ_CY[c]:c;
+    }
+  }
+  if (map==='ar') out=out.replace(/يي/g,'ي').replace(/وو/g,'و').replace(/اا/g,'ا').replace(/([بتثجحخدذرزسشصضطظعغفقكلمنهپگڤ])\1/g,'$1ّ');
+  return /^[A-ZOʻ]/.test(w) && map!=='ar' ? out.charAt(0).toUpperCase()+out.slice(1) : out;
+}
+function uzToAr(src){ return String(src).split(/([A-Za-zʻʼ‘’'`]+)/).map((t,k)=>k%2?uzWord(t,'ar'):t.replace(/,/g,'،').replace(/\?/g,'؟').replace(/[«»"]/g,'')).join(''); }
+function uzToCyr(src){ return String(src).split(/([A-Za-zʻʼ‘’'`]+)/).map((t,k)=>k%2?uzWord(t,'cy'):t).join(''); }
+function esWord(w, map){
+  const s=w.toLowerCase().normalize('NFD').replace(/[́̈]/g,'').normalize('NFC'); let out='';
+  const V='aeiou'; let silentU=false;
+  for (let i=0;i<s.length;i++){ const c=s[i], n=s[i+1]||'', p=silentU?'k':(s[i-1]||''); silentU=false; const init=i===0;
+    if (map==='ar'){
+      if (c==='c'&&n==='h'){ out+='تش'; i++; continue; }
+      if (c==='l'&&n==='l'){ out+='ي'; i++; continue; }
+      if (c==='r'&&n==='r'){ out+='رّ'; i++; continue; }
+      if (c==='q'&&n==='u'){ out+='ك'; i++; continue; }
+      if (c==='g'&&n==='u'&&(s[i+2]==='e'||s[i+2]==='i')){ out+='گ'; i++; continue; }
+      if (c==='c') { out += (n==='e'||n==='i')?'ث':'ك'; continue; }
+      if (c==='g') { out += (n==='e'||n==='i')?'خ':'گ'; continue; }
+      if (V.includes(c)) { out += init ? ({a:'أ',e:'إي',i:'إي',o:'أو',u:'أو'}[c]) : ({a:'ا',e:'ي',i:'ي',o:'و',u:'و'}[c]); continue; }
+      if (c==='y' && !n) { out+='ي'; continue; }
+      out += ({b:'ب',v:'ب',d:'د',f:'ف',h:'',j:'خ',k:'ك',l:'ل',m:'م',n:'ن','ñ':'ني',p:'پ',r:'ر',s:'س',t:'ت',w:'و',x:'كس',y:'ي',z:'ث'})[c] ?? c;
+    } else {
+      if (c==='c'&&n==='h'){ out+='ч'; i++; continue; }
+      if (c==='l'&&n==='l'){ const v=s[i+2]; if(v&&V.includes(v)){ out+=({a:'я',e:'е',i:'и',o:'ё',u:'ю'})[v]; i+=2; } else { out+='й'; i++; } continue; }
+      if (c==='r'&&n==='r'){ out+='рр'; i++; continue; }
+      if (c==='q'&&n==='u'){ out+='к'; i++; silentU=true; continue; }
+      if (c==='g'&&n==='u'&&(s[i+2]==='e'||s[i+2]==='i')){ out+='г'; i++; silentU=true; continue; }
+      if (c==='ñ'){ const v=n; if(v&&V.includes(v)){ out+='нь'+({a:'я',e:'е',i:'и',o:'о',u:'ю'})[v]; i++; } else out+='нь'; continue; }
+      if (c==='y' && n && V.includes(n)){ out+=({a:'я',e:'е',i:'и',o:'йо',u:'ю'})[n]; i++; continue; }
+      if (c==='i' && n && V.includes(n) && p && !V.includes(p)){ out+='ь'+({a:'я',e:'е',o:'о',u:'ю'})[n]; i++; continue; }
+      if (c==='c') { out += (n==='e'||n==='i')?'с':'к'; continue; }
+      if (c==='g') { out += (n==='e'||n==='i')?'х':'г'; continue; }
+      if (c==='e') { out += (init||V.includes(p))?'э':'е'; continue; }
+      if (c==='l') { out += (n && V.includes(n))?'л':'ль'; continue; }
+      out += ({a:'а',i:'и',o:'о',u:'у',b:'б',v:'б',d:'д',f:'ф',h:'',j:'х',k:'к',m:'м',n:'н',p:'п',r:'р',s:'с',t:'т',w:'у',x:'кс',y:'и',z:'с'})[c] ?? c;
+    }
+  }
+  if (map==='ar') return out.replace(/يي/g,'ي').replace(/وو/g,'و').replace(/([بتثجحخدذرزسشصضطظعغفقكلمنهپگڤ])\1/g,'$1ّ');
+  return /^[A-ZÀ-ÝÑ]/.test(w) ? out.charAt(0).toUpperCase()+out.slice(1) : out;
+}
+function esToAr(src){ return String(src).split(/([A-Za-zÀ-ÿñÑ]+)/).map((t,k)=>k%2?esWord(t,'ar'):t.replace(/,/g,'،').replace(/[¿?]/g,m=>m==='?'?'؟':'').replace(/¡/g,'').replace(/[«»"]/g,'')).join(''); }
+function esToCyr(src){ return String(src).split(/([A-Za-zÀ-ÿñÑ]+)/).map((t,k)=>k%2?esWord(t,'cy'):t.replace(/[¿¡]/g,'')).join(''); }
+if (typeof module!=='undefined') module.exports={ruToAr,arToRu,ruToLat,arToLat,uzToAr,uzToCyr,esToAr,esToCyr};

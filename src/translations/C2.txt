@@ -1,0 +1,361 @@
+TH|Fine Shades of Meaning
+V|hypocritical|ikkiyuzlamachi|hipócrita
+V|arrogant|takabbur|arrogante
+V|imperturbable|bosiq|imperturbable
+V|vague|mujmal|vago
+V|sophisticated|nozik (puxta o'ylangan)|sofisticado
+V|perceptive|ziyrak|perspicaz
+V|taciturn|kamgap|taciturno
+V|vain|shuhratparast|vanidoso
+V|magnanimous|oliyjanob|magnánimo
+V|insidious|makkor|insidioso
+V|principled|printsipial|íntegro
+V|impulsive|jo'shqin (o'ylamay qiladigan)|impulsivo
+V|unyielding|qat'iy|inflexible
+V|smug|o'zidan mamnun|engreído
+V|servile|laganbardor|servil
+V|indomitable|bo'ysunmas|indomable
+V|melancholic|g'amgin (melanxolik)|melancólico
+V|elegant|nafis|elegante
+V|steadfast|sobitqadam|inquebrantable
+V|prudent|aqlli (mulohazali)|prudente
+V|promising|istiqbolli|prometedor
+V|intricate|chigal|enrevesado
+V|turbulent|shiddatli (to'polonli)|turbulento
+V|impartial|xolis|imparcial
+V|indifferent|loqayd|indiferente
+TH|Literary Verbs
+V|encroach|tajovuz qilmoq|atentar contra
+V|intertwine|chirmashmoq|entrelazarse
+V|illuminate|nurlantirmoq|iluminar
+V|fade|so'nmoq|apagarse
+V|erupt|otilib chiqarmoq|entrar en erupción
+V|heed|quloq solmoq|escuchar con atención
+V|condescend|kamtarlik bilan tushmoq|dignarse
+V|pretend|o'zini ko'rsatmoq|fingir
+V|comprehend|anglab yetmoq|comprender a fondo
+V|kindle|alangalatmoq|avivar
+V|overwhelm|bosib ketmoq|desbordar
+V|resign oneself|ko'nmoq|resignarse
+V|reproach|ta'na qilmoq|reprochar
+V|become disillusioned|hafsalasi pir bo'lmoq|desilusionarse
+V|trust in|umid bog'lamoq|confiar en
+V|suspect|gumon qilmoq|sospechar
+V|delay|ikkilanmoq (paysalga solmoq)|demorarse
+V|uphold|himoya qilib turmoq|defender
+V|reap|o'rib olmoq (natijasini ko'rmoq)|cosechar
+V|delve into|chuqur kirishmoq|profundizar en
+V|strive|intilmoq|aspirar a
+V|reconcile|yarashtirmoq|reconciliar
+V|overshadow|soya solmoq|eclipsar
+V|evade|bo'yin tovlamoq|escurrir el bulto
+V|make sense of|mushohada qilmoq|reflexionar sobre
+TH|Shades of Feeling
+V|serenity|osoyishtalik|la serenidad
+V|longing|sog'inch|la añoranza
+V|tenderness|ta'sirlanish (mehr)|la ternura
+V|despair|tushkunlik|la desesperación
+V|embarrassment|xijolat|la vergüenza (apuro)
+V|indignation|norozilik (g'azab)|la indignación
+V|humility|kamtarlik (tavoze)|la humildad
+V|disdain|mensimaslik|el desdén
+V|admiration|hayratlanish|la admiración
+V|apprehension|xavfsirash|el recelo
+V|alienation|begonalashish|la alienación
+V|gloating|kimningdir baxtsizligidan quvonish|la alegría por el mal ajeno
+V|repentance|pushaymonlik|el arrepentimiento
+V|nostalgia|nostalgiya|la nostalgia
+V|inspiration|ilhom|la inspiración
+V|exhaustion|holdan toyish|el agotamiento
+V|confusion|esankirash|el desconcierto
+V|resentment|ranjish|el resentimiento
+V|attachment|bog'lanib qolish|el apego
+V|apathy|befarqlik (apatiya)|la apatía
+TH|Rhetoric and Style
+V|irony|kinoya|la ironía
+V|rhetoric|ritorika|la retórica
+V|subtext|ichki ma'no|el subtexto
+V|stylistics|uslubshunoslik|la estilística
+V|repetition|takror|la repetición
+V|allegory|allegoriya|la alegoría
+V|sarcasm|kesatiq|el sarcasmo
+V|hyperbole|mubolag'a|la hipérbole
+V|aphorism|hikmatli so'z|el aforismo
+V|allusion|ishora|la alusión
+V|rhythm|ritm|el ritmo
+V|syllable|bo'g'in|la sílaba
+V|eloquence|notiqlik|la elocuencia
+V|narrator|hikoyachi|el narrador
+V|climax|avj nuqtasi|el clímax
+V|denouement|yechim (asarda)|el desenlace
+V|personification|jonlantirish|la personificación
+TH|Administration and Law
+V|agency|idora|el organismo
+V|regulations|reglament|el reglamento
+V|regulatory act|me'yoriy hujjat|la norma jurídica
+V|powers|vakolatlar|las competencias
+V|jurisdiction|yurisdiksiya|la jurisdicción
+V|offense|huquqbuzarlik|la infracción
+V|appeal|apellyatsiya|la apelación
+V|arbitration|arbitraj|el arbitraje
+V|precedent|pretsedent|el precedente
+V|ratification|ratifikatsiya|la ratificación
+V|legitimacy|qonuniylik|la legitimidad
+V|inviolability|daxlsizlik|la inviolabilidad
+V|delegate|topshirmoq (vakolatni)|delegar
+V|bureaucracy|byurokratiya|la burocracia
+V|transparency|shaffoflik|la transparencia
+TH|Science
+V|evolution|evolyutsiya|la evolución
+V|quantum|kvant|cuántico
+V|universe|olam|el universo
+V|catalyst|katalizator|el catalizador
+V|observation|kuzatuv|la observación
+V|organism|organizm|el organismo (ser vivo)
+V|anomaly|anomaliya|la anomalía
+V|regularity|qonuniyat|la regularidad
+V|algorithm|algoritm|el algoritmo
+V|neuron|neyron|la neurona
+V|ecosystem|ekotizim|el ecosistema
+V|molecule|molekula|la molécula
+V|orbit|orbita|la órbita
+V|gravity|tortishish kuchi|la gravedad
+V|immunity|immunitet|la inmunidad
+TH|Abstract Concepts
+V|duality|ikkilik|la dualidad
+V|landmark|mo'ljal|el punto de referencia
+V|dilemma|dilemma|el dilema
+V|paradox|paradoks|la paradoja
+V|uncertainty|noaniqlik|la incertidumbre
+V|hierarchy|ierarxiya|la jerarquía
+V|integrity|yaxlitlik|la integridad
+V|purpose|vazifa (taqdir)|el propósito
+V|diversity|xilma-xillik|la diversidad
+V|prerequisite|zamin|la premisa
+V|conditionality|shartlanganlik|el condicionamiento
+V|illusion|xayol (illyuziya)|la ilusión
+V|upheaval|larza|la conmoción
+V|predestination|taqdir (azaliy)|la predestinación
+V|authenticity|haqiqiylik|la autenticidad
+V|continuity|vorisiylik|la continuidad
+V|intuition|sezgi|la intuición
+V|ambiguity|ikki ma'nolilik|la ambigüedad
+TH|Adverbs
+V|by no means|aslo|en absoluto
+V|partly|qisman|en parte
+V|suddenly|to'satdan|de repente
+V|gradually|asta-sekin|gradualmente
+V|invariably|doimo|invariablemente
+V|hardly|qiyin (bo'lsa kerak)|difícilmente
+V|thoroughly|sinchiklab|a fondo
+V|inadvertently|bexosdan|sin querer
+V|in passing|o'tkinchi (yuzaki)|de pasada
+V|from time immemorial|azaldan|desde tiempos inmemoriales
+V|rapidly|jadal|rápidamente
+V|deliberately|ataylab|a propósito
+V|truly|haqiqatan|verdaderamente
+V|in accordance with|muvofiq ravishda|conforme a
+V|gradually and imperceptibly|sezdirmasdan|poco a poco
+V|in the end|oxir-oqibatda|al fin y al cabo
+TH|Art Criticism
+V|canvas|kartina (polotno)|el lienzo
+V|coloring|kolorit|el colorido
+V|masterpiece|durdona|la obra maestra
+V|brushstroke|mo'yqalam izi|la pincelada
+V|avant-garde|avangard|la vanguardia
+V|antiquity|antik davr|la Antigüedad
+V|manuscript|qo'lyozma|el manuscrito
+V|symphony|simfoniya|la sinfonía
+V|choreography|xoreografiya|la coreografía
+V|angle|rakurs|el ángulo
+V|imitation|taqlid|la imitación
+V|originality|o'ziga xoslik|la originalidad
+V|statue|haykal (tosh)|la estatua
+V|anthology|antologiya|la antología
+TH|High Style
+V|reverence|ehtirom|la reverencia
+V|rapture|zavq|el éxtasis
+V|epiphany|nurlanish (to'satdan anglash)|la revelación
+V|elusive|tutqich bermas|esquivo
+V|unshakable|mustahkam|inquebrantable (firme)
+V|identity|aynanlik|la identidad (igualdad)
+V|intricacy|chigallik|el entramado
+V|zeal|g'ayrat|el celo
+V|abyss|tubsizlik|el abismo
+V|transient|foniy|perecedero
+V|fleeting|o'tkinchi|fugaz
+V|path|yo'l (hayotiy)|la senda
+V|exquisite|nafis (tanlangan)|exquisito
+V|innermost|ichki (sirli)|íntimo
+V|twilight|g'ira-shira|el crepúsculo
+V|run dry|tugamoq|agotarse
+V|be founded on|asoslanmoq|basarse en
+V|bow before|bosh egmoq|inclinarse ante
+V|unravel|ochmoq (sirni)|desentrañar
+V|weigh up|o'lchab ko'rmoq|sopesar
+V|chaotic|tartibsiz|caótico
+V|silence|sukunat|el silencio
+V|pre-dawn|tong oldi|previo al amanecer
+V|chronicle|solnoma|la crónica
+V|duty|burch (qarz)|el deber
+V|illusory|sarobdek|ilusorio
+V|withering|so'lish|el marchitamiento
+V|willful|o'jar|caprichoso
+V|play-acting|riyokorlik|la farsa
+V|premonition|ko'ngil sezishi|el presentimiento
+V|insight|ko'zi ochilish|la lucidez
+V|futile|befoyda|inútil
+V|existence|borliq|la existencia
+V|infinity|cheksizlik|el infinito
+V|compassion|rahmdillik|la compasión
+S|His irony|Uning kinoyasini hamma ham tushunmadi.|No todos entendieron su ironía.
+S|The author|Muallif ichki ma'nodan mohirona foydalanadi.|El autor maneja el subtexto con maestría.
+S|Whatever you|Nima desang ham, u haq.|Digas lo que digas, él tiene razón.
+S|He is|U ko'ringanchalik aslo oddiy emas.|No es en absoluto tan simple como parece.
+S|Her generosity|Uning saxovati hammani hayratda qoldirdi.|Su generosidad asombró a todos.
+S|His words|Uning so'zlari ta'nadek yangradi.|Sus palabras sonaron a reproche.
+S|She pretended|U hech narsani sezmagandek o'zini tutdi.|Fingió no haberse dado cuenta de nada.
+S|Over time|Vaqt o'tishi bilan og'riq so'ndi.|Con el tiempo el dolor se apagó.
+S|He was|U yo'qotish bilan hech ko'nika olmadi.|Nunca logró resignarse a la pérdida.
+S|It is|Hamma narsani birdaniga anglab yetib bo'lmaydi.|Es imposible comprenderlo todo de golpe.
+S|Indignation sounded|Uning ovozida norozilik yangradi.|En su voz se notaba la indignación.
+S|I was|Meni vatan sog'inchi chulg'ab oldi.|Me invadió la añoranza de mi tierra.
+S|Her speech|Uning nutqi nafisligi bilan ajralib turardi.|Su discurso destacaba por su elegancia.
+S|We are|Oldimizda qiyin dilemma turibdi.|Nos enfrentamos a un dilema difícil.
+S|Therein lies|Paradoks ham shunda.|Ahí está la paradoja.
+S|The changes|O'zgarishlar sezdirmasdan yuz berdi.|Los cambios se produjeron poco a poco.
+S|He mentioned|U buni faqat o'tkinchi tilga oldi.|Lo mencionó solo de pasada.
+S|They will|Ular muddatga ulgurishlari qiyin.|Difícilmente llegarán a tiempo.
+S|He studied|U masalani sinchiklab o'rgandi.|Estudió la cuestión a fondo.
+S|From time|Odamlar azaldan erkinlikka intilgan.|Desde tiempos inmemoriales el ser humano ha aspirado a la libertad.
+S|The painting|Kartina o'z ranglari bilan hayratlantiradi.|El cuadro impresiona por su colorido.
+S|This canvas|Bu kartina durdona hisoblanadi.|Este lienzo se considera una obra maestra.
+S|The novel's|Romanning avj nuqtasi oxirgi bobga to'g'ri keladi.|El clímax de la novela llega en el último capítulo.
+S|The denouement|Yechim kutilmagan bo'lib chiqdi.|El desenlace resultó inesperado.
+S|The narrator|Hikoyachi ishonch uyg'otmaydi.|El narrador no inspira confianza.
+S|The court|Sud qaroriga apellyatsiya berish mumkin.|La decisión del tribunal puede recurrirse.
+S|The powers|Vakolatlar o'rinbosarga topshirildi.|Las competencias se delegaron en el adjunto.
+S|Transparency is|Shaffoflik — ishonch asosi.|La transparencia es la base de la confianza.
+S|Bureaucracy slows|Byurokratiya har qanday islohotni sekinlashtiradi.|La burocracia frena cualquier reforma.
+S|This precedent|Bu pretsedent sud amaliyotini o'zgartirdi.|Este precedente cambió la práctica judicial.
+S|The universe|Olam hali ko'p sirlarni yashiradi.|El universo aún guarda muchos secretos.
+S|Scientists recorded|Olimlar g'alati anomaliyani qayd etishdi.|Los científicos registraron una extraña anomalía.
+S|Evolution is|Evolyutsiya — sekin, ammo to'xtovsiz jarayon.|La evolución es un proceso lento pero implacable.
+S|The authenticity|Qo'lyozmaning haqiqiyligi shubha ostida.|La autenticidad del manuscrito está en duda.
+S|No sooner|Aytildi — qilindi.|Dicho y hecho.
+S|Morning is|Ertalab kechqurundan donoroq.|Consúltalo con la almohada.
+S|All that|Yaltiragan hamma narsa ham oltin emas.|No es oro todo lo que reluce.
+S|Slow and|Sekin yurgan manzilga yetadi.|Despacito y buena letra.
+S|No pain|Mehnatsiz rohat yo'q.|Sin esfuerzo no hay recompensa.
+S|Patience and|Sabr va mehnat hamma narsani yengadi.|Con paciencia y trabajo todo se consigue.
+S|He deliberately|U ataylab jim turdi.|Se calló a propósito.
+S|She inadvertently|U bexosdan og'riqli mavzuga tegib ketdi.|Sin querer tocó un tema doloroso.
+S|All we|Bizga faqat yaxshilikdan umid qilish qoladi.|Solo nos queda esperar lo mejor.
+S|We reap|Qarorlarimiz samarasini o'rib olamiz.|Cosechamos los frutos de nuestras decisiones.
+S|He defended|U o'z nuqtai nazarini oxirigacha himoya qildi.|Defendió su punto de vista hasta el final.
+S|It takes|O'tmishni mushohada qilish uchun vaqt kerak.|Hace falta tiempo para reflexionar sobre el pasado.
+S|Her success|Uning muvaffaqiyati barcha raqiblariga soya soldi.|Su éxito eclipsó a todos sus rivales.
+S|His behavior|Uning xatti-harakati qo'pollik chegarasida.|Su comportamiento roza la grosería.
+S|However hard|Qanchalik urinmang, hammaga yoqib bo'lmaydi.|Por mucho que lo intentes, no puedes contentar a todos.
+S|What's more|Buning ustiga, u kechikdi ham.|Encima, llegó tarde.
+S|If only|Faqat hammasi silliq o'tsa bo'ldi.|Con tal de que todo salga bien.
+S|It's not|Qarshi ekanim emas, lekin shubhalarim bor.|No es que esté en contra, pero tengo dudas.
+S|As soon|U kirishi bilan hamma jim bo'lib qoldi.|En cuanto entró, todos se callaron.
+S|Whatever happens|Nima bo'lmasin, men yoningda bo'laman.|Pase lo que pase, estaré ahí.
+S|She spoke|U go'yo hech narsa bo'lmagandek gapirardi.|Hablaba como si no hubiera pasado nada.
+S|As far|Bilishimcha, masala allaqachon hal qilingan.|Que yo sepa, el asunto ya está resuelto.
+S|In the|Oxir-oqibat hammasi o'z joyiga tushdi.|Al final todo encajó.
+S|Nevertheless, unresolved|Shunga qaramay, hal qilinmagan savollar qoldi.|No obstante, quedaron cuestiones sin resolver.
+S|His contribution|Uning hissasini ortiqcha baholash qiyin.|Es difícil sobrestimar su contribución.
+S|Truly, wisdom|Haqiqatan, donolikning chegarasi yo'q.|Verdaderamente, la sabiduría no tiene límites.
+S|She remained|U o'z e'tiqodlarida sobit qoldi.|Se mantuvo firme en sus convicciones.
+S|Vanity was|Shuhratparastlik uni halok qildi.|La vanidad fue su perdición.
+S|His smugness|Uning o'zidan mamnunligi hamkasblarini g'ashiga tegardi.|Su engreimiento irritaba a sus colegas.
+S|In this|Bu tanlovda to'g'ri ham, noto'g'ri ham yo'q.|En esta elección no hay aciertos ni errores.
+S|The future|Kelajak noaniqlik bilan qoplangan.|El futuro está envuelto en incertidumbre.
+S|Diversity of|Fikrlar xilma-xilligi — boylikdir.|La diversidad de opiniones es una riqueza.
+S|This book|Bu kitob ko'p yillik mehnat samarasi.|Este libro es fruto de muchos años de trabajo.
+S|The poet's|Shoirning so'zlari yangicha yangraydi.|Las palabras del poeta suenan nuevas.
+S|One thought|Bir fikr menga tinchlik bermaydi.|Hay una idea que no me deja en paz.
+S|Fame did|Shon-shuhrat uni buzmadi.|La fama no lo cambió.
+S|We corresponded|Biz uzoq vaqt yozishib turdik.|Nos escribimos durante mucho tiempo.
+S|The will|Yashashga iroda qo'rquvdan kuchliroq.|Las ganas de vivir son más fuertes que el miedo.
+S|They miraculously|Ular mo'jiza tufayli falokatdan qutulib qolishdi.|Evitaron la catástrofe de milagro.
+S|His speech|Uning nutqi iqtiboslarga boy edi.|Su discurso estaba plagado de citas.
+S|Perhaps it|Balki shunisi yaxshidir.|Quizá haya sido para bien.
+S|Time will|Vaqt ko'rsatadi.|El tiempo lo dirá.
+S|His zeal|Uning g'ayratining chegarasi yo'q edi.|Su celo no conocía límites.
+S|Everything in|Bu dunyoda hamma narsa foniy.|Todo en este mundo es perecedero.
+S|Her patience|Uning sabri tugadi.|Se le agotó la paciencia.
+S|She unraveled|U uning rejasini fosh qildi.|Desentrañó su plan.
+S|Having weighed|Barcha afzallik va kamchiliklarni o'lchab ko'rib, u rad etdi.|Tras sopesar los pros y los contras, se negó.
+S|A strange|Meni g'alati bir ko'ngil sezishi qamrab oldi.|Me invadió un extraño presentimiento.
+S|In the|G'ira-shira qorong'ilikda shahar sharpadek ko'rinardi.|En el crepúsculo la ciudad parecía fantasmal.
+S|Happiness is|Baxt bahor yomg'iridek o'tkinchi.|La felicidad es fugaz, como la lluvia de primavera.
+S|His taste|Uning didi nafisligi bilan ajralib turardi.|Su gusto destacaba por su refinamiento.
+S|Compassion is|Rahmdillik — zaiflik emas.|La compasión no es debilidad.
+S|She confided|U unga eng ichki fikrlarini ishonib aytdi.|Le confió sus pensamientos más íntimos.
+S|All his|Uning barcha urinishlari befoyda bo'lib chiqdi.|Todos sus esfuerzos resultaron inútiles.
+S|We bow|Biz uning iste'dodi oldida bosh egamiz.|Nos inclinamos ante su talento.
+S|A pre-dawn|Tong oldi sukunati cho'kdi.|Se hizo el silencio previo al amanecer.
+S|He chose|U o'z yo'lini yoshligida tanladi.|Eligió su senda en la juventud.
+S|The chronicle|Solnoma o'sha voqealar xotirasini saqlaydi.|La crónica guarda la memoria de aquellos acontecimientos.
+S|Our job|Bizning ishimiz — burchimizni bajarish.|Nuestra tarea es cumplir con nuestro deber.
+S|This book|Bu kitob — taqdirlarning chigal to'ri.|Este libro es un entramado de destinos.
+S|His speech|Uning nutqi tartibsiz edi.|Su discurso fue caótico.
+S|He had|Uning ko'zi ochildi.|Tuvo una revelación.
+S|Beauty will|Go'zallik dunyoni qutqaradi.|La belleza salvará el mundo.
+S|Life is|Hayot — gulzorda sayr emas.|La vida no es un camino de rosas.
+S|Better late|Hech qachondan ko'ra kech bo'lsa ham yaxshi.|Más vale tarde que nunca.
+S|A drowning|Cho'kayotgan odam xasga ham yopishadi.|El que se ahoga se agarra a un clavo ardiendo.
+S|There's no|Shamol bo'lmasa, daraxtning boshi qimirlamaydi.|Cuando el río suena, agua lleva.
+S|Business before|Avval ish, keyin o'yin.|Primero la obligación y después la devoción.
+S|A friend|Do'st boshga kulfat tushganda bilinadi.|En la necesidad se conoce al amigo.
+S|Strength lies|Kuch — haqiqatda.|La fuerza está en la verdad.
+RT|The Art|Sukut san'ati|El arte del silencio
+RL|They say|So'z kumush bo'lsa, sukut oltin, deyishadi.|Dicen que la palabra es plata y el silencio es oro.
+RL|In the|Cheksiz xabarlar asrida bu maqol deyarli da'vatdek yangraydi.|En la era de los mensajes infinitos, este proverbio suena casi a desafío.
+RL|We rush|Biz javob berishga, izoh qoldirishga, fikr bildirishga shoshilamiz.|Nos apresuramos a responder, comentar, opinar.
+RL|And rarely|Va kamdan-kam bunga arziganmi, deb o'ylaymiz.|Y rara vez nos preguntamos si valía la pena.
+RL|Meanwhile, the|Holbuki, kerakli paytda jim tura olish zaiflik emas, balki yetuklik belgisidir.|Sin embargo, saber callar en el momento oportuno es señal de madurez, no de debilidad.
+RL|Silence gives|Sukut eshitganlarimizni mushohada qilish uchun vaqt beradi.|El silencio da tiempo para reflexionar sobre lo escuchado.
+RL|It turns|Ma'lum bo'lishicha, tinglash gapirishdan kam muhim emas.|Resulta que escuchar no es menos importante que hablar.
+RL|It is|Barcha zamonlarning donishmandlari kamgaplikni qadrlagani bejiz emas.|No es casualidad que los sabios de todas las épocas valoraran la discreción.
+RT|On Translation|Tarjima haqida|Sobre la traducción
+RL|Translation is|Tarjima — so'zlarni oddiygina almashtirish emas.|Traducir no es simplemente sustituir unas palabras por otras.
+RL|Every language|Har bir til o'zida dunyoga alohida qarashni saqlaydi.|Cada lengua encierra una visión particular del mundo.
+RL|Idioms, wordplay|Iboralar, so'z o'yinlari, ichki ma'no — bularning barchasini tarjima qilish qiyin.|Los modismos, los juegos de palabras, el subtexto: todo eso es difícil de traducir.
+RL|A translator|Tarjimon aniqlik va go'zallik o'rtasida tanlov qilishiga to'g'ri keladi.|El traductor tiene que elegir entre la exactitud y la belleza.
+RL|No wonder|Tarjimonni hammuallif deyishlari bejiz emas.|No en vano se dice que el traductor es coautor.
+RL|A good|Yaxshi tarjima nafaqat ma'noni, balki asl nusxaning ruhini ham saqlaydi.|Una buena traducción conserva no solo el sentido, sino también el espíritu del original.
+RL|That is|Aynan shuning uchun buyuk kitoblar qayta-qayta tarjima qilinadi.|Precisamente por eso los grandes libros se traducen una y otra vez.
+RT|The Memory|Joy xotirasi|La memoria de un lugar
+RL|There are|Shunday shaharlar borki, biz ulardan ketganimizdan keyin ham uzoq vaqt ichimizda yashaydi.|Hay ciudades que viven en nosotros mucho después de haberlas dejado.
+RL|The smell|Eski ko'chadagi yomg'ir hidi, qo'ng'iroqlar jarangi, bozordagi savdogarning ovozi.|El olor de la lluvia en una calle vieja, el tañido de las campanas, la voz de un vendedor en el mercado.
+RL|All this|Bularning barchasi to'satdan xotirada jonlanadi.|Todo eso surge de repente en la memoria.
+RL|Nostalgia is|Nostalgiya — shunchaki o'tmishni sog'inish emas.|La nostalgia no es solo añoranza del pasado.
+RL|It is|Bu — u yerda qolib ketgan o'zligingning bir qismini qaytarishga urinish.|Es un intento de recuperar una parte de uno mismo que se quedó allí.
+RL|Returning there|Yillar o'tib u yerga qaytganimizda, ko'pincha na shaharni, na o'zimizni taniymiz.|Al volver años después, a menudo no reconocemos ni la ciudad ni a nosotros mismos.
+RL|And yet|Shunga qaramay, bu uchrashuv g'alati bir osoyishtalik bag'ishlaydi.|Y aun así, ese reencuentro da una extraña serenidad.
+DT|Talking about a Novel
+DL|A|So, did|Xo'sh, romanni o'qib tugatdingmi?|¿Qué, terminaste la novela?
+DL|B|I did|Tugatdim. Rostini aytsam, yakuni meni esankiratib qo'ydi.|Sí. La verdad es que el final me dejó desconcertado.
+DL|A|Yes, the|Ha, muallif gapni oxiriga yetkazmaslikni yaxshi ko'radi.|Sí, al autor le gusta dejar cosas sin decir.
+DL|B|Exactly. Everything|Aynan. Hammasi ichki ma'noga asoslangan.|Exacto. Todo se basa en el subtexto.
+DL|A|But what|Lekin tili qanday! Qo'limdan qo'ya olmadim.|¡Pero qué lenguaje! No podía dejar de leer.
+DL|B|That's true|Bu to'g'ri, bahslashib bo'lmaydi.|Eso es verdad, no hay discusión.
+DT|A Falling-Out
+DL|A|Are you|Hali ham mendan xafamisan?|¿Sigues enfadado conmigo?
+DL|B|Not so|Xafa emas, ko'proq hafsalam pir bo'ldi.|Más que enfadado, estoy decepcionado.
+DL|A|I understand|Tushunaman. Jahl ustida ortiqcha gapirib yubordim.|Lo entiendo. Me alteré y dije más de la cuenta.
+DL|B|A word|Otilgan o'q qaytmas, aytilgan so'z qaytmas.|Las palabras se las lleva el viento, pero el daño queda.
+DL|A|I know|Bilaman. Iltimos, meni kechir.|Lo sé. Perdóname, por favor.
+DL|B|All right|Mayli, o'tgan ishga salovat.|Está bien, lo pasado, pasado está.
+DL|A|Thank you|Rahmat. Sen haqiqiy do'stsan.|Gracias. Eres un amigo de verdad.
+DT|At the Exhibition
+DL|A|What do|Bu kartina haqida nima deysan?|¿Qué opinas de este lienzo?
+DL|B|The colors|Rangi hayratlanarli, lekin menimcha, kompozitsiyasi juda yuklangan.|El colorido es impresionante, pero la composición está recargada, en mi opinión.
+DL|A|And I|Menimcha esa, rassomning niyati aynan shunda.|Y yo creo que esa es precisamente la intención del pintor.
+DL|B|Possibly. Chaos|Ehtimol. Tartibsizlik — davr aksi sifatidami?|Puede ser. ¿El caos como reflejo de la época?
+DL|A|Exactly. Look|Aynan. Mo'yqalam izlariga qara — ularda qanchalik xavotir bor.|Exacto. Mira las pinceladas: cuánta inquietud hay en ellas.
+DL|B|You've almost|Meni deyarli ishontirding.|Casi me has convencido.

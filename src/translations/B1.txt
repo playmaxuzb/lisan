@@ -1,0 +1,387 @@
+TH|Work and Office
+V|job|ish|el trabajo
+V|office|ofis|la oficina
+V|company|kompaniya|la empresa
+V|boss|boshliq|el jefe
+V|colleague|hamkasb|el compañero de trabajo
+V|salary|maosh|el sueldo
+V|contract|shartnoma|el contrato
+V|meeting|majlis|la reunión
+V|job interview|ish suhbati|la entrevista de trabajo
+V|CV|rezyume|el currículum
+V|vacation|ta'til|las vacaciones
+V|experience|tajriba|la experiencia
+V|career|martaba|la carrera
+V|task|vazifa|la tarea
+V|deadline|muddat|el plazo
+V|report|hisobot|el informe
+V|client|mijoz|el cliente
+V|success|muvaffaqiyat|el éxito
+V|phone call|qo'ng'iroq|la llamada
+V|printer|printer|la impresora
+V|signature|imzo|la firma
+V|position|lavozim|el puesto
+V|team|jamoa (ishxona)|el equipo de trabajo
+V|dismissal|ishdan bo'shatish|el despido
+TH|Study and University
+V|university|universitet|la universidad
+V|student|talaba|el estudiante
+V|lecturer|o'qituvchi (oliygoh)|el profesor universitario
+V|lecture|ma'ruza|la clase magistral
+V|exam|imtihon|el examen
+V|grade|baho|la nota
+V|subject|fan|la asignatura
+V|textbook|darslik|el libro de texto
+V|homework|uy vazifasi|los deberes
+V|diploma|diplom|el título
+V|faculty|fakultet|la facultad
+V|dormitory|yotoqxona (talabalar)|la residencia de estudiantes
+V|semester|semestr|el semestre
+V|knowledge|bilim|el conocimiento
+V|science|fan (ilm)|la ciencia
+V|mathematics|matematika|las matemáticas
+V|history|tarix|la historia
+V|geography|geografiya|la geografía
+V|chemistry|kimyo|la química
+V|physics|fizika|la física
+V|foreign language|chet tili|el idioma extranjero
+V|translator|tarjimon|el traductor
+V|dictionary|lug'at|el diccionario
+V|pass an exam|imtihon topshirmoq|aprobar un examen
+TH|Health and Medicine
+V|health|sog'liq|la salud
+V|illness|kasallik|la enfermedad
+V|medicine|dori|el medicamento
+V|prescription|retsept (dori)|la receta médica
+V|medical test|tahlil|el análisis
+V|hospital ward|palata|la habitación del hospital
+V|patient|bemor|el paciente
+V|virus|virus|el virus
+V|allergy|allergiya|la alergia
+V|blood pressure|qon bosimi|la tensión arterial
+V|injury|jarohat|la lesión
+V|fracture|suyak sinishi|la fractura
+V|surgery|operatsiya|la operación
+V|insomnia|uyqusizlik|el insomnio
+V|diet|parhez|la dieta
+V|morning exercises|badantarbiya|la gimnasia matutina
+V|smoke|chekmoq|fumar
+V|treat|davolamoq|tratar
+V|check-up|ko'rik|la revisión médica
+V|nausea|ko'ngil aynish|las náuseas
+TH|Technology
+V|internet|internet|internet
+V|message|xabar|el mensaje
+V|password|parol|la contraseña
+V|app|ilova|la aplicación
+V|download|yuklab olmoq|descargar
+V|charger|quvvatlagich|el cargador
+V|screen|ekran|la pantalla
+V|website|sayt|la página web
+V|email|elektron pochta|el correo electrónico
+V|keyboard|klaviatura|el teclado
+V|mouse (computer)|sichqoncha|el ratón (del ordenador)
+V|file|fayl|el archivo
+V|battery|batareya|la batería
+V|network|tarmoq|la red
+V|account|akkaunt|la cuenta
+V|search|qidiruv|la búsqueda
+V|save|saqlamoq|guardar
+V|delete|o'chirmoq|borrar
+V|send|yubormoq|enviar
+V|update|yangilamoq|actualizar
+V|social networks|ijtimoiy tarmoqlar|las redes sociales
+TH|Character and Emotions
+V|joy|quvonch|la alegría
+V|sadness|qayg'u|la tristeza
+V|fear|qo'rquv|el miedo
+V|anger|g'azab|la ira
+V|surprise|hayrat|la sorpresa
+V|calm|xotirjam|tranquilo
+V|nervous|asabiy|nervioso
+V|kind|mehribon|bondadoso
+V|stubborn|qaysar|terco
+V|polite|xushmuomala|educado
+V|rude|qo'pol|grosero
+V|brave|jasur|valiente
+V|shy|tortinchoq|tímido
+V|lazy|dangasa|perezoso
+V|hardworking|mehnatkash|trabajador
+V|honest|halol|honesto
+V|generous|saxiy|generoso
+V|patient (adj.)|sabrli|paciente
+V|confident|o'ziga ishongan|seguro de sí mismo
+V|shame|uyat|la vergüenza
+V|tiredness|charchoq|el cansancio
+V|disappointment|hafsalasi pir bo'lish|la decepción
+TH|Relationships and Events
+V|wedding|to'y|la boda
+V|birthday|tug'ilgan kun|el cumpleaños
+V|holiday|bayram|la fiesta
+V|party|ziyofat|la fiesta (en casa)
+V|relationship|munosabat|la relación
+V|quarrel|janjal|la pelea
+V|friendship|do'stlik|la amistad
+V|invitation|taklif|la invitación
+V|parents|ota-ona|los padres
+V|relatives|qarindoshlar|los parientes
+V|groom|kuyov|el novio
+V|bride|kelin|la novia
+V|birth|tug'ilish|el nacimiento
+V|support|qo'llab-quvvatlash|el apoyo
+V|apology|kechirim so'rash|la disculpa
+V|congratulate|tabriklamoq|felicitar
+V|agree|kelishmoq|ponerse de acuerdo
+TH|Money and Banking
+V|bank|bank|el banco
+V|credit card|kredit karta|la tarjeta de crédito
+V|cash|naqd pul|el efectivo
+V|exchange rate|valyuta kursi|el tipo de cambio
+V|loan|kredit|el préstamo
+V|savings|jamg'arma|los ahorros
+V|debt|qarz|la deuda
+V|bill|hisob|la factura
+V|spend|sarflamoq|gastar
+V|save money|pul yig'moq|ahorrar
+V|budget|byudjet|el presupuesto
+V|rent|ijara|el alquiler
+V|transfer|o'tkazma|la transferencia
+V|income|daromad|los ingresos
+TH|Housing
+V|district|tuman|el barrio
+V|floor|qavat|la planta
+V|elevator|lift|el ascensor
+V|landlord|uy egasi|el casero
+V|move|ko'chish|la mudanza
+V|renovation|ta'mirlash|la reforma
+V|heating|isitish|la calefacción
+V|air conditioner|konditsioner|el aire acondicionado
+V|balcony|balkon|el balcón
+V|entrance (building)|podyezd|el portal
+V|furniture|mebel|los muebles
+V|suburb|shahar chekkasi|las afueras
+V|electricity|elektr|la electricidad
+V|water supply|suv quvuri|el suministro de agua
+TH|Important Verbs
+V|decide|qaror qilmoq|decidir
+V|explain|tushuntirmoq|explicar
+V|repeat|takrorlamoq|repetir
+V|remember|eslamoq|recordar
+V|forget|unutmoq|olvidar
+V|hope|umid qilmoq|esperar (tener esperanza)
+V|dream|orzu qilmoq|soñar
+V|repair|ta'mirlamoq|reparar
+V|improve|yaxshilamoq|mejorar
+V|build|qurmoq|construir
+V|receive|olmoq (qabul qilmoq)|recibir
+V|win|yutmoq|ganar
+V|lose (a game)|yutqazmoq|perder
+V|change|o'zgartirmoq|cambiar (algo)
+V|share|bo'lishmoq|compartir
+V|solve a problem|muammoni hal qilmoq|resolver un problema
+V|offer|taklif qilmoq|ofrecer
+V|refuse|rad etmoq|negarse
+V|inform|xabar bermoq|informar
+V|obey|itoat qilmoq|obedecer
+V|develop|rivojlanmoq|desarrollarse
+V|forgive|kechirmoq|perdonar
+V|continue|davom ettirmoq|continuar
+V|stop|to'xtatmoq|detener
+TH|Important Adjectives
+V|important|muhim|importante
+V|dangerous|xavfli|peligroso
+V|safe|xavfsiz|seguro
+V|comfortable|qulay|cómodo
+V|famous|mashhur|famoso
+V|different|turli|diferente
+V|same|bir xil|igual
+V|complicated|murakkab|complicado
+V|free|erkin|libre
+V|next|keyingi|siguiente
+V|last|o'tgan|pasado
+V|international|xalqaro|internacional
+V|modern|zamonaviy|moderno
+V|ancient|qadimiy|antiguo
+V|exact|aniq|exacto
+V|excellent|a'lo|excelente
+V|ordinary|oddiy|normal
+V|modest|kamtar|modesto
+V|tired|charchagan|cansado
+V|satisfied|qoniqqan|satisfecho
+TH|Travel Problems
+V|luggage|yuk|el equipaje
+V|customs|bojxona|la aduana
+V|delay|kechikish|el retraso
+V|transfer (flight)|transfer (reys almashish)|la escala
+V|guidebook|yo'lko'rsatkich kitob|la guía de viaje
+V|tent|chodir|la tienda de campaña
+V|traffic jam|tirbandlik|el atasco
+V|adapter|adapter|el adaptador
+V|insurance|sug'urta|el seguro
+V|theft|o'g'irlik|el robo
+V|address|manzil|la dirección
+V|foreigner|chet ellik|el extranjero
+V|accent|talaffuz (aksent)|el acento
+V|resort|kurort|el centro turístico
+V|reception|qabulxona|la recepción
+V|get lost|adashib qolmoq|perderse
+S|I have|Bu kompaniyada uch yildan beri ishlayman.|Llevo tres años trabajando en esta empresa.
+S|My boss|Boshlig'im qattiqqo'l, lekin adolatli.|Mi jefe es estricto pero justo.
+S|We have|Soat o'nda majlisimiz bor.|Tenemos una reunión a las diez.
+S|I need|Hisobotni jumagacha tugatishim kerak.|Tengo que terminar el informe antes del viernes.
+S|I sent|Rezyumemni beshta kompaniyaga yubordim.|Envié mi currículum a cinco empresas.
+S|I was|Meni ish suhbatiga taklif qilishdi.|Me invitaron a una entrevista de trabajo.
+S|Do you|Ish tajribangiz bormi?|¿Tiene experiencia laboral?
+S|What is|Bu lavozimda maosh qancha?|¿Cuál es el sueldo de este puesto?
+S|I'm taking|Iyulda ta'tilga chiqaman.|Me cojo vacaciones en julio.
+S|My colleagues|Hamkasblarim juda samimiy.|Mis compañeros son muy simpáticos.
+S|She has|U yaxshi martabaga erishdi.|Ha hecho una buena carrera.
+S|I'm in|Universitetning uchinchi kursida o'qiyman.|Estoy en tercer curso de la universidad.
+S|Tomorrow I|Ertaga tarixdan imtihonim bor.|Mañana tengo un examen de historia.
+S|I passed|Imtihonni a'loga topshirdim!|¡Aprobé el examen con sobresaliente!
+S|The lecturer|O'qituvchi juda tushunarli tushuntiradi.|El profesor explica muy claro.
+S|I live|Talabalar yotoqxonasida yashayman.|Vivo en una residencia de estudiantes.
+S|I need|Menga yaxshi lug'at kerak.|Necesito un buen diccionario.
+S|I want|Tarjimon bo'lishni xohlayman.|Quiero ser traductor.
+S|Which subject|Sizga qaysi fan ko'proq yoqadi?|¿Qué asignatura te gusta más?
+S|Without knowledge|Bilimsiz ish topish qiyin.|Sin conocimientos es difícil encontrar trabajo.
+S|I'm allergic|Menda yong'oqqa allergiya bor.|Soy alérgico a los frutos secos.
+S|The doctor|Shifokor menga dori yozib berdi.|El médico me recetó un medicamento.
+S|Take this|Bu dorini ovqatdan keyin iching.|Tome este medicamento después de comer.
+S|I need|Qon tahlilini topshirishim kerak.|Tengo que hacerme un análisis de sangre.
+S|Grandfather has|Bobomning qon bosimi baland.|El abuelo tiene la tensión alta.
+S|He broke|U chang'i uchayotib oyog'ini sindirib oldi.|Se rompió la pierna esquiando.
+S|Smoking is|Chekish sog'liqqa zarar.|Fumar es malo para la salud.
+S|I do|Har kuni ertalab badantarbiya qilaman.|Hago ejercicio todas las mañanas.
+S|I'm on|Men parhezdaman, shuning uchun shirinlik yemayman.|Estoy a dieta, así que no como dulces.
+S|Take care|O'zingizni ehtiyot qiling!|¡Cuídate!
+S|I forgot|Pochtamning parolini unutib qo'ydim.|Olvidé la contraseña de mi correo.
+S|Download this|Bu ilovani yuklab ol, u juda foydali.|Descárgate esta aplicación, es muy útil.
+S|My phone|Telefonimning quvvati tugadi.|Se me ha acabado la batería del móvil.
+S|Where can|Telefonimni qayerda quvvatlasam bo'ladi?|¿Dónde puedo cargar el móvil?
+S|Send me|Faylni menga pochta orqali yubor.|Mándame el archivo por correo.
+S|The internet|Bu yerda internet yomon ishlaydi.|Aquí internet funciona mal.
+S|Don't forget|Hujjatni saqlashni unutma.|No olvides guardar el documento.
+S|I often|Yangiliklarni ko'pincha ijtimoiy tarmoqlarda o'qiyman.|A menudo leo las noticias en las redes sociales.
+S|She is|U juda sabrli.|Ella es muy paciente.
+S|My brother|Akam eshakdek qaysar.|Mi hermano es terco como una mula.
+S|Don't be|Bunchalik dangasa bo'lma!|¡No seas tan perezoso!
+S|I'm nervous|Chiqishdan oldin hayajonlanyapman.|Estoy nervioso antes de la actuación.
+S|She was|U sovg'adan juda xursand bo'ldi.|Le encantó el regalo.
+S|I'm ashamed|Qilgan ishimdan uyalaman.|Me avergüenzo de mi comportamiento.
+S|I'm not|Senga jahlim chiqmagan.|No estoy enfadado contigo.
+S|We invited|To'yga yuzta mehmon taklif qildik.|Invitamos a cien personas a la boda.
+S|Happy birthday|Tug'ilgan kuning bilan tabriklayman!|¡Te felicito por tu cumpleaños!
+S|They quarreled|Ular arzimas narsa uchun janjallashib qolishdi.|Se pelearon por una tontería.
+S|We have|Biz bolalikdan do'stmiz.|Somos amigos desde la infancia.
+S|Thank you|Qo'llab-quvvatlaganingiz uchun rahmat.|Gracias por tu apoyo.
+S|I apologize|Kechirasiz, men noto'g'ri edim.|Lo siento, me equivoqué.
+S|I want|Bankda hisob ochmoqchiman.|Quiero abrir una cuenta en el banco.
+S|What is|Bugun dollar kursi qancha?|¿A cuánto está hoy el dólar?
+S|I pay|Har oy kvartira uchun to'layman.|Pago el piso todos los meses.
+S|We are|Yangi mashina uchun pul yig'yapmiz.|Estamos ahorrando para un coche nuevo.
+S|I spent|Hamma pulni sarflab qo'ydim.|Me gasté todo el dinero.
+S|Can you|Menga qarz berib tura olasanmi?|¿Me puedes prestar dinero?
+S|The ATM|Bankomat ishlamayapti.|El cajero no funciona.
+S|We rent|Markazda kvartira ijaraga olganmiz.|Alquilamos un piso en el centro.
+S|Our home|Uyimiz beshinchi qavatda.|Nuestra casa está en la quinta planta.
+S|The elevator|Lift yana buzilib qoldi.|El ascensor se ha vuelto a estropear.
+S|The apartment|Kvartirada ta'mirlash ketyapti.|Están reformando el piso.
+S|We moved|Yangi tumanga ko'chib o'tdik.|Nos mudamos a un barrio nuevo.
+S|In winter|Qishda uyimiz yaxshi isitiladi.|En invierno tenemos buena calefacción.
+S|If I|Vaqtim bo'lsa, senga qo'ng'iroq qilaman.|Si tengo tiempo, te llamo.
+S|I think|Menimcha, sen haqsan.|Creo que tienes razón.
+S|In my|Mening fikrimcha, bu yaxshi g'oya.|En mi opinión, es una buena idea.
+S|I agree|Men sen bilan roziman.|Estoy de acuerdo contigo.
+S|I disagree|Men rozi emasman.|No estoy de acuerdo.
+S|It seems|Menimcha, yomg'ir yog'adi.|Me parece que va a llover.
+S|I hope|Hammasi yaxshi bo'ladi deb umid qilaman.|Espero que todo salga bien.
+S|I have|Yaponiyaga borishni ancha vaqtdan beri orzu qilaman.|Hace mucho que sueño con visitar Japón.
+S|Please explain|Iltimos, yana bir marta tushuntiring.|Explícalo otra vez, por favor.
+S|I don't|Kalitlarni qayerda qoldirganimni eslolmayman.|No recuerdo dónde dejé las llaves.
+S|He offered|U menga yordam taklif qildi.|Me ofreció ayuda.
+S|She declined|U taklifni rad etdi.|Rechazó la invitación.
+S|We need|Uchrashuvni kelishib olishimiz kerak.|Tenemos que quedar para vernos.
+S|I walk|Har kuni ishga piyoda boraman.|Voy andando al trabajo todos los días.
+S|I'm going|Hozir do'konga ketyapman.|Ahora voy a la tienda.
+S|We drove|Biz Qozonga mashinada bordik.|Fuimos en coche a Kazán.
+S|He came|U uyga kech keldi.|Llegó tarde a casa.
+S|I have|Men bu kitobni allaqachon o'qib bo'ldim.|Ya he leído este libro.
+S|I was|Kechqurun bo'yi kitob o'qidim.|Estuve leyendo toda la tarde.
+S|I'll do|Buni ertaga qilaman.|Lo haré mañana.
+S|He looked|U uzoq vaqt ish qidirdi va nihoyat topdi.|Estuvo mucho tiempo buscando trabajo y por fin lo encontró.
+S|I don't|Vaqtim yo'q.|No tengo tiempo.
+S|There is|Shahrimizda dengiz yo'q.|En nuestra ciudad no hay mar.
+S|I like|Yangi ishim menga yoqadi.|Me gusta mi nuevo trabajo.
+S|I need|Menga ko'proq vaqt kerak.|Necesito más tiempo.
+S|I'll call|Kechqurun onamga qo'ng'iroq qilaman.|Esta noche llamaré a mi madre.
+S|Help me|Iltimos, menga yordam bering.|Ayúdame, por favor.
+S|I'm interested|Men tarixga qiziqaman.|Me interesa la historia.
+S|She does|U raqs bilan shug'ullanadi.|Ella hace baile.
+S|I write|Men ruchka bilan yozaman.|Escribo con bolígrafo.
+S|I drink|Choyni limon bilan ichaman.|Tomo el té con limón.
+S|What do|Bo'sh vaqtingizda nima bilan shug'ullanasiz?|¿Qué haces en tu tiempo libre?
+S|I like|Eski shahar bo'ylab sayr qilishni yaxshi ko'raman.|Me gusta pasear por el casco antiguo.
+S|To learn|Tilni o'rganish uchun ko'p mashq qilish kerak.|Para aprender un idioma hay que practicar mucho.
+S|I make|Xato qilaman, lekin gapirishdan qo'rqmayman.|Cometo errores, pero no tengo miedo de hablar.
+RT|The First|Birinchi ish kuni|El primer día de trabajo
+RL|The first|Birinchi ish kuni har doim hayajonli bo'ladi.|El primer día de trabajo siempre es emocionante.
+RL|I came|Ofisga hammadan oldin, soat sakkizda keldim.|Llegué a la oficina antes que nadie, a las ocho.
+RL|The boss|Boshliq meni kutib oldi va hamkasblarim bilan tanishtirdi.|El jefe me recibió y me presentó a mis compañeros.
+RL|Everyone was|Hamma juda samimiy edi.|Todos fueron muy amables.
+RL|They showed|Menga ish joyim va kompyuterimni ko'rsatishdi.|Me enseñaron mi puesto y mi ordenador.
+RL|At first|Avvaliga hujjatlarni o'qidim va loyihalarni o'rgandim.|Al principio leí documentos y estudié los proyectos.
+RL|At lunch|Tushlikda birga oshxonaga bordik.|A la hora de comer fuimos juntos al comedor.
+RL|After lunch|Tushlikdan keyin majlisimiz bo'ldi.|Después de comer tuvimos una reunión.
+RL|I was|Biroz hayajonlandim, lekin hammasi yaxshi o'tdi.|Estaba un poco nervioso, pero todo salió bien.
+RL|In the|Kechqurun charchagan, lekin mamnun edim.|Por la tarde estaba cansado pero satisfecho.
+RL|I think|O'ylaymanki, bu yer menga yoqadi.|Creo que aquí me va a gustar.
+RT|A Healthy|Sog'lom turmush tarzi|Una vida sana
+RL|Nowadays many|Hozir ko'p odamlar sog'lig'i haqida o'ylaydi.|Hoy en día mucha gente piensa en su salud.
+RL|Doctors advise|Shifokorlar ko'proq harakat qilishni maslahat berishadi.|Los médicos aconsejan moverse más.
+RL|It is|Kuniga kamida yarim soat piyoda yurish foydali.|Es bueno caminar al menos media hora al día.
+RL|It is|To'g'ri ovqatlanish ham muhim.|También es importante comer bien.
+RL|You need|Ko'proq sabzavot va meva yeyish kerak.|Hay que comer más verduras y fruta.
+RL|It's better|Shirin ichimliklar emas, suv ichgan yaxshi.|Es mejor beber agua y no bebidas azucaradas.
+RL|Sleep is|Uyqu ham juda muhim.|El sueño también es muy importante.
+RL|An adult|Kattalarga yetti-sakkiz soat uxlash kerak.|Un adulto necesita dormir de siete a ocho horas.
+RL|And, of|Va, albatta, chekmaslik kerak.|Y, por supuesto, no hay que fumar.
+RL|Health is|Sog'liq eng muhim narsa.|La salud es lo más importante.
+RT|How I|Men o'zbek tilini qanday o'rganyapman|Cómo aprendo español|*
+RL|I have|Men o'zbek tilini bir yildan beri o'rganyapman.|Llevo un año aprendiendo español.|*
+RL|At first|Avvaliga juda qiyin edi.|Al principio era muy difícil.
+RL|I didn't|Qo'shimchalarni tushunmasdim va ularni aralashtirib yuborardim.|No entendía los tiempos verbales y me confundía con las terminaciones.
+RL|Then I|Keyin har kuni podkastlar tinglashni boshladim.|Luego empecé a escuchar pódcast todos los días.
+RL|I also|Filmlarni subtitrlar bilan ham ko'raman.|También veo películas con subtítulos.
+RL|My Russian|O'zbek do'stlarim menga juda ko'p yordam berishdi.|Mis amigos españoles me ayudaron mucho.|*
+RL|They correct|Ular xatolarimni tuzatishadi va kulishmaydi.|Me corrigen los errores y no se ríen.
+RL|Now I|Endi do'konda ham, ishda ham gaplasha olaman.|Ahora puedo hablar en la tienda y en el trabajo.
+RL|The main|Eng muhimi — xatolardan qo'rqmaslik.|Lo principal es no tener miedo a los errores.
+DT|Job Interview
+DL|A|Tell me|O'zingiz haqingizda gapirib bering, iltimos.|Hábleme de usted, por favor.
+DL|B|My name|Ismim Umar. Men dasturchiman, besh yillik tajribam bor.|Me llamo Omar. Soy programador y tengo cinco años de experiencia.
+DL|A|Why do|Nega bizda ishlamoqchisiz?|¿Por qué quiere trabajar con nosotros?
+DL|B|Your company|Kompaniyangiz mashhur va loyihalaringiz menga qiziq.|Su empresa es conocida y me interesan sus proyectos.
+DL|A|What are|Kuchli tomonlaringiz qanday?|¿Cuáles son sus puntos fuertes?
+DL|B|I'm responsible|Men mas'uliyatliman va tez o'rganaman.|Soy responsable y aprendo rápido.
+DL|A|When can|Qachon ish boshlay olasiz?|¿Cuándo puede empezar?
+DL|B|From next|Keyingi oydan.|A partir del mes que viene.
+DL|A|Good. We|Yaxshi. Biz sizga qo'ng'iroq qilamiz.|Bien. Le llamaremos.
+DT|At the Bank
+DL|A|Hello! I'd|Assalomu alaykum! Hisob ochmoqchi edim.|¡Hola! Quería abrir una cuenta.
+DL|B|Fine. Your|Yaxshi. Pasportingiz, iltimos.|Muy bien. Su pasaporte, por favor.
+DL|A|Here. Can|Mana. Kartani darhol olsam bo'ladimi?|Aquí tiene. ¿Puedo tener la tarjeta ahora mismo?
+DL|B|No, the|Yo'q, karta bir haftadan keyin tayyor bo'ladi.|No, la tarjeta estará lista dentro de una semana.
+DL|A|How much|Xizmat ko'rsatish qancha turadi?|¿Cuánto cuesta el servicio?
+DL|B|The first|Birinchi yil bepul.|El primer año es gratis.
+DL|A|Great. One|Zo'r. Yana bir narsa: dollar almashtirsam bo'ladimi?|Genial. Otra cosa: ¿puedo cambiar dólares?
+DL|B|Yes, the|Ha, kassa chap tomonda.|Sí, la caja está a la izquierda.
+DT|A Problem in the Apartment
+DL|A|Hello, is|Allo, bu kvartira egasimi?|¿Diga? ¿Es usted el casero?
+DL|B|Yes, I'm|Ha, eshitaman.|Sí, dígame.
+DL|A|Our heating|Isitish ishlamayapti, kvartira juda sovuq.|No funciona la calefacción y hace mucho frío en el piso.
+DL|B|I see|Tushunarli. Qachondan beri?|Entiendo. ¿Desde cuándo?
+DL|A|Since yesterday|Kecha kechqurundan beri.|Desde ayer por la noche.
+DL|B|I'll send|Ertaga ertalab usta yuboraman.|Mañana por la mañana le mando a un técnico.
+DL|A|Isn't it|Bugun hech iloji yo'qmi?|¿No puede ser hoy?
+DL|B|I'll try|Harakat qilaman. Bir soatdan keyin qayta qo'ng'iroq qilaman.|Lo intentaré. Le vuelvo a llamar dentro de una hora.

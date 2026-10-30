@@ -1,0 +1,397 @@
+TH|Society
+V|society|jamiyat|la sociedad
+V|population|aholi|la población
+V|generation|avlod|la generación
+V|inequality|tengsizlik|la desigualdad
+V|equal rights|teng huquqlilik|la igualdad de derechos
+V|poverty|qashshoqlik|la pobreza
+V|wealth|boylik|la riqueza
+V|unemployment|ishsizlik|el desempleo
+V|migration|migratsiya|la migración
+V|urban life|shahar hayoti|la vida urbana
+V|education|ta'lim|la educación
+V|security|xavfsizlik|la seguridad
+V|volunteer|ko'ngilli|el voluntario
+V|charity|xayriya|la beneficencia
+V|tradition|an'ana|la tradición
+V|religion|din|la religión
+V|public opinion|jamoatchilik fikri|la opinión pública
+V|family values|oilaviy qadriyatlar|los valores familiares
+V|healthcare|sog'liqni saqlash|la sanidad
+V|pension|nafaqa|la pensión
+TH|Economy and Business
+V|economy|iqtisodiyot|la economía
+V|market|bozor (iqtisod)|el mercado
+V|production|ishlab chiqarish|la producción
+V|goods|tovar|la mercancía
+V|demand|talab|la demanda
+V|supply|taklif (bozorda)|la oferta
+V|profit|foyda|el beneficio
+V|loss|zarar|la pérdida
+V|inflation|inflyatsiya|la inflación
+V|investments|investitsiyalar|las inversiones
+V|tax|soliq|el impuesto
+V|deal|bitim|el trato
+V|enterprise|korxona|la empresa (fábrica)
+V|entrepreneur|tadbirkor|el empresario
+V|export|eksport|la exportación
+V|import|import|la importación
+V|competition|raqobat|la competencia
+V|advertising|reklama|la publicidad
+V|consumer|iste'molchi|el consumidor
+V|shareholder|aksiyador|el accionista
+V|statistics|statistika|la estadística
+V|accounting|buxgalteriya|la contabilidad
+TH|Ecology
+V|nature|tabiat|la naturaleza
+V|pollution|ifloslanish|la contaminación
+V|climate|iqlim|el clima
+V|global warming|global isish|el calentamiento global
+V|garbage|chiqindi|la basura
+V|recycling|qayta ishlash|el reciclaje
+V|energy|energiya|la energía
+V|solar energy|quyosh energiyasi|la energía solar
+V|wind power|shamol energiyasi|la energía eólica
+V|oil|neft|el petróleo
+V|gas|gaz|el gas
+V|drought|qurg'oqchilik|la sequía
+V|flood|suv toshqini|la inundación
+V|earthquake|zilzila|el terremoto
+V|endangered species|yo'qolib borayotgan tur|la especie en peligro
+V|deforestation|o'rmonlarni kesish|la deforestación
+V|fresh water|chuchuk suv|el agua dulce
+V|smog|smog|el esmog
+V|nature reserve|qo'riqxona|la reserva natural
+V|eco-friendly|ekologik toza|ecológico
+TH|Media
+V|news|yangiliklar|las noticias
+V|article|maqola|el artículo
+V|interview|intervyu|la entrevista
+V|television|televideniye|la televisión
+V|radio|radio|la radio
+V|newspaper|gazeta|el periódico
+V|magazine|jurnal|la revista
+V|report|reportaj|el reportaje
+V|author|muallif|el autor
+V|blogger|bloger|el bloguero
+V|headline|sarlavha|el titular
+V|investigation|tergov (jurnalistik)|la investigación
+V|fake news|feyk|el bulo
+V|broadcast|translyatsiya|la retransmisión
+V|opinion|fikr|la opinión
+V|survey|so'rovnoma|la encuesta
+V|source|manba|la fuente
+V|documentary|hujjatli film|el documental
+TH|State and Law
+V|state|davlat|el Estado
+V|government|hukumat|el gobierno
+V|law|qonun|la ley
+V|elections|saylovlar|las elecciones
+V|court|sud|el tribunal
+V|constitution|konstitutsiya|la constitución
+V|citizenship|fuqarolik|la ciudadanía
+V|judge|sudya|el juez
+V|border|chegara|la frontera
+V|capital|poytaxt|la capital
+V|agreement|kelishuv|el acuerdo
+V|diplomacy|diplomatiya|la diplomacia
+V|human rights|inson huquqlari|los derechos humanos
+V|peace|tinchlik|la paz
+V|conflict|mojaro|el conflicto
+V|document|hujjat|el documento
+TH|Science and Technology
+V|research|tadqiqot|la investigación científica
+V|experiment|tajriba (ilmiy)|el experimento
+V|scientist|olim|el científico
+V|invention|ixtiro|el invento
+V|space|koinot|el espacio
+V|satellite|sun'iy yo'ldosh|el satélite
+V|robot|robot|el robot
+V|artificial intelligence|sun'iy intellekt|la inteligencia artificial
+V|genetics|genetika|la genética
+V|vaccine|vaksina|la vacuna
+V|telescope|teleskop|el telescopio
+V|data|ma'lumotlar|los datos
+V|technology|texnologiya|la tecnología
+V|device|qurilma|el dispositivo
+V|inventor|ixtirochi|el inventor
+V|theory|nazariya|la teoría
+TH|Culture and Art
+V|art|san'at|el arte
+V|painting|rasm (asar)|el cuadro
+V|exhibition|ko'rgazma|la exposición
+V|performance|spektakl|la obra de teatro
+V|concert|konsert|el concierto
+V|literature|adabiyot|la literatura
+V|writer|yozuvchi|el escritor
+V|poem|she'r|el poema
+V|singer|xonanda|el cantante
+V|ballet|balet|el ballet
+V|film director|rejissyor|el director de cine
+V|actor|aktyor|el actor
+V|heritage|meros|el patrimonio
+V|sculpture|haykal|la escultura
+V|architecture|me'morchilik|la arquitectura
+V|melody|kuy|la melodía
+V|novel|roman|la novela
+V|spectator|tomoshabin|el espectador
+TH|Psychology
+V|personality|shaxs|la personalidad
+V|stress|stress|el estrés
+V|anxiety|xavotir|la ansiedad
+V|confidence|ishonch (o'ziga)|la seguridad en uno mismo
+V|motivation|motivatsiya|la motivación
+V|behavior|xulq|el comportamiento
+V|sympathy|hamdardlik|la compasión
+V|indifference|befarqlik|la indiferencia
+V|loneliness|yolg'izlik|la soledad
+V|trust|ishonch|la confianza
+V|envy|hasad|la envidia
+V|gratitude|minnatdorchilik|la gratitud
+V|misunderstanding|anglashilmovchilik|el malentendido
+V|self-control|o'zini tuta bilish|el autocontrol
+TH|Abstract Concepts
+V|problem|muammo|el problema
+V|solution|yechim|la solución
+V|development|rivojlanish|el desarrollo
+V|responsibility|mas'uliyat|la responsabilidad
+V|opportunity|imkoniyat|la oportunidad
+V|advantage|afzallik|la ventaja
+V|disadvantage|kamchilik|la desventaja
+V|influence|ta'sir|la influencia
+V|quality|sifat|la calidad
+V|quantity|miqdor|la cantidad
+V|condition|shart|la condición
+V|help|yordam|la ayuda
+V|goal|maqsad|el objetivo
+V|result|natija|el resultado
+V|connection|aloqa|la conexión
+V|cause|sabab|la causa
+V|consequence|oqibat|la consecuencia
+V|direction|yo'nalish|la dirección (rumbo)
+V|balance|muvozanat|el equilibrio
+V|freedom|erkinlik|la libertad
+TH|B2 Verbs
+V|discuss|muhokama qilmoq|discutir
+V|believe|hisoblamoq|considerar
+V|analyze|tahlil qilmoq|analizar
+V|compare|solishtirmoq|comparar
+V|protect|himoya qilmoq|proteger
+V|criticize|tanqid qilmoq|criticar
+V|claim|ta'kidlamoq|afirmar
+V|deny|inkor etmoq|negar
+V|support|qo'llab-quvvatlamoq|apoyar
+V|increase|oshirmoq|aumentar
+V|reduce|kamaytirmoq|reducir
+V|cooperate|hamkorlik qilmoq|cooperar
+V|create|yaratmoq|crear
+V|influence|ta'sir qilmoq|influir
+V|achieve|erishmoq|lograr
+V|grow|o'smoq|crecer
+V|forbid|taqiqlamoq|prohibir
+V|allow|ruxsat bermoq|permitir
+V|study|o'rganmoq (tadqiq)|estudiar
+V|persuade|ishontirmoq|convencer
+TH|B2 Adjectives
+V|global|global|global
+V|local|mahalliy|local
+V|effective|samarali|eficaz
+V|responsible|mas'uliyatli|responsable
+V|doubtful|shubhali|dudoso
+V|relevant|dolzarb|actual
+V|practical|amaliy|práctico
+V|political|siyosiy|político
+V|economic|iqtisodiy|económico
+V|ecological|ekologik|ecológico (medioambiental)
+V|social|ijtimoiy|social
+V|compulsory|majburiy|obligatorio
+V|voluntary|ixtiyoriy|voluntario
+V|fair|adolatli|justo
+V|contradictory|ziddiyatli|contradictorio
+V|long-term|uzoq muddatli|a largo plazo
+TH|Education and Work
+V|qualification|malaka|la cualificación
+V|mentor|ustoz|el mentor
+V|graduate|bitiruvchi|el graduado
+V|self-education|mustaqil ta'lim|la autoformación
+V|work experience|ish staji|la antigüedad laboral
+V|remote work|masofaviy ish|el teletrabajo
+V|schedule|ish jadvali|el horario
+V|burnout|kuyib qolish (charchoq)|el agotamiento laboral
+V|employee|xodim|el empleado
+V|promotion|lavozim ko'tarilishi|el ascenso
+V|priority|ustuvorlik|la prioridad
+V|skill|ko'nikma|la habilidad
+V|negotiator|muzokarachi|el negociador
+V|presentation|taqdimot|la presentación
+V|rate|stavka|la tarifa
+V|subordinate|qo'l ostidagi xodim|el subordinado
+V|startup|startap|la startup
+V|achievement|yutuq|el logro
+V|internship|amaliyot (stajirovka)|las prácticas
+V|application|ariza|la solicitud
+S|If I|Ko'proq vaqtim bo'lganida, sayohat qilardim.|Si tuviera más tiempo, viajaría.
+S|I would|Ikki kishilik stol band qilmoqchi edim.|Quería reservar una mesa para dos.
+S|If I|Bilganimda, senga aytgan bo'lardim.|Si lo hubiera sabido, te lo habría dicho.
+S|The problem|Havo ifloslanishi muammosi tobora jiddiylashmoqda.|El problema de la contaminación del aire es cada vez más grave.
+S|Many people|Hozir ko'p odamlar uydan ishlaydi.|Ahora mucha gente trabaja desde casa.
+S|According to|Mutaxassislarning fikricha, iqtisodiyot o'sadi.|Según los expertos, la economía crecerá.
+S|Prices are|Narxlar maoshlardan tezroq o'smoqda.|Los precios suben más rápido que los sueldos.
+S|Youth unemployment|Yoshlar ishsizligi jiddiy muammo.|El desempleo juvenil es un problema grave.
+S|The city|Shahar yangi bog'lar uchun pul ajratmoqda.|La ciudad destina dinero a nuevos parques.
+S|We need|Bu muammoga yechim topishimiz kerak.|Tenemos que encontrar una solución a este problema.
+S|This approach|Bu yondashuvning ham ijobiy, ham salbiy tomonlari bor.|Este enfoque tiene ventajas e inconvenientes.
+S|I believe|Menimcha, ta'lim muvaffaqiyat kalitidir.|Creo que la educación es la clave del éxito.
+S|On the|Bir tomondan, bu qulay, boshqa tomondan — qimmat.|Por un lado, es cómodo; por otro, es caro.
+S|To improve|Tilni yaxshilash uchun ko'p gapirish kerak.|Para mejorar el idioma hay que hablar mucho.
+S|The student|Imtihonni topshirgan talaba mamnun.|El estudiante que aprobó el examen está contento.
+S|The book|Men o'qiyotgan kitob juda qiziq.|El libro que estoy leyendo es muy interesante.
+S|This is|Bu men tug'ilgan shahar.|Esta es la ciudad donde nací.
+S|The bridge|Ko'prik o'tgan asrda qurilgan.|El puente fue construido el siglo pasado.
+S|The letter|Xat kecha yuborildi.|La carta se envió ayer.
+S|The shop|Do'kon ta'mirlash uchun yopiq.|La tienda está cerrada por reformas.
+S|There is|Bu yerda chekilmaydi.|Aquí no se fuma.
+S|We met|Do'stlar bilan markazda uchrashdik.|Quedamos con unos amigos en el centro.
+S|I'm interested|Men siyosat va iqtisodga qiziqaman.|Me interesan la política y la economía.
+S|He works|U yirik gazetada jurnalist bo'lib ishlaydi.|Trabaja de periodista en un periódico importante.
+S|The elections|Saylovlar kelasi yil bo'lib o'tadi.|Las elecciones se celebrarán el año que viene.
+S|Everyone must|Har kim o'z qilmishi uchun javob berishi kerak.|Cada uno debe responder de sus actos.
+S|The law|Qonun hamma uchun bir xil bo'lishi kerak.|La ley debe ser igual para todos.
+S|We must|Tabiatni kelajak avlodlar uchun asrashimiz kerak.|Debemos proteger la naturaleza para las futuras generaciones.
+S|More and|Tobora ko'proq odamlar chiqindini saralaydi.|Cada vez más gente separa la basura.
+S|Solar energy|Quyosh energiyasi arzonlashdi.|La energía solar se ha abaratado.
+S|Because of|Qurg'oqchilik tufayli hosil zarar ko'rdi.|Por la sequía, la cosecha se resintió.
+S|Scientists warn|Olimlar iqlim o'zgarishi haqida ogohlantirmoqda.|Los científicos advierten del cambio climático.
+S|I try|Kamroq plastik ishlatishga harakat qilaman.|Intento usar menos plástico.
+S|Don't believe|Internetda yozilgan hamma narsaga ishonma.|No te creas todo lo que dicen en internet.
+S|Always check|Ma'lumot manbasini doim tekshiring.|Comprueba siempre la fuente de la información.
+S|The journalist|Jurnalist vazirdan intervyu oldi.|El periodista entrevistó al ministro.
+S|This news|Bu yangilik tez tarqaldi.|Esta noticia se difundió rápidamente.
+S|The company|Kompaniya katta foyda ko'rdi.|La empresa obtuvo grandes beneficios.
+S|Taxes in|Bu mamlakatda soliqlar yuqori.|En este país los impuestos son altos.
+S|Competition in|Bozorda raqobat juda kuchli.|La competencia en el mercado es muy dura.
+S|They signed|Ular muhim shartnoma imzolashdi.|Firmaron un contrato importante.
+S|I want|O'z biznesimni ochmoqchiman.|Quiero montar mi propio negocio.
+S|Demand for|Bu mahsulotga talab oshmoqda.|La demanda de este producto está creciendo.
+S|Artificial intelligence|Sun'iy intellekt hayotimizni o'zgartirmoqda.|La inteligencia artificial está cambiando nuestra vida.
+S|Scientists are|Olimlar yangi tajriba o'tkazmoqda.|Los científicos están haciendo un nuevo experimento.
+S|This invention|Bu ixtiro dunyoni o'zgartirdi.|Este invento cambió el mundo.
+S|Man first|Inson birinchi marta 1961-yilda koinotga uchdi.|El ser humano voló al espacio por primera vez en 1961.
+S|We went|Zamonaviy san'at ko'rgazmasiga bordik.|Fuimos a una exposición de arte contemporáneo.
+S|The performance|Spektakl menda kuchli taassurot qoldirdi.|La obra me causó una gran impresión.
+S|I like|Menga Tolstoy romanlari yoqadi.|Me gustan las novelas de Tolstói.
+S|This film|Bu filmni mashhur rejissyor suratga olgan.|Esta película la rodó un director famoso.
+S|The architecture|Bu shaharning me'morchiligi juda rang-barang.|La arquitectura de esta ciudad es muy variada.
+S|We must|Madaniy merosni saqlashimiz kerak.|Debemos conservar el patrimonio cultural.
+S|Stress affects|Stress sog'liqqa ta'sir qiladi.|El estrés afecta a la salud.
+S|Without trust|Ishonchsiz yaxshi munosabat bo'lmaydi.|Sin confianza no hay buenas relaciones.
+S|She feels|U katta shaharda o'zini yolg'iz his qiladi.|Se siente sola en la gran ciudad.
+S|Motivation is|O'qishda motivatsiya eng muhimi.|La motivación es lo principal en los estudios.
+S|I'm grateful|Yordamingiz uchun sizdan minnatdorman.|Le estoy agradecido por su ayuda.
+S|We discussed|Loyihaning barcha tafsilotlarini muhokama qildik.|Hablamos de todos los detalles del proyecto.
+S|Let's compare|Keling, bu ikki variantni solishtiramiz.|Comparemos estas dos opciones.
+S|He denies|U aybini inkor etyapti.|Niega su culpa.
+S|I fully|Bu g'oyani to'liq qo'llab-quvvatlayman.|Apoyo totalmente esta idea.
+S|The number|Yashil hududlar sonini ko'paytirish kerak.|Hay que aumentar el número de zonas verdes.
+S|We are|Xarajatlarni kamaytirishga harakat qilyapmiz.|Intentamos reducir gastos.
+S|It's hard|Uni ishontirish qiyin.|Es difícil convencerle.
+S|Parking is|Bu yerda mashina qo'yish taqiqlangan.|Aquí está prohibido aparcar.
+S|We achieved|Biz maqsadimizga erishdik.|Hemos alcanzado nuestro objetivo.
+S|Quality is|Sifat miqdordan muhimroq.|La calidad es más importante que la cantidad.
+S|Everything depends|Hammasi vaziyatga bog'liq.|Todo depende de las circunstancias.
+S|To be|Rostini aytsam, bu menga yoqmaydi.|Para ser sincero, no me gusta.
+S|As far|Bilishimcha, u ketib qolgan.|Que yo sepa, se ha ido.
+S|Thanks to|Do'stlarimning yordami tufayli uddaladim.|Gracias a la ayuda de mis amigos, lo conseguí.
+S|Despite the|Yomg'irga qaramay, sayrga chiqdik.|A pesar de la lluvia, salimos a pasear.
+S|The more|Qancha ko'p o'qisang, shuncha ko'p bilasan.|Cuanto más lees, más sabes.
+S|What are|Nimadan norozisiz?|¿Con qué no está satisfecho?
+S|It seems|Menimcha, sen oshirib yuboryapsan.|Me parece que exageras.
+S|I'm not|Bu rost ekaniga ishonchim komil emas.|No estoy seguro de que sea verdad.
+S|The thing|Gap shundaki, vaqtimiz kam.|El caso es que tenemos poco tiempo.
+S|He said|U keyinroq kelishini aytdi.|Dijo que vendría más tarde.
+S|She asked|U qayerda ishlashimni so'radi.|Me preguntó dónde trabajo.
+S|I asked|Undan derazani yopishini so'radim.|Le pedí que cerrara la ventana.
+S|I want|Baxtli bo'lishingni xohlayman.|Quiero que seas feliz.
+S|It's important|Hamma vaqtida kelishi muhim.|Es importante que todos lleguen a tiempo.
+S|I used|Ilgari qishloqda yashardim.|Antes vivía en un pueblo.
+S|She got|U sovuqqa ko'nikdi.|Se acostumbró al frío.
+S|I just|Yangi ishga hech ko'nika olmayapman.|No consigo acostumbrarme al nuevo trabajo.
+S|She is|U xayriya ishlari bilan shug'ullanadi.|Se dedica a obras benéficas.
+S|My grandfather|Bobom nafaqa oladi.|Mi abuelo cobra una pensión.
+S|Traditions are|An'analar avloddan avlodga o'tadi.|Las tradiciones se transmiten de generación en generación.
+S|The city's|Shahar aholisi tez o'smoqda.|La población de la ciudad crece rápidamente.
+S|I stand|Men teng huquqlilik tarafdoriman.|Estoy a favor de la igualdad de derechos.
+S|If I|Sening o'rningda bo'lsam, rozi bo'lardim.|Yo que tú, aceptaría.
+S|I was|Menga lavozimni oshirishni taklif qilishdi.|Me ofrecieron un ascenso.
+S|Remote work|Masofaviy ish hammaga ham to'g'ri kelmaydi.|El teletrabajo no es para todo el mundo.
+S|He works|U dam olish kunisiz ishlaydi va allaqachon charchagan.|Trabaja sin días libres y ya está cansado.
+S|To avoid|Kuyib qolmaslik uchun dam olish kerak.|Para no quemarse, hay que descansar.
+S|I prepared|Mijozlar uchun taqdimot tayyorladim.|Preparé una presentación para los clientes.
+S|My mentor|Ustozim menga foydali maslahat berdi.|Mi mentor me dio un consejo útil.
+S|I'm writing|Ta'tilga chiqish uchun ariza yozyapman.|Estoy escribiendo una solicitud de vacaciones.
+S|Our startup|Startapimiz investitsiya jalb qildi.|Nuestra startup atrajo inversión.
+S|This is|Bu mening eng katta yutug'im.|Este es mi mayor logro.
+S|Now my|Hozir mening asosiy ustuvorligim — oilam.|Ahora mi prioridad principal es mi familia.
+S|Is it|Kompaniyadan ketayotganing rostmi?|¿Es verdad que te vas de la empresa?
+S|She is|U ko'ringanidan ancha aqlli.|Es mucho más lista de lo que parece.
+S|The sooner|Qanchalik tez boshlasang, shuncha yaxshi.|Cuanto antes empieces, mejor.
+S|We came|Rejani o'zgartirish kerak degan xulosaga keldik.|Llegamos a la conclusión de que hay que cambiar el plan.
+RT|The City|Kelajak shahri|La ciudad del futuro
+RL|What will|Kelajak shahri qanday bo'ladi?|¿Cómo será la ciudad del futuro?
+RL|Many experts|Ko'p mutaxassislar unda ko'kalamzorlar ko'p, mashinalar kam bo'ladi deb o'ylaydi.|Muchos expertos creen que tendrá más zonas verdes y menos coches.
+RL|People will|Odamlar elektromobillar va velosipedlarda yuradi.|La gente se moverá en coches eléctricos y en bicicleta.
+RL|Homes will|Uylar energiyani quyosh va shamoldan oladi.|Las casas obtendrán energía del sol y del viento.
+RL|Smart systems|Aqlli tizimlar yorug'lik va issiqlikni boshqaradi.|Unos sistemas inteligentes controlarán la luz y la calefacción.
+RL|However, this|Biroq bu g'oyaning tanqidchilari ham bor.|Sin embargo, esta idea también tiene críticos.
+RL|They say|Ular bunday texnologiyalar juda qimmat deyishadi.|Dicen que estas tecnologías son demasiado caras.
+RL|Besides, not|Bundan tashqari, hamma ham odatlarini o'zgartirishga tayyor emas.|Además, no todo el mundo está dispuesto a cambiar sus hábitos.
+RL|It's hard|Kim haq ekanini aytish qiyin.|Es difícil decir quién tiene razón.
+RL|But one|Ammo bir narsa aniq: shahar odamlar uchun qulay bo'lishi kerak.|Pero una cosa está clara: la ciudad debe ser cómoda para la gente.
+RT|Social Networks|Ijtimoiy tarmoqlar|Las redes sociales
+RL|Social networks|Ijtimoiy tarmoqlar hayotimizning bir qismiga aylandi.|Las redes sociales se han convertido en parte de nuestra vida.
+RL|They help|Ular uzoqda yashovchi do'stlar bilan muloqot qilishga yordam beradi.|Nos ayudan a comunicarnos con amigos que viven lejos.
+RL|We learn|Yangiliklarni avvalgidan tezroq bilib olamiz.|Nos enteramos de las noticias más rápido que antes.
+RL|However, social|Biroq ijtimoiy tarmoqlarning salbiy tomoni ham bor.|Sin embargo, las redes sociales también tienen un lado negativo.
+RL|Many people|Ko'p odamlar kuniga bir necha soatni telefonda o'tkazadi.|Mucha gente pasa varias horas al día con el móvil.
+RL|This affects|Bu uyqu, o'qish va kayfiyatga ta'sir qiladi.|Esto afecta al sueño, a los estudios y al estado de ánimo.
+RL|In addition|Bundan tashqari, internetda feyklar ko'p.|Además, en internet hay muchos bulos.
+RL|Psychologists advise|Psixologlar tanaffus qilishni maslahat beradi.|Los psicólogos aconsejan hacer descansos.
+RL|For example|Masalan, telefonni yotoqxonaga olib kirmaslik mumkin.|Por ejemplo, se puede no llevar el móvil al dormitorio.
+RL|The main|Asosiysi — hayot ekranda o'tmasligini yodda tutish.|Lo principal es recordar que la vida no pasa en una pantalla.
+RT|Volunteers|Ko'ngillilar|Los voluntarios
+RL|My friend|Dugonam Anya hayvonlar boshpanasida ko'ngilli bo'lib ishlaydi.|Mi amiga Ania es voluntaria en un refugio de animales.
+RL|She goes|U u yerga har shanba boradi.|Va allí todos los sábados.
+RL|Anya feeds|Anya itlarni boqadi, sayr qildiradi va tozalaydi.|Ania da de comer a los perros, los pasea y limpia.
+RL|She is|Buning uchun unga pul to'lashmaydi.|No le pagan por ello.
+RL|But she|Ammo u ancha ko'proq narsa — quvonch olishini aytadi.|Pero dice que recibe mucho más: alegría.
+RL|Thanks to|Ko'ngillilar tufayli ko'p hayvonlar yangi uy topadi.|Gracias a los voluntarios, muchos animales encuentran un nuevo hogar.
+RL|Last month|O'tgan oy Anya meni ham ko'ndirdi.|El mes pasado Ania me convenció a mí también.
+RL|Now we|Endi u yerga birga boramiz.|Ahora vamos juntos.
+RL|I realized|Boshqalarga yordam berish — baxt ekanini tushundim.|Comprendí que ayudar a los demás es la felicidad.
+DT|Debate: City or Countryside?
+DL|A|I would|Men qishloqda yashashni xohlardim. U yer tinch va havosi toza.|Me gustaría vivir en el campo. Allí hay tranquilidad y el aire es limpio.
+DL|B|But there|Lekin shaharda imkoniyatlar ko'proq.|Pero en la ciudad hay más oportunidades.
+DL|A|Such as|Masalan?|¿Por ejemplo?
+DL|B|Jobs, good|Ish, yaxshi maktablar, kasalxonalar, teatrlar.|Trabajo, buenos colegios, hospitales, teatros.
+DL|A|I agree|Qo'shilaman, lekin shaharda stress va tirbandlik ko'p.|Estoy de acuerdo, pero en la ciudad hay mucho estrés y atascos.
+DL|B|That's true|Bu to'g'ri. Balki shahar chekkasida yashagan ma'qulmi?|Es verdad. ¿Quizá lo mejor sea vivir en las afueras?
+DL|A|Good idea|Yaxshi fikr! Tabiat yaqin, shahar ham uzoq emas.|¡Buena idea! La naturaleza está cerca y la ciudad no queda lejos.
+DL|B|So we|Demak, kelishdik.|Entonces estamos de acuerdo.
+DT|After the Film
+DL|A|So how|Xo'sh, film senga qanday yoqdi?|Bueno, ¿qué te ha parecido la película?
+DL|B|To be|Rostini aytsam, ko'proq narsa kutgandim.|Para ser sincero, esperaba más.
+DL|A|Really? I|Rostdanmi? Menga yoqdi. Aktyorlar ajoyib o'ynashdi.|¿En serio? A mí me gustó. Los actores lo hicieron de maravilla.
+DL|B|I agree|Bunga qo'shilaman. Lekin syujet juda oldindan bilinardi.|En eso estoy de acuerdo. Pero el argumento era demasiado previsible.
+DL|A|But the|Lekin yakuni kutilmagan bo'ldi.|Pero el final fue inesperado.
+DL|B|Perhaps. The|Balki. Musiqasi ham yaxshi edi.|Puede ser. La música también estaba bien.
+DL|A|Next time|Keyingi safar filmni sen tanlaysan.|La próxima vez eliges tú la película.
+DL|B|Deal|Kelishdik!|¡Trato hecho!
+DT|Interview
+DL|A|Tell us|Ayting-chi, biznesingizni qanday boshlagansiz?|Cuéntenos, ¿cómo empezó su negocio?
+DL|B|It all|Hammasi kichik g'oya va katta istakdan boshlandi.|Todo empezó con una pequeña idea y muchas ganas.
+DL|A|Was it|Qiyin bo'ldimi?|¿Fue difícil?
+DL|B|Very. In|Juda. Birinchi yili zarar bilan ishladik.|Mucho. El primer año trabajamos con pérdidas.
+DL|A|What helped|Taslim bo'lmaslikka nima yordam berdi?|¿Qué le ayudó a no rendirse?
+DL|B|My family's|Oilamning qo'llab-quvvatlashi va mahsulotimga ishonch.|El apoyo de mi familia y la fe en mi producto.
+DL|A|What would|Yosh tadbirkorlarga nima maslahat berasiz?|¿Qué aconsejaría a los jóvenes emprendedores?
+DL|B|Not to|Xatolardan qo'rqmaslik va ulardan saboq olish.|Que no tengan miedo a los errores y que aprendan de ellos.

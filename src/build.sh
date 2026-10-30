@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 node gen.js > /dev/null
+node gen2.js > /dev/null
 python3 - <<'PY'
 import json
 def L(p): return [x.strip() for x in open(p,encoding='utf8') if x.strip()]
@@ -31,11 +32,11 @@ OUT=lisan.html
 {
 echo '<title>Lisan Language Academy</title>'
 echo '<meta name="claude:viewport-fit-sides" content="cover">'
-echo '<meta name="description" content="Learn Russian, English and Arabic from A1 to C2">'
+echo '<meta name="description" content="Learn Russian, English, Arabic, Uzbek and Spanish from A1 to C2">'
 echo '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
 echo '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Aref+Ruqaa:wght@400;700&family=IBM+Plex+Mono:wght@500&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Marck+Script&display=swap">'
 echo '<style>'; cat style.css; echo '</style>'
 echo '<div id="app"></div>'
-echo '<script>'; cat translit.js data_all.js gloss.js app.js; echo '</script>'
+echo '<script>'; cat translit.js data_all.js data_new.js gloss.js app.js; echo '</script>'
 } > $OUT
 wc -c $OUT

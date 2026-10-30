@@ -1,0 +1,383 @@
+TH|Clothes
+V|jacket|kurtka|la chaqueta
+V|coat|palto|el abrigo
+V|shirt|ko'ylak|la camisa
+V|T-shirt|futbolka|la camiseta
+V|dress|ko'ylak (ayollar)|el vestido
+V|jeans|jinsi shim|los vaqueros
+V|trousers|shim|los pantalones
+V|shorts|shorti|los pantalones cortos
+V|skirt|yubka|la falda
+V|sweater|sviter|el jersey
+V|scarf|sharf|la bufanda
+V|hat|shapka|el gorro
+V|gloves|qo'lqop|los guantes
+V|socks|paypoq|los calcetines
+V|sneakers|krossovka|las zapatillas
+V|boots|etik|las botas
+V|shoes|tufli|los zapatos
+V|bag|sumka|el bolso
+V|watch|qo'l soati|el reloj
+V|glasses|ko'zoynak|las gafas
+V|ring|uzuk|el anillo
+V|suit|kostyum|el traje
+TH|Shopping
+V|shop|do'kon|la tienda
+V|market|bozor|el mercado
+V|price|narx|el precio
+V|discount|chegirma|el descuento
+V|size|o'lcham|la talla
+V|receipt|chek|el tique
+V|money|pul|el dinero
+V|card|karta|la tarjeta
+V|change (money)|qaytim|el cambio
+V|ATM|bankomat|el cajero
+V|seller|sotuvchi|el vendedor
+V|customer|xaridor|el cliente
+V|gift|sovg'a|el regalo
+V|pay|to'lamoq|pagar
+V|try on|kiyib ko'rmoq|probarse
+V|exchange|almashtirmoq|cambiar
+TH|Weather and Seasons
+V|weather|ob-havo|el tiempo
+V|rain|yomg'ir|la lluvia
+V|snow|qor|la nieve
+V|wind|shamol|el viento
+V|fog|tuman|la niebla
+V|thunderstorm|momaqaldiroq|la tormenta
+V|temperature|harorat|la temperatura
+V|umbrella|soyabon|el paraguas
+V|rainbow|kamalak|el arcoíris
+V|winter|qish|el invierno
+V|spring|bahor|la primavera
+V|summer|yoz|el verano
+V|autumn|kuz|el otoño
+V|sunny|quyoshli|soleado
+V|cloudy|bulutli|nublado
+V|hot|issiq|caluroso
+V|cold|sovuq|frío
+V|warm|iliq|templado
+V|cool|salqin|fresco
+TH|Months
+V|January|yanvar|enero
+V|February|fevral|febrero
+V|March|mart|marzo
+V|April|aprel|abril
+V|May|may|mayo
+V|June|iyun|junio
+V|July|iyul|julio
+V|August|avgust|agosto
+V|September|sentabr|septiembre
+V|October|oktabr|octubre
+V|November|noyabr|noviembre
+V|December|dekabr|diciembre
+TH|Travel
+V|trip|sayohat|el viaje
+V|ticket|chipta|el billete
+V|passport|pasport|el pasaporte
+V|visa|viza|el visado
+V|suitcase|chamadon|la maleta
+V|airport|aeroport|el aeropuerto
+V|train station|vokzal|la estación de tren
+V|hotel|mehmonxona|el hotel
+V|hotel room|nomer|la habitación de hotel
+V|photo|surat|la foto
+V|tour|ekskursiya|la excursión
+V|tourist|sayyoh|el turista
+V|museum|muzey|el museo
+V|castle|qal'a|el castillo
+V|beach|plyaj|la playa
+V|schedule|jadval|el horario
+V|arrive (by plane)|uchib kelmoq|llegar en avión
+V|fly away|uchib ketmoq|salir en avión
+V|book|bron qilmoq|reservar
+TH|Professions
+V|doctor|shifokor|el médico
+V|teacher|o'qituvchi|el profesor
+V|engineer|muhandis|el ingeniero
+V|cook|oshpaz|el cocinero
+V|driver|haydovchi|el conductor
+V|programmer|dasturchi|el programador
+V|nurse|hamshira|la enfermera
+V|lawyer|huquqshunos|el abogado
+V|accountant|buxgalter|el contable
+V|artist|rassom|el pintor
+V|musician|musiqachi|el músico
+V|police officer|politsiyachi|el policía
+V|firefighter|o't o'chiruvchi|el bombero
+V|farmer|fermer|el granjero
+V|hairdresser|sartarosh|el peluquero
+V|pilot|uchuvchi|el piloto
+V|journalist|jurnalist|el periodista
+V|builder|quruvchi|el albañil
+V|mechanic|mexanik|el mecánico
+V|dentist|tish shifokori|el dentista
+TH|Hobbies and Sports
+V|football|futbol|el fútbol
+V|basketball|basketbol|el baloncesto
+V|tennis|tennis|el tenis
+V|swimming|suzish|la natación
+V|running|yugurish|correr
+V|cycling|velosport|el ciclismo
+V|gym|sport zali|el gimnasio
+V|chess|shaxmat|el ajedrez
+V|guitar|gitara|la guitarra
+V|piano|pianino|el piano
+V|film|film|la película
+V|TV series|serial|la serie
+V|game|o'yin|el juego
+V|take photos|suratga olmoq|hacer fotos
+V|knit|to'qimoq|tejer
+V|fishing|baliq ovi|la pesca
+V|hiking trip|sayr (tog'ga)|la excursión a pie
+V|team|jamoa|el equipo
+V|match|o'yin (musobaqa)|el partido
+V|victory|g'alaba|la victoria
+TH|Health
+V|fever|isitma|la fiebre
+V|runny nose|tumov|el resfriado nasal
+V|cough|yo'tal|la tos
+V|pain|og'riq|el dolor
+V|pill|tabletka|la pastilla
+V|injection|ukol|la inyección
+V|clinic|poliklinika|el centro de salud
+V|ambulance|tez yordam|la ambulancia
+V|plaster|plastir|la tirita
+V|feel sick|ko'ngil aynishi|tener náuseas
+V|be ill|kasal bo'lmoq|estar enfermo
+V|healthy|sog'lom|sano
+TH|City and Directions
+V|to the right|o'ngga|a la derecha
+V|to the left|chapga|a la izquierda
+V|straight on|to'g'riga|todo recto
+V|back|orqaga|atrás
+V|nearby|yaqinda|al lado
+V|far|uzoq|lejos
+V|close|yaqin|cerca
+V|traffic light|svetofor|el semáforo
+V|crossing|o'tish joyi|el paso de peatones
+V|turn|burilish|la curva
+V|center|markaz|el centro
+V|bridge|ko'prik|el puente
+V|square|maydon|la plaza
+V|supermarket|supermarket|el supermercado
+V|church|cherkov|la iglesia
+V|post office|pochta|la oficina de correos
+V|parking|avtoturargoh|el aparcamiento
+V|stadium|stadion|el estadio
+V|theater|teatr|el teatro
+V|library|kutubxona|la biblioteca
+TH|Housework
+V|clean up|yig'ishtirmoq|limpiar
+V|do laundry|kir yuvmoq|lavar la ropa
+V|iron|dazmollamoq|planchar
+V|wash the dishes|idish yuvmoq|fregar los platos
+V|take out the trash|axlatni chiqarmoq|sacar la basura
+V|water the flowers|gullarni sug'ormoq|regar las flores
+V|go shopping|xarid qilmoq|ir de compras
+V|vacuum cleaner|changyutgich|la aspiradora
+V|soap|sovun|el jabón
+V|towel|sochiq|la toalla
+TH|Cooking
+V|cut|kesmoq|cortar
+V|fry|qovurmoq|freír
+V|boil|qaynatmoq|hervir
+V|stir|aralashtirmoq|remover
+V|salt|tuzlamoq|salar
+V|bake|pishirmoq (pechda)|hornear
+V|recipe|retsept|la receta
+V|sweet|shirin|dulce
+V|sour|nordon|ácido
+V|salty|sho'r|salado
+V|spicy|achchiq|picante
+V|beef|mol go'shti|la ternera
+V|lamb|qo'y go'shti|el cordero
+V|dessert|desert|el postre
+V|dinner|kechki ovqat|la cena
+V|breakfast|nonushta|el desayuno
+V|lunch|tushlik|el almuerzo
+TH|Daily Routine
+V|wake up|uyg'onmoq|despertarse
+V|get up|turmoq (o'rindan)|levantarse
+V|take a shower|dush qabul qilmoq|ducharse
+V|brush teeth|tish yuvmoq|lavarse los dientes
+V|get dressed|kiyinmoq|vestirse
+V|have breakfast|nonushta qilmoq|desayunar
+V|have lunch|tushlik qilmoq|almorzar
+V|have dinner|kechki ovqatlanmoq|cenar
+V|leave|ketmoq|irse
+V|return|qaytmoq|volver
+V|go to bed|uxlashga yotmoq|acostarse
+V|be late|kechikmoq|llegar tarde
+V|working day|ish kuni|el día laborable
+V|weekend|dam olish kunlari|el fin de semana
+TH|Feelings
+V|pleased|mamnun|contento
+V|worry|xavotirlanmoq|preocuparse
+V|be afraid|qo'rqmoq|tener miedo
+V|be angry|jahli chiqmoq|enfadarse
+V|in love|oshiq|enamorado
+V|be shy|uyalmoq|tener vergüenza
+V|be surprised|hayron bo'lmoq|sorprenderse
+V|thank|minnatdorchilik bildirmoq|agradecer
+V|hug|quchoqlamoq|abrazar
+V|miss|sog'inmoq|echar de menos
+S|Yesterday I|Kecha do'konda edim.|Ayer estuve en la tienda.
+S|I bought|Yangi kurtka sotib oldim.|Compré una chaqueta nueva.
+S|She bought|U qizil ko'ylak sotib oldi.|Ella compró un vestido rojo.
+S|How much|Bu tufli qancha turadi?|¿Cuánto cuestan estos zapatos?
+S|This shirt|Bu ko'ylak menga kichik.|Esta camisa me queda pequeña.
+S|Do you|Bu sviterning boshqa rangi bormi?|¿Tienen este jersey en otro color?
+S|Can I|Karta bilan to'lasam bo'ladimi?|¿Puedo pagar con tarjeta?
+S|There are|Bugun katta chegirmalar bor.|Hoy hay grandes descuentos.
+S|I'm looking|Onamga sovg'a qidiryapman.|Busco un regalo para mi madre.
+S|I need|Menga kattaroq o'lcham kerak.|Necesito una talla más grande.
+S|What's the|Bugun ob-havo qanday?|¿Qué tiempo hace hoy?
+S|It's raining|Bugun yomg'ir yog'yapti.|Hoy está lloviendo.
+S|Take an|Soyabon olib ol.|Llévate un paraguas.
+S|Tomorrow will|Ertaga quyoshli bo'ladi.|Mañana hará sol.
+S|Yesterday there|Kecha kuchli shamol bo'ldi.|Ayer hubo un viento fuerte.
+S|In winter|Qishda Moskvada juda sovuq.|En invierno hace mucho frío en Moscú.
+S|In summer|Yozda Toshkentda issiq.|En verano hace calor en Taskent.
+S|My favorite|Sevimli faslim bahor.|Mi estación favorita es la primavera.
+S|My birthday|Tug'ilgan kunim mayda.|Mi cumpleaños es en mayo.
+S|In August|Avgustda dengizga boramiz.|En agosto iremos a la playa.
+S|I booked|Mehmonxonadan nomer bron qildim.|Reservé una habitación en el hotel.
+S|Where is|Pasportim qayerda?|¿Dónde está mi pasaporte?
+S|I need|Menga Samarqandga chipta kerak.|Necesito un billete a Samarcanda.
+S|The train|Poyezd soat to'qqizda jo'naydi.|El tren sale a las nueve.
+S|The plane|Samolyot bir soat kechikyapti.|El avión lleva una hora de retraso.
+S|We were|Biz muzeyda va teatrda bo'ldik.|Estuvimos en el museo y en el teatro.
+S|I took|Ko'p surat oldim.|Hice muchas fotos.
+S|We stayed|Dengiz bo'yidagi mehmonxonada turdik.|Nos alojamos en un hotel junto al mar.
+S|I want|Rossiyaga borishni xohlayman.|Quiero ir a Rusia.
+S|How do|Vokzalga qanday borsam bo'ladi?|¿Cómo llego a la estación de tren?
+S|Go straight|To'g'riga yuring, keyin chapga.|Siga recto y luego a la izquierda.
+S|The library|Kutubxona burchakda.|La biblioteca está a la vuelta de la esquina.
+S|The post|Pochta maydon yonida.|Correos está al lado de la plaza.
+S|Cross the|Ko'chani svetoforda kesib o'ting.|Cruce la calle en el semáforo.
+S|Is it|Bu yerdan uzoqmi?|¿Está lejos de aquí?
+S|My brother|Akam haydovchi bo'lib ishlaydi.|Mi hermano trabaja de conductor.
+S|My friend|Dugonam hamshira.|Mi amiga es enfermera.
+S|I want|Dasturchi bo'lishni xohlayman.|Quiero ser programador.
+S|What do|Kim bo'lib ishlaysiz?|¿A qué te dedicas?
+S|My father|Otam muhandis bo'lib ishlagan.|Mi padre trabajaba de ingeniero.
+S|On weekends|Dam olish kunlari tennis o'ynayman.|Los fines de semana juego al tenis.
+S|I go|Haftada uch marta sport zaliga boraman.|Voy al gimnasio tres veces por semana.
+S|Can you|Gitara chala olasizmi?|¿Sabes tocar la guitarra?
+S|Yesterday we|Kecha qiziqarli film ko'rdik.|Ayer vimos una película interesante.
+S|Our team|Jamoamiz o'yinda g'alaba qozondi.|Nuestro equipo ganó el partido.
+S|I love|Detektivlarni o'qishni yaxshi ko'raman.|Me encanta leer novelas policíacas.
+S|My dad|Dadam baliq ovini yaxshi ko'radi.|A mi padre le encanta pescar.
+S|I have|Isitmam bor.|Tengo fiebre.
+S|My throat|Tomog'im og'riyapti.|Me duele la garganta.
+S|I need|Shifokorga borishim kerak.|Necesito ir al médico.
+S|Take a|Tabletka ich va dam ol.|Tómate una pastilla y descansa.
+S|Call an|Tez yordam chaqiring!|¡Llamen a una ambulancia!
+S|I'm already|Men allaqachon sog'aydim.|Ya estoy bien.
+S|I wake|Soat oltida uyg'onaman.|Me despierto a las seis.
+S|Then I|Keyin dush qabul qilaman va nonushta qilaman.|Luego me ducho y desayuno.
+S|I leave|Uydan soat sakkizda chiqaman.|Salgo de casa a las ocho.
+S|I return|Kechqurun uyga qaytaman.|Vuelvo a casa por la tarde.
+S|I go|Soat o'n birda uxlashga yotaman.|Me acuesto a las once.
+S|Sorry, I'm|Kechirasiz, kechikdim.|Perdón, llego tarde.
+S|On Saturday|Shanba kuni kvartirani yig'ishtiraman.|Los sábados limpio el piso.
+S|Who will|Idishlarni kim yuvadi?|¿Quién va a fregar los platos?
+S|I take|Har kuni kechqurun axlatni chiqaraman.|Saco la basura todas las noches.
+S|Mom is|Onam ko'ylaklarni dazmollayapti.|Mamá está planchando camisas.
+S|I'm cooking|Butun oila uchun kechki ovqat tayyorlayapman.|Estoy preparando la cena para toda la familia.
+S|Chop the|Piyoz va pomidorni to'g'rang.|Corta la cebolla y los tomates.
+S|The soup|Sho'rva juda sho'r.|La sopa está muy salada.
+S|This lemon|Bu limon juda nordon.|Este limón está muy ácido.
+S|What is|Retseptingiz qanday?|¿Cuál es tu receta?
+S|I usually|Odatda kafeda tushlik qilaman.|Normalmente almuerzo en una cafetería.
+S|We have|Soat yettida kechki ovqat qilamiz.|Cenamos a las siete.
+S|Moscow is|Moskva Toshkentdan kattaroq.|Moscú es más grande que Taskent.
+S|This jacket|Bu kurtka issiqroq.|Esta chaqueta es más calentita.
+S|My brother|Akam mendan katta.|Mi hermano es mayor que yo.
+S|The metro|Metro eng tez transport.|El metro es el transporte más rápido.
+S|I'm afraid|Men itlardan qo'rqaman.|Me dan miedo los perros.
+S|Don't worry|Xavotir olmang, hammasi yaxshi bo'ladi.|No te preocupes, todo saldrá bien.
+S|I miss|Uyni juda sog'inyapman.|Echo mucho de menos mi casa.
+S|Thank you|Sovg'a uchun rahmat!|¡Gracias por el regalo!
+S|I was|Men juda hayron bo'ldim.|Me sorprendí mucho.
+S|We met|Biz o'tgan yili tanishdik.|Nos conocimos el año pasado.
+S|What will|Kechqurun nima qilasan?|¿Qué vas a hacer esta noche?
+S|I will|Serial ko'raman.|Voy a ver una serie.
+S|Let's meet|Markazda uchrashaylik.|Quedemos en el centro.
+S|What time|Soat nechada bo'shsan?|¿A qué hora estás libre?
+S|I'll call|Keyinroq qo'ng'iroq qilaman.|Te llamo más tarde.
+S|We often|Biz tez-tez kinoga boramiz.|Vamos a menudo al cine.
+S|He is|U hech qachon kechikmaydi.|Él nunca llega tarde.
+S|I sometimes|Ba'zan palov pishiraman.|A veces cocino plov.
+S|Yesterday I|Kecha kun bo'yi ishladim.|Ayer trabajé todo el día.
+S|I haven't|Hali Sankt-Peterburgda bo'lmaganman.|Todavía no he estado en San Petersburgo.
+S|We will|Biz yangi kvartirada yashaymiz.|Viviremos en un piso nuevo.
+S|They moved|Ular boshqa shaharga ko'chib ketishdi.|Se mudaron a otra ciudad.
+S|I forgot|Kalitlarimni uyda unutib qoldirdim.|Me he olvidado las llaves en casa.
+S|Do you|O'tgan yili qayerda bo'lganimizni eslaysanmi?|¿Recuerdas dónde estuvimos el año pasado?
+S|I slept|Kecha yomon uxladim.|Anoche dormí mal.
+S|We need|Oziq-ovqat sotib olishimiz kerak.|Tenemos que comprar comida.
+S|May I|Menyuni ko'rsam bo'ladimi?|¿Puedo ver la carta?
+S|I want|Taksi chaqirmoqchiman.|Quiero pedir un taxi.
+S|Take me|Meni aeroportga olib boring, iltimos.|Lléveme al aeropuerto, por favor.
+RT|My Weekend|Mening dam olish kunlarim|Mi fin de semana
+RL|On Saturday|Shanba kuni kech, soat o'nda uyg'ondim.|El sábado me desperté tarde, a las diez.
+RL|I had|Nonushta qildim va do'stimga qo'ng'iroq qildim.|Desayuné y llamé a un amigo.
+RL|We decided|Bog'ga borishga qaror qildik.|Decidimos ir al parque.
+RL|The weather|Ob-havo ajoyib edi: iliq va quyoshli.|Hacía un tiempo estupendo: calor y sol.
+RL|In the|Bog'da sayr qildik va muzqaymoq yedik.|En el parque paseamos y comimos helado.
+RL|Then we|Keyin kinoga bordik.|Luego fuimos al cine.
+RL|The film|Film kulgili edi, biz ko'p kuldik.|La película era divertida y nos reímos mucho.
+RL|On Sunday|Yakshanba kuni kvartirani yig'ishtirdim va tushlik tayyorladim.|El domingo limpié el piso y preparé la comida.
+RL|In the|Kechqurun ota-onam meni ko'rgani kelishdi.|Por la tarde mis padres vinieron a verme.
+RL|We drank|Choy ichdik va oila haqida gaplashdik.|Tomamos té y hablamos de la familia.
+RL|It was|Bu ajoyib dam olish kunlari bo'ldi.|Fue un fin de semana estupendo.
+RT|At the|Aeroportda|En el aeropuerto
+RL|Last week|O'tgan hafta Moskvaga uchdim.|La semana pasada volé a Moscú.
+RL|I arrived|Aeroportga reysdan ikki soat oldin keldim.|Llegué al aeropuerto dos horas antes del vuelo.
+RL|First I|Avval chamadonimni topshirdim.|Primero facturé la maleta.
+RL|Then I|Keyin pasport va chiptamni ko'rsatdim.|Luego enseñé el pasaporte y el billete.
+RL|The plane|Samolyot bir soat kechikdi.|El avión se retrasó una hora.
+RL|I sat|Kafeda o'tirib, qahva ichdim va kitob o'qidim.|Me senté en una cafetería, tomé café y leí un libro.
+RL|The flight|Parvoz uch soat davom etdi.|El vuelo duró tres horas.
+RL|In Moscow|Moskvada sovuq edi, qor yog'ayotgan edi.|En Moscú hacía frío y nevaba.
+RL|Good thing|Yaxshiyamki, issiq kurtka olgan ekanman!|¡Menos mal que me llevé una chaqueta de abrigo!
+RT|A Dream|Orzudagi kasb|El trabajo de sus sueños
+RL|My sister|Opam Laylo shifokor bo'lib ishlaydi.|Mi hermana Leila trabaja de médica.
+RL|Even at|U maktabdayoq odamlarga yordam berishni xohlardi.|Ya en el colegio quería ayudar a la gente.
+RL|She studied|U universitetda olti yil o'qidi.|Estudió en la universidad seis años.
+RL|Now she|Hozir u katta kasalxonada ishlaydi.|Ahora trabaja en un hospital grande.
+RL|Her working|Uning ish kuni ertalab soat yettida boshlanadi.|Su jornada empieza a las siete de la mañana.
+RL|Sometimes she|Ba'zan u kechasi ham ishlaydi.|A veces también trabaja de noche.
+RL|The work|Ish og'ir, lekin qiziqarli.|El trabajo es duro, pero interesante.
+RL|Leila says|Laylo bu uning hayotdagi chaqirig'i ekanini aytadi.|Leila dice que es su vocación.
+DT|At the Hotel
+DL|A|Hello! I|Assalomu alaykum! Ahmad nomiga bronim bor.|¡Hola! Tengo una reserva a nombre de Ahmad.
+DL|B|Good afternoon|Xayrli kun! Pasportingizni bering, iltimos.|¡Buenas tardes! Su pasaporte, por favor.
+DL|A|Here you|Marhamat.|Aquí tiene.
+DL|B|Your room|Nomeringiz uchinchi qavatda. Mana kalit.|Su habitación está en la tercera planta. Aquí tiene la llave.
+DL|A|What time|Nonushta soat nechada?|¿A qué hora es el desayuno?
+DL|B|From seven|Restoranda soat yettidan o'ngacha.|De siete a diez en el restaurante.
+DL|A|Is there|Nomerda internet bormi?|¿Hay internet en la habitación?
+DL|B|Yes, the|Ha, parol kartochkada yozilgan.|Sí, la contraseña está en la tarjeta.
+DL|A|Thank you|Rahmat!|¡Gracias!
+DL|B|Have a|Yaxshi dam oling!|¡Que disfrute de su estancia!
+DT|Weekend Plans
+DL|A|What are|Shanba kuni nima qilasan?|¿Qué haces el sábado?
+DL|B|I don't|Hali bilmayman. Nimaydi?|Todavía no lo sé. ¿Por qué?
+DL|A|Let's go|Keling, tog'ga boraylik!|¡Vamos a la montaña!
+DL|B|Good idea|Yaxshi fikr. Ob-havo qanday bo'ladi?|Buena idea. ¿Y qué tiempo hará?
+DL|A|They say|Aytishlaricha, quyoshli bo'larkan.|Dicen que hará sol.
+DL|B|Great! What|Zo'r! Soat nechada uchrashamiz?|¡Genial! ¿A qué hora quedamos?
+DL|A|At eight|Ertalab soat sakkizda metro yonida.|A las ocho de la mañana junto al metro.
+DL|B|Agreed. I'll|Kelishdik. Suv va buterbrod olib kelaman.|De acuerdo. Yo llevo agua y bocadillos.
+DT|At the Doctor's
+DL|A|What's wrong|Sizga nima bo'ldi?|¿Qué le pasa?
+DL|B|I have|Yo'talim va tumovim bor.|Tengo tos y mocos.
+DL|A|Do you|Isitmangiz bormi?|¿Tiene fiebre?
+DL|B|Yes, yesterday|Ha, kecha o'ttiz sakkiz edi.|Sí, ayer tenía treinta y ocho.
+DL|A|It's a|Bu shamollash. Ko'proq iliq choy iching.|Es un resfriado. Beba mucho té caliente.
+DL|B|Do I|Tabletka kerakmi?|¿Necesito pastillas?
+DL|A|Yes, here|Ha, mana retsept. Kuniga uch marta.|Sí, aquí tiene la receta. Tres veces al día.
+DL|B|Thank you|Rahmat, doktor.|Gracias, doctor.

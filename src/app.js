@@ -1,13 +1,15 @@
 (function(){
 'use strict';
 const LEVELS = ['A1','A2','B1','B2','C1','C2'];
+RU.nat=['ar']; EN.nat=['ar','ru']; AR.nat=['ru'];
 const TRACKS = {
-  'ar-ru': {n:'ar', t:'ru', bank:RU},
-  'ar-en': {n:'ar', t:'en', bank:EN},
-  'ru-en': {n:'ru', t:'en', bank:EN},
-  'ru-ar': {n:'ru', t:'ar', bank:AR}
+  'ar-ru': {n:'ar', t:'ru', bank:RU}, 'ar-en': {n:'ar', t:'en', bank:EN}, 'ar-uz': {n:'ar', t:'uz', bank:UZ}, 'ar-es': {n:'ar', t:'es', bank:ES},
+  'ru-en': {n:'ru', t:'en', bank:EN}, 'ru-ar': {n:'ru', t:'ar', bank:AR}, 'ru-uz': {n:'ru', t:'uz', bank:UZ}, 'ru-es': {n:'ru', t:'es', bank:ES},
+  'en-ru': {n:'en', t:'ru', bank:RUE}, 'en-ar': {n:'en', t:'ar', bank:ARE}, 'en-uz': {n:'en', t:'uz', bank:UZ}, 'en-es': {n:'en', t:'es', bank:ES}
 };
-const SPEECH_LANG = {ru:'ru-RU', en:'en-US', ar:'ar-SA'};
+for (const id in TRACKS){ const tr=TRACKS[id]; tr.mi=Math.max(0,tr.bank.nat.indexOf(tr.n)); }
+const SPEECH_LANG = {ru:'ru-RU', en:'en-US', ar:'ar-SA', uz:'uz-UZ', es:'es-ES'};
+const AUTO_LANGS = ['ar','uz'];
 const PASS = 80, EXAM_N = 20;
 
 /* ---------- UI strings ---------- */
@@ -16,9 +18,9 @@ ar:{dir:'rtl', home:'الرئيسية', tabs:{letters:'الحروف',words:'ال
  lv:{A1:'مبتدئ',A2:'أساسي',B1:'متوسط',B2:'فوق المتوسط',C1:'متقدم',C2:'إتقان'},
  lvd:{A1:'من الصفر: الحروف والنطق والتحيات وأول جمل للحياة اليومية.',A2:'التسوّق والسفر والطقس، والحديث عن الماضي والمستقبل.',B1:'العمل والصحة والمشاعر، وحالات الإعراب الأساسية.',B2:'النقاش وإبداء الرأي في المجتمع والبيئة والإعلام.',C1:'الأسلوب الرسمي والمقالات وأدوات الربط المتقدمة.',C2:'التعابير الاصطلاحية والأمثال وأدق الفروق الأسلوبية.'},
  words:'كلمة', phrases:'جملة', topics:'درس قواعد', open:'مفتوح', locked:'مقفل', passed:'ناجح',
- audio:'الصوت', voice:'الصوت المستخدم', speed:'السرعة', volume:'مستوى الصوت', lisanVoice:'تسجيلات لِسان', autoVoice:'تلقائي: أوضح صوت عربي في جهازك، وإلا تسجيلات لِسان (موصى به)', deviceVoice:'صوت الجهاز', noAudio:'لا يوجد صوت لهذا النص على جهازك.', test:'جرّب', close:'إغلاق',
+ audio:'الصوت', voice:'الصوت المستخدم', speed:'السرعة', volume:'مستوى الصوت', lisanVoice:'تسجيلات لِسان', autoVoice:'تلقائي: أوضح صوت لهذه اللغة في جهازك، وإلا تسجيلات لِسان (موصى به)', deviceVoice:'صوت الجهاز', noAudio:'لا يوجد صوت لهذا النص على جهازك.', test:'جرّب', close:'إغلاق',
  noVoice:'لم يُعثر على صوت لهذه اللغة في جهازك. لسماع نطق صحيح ثبّت الصوت من الإعدادات: أندرويد ← تحويل النص إلى كلام ← Google ← تثبيت بيانات الصوت. آيفون ← تسهيلات الاستخدام ← المحتوى المنطوق ← الأصوات. ويندوز ← الوقت واللغة ← الكلام ← إضافة أصوات. متصفح Chrome على الكمبيوتر يحتوي أصواتاً جاهزة.',
- audioNote:'كل الكلمات والجمل مسجّلة مسبقاً بصوت واضح وطبيعي (الروسية: صوت امرأة ورجل، الإنجليزية: صوتان، العربية: صوت رجل)، وتعمل على أي جهاز دون تثبيت شيء. أبطئ السرعة للتمرّن، ويمكنك التبديل إلى صوت جهازك إن أردت.',
+ audioNote:'كل الكلمات والجمل مسجّلة مسبقاً بصوت واضح وطبيعي، وتعمل على أي جهاز دون تثبيت شيء. أبطئ السرعة للتمرّن، ويمكنك التبديل إلى صوت جهازك إن أردت.',
  all:'الكل', cards:'بطاقات', flash:'بطاقات الحفظ', knew:'عرفتها', didnt:'لم أعرفها', flip:'اقلب البطاقة', again:'من جديد',
  listenAll:'استمع للكل', stop:'إيقاف', showTr:'إظهار الترجمة', hideTr:'إخفاء الترجمة', pron:'النطق', meaning:'المعنى',
  sound:'الصوت', example:'مثال', name:'اسم الحرف', forms:'أشكال الحرف',
@@ -41,7 +43,7 @@ ru:{dir:'ltr', home:'Главная', tabs:{letters:'Алфавит',words:'Сл
  lv:{A1:'Начальный',A2:'Элементарный',B1:'Средний',B2:'Выше среднего',C1:'Продвинутый',C2:'Владение в совершенстве'},
  lvd:{A1:'С нуля: буквы, произношение, приветствия и первые фразы на каждый день.',A2:'Покупки, путешествия, погода; рассказ о прошлом и будущем.',B1:'Работа, здоровье, эмоции и основные грамматические конструкции.',B2:'Дискуссии и своё мнение об обществе, экологии и СМИ.',C1:'Официальный стиль, статьи и сложные связки.',C2:'Идиомы, пословицы и тонкие стилистические оттенки.'},
  words:'слов', phrases:'фраз', topics:'тем грамматики', open:'Открыт', locked:'Закрыт', passed:'Сдан',
- audio:'Звук', voice:'Голос', speed:'Скорость', volume:'Громкость', lisanVoice:'Записи Lisan', autoVoice:'Авто: лучший арабский голос устройства, иначе записи Lisan (рекомендуется)', deviceVoice:'Голос устройства', noAudio:'Для этого текста нет озвучки на устройстве.', test:'Проверить', close:'Закрыть',
+ audio:'Звук', voice:'Голос', speed:'Скорость', volume:'Громкость', lisanVoice:'Записи Lisan', autoVoice:'Авто: лучший голос устройства для этого языка, иначе записи Lisan (рекомендуется)', deviceVoice:'Голос устройства', noAudio:'Для этого текста нет озвучки на устройстве.', test:'Проверить', close:'Закрыть',
  noVoice:'На устройстве не найден голос для этого языка. Чтобы слышать правильное произношение, установите его: Android → Синтез речи → Google → Установить голосовые данные. iPhone → Универсальный доступ → Устно → Голоса. Windows → Время и язык → Речь → Добавить голоса. В Chrome на компьютере голоса уже встроены.',
  audioNote:'Все слова и фразы заранее озвучены чёткими естественными голосами, поэтому звук работает на любом устройстве без установки. Замедляйте скорость для тренировки или переключитесь на голос устройства.',
  all:'Все', cards:'Карточки', flash:'Заучивание', knew:'Знаю', didnt:'Не знаю', flip:'Перевернуть', again:'Сначала',
@@ -61,15 +63,53 @@ ru:{dir:'ltr', home:'Главная', tabs:{letters:'Алфавит',words:'Сл
  notFound:'Этого слова нет в словаре. Перевод фразы:', glossFrom:'',
  skip:'Пропустить', done:'Готово', ofN:'из', reset:'Сбросить прогресс', chooseText:'Текст',
  orderReset:'Заново', you:'Вы',
- trackOf:{'ru-en':'Английский язык','ru-ar':'Арабский язык'}, levelsTitle:'Уровни от A1 до C2'}
+ trackOf:{'ru-en':'Английский язык','ru-ar':'Арабский язык'}, levelsTitle:'Уровни от A1 до C2'},
+en:{dir:'ltr', home:'Home', tabs:{letters:'Alphabet',words:'Words',phrases:'Phrases',grammar:'Grammar',read:'Reading',talk:'Dialogues',write:'Writing',exam:'Exam'},
+ lv:{A1:'Beginner',A2:'Elementary',B1:'Intermediate',B2:'Upper-intermediate',C1:'Advanced',C2:'Proficient'},
+ lvd:{A1:'From zero: letters, pronunciation, greetings and first everyday phrases.',A2:'Shopping, travel and weather; talking about the past and the future.',B1:'Work, health and feelings, plus the core grammar patterns.',B2:'Discussing and giving opinions on society, nature and the media.',C1:'Formal style, articles and advanced linking words.',C2:'Idioms, proverbs and the finest shades of style.'},
+ words:'words', phrases:'phrases', topics:'grammar topics', open:'Open', locked:'Locked', passed:'Passed',
+ audio:'Sound', voice:'Voice', speed:'Speed', volume:'Volume', lisanVoice:'Lisan recordings', autoVoice:'Auto: the clearest voice on your device, otherwise Lisan recordings (recommended)', deviceVoice:'Device voice', noAudio:'No audio for this text on your device.', test:'Test', close:'Close',
+ noVoice:'No voice for this language was found on your device. To hear correct pronunciation, install one: Android → Text-to-speech → Google → Install voice data. iPhone → Accessibility → Spoken Content → Voices. Windows → Time & Language → Speech → Add voices. Chrome on a computer has voices built in.',
+ audioNote:'Every word and sentence is pre-recorded with a clear, natural voice, so sound works on any device with nothing to install. Slow it down to practise, or switch to your device voice if you prefer.',
+ all:'All', cards:'Cards', flash:'Flashcards', knew:'I knew it', didnt:'I didn\'t', flip:'Flip the card', again:'Start over',
+ listenAll:'Listen to all', stop:'Stop', showTr:'Show translation', hideTr:'Hide translation', pron:'Pronunciation', meaning:'Meaning',
+ sound:'Sound', example:'Example', name:'Letter name', forms:'Letter forms',
+ checkUnd:'Check yourself', examples:'Examples',
+ roleplay:'I play role B', yourTurn:'Your turn: read the line aloud, then press "Next" to hear the correct pronunciation.', next:'Next', play:'Play',
+ trace:'Tracing', dict:'Dictation', copy:'Copying', clear:'Clear', guide:'Guide', print:'Print', hand:'Handwriting', prev:'Back',
+ type:'Type what you hear', check:'Check', showKb:'Keyboard', correct:'Correct! Well done.', wrongIs:'Correct answer:', copyHint:'Copy the sentence exactly:',
+ examTitle:'Level exam', examInfo:'20 mixed questions: meanings, listening, word order, dictation and grammar. Pass with 80% or more to unlock the next level. Every new exam is different and focuses on your mistakes.',
+ q:'questions', passMark:'Pass mark', best:'Best score', weakN:'Words to review', start:'Start the exam', startNew:'New exam',
+ kMean:'What does this word mean?', kRev:'Choose the right word', kListen:'Listen and choose what you heard', kSent:'What does this sentence mean?', kOrder:'Put the words in order', kSpell:'Listen and type the word', kGram:'Grammar: choose the correct option', kLetter:'Listen and choose the letter',
+ passedMsg:'Passed! The next level is open.', failedMsg:'Not yet 80%. Review your mistakes below, then take a new, different exam.',
+ yourAns:'Your answer', review:'Review your mistakes', noMist:'No mistakes. Excellent!', nextLevel:'Next level', backLevels:'Levels',
+ lockT:'This level is locked', lockD:'Pass the previous level\'s exam to open it — or, if you already know this level, take its exam right away.', goPrev:'To the previous level', takeExam:'Take this level\'s exam',
+ lockedTab:'Unlock the level through the exam first.',
+ notFound:'This word isn\'t in the dictionary. Sentence meaning:', glossFrom:'',
+ skip:'Skip', done:'Done', ofN:'of', reset:'Reset progress', chooseText:'Text',
+ orderReset:'Reset', you:'You',
+ trackOf:{}, levelsTitle:'Levels A1 to C2'}
 };
+/* ---------- languages, flags, home & onboarding ---------- */
+const NATIVES=['ar','ru','en'], TARGETS={ar:['ru','en','uz','es'], ru:['en','ar','uz','es'], en:['ru','ar','uz','es']};
+const UILANGS=['ar','en','ru'];
+const LNAME={ // language names, as written in each UI language
+ ar:{ar:'العربية',ru:'الروسية',en:'الإنجليزية',uz:'الأوزبكية',es:'الإسبانية'},
+ ru:{ar:'Арабский',ru:'Русский',en:'Английский',uz:'Узбекский',es:'Испанский'},
+ en:{ar:'Arabic',ru:'Russian',en:'English',uz:'Uzbek',es:'Spanish'}};
+const SELF={ar:'العربية',ru:'Русский',en:'English',uz:'Oʻzbekcha',es:'Español'};
+const LEARN={ar:t=>'تعلّم '+LNAME.ar[t], ru:t=>LNAME.ru[t]+' язык', en:t=>'Learn '+LNAME.en[t]};
+for (const id in TRACKS){ const tr=TRACKS[id]; if(!T[tr.n].trackOf[id]) T[tr.n].trackOf[id]=LEARN[tr.n](tr.t); }
+T.ar.tapHint='اضغط على أي كلمة لتسمعها وترى معناها.'; T.ru.tapHint='Нажмите на любое слово, чтобы услышать его и увидеть перевод.'; T.en.tapHint='Tap any word to hear it and see its meaning.';
+T.ar.uzNote='تسجيلات الأوزبكية مولّدة بصوت قريب من النطق الأوزبكي. إن وُجد في جهازك صوت أوزبكي (مثل متصفح Edge) فسيُستخدم تلقائياً لأنه أدق.'; T.ru.uzNote='Узбекские записи синтезированы близким по звучанию голосом. Если на устройстве есть узбекский голос (например, в браузере Edge), он будет выбран автоматически — он точнее.'; T.en.uzNote='Uzbek recordings are synthesised with a closely matching voice. If your device has an Uzbek voice (e.g. in the Edge browser), it is used automatically because it is more accurate.';
+T.ar.lettersN='حرفاً'; T.ru.lettersN='букв'; T.en.lettersN='letters';
 
 /* ---------- helpers ---------- */
 const $ = (s,r=document)=>r.querySelector(s);
 const esc = s => String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const lines = s => String(s||'').split('\n').map(x=>x.trim()).filter(Boolean);
 const shuffle = a => { a=a.slice(); for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
-const pick = (s,n) => { if(Array.isArray(s)) return n==='ar'?s[0]:s[1]; if(typeof s==='string'&&s.includes('::')){const p=s.split('::');return n==='ar'?p[0]:p[1];} return s; };
+const pick = (s,n) => { if(s && typeof s==='object' && !Array.isArray(s)) return s[n]!=null ? s[n] : (s.en||s.ar||s.ru||''); if(Array.isArray(s)) return n==='ar'?s[0]:s[1]; if(typeof s==='string'&&s.includes('::')){const p=s.split('::');return n==='ar'?p[0]:p[1];} return s; };
 const disp = s => String(s).replace(/\+(.)/g,'$1́');
 const sayOf = s => String(s).replace(/\([^)]*\)/g,' ').replace(/\+/g,'').replace(/́/g,'').replace(/\s+/g,' ').trim();
 const HARAKAT = /[ً-ْٰـ]/g;
@@ -77,9 +117,12 @@ function norm(s, tl){
   s = sayOf(String(s)).toLowerCase().trim();
   if (tl==='ar') s = s.replace(HARAKAT,'').replace(/[أإآٱ]/g,'ا').replace(/ى/g,'ي');
   if (tl==='ru') s = s.replace(/ё/g,'е');
-  return s.replace(/[.,!?;:«»"“”()—\-–؟،؛…]/g,' ').replace(/[’']/g,"'").replace(/\s+/g,' ').trim();
+  return s.replace(/[.,!?;:«»"“”()—\-–؟،؛…]/g,' ').replace(/[’'ʻʼ‘`]/g,"'").replace(/\s+/g,' ').trim();
 }
-function pronOf(src, tl, nat){ if (tl==='ru') return ruToAr(src); if (tl==='ar') return arToRu(src);
+function pronOf(src, tl, nat){ const n0=nat||(S.tr?TRACKS[S.tr].n:'ar');
+  if (tl==='ru') return n0==='en' ? ruToLat(src) : ruToAr(src); if (tl==='ar') return n0==='en' ? arToLat(src) : arToRu(src);
+  if (tl==='uz') return n0==='ar' ? uzToAr(src) : n0==='ru' ? uzToCyr(src) : '';
+  if (tl==='es') return n0==='ar' ? esToAr(src) : n0==='ru' ? esToCyr(src) : '';
   if (tl==='en'){ const n=nat||(S.tr?TRACKS[S.tr].n:'ar'); const i=n==='ar'?0:1; return String(src).replace(/\([^)]*\)/g,' ').split(/([A-Za-z]+(?:'[A-Za-z]+)?)/).map((t,k)=>{ if(k%2===0) return t.replace(/[.,!?;:"()]/g,'').replace(/\s+/g,' '); const e=ENPR[t.toLowerCase()]; return e?e[i]:t; }).join('').replace(/\s+/g,' ').trim(); }
   return ''; }
 const ICON = {
@@ -121,7 +164,7 @@ const Speech = {
   init(){ if(!this.ok) return; const load=()=>{ try{ this.voices = speechSynthesis.getVoices(); }catch(e){} if (S.view==='level' && S.audioOpen) renderAudioSheet(); }; load(); try{ speechSynthesis.addEventListener('voiceschanged',load); }catch(e){ speechSynthesis.onvoiceschanged=load; } },
   list(tl){ return this.voices.filter(v=>(v.lang||'').toLowerCase().replace('_','-').startsWith(tl)); },
   score(v){ let s=0; const n=v.name||''; if(/Google/i.test(n)) s+=5; if(/Natural|Neural|Premium|Enhanced|Online/i.test(n)) s+=6; if(/Milena|Yuri|Katya|Svetlana|Dmitry|Dariya|Samantha|Daniel|Karen|Maged|Laila|Majed|Tarik|Zariyah|Hamed|Mariam|Shakir|Salma/i.test(n)) s+=3; if(/Naayf|Hoda/i.test(n)) s-=2; if(v.localService) s+=1; return s; },
-  mode(tl){ const v=Store.d.settings.voice[tl]; if (v && v!=='lisan' && v!=='auto') return 'device'; if (v==='lisan') return 'clip'; return (tl==='ar' && this.autoVoice(tl)) ? 'auto' : 'clip'; },
+  mode(tl){ const v=Store.d.settings.voice[tl]; if (v && v!=='lisan' && v!=='auto') return 'device'; if (v==='lisan') return 'clip'; return (AUTO_LANGS.includes(tl) && this.autoVoice(tl)) ? 'auto' : 'clip'; },
   autoVoice(tl){ if (!this.ok || this.broken) return null; const L=this.list(tl); if(!L.length) return null; return L.slice().sort((a,b)=>this.score(b)-this.score(a))[0]; },
   voice(tl, alt){ const L=this.list(tl); if(!L.length) return null; const want=Store.d.settings.voice[tl]; let v = L.find(x=>x.voiceURI===want); const sorted=L.slice().sort((a,b)=>this.score(b)-this.score(a)); if(!v) v=sorted[0]; if(alt){ const other = sorted.find(x=>x!==v); return other||v; } return v; },
   stop(){ this.chainId++; try{ audioEl.pause(); }catch(e){} if (this.pend){ const f=this.pend; this.pend=null; f(); } if(this.ok) try{ speechSynthesis.cancel(); }catch(e){} document.querySelectorAll('.speaking').forEach(e=>e.classList.remove('speaking')); },
@@ -168,25 +211,27 @@ const Speech = {
 
 /* ---------- model ---------- */
 const cache = {};
-function common(tr){ const key='c:'+tr; if(cache[key]) return cache[key]; const {n,t,bank}=TRACKS[tr]; const m={};
-  lines(bank.common).forEach(l=>{ const f=l.split('|'); const w=norm(f[0],t); m[w] = t==='en' ? (n==='ar'?f[1]:f[2]) : f[1]; });
+function common(tr){ const key='c:'+tr; if(cache[key]) return cache[key]; const {n,t,bank,mi}=TRACKS[tr]; const m={};
+  lines(bank.common).forEach(l=>{ const f=l.split('|'); const w=norm(f[0],t); if(!(w in m)) m[w] = f[1+mi]; });
   return cache[key]=m; }
-function parseSent(l, t, n){ const f=l.split('|'); const src=f[0]; const m = t==='en' ? (n==='ar'?f[1]:f[2]) : f[1]; return {src, t:disp(src), say:sayOf(src), m, pr:pronOf(src,t,n)}; }
+function parseSent(l, t, n, mi){ const f=l.split('|'); const src=f[0]; const m = f[1+(mi||0)]; return {src, t:disp(src), say:sayOf(src), m, pr:pronOf(src,t,n)}; }
 function level(tr, L){
   const key=tr+':'+L; if(cache[key]) return cache[key];
-  const {n,t,bank}=TRACKS[tr]; const D=bank.levels[L];
+  const {n,t,bank,mi}=TRACKS[tr]; const D=bank.levels[L];
   const themes=[], vocab=[];
   D.vocab.forEach((th,ti)=>{ themes.push(pick(th.t,n)); lines(th.w).forEach(l=>{ const f=l.split('|'); let it;
-    if (t==='en') it={e:f[0],src:f[1],m:n==='ar'?f[2]:f[3]}; else it={e:f[0],src:f[1],m:f[2]};
+    it={e:f[0],src:f[1],m:f[2+mi]};
     it.theme=ti; it.t=disp(it.src); it.say=sayOf(it.src); if(!it.pr) it.pr=pronOf(it.src,t,n); it.id=L+':v:'+vocab.length; it.kind='v'; vocab.push(it); }); });
-  const sentences = lines(D.sentences).map((l,i)=>Object.assign(parseSent(l,t,n),{id:L+':s:'+i,kind:'s'}));
-  const grammar = D.grammar.map((g,gi)=>({title:pick(g.title,n), body:pick(g.body,n), ex:lines(g.ex).map(l=>parseSent(l,t,n)),
+  const sentences = lines(D.sentences).map((l,i)=>Object.assign(parseSent(l,t,n,mi),{id:L+':s:'+i,kind:'s'}));
+  const grammar = D.grammar.map((g,gi)=>({title:pick(g.title,n), body:pick(g.body,n), ex:lines(g.ex).map(l=>parseSent(l,t,n,mi)),
     quiz:(g.quiz||[]).map((q,qi)=>({q:pick(q[0],n), opts:q.slice(1), id:L+':g:'+gi+':'+qi, kind:'g'}))}));
-  const readings = (D.readings||[]).map(r=>{ const gl={}; lines(r.gloss).forEach(x=>{ const f=x.split('|'); gl[norm(f[0],t)] = t==='en'?(n==='ar'?f[1]:f[2]):f[1]; });
-    return {title:disp(r.title), say:sayOf(r.title), tr:pick(r.tr,n), sents:lines(r.sents).map(l=>parseSent(l,t,n)), gloss:gl}; });
-  const dialogues = (D.dialogues||[]).map(d=>({title:pick(d.title,n), lines:lines(d.lines).map(l=>{ const f=l.split('|'); const s=parseSent(f.slice(1).join('|'),t,n); s.who=f[0]; return s; })}));
+  const readings = (D.readings||[]).map(r=>{ const gl={}; lines(r.gloss).forEach(x=>{ const f=x.split('|'); gl[norm(f[0],t)] = f[1+mi]; });
+    return {title:disp(r.title), say:sayOf(r.title), tr:pick(r.tr,n), sents:lines(r.sents).map(l=>parseSent(l,t,n,mi)), gloss:gl}; });
+  const dialogues = (D.dialogues||[]).map(d=>({title:pick(d.title,n), lines:lines(d.lines).map(l=>{ const f=l.split('|'); const s=parseSent(f.slice(1).join('|'),t,n,mi); s.who=f[0]; return s; })}));
   let alphabet=null;
-  if (L==='A1' && bank.alphabet){ alphabet = lines(bank.alphabet).map((l,i)=>{ const f=l.split('|'); let a;
+  if (L==='A1' && Array.isArray(bank.alphabet)){ alphabet = bank.alphabet.map((x,i)=>{ const a={letter:x.letter, name:pick(x.name,n), nameSay:x.nameSay||x.letter.split(' ')[0].toLowerCase(), sound:pick(x.sound,n), forms:x.forms, ex:x.ex, e:x.e, m:pick(x.m,n)};
+      a.exT=disp(a.ex); a.exSay=sayOf(a.ex); a.expr=pronOf(a.ex,t,n); a.id='A1:l:'+i; a.kind='l'; return a; }); }
+  else if (L==='A1' && bank.alphabet){ alphabet = lines(bank.alphabet).map((l,i)=>{ const f=l.split('|'); let a;
       if (t==='ru') a={letter:f[0], name:f[1], nameSay:f[1], sound:f[2], ex:f[3], e:f[4], m:f[5]};
       else if (t==='en') a={letter:f[0], name:pick(f[1],n), nameSay:f[0].split(' ')[0]+'.', sound:pick(f[2],n), ex:f[3], e:f[4], m:n==='ar'?f[5]:f[6], expr:n==='ar'?f[7]:f[8]};
       else a={letter:f[0], name:f[1], nameSay:f[7], sound:f[2], forms:f[3], ex:f[4], e:f[5], m:f[6]};
@@ -194,14 +239,14 @@ function level(tr, L){
   return cache[key]={tr,L,n,t,themes,vocab,sentences,grammar,readings,dialogues,alphabet};
 }
 function dict(tr){ const key='d:'+tr; if(cache[key]) return cache[key]; const m={}; const {t}=TRACKS[tr];
-  LEVELS.forEach(L=>{ const lv=level(tr,L); lv.vocab.forEach(v=>{ const k=norm(v.src,t); if(!m[k]) m[k]=v; }); }); return cache[key]=m; }
+  LEVELS.forEach(L=>{ const lv=level(tr,L); lv.vocab.forEach(v=>{ const k=norm(v.src,t); if(!m[k]) m[k]=v; if (t==='es'){ const k2=k.replace(/^(el|la|los|las|un|una) /,''); if(!m[k2]) m[k2]=v; } if (t==='uz'||t==='es'){ k.split(' / ').forEach(x=>{ if(!m[x]) m[x]=v; }); } }); }); return cache[key]=m; }
 
 /* ---------- state & routing ---------- */
 const S = { view:'home', tr:null, L:null, tab:null, theme:0, vmode:'cards', letter:0, reading:0, dialog:0, showTr:false, role:false,
   wmode:'trace', traceIdx:0, traceFont:'print', dictIdx:0, copyIdx:0, kb:false, exam:null, audioOpen:false, gramOpen:0, flashQ:null, flashI:0, flashFlip:false, lockedView:false };
 function setHash(h){ if (location.hash.slice(1)!==h){ history.replaceState(null,'','#'+h); } }
 function route(){
-  const h = location.hash.slice(1); const m = h.match(/^(ar-ru|ar-en|ru-en|ru-ar)(?:-(a1|a2|b1|b2|c1|c2))?(?:-(letters|words|phrases|grammar|read|talk|write|exam))?$/);
+  const h = location.hash.slice(1); const m = h.match(new RegExp('^('+Object.keys(TRACKS).join('|')+')(?:-(a1|a2|b1|b2|c1|c2))?(?:-(letters|words|phrases|grammar|read|talk|write|exam))?$'));
   Speech.stop();
   if (!m){ S.view='home'; S.tr=null; render(); return; }
   S.tr=m[1]; if (!m[2]){ S.view='track'; render(); return; }
@@ -218,54 +263,91 @@ function tabList(lv){ const a=['words','phrases','grammar','read','talk','write'
 
 /* ---------- render shell ---------- */
 const app = document.getElementById('app');
-function ui(){ return S.tr ? T[TRACKS[S.tr].n] : T.ar; }
+function ui(){ return S.tr ? T[TRACKS[S.tr].n] : T[uiLang()]; }
 function render(){
   const tr = S.tr ? TRACKS[S.tr] : null;
-  const lang = tr ? tr.n : 'ar'; const u=T[lang];
-  document.documentElement.dir = S.view==='home' ? 'rtl' : u.dir; document.documentElement.lang = lang;
+  const lang = tr ? tr.n : uiLang(); const u=T[lang];
+  document.documentElement.dir = u.dir; document.documentElement.lang = lang;
   let body='';
   if (S.view==='home') body = homeView(); else if (S.view==='track') body = trackView(); else body = levelView();
-  app.innerHTML = topBar() + body + `<footer><div class="wrap">Lisan · لِسان · Лисан — ${S.view==='home'?'A1 → C2':esc(u.levelsTitle)}</div></footer>`;
+  app.innerHTML = topBar() + body + `<footer><div class="wrap">Lisan · لِسان · Лисан — ${esc(u.levelsTitle)}</div></footer>`;
   afterRender();
 }
 function topBar(){
   const u=ui(); let crumbs='';
   if (S.view!=='home'){ crumbs = `<nav class="crumbs"><button data-act="nav" data-h="">${esc(u.home)}</button>`; if (S.view==='level') crumbs+=`<span>›</span><button data-act="nav" data-h="${S.tr}">${esc(u.trackOf[S.tr])}</button><span>›</span><span>${S.L}</span>`; else crumbs+=`<span>›</span><span>${esc(u.trackOf[S.tr])}</span>`; crumbs+='</nav>'; }
   const audio = S.view==='level' ? `<button class="iconbtn" data-act="audio" aria-label="${esc(u.audio)}">${ICON.sound}<span>${esc(u.audio)}</span></button>` : '';
-  return `<header class="top"><div class="wrap"><button class="brand" data-act="nav" data-h=""><span class="b-ar">لِسان</span><span class="b-lat">Lisan</span><span class="b-cy">Лисан</span></button>${crumbs}<span class="sp"></span>${audio}</div></header>`;
+  const sw = S.view==='home' ? langSwitch() : '';
+  return `<header class="top"><div class="wrap"><button class="brand" data-act="nav" data-h=""><span class="b-ar">لِسان</span><span class="b-lat">Lisan</span></button>${crumbs}<span class="sp"></span>${audio}${sw}</div></header>`;
 }
 
 /* ---------- home ---------- */
-function trackStats(tr){ let w=0,s=0,g=0; LEVELS.forEach(L=>{ const lv=level(tr,L); w+=lv.vocab.length; s+=lv.sentences.length+lv.dialogues.reduce((a,d)=>a+d.lines.length,0)+lv.readings.reduce((a,r)=>a+r.sents.length,0); g+=lv.grammar.length; }); return {w,s,g}; }
+const FLAGS={
+ jo:'<svg viewBox="0 0 28 14"><rect width="28" height="14" fill="#fff"/><rect width="28" height="4.67" fill="#111"/><rect y="9.33" width="28" height="4.67" fill="#007a3d"/><path d="M0 0L14 7L0 14Z" fill="#ce1126"/><path fill="#fff" d="M4.6 5.6l.36.95.95-.42-.43.94.95.37-.98.27.1 1.02-.6-.83-.6.83.1-1.02-.98-.27.95-.37-.43-.94.95.42z"/></svg>',
+ ru:'<svg viewBox="0 0 27 18"><rect width="27" height="6" fill="#fff"/><rect y="6" width="27" height="6" fill="#0039a6"/><rect y="12" width="27" height="6" fill="#d52b1e"/></svg>',
+ us:'<svg viewBox="0 0 38 20"><rect width="38" height="20" fill="#fff"/><g fill="#b22234">'+[0,2,4,6,8,10,12].map(i=>`<rect y="${i*20/13}" width="38" height="${20/13}"/>`).join('')+'</g><rect width="15.2" height="10.77" fill="#3c3b6e"/><g fill="#fff">'+[[1.3,1.2],[3.9,1.2],[6.5,1.2],[9.1,1.2],[11.7,1.2],[13.9,1.2],[2.6,3.4],[5.2,3.4],[7.8,3.4],[10.4,3.4],[13,3.4],[1.3,5.5],[3.9,5.5],[6.5,5.5],[9.1,5.5],[11.7,5.5],[13.9,5.5],[2.6,7.6],[5.2,7.6],[7.8,7.6],[10.4,7.6],[13,7.6],[1.3,9.6],[3.9,9.6],[6.5,9.6],[9.1,9.6],[11.7,9.6],[13.9,9.6]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r=".5"/>`).join('')+'</g></svg>',
+ uz:'<svg viewBox="0 0 30 15"><rect width="30" height="15" fill="#1eb53a"/><rect width="30" height="10" fill="#ce1126"/><rect width="30" height="9.8" fill="#fff"/><rect width="30" height="5.2" fill="#ce1126"/><rect width="30" height="5" fill="#0099b5"/><circle cx="4.2" cy="2.5" r="1.75" fill="#fff"/><circle cx="4.85" cy="2.5" r="1.6" fill="#0099b5"/><g fill="#fff">'+[[7.2,1.1],[8.6,1.1],[10,1.1],[7.2,2.5],[8.6,2.5],[10,2.5],[11.4,2.5],[5.8,3.9],[7.2,3.9],[8.6,3.9],[10,3.9],[11.4,3.9]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r=".42"/>`).join('')+'</g></svg>',
+ es:'<svg viewBox="0 0 30 20"><rect width="30" height="20" fill="#aa151b"/><rect y="5" width="30" height="10" fill="#f1bf00"/></svg>'};
+const FLAG_OF={ar:'jo',ru:'ru',en:'us',uz:'uz',es:'es'};
+const flag=(lang,cls='')=>`<span class="flag ${cls}" aria-hidden="true">${FLAGS[FLAG_OF[lang]]}</span>`;
+const HOME={
+ ar:{dir:'rtl', kicker:'منصة لتعلّم اللغات', title:'تعلّم لغة جديدة، من الحرف الأول حتى الإتقان', lead:'«لِسان» منصة مجانية تعلّمك الروسية والإنجليزية والعربية والأوزبكية والإسبانية على ستة مستويات (A1–C2): كلمات بالصور، وجمل وحوارات بصوت واضح، وقواعد مبسّطة، وامتحان لكل مستوى. اختر لغتك ثم ابدأ.',
+  step1:'ما لغتك الأم؟', step1d:'ستكون كل الشروحات والمعاني بهذه اللغة.', step2:'ماذا تريد أن تتعلّم؟', change:'تغيير', yourLang:'لغتك', uiLang:'لغة الواجهة',
+  stats:['لغات','دورات','مستويات','كلمة بالصور'], featT:'كيف تتعلّم مع لِسان',
+  feats:[['listen','اسمع وكرّر','لكل كلمة وجملة صوت، مع التحكم بالسرعة.'],['tap','اضغط أي كلمة','في النصوص تسمعها وترى معناها فوراً.'],['pen','اكتب بيدك','تتبّع الحروف وتدرّب على الإملاء.'],['check','امتحان لكل مستوى','80٪ للانتقال، وامتحان جديد يركّز على أخطائك.']],
+  levels:'المستويات A1–C2', cont:'أكمل', start:'ابدأ'},
+ en:{dir:'ltr', kicker:'A language-learning platform', title:'Learn a new language, from the first letter to fluency', lead:'Lisan is a free platform for learning Russian, English, Arabic, Uzbek and Spanish across six levels (A1–C2): picture words, sentences and dialogues with clear audio, simple grammar, and an exam for every level. Pick your language and start.',
+  step1:'What is your native language?', step1d:'All explanations and meanings will be in this language.', step2:'What do you want to learn?', change:'Change', yourLang:'Your language', uiLang:'Interface language',
+  stats:['languages','courses','levels','picture words'], featT:'How you learn with Lisan',
+  feats:[['listen','Listen and repeat','Every word and sentence has audio, with speed control.'],['tap','Tap any word','In texts you hear it and see its meaning instantly.'],['pen','Write by hand','Trace the letters and practise dictation.'],['check','An exam for every level','80% to move on, and each new exam targets your mistakes.']],
+  levels:'Levels A1–C2', cont:'Continue', start:'Start'},
+ ru:{dir:'ltr', kicker:'Платформа для изучения языков', title:'Новый язык — от первой буквы до свободного владения', lead:'Lisan — бесплатная платформа для изучения русского, английского, арабского, узбекского и испанского языков на шести уровнях (A1–C2): слова с картинками, фразы и диалоги с чёткой озвучкой, понятная грамматика и экзамен на каждом уровне. Выберите язык и начните.',
+  step1:'Ваш родной язык?', step1d:'Все объяснения и переводы будут на этом языке.', step2:'Какой язык хотите изучать?', change:'Изменить', yourLang:'Ваш язык', uiLang:'Язык интерфейса',
+  stats:['языков','курсов','уровней','слов с картинками'], featT:'Как учиться с Lisan',
+  feats:[['listen','Слушайте и повторяйте','У каждого слова и фразы есть озвучка с регулировкой скорости.'],['tap','Нажмите на любое слово','В текстах — сразу звук и перевод.'],['pen','Пишите от руки','Прописи букв и диктант.'],['check','Экзамен на каждом уровне','80% для перехода; новый экзамен учитывает ваши ошибки.']],
+  levels:'Уровни A1–C2', cont:'Продолжить', start:'Начать'}};
+const FICON={
+ listen:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>',
+ tap:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V11"/><path d="M12 10.5V9a1.5 1.5 0 0 1 3 0v2"/><path d="M15 10.5a1.5 1.5 0 0 1 3 0V15a6 6 0 0 1-6 6h-1a6 6 0 0 1-5-2.7L4.3 15a1.5 1.5 0 0 1 2.4-1.8L9 15"/></svg>',
+ pen:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16v4z"/><path d="M13.5 6.5l4 4"/></svg>',
+ check:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 12l3 3 5-6"/></svg>'};
+function uiLang(){ const v=Store.d.ui; return UILANGS.includes(v)?v:(NATIVES.includes(Store.d.native)?Store.d.native:'ar'); }
+function langSwitch(){ const cur=uiLang(); return `<div class="uiswitch" role="group" aria-label="${esc(HOME[cur].uiLang)}">${UILANGS.map(l=>`<button class="${l===cur?'on':''}" data-act="ui" data-l="${l}" lang="${l}" aria-pressed="${l===cur}">${{ar:'عربي',en:'EN',ru:'RU'}[l]}</button>`).join('')}</div>`; }
+function greetStrip(){ const g=[['ar','مرحباً'],['ru','Привет'],['en','Hello'],['uz','Salom'],['es','Hola'],['ar','أهلاً وسهلاً'],['ru','Здравствуйте'],['en','Welcome'],['uz','Xush kelibsiz'],['es','Bienvenido']];
+  const row=g.map(([l,w])=>`<span class="gw">${flag(l,'sm')}<span lang="${l}"${l==='ar'?' dir="rtl"':''}>${w}</span></span>`).join('');
+  return `<div class="greet" aria-hidden="true"><div class="greet-track">${row}${row}</div></div>`; }
+function trackStats(tr){ let w=0,g=0; LEVELS.forEach(L=>{ const lv=level(tr,L); w+=lv.vocab.length; g+=lv.grammar.length; }); return {w,g}; }
 function homeView(){
-  const cards = [
-    {id:'ar-ru', dir:'rtl', from:'AR → RU', glyph:'Яя', h:'تعلّم اللغة الروسية', sub:'كل الشرح والمعاني بالعربية، مع النطق بالحروف العربية.'},
-    {id:'ar-en', dir:'rtl', from:'AR → EN', glyph:'Aa', h:'تعلّم اللغة الإنجليزية', sub:'كل الشرح والمعاني بالعربية، مع النطق بالحروف العربية.'},
-    {id:'ru-en', dir:'ltr', from:'RU → EN', glyph:'Aa', h:'Английский язык', sub:'Все объяснения на русском, произношение русскими буквами.'},
-    {id:'ru-ar', dir:'ltr', from:'RU → AR', glyph:'ضـ', ar:1, h:'Арабский язык', sub:'Все объяснения на русском, транскрипция кириллицей.'}
-  ].map(c=>{ const st=trackStats(c.id); const done=LEVELS.filter(L=>Store.passed(c.id,L)).length;
-    return `<button class="track" dir="${c.dir}" data-act="nav" data-h="${c.id}"><span class="from">${c.from}</span><span class="glyph${c.ar?' ar':''}">${c.glyph}</span><h3>${c.h}</h3><span class="sub">${c.sub}</span><span class="small muted mono">A1–C2 · ${st.w} ${c.dir==='rtl'?'كلمة':'слов'} · ${st.g} ${c.dir==='rtl'?'درس قواعد':'тем грамматики'}</span><span class="bar" aria-label="${done}/6"><i style="width:${done/6*100}%"></i></span></button>`; }).join('');
-  const tot = ['ar-ru','ar-en','ru-ar'].map(trackStats).reduce((a,b)=>({w:a.w+b.w,s:a.s+b.s,g:a.g+b.g}),{w:0,s:0,g:0});
-  return `<main class="wrap"><section class="hero"><div class="specimen" aria-hidden="true"><span>Яя</span><span class="s-hand">Жж</span><span>Aa</span><span class="s-ar">ض</span></div>
-  <h1>الروسية والإنجليزية والعربية، من الحرف الأول حتى مستوى C2</h1>
-  <p class="h1-ru">Русский, английский и арабский — от первой буквы до уровня C2</p>
-  <div class="stats">${[[4,'مسارات','направления'],[6,'مستويات','уровней'],[tot.w,'كلمة بالصور','слов с картинками'],[tot.g,'درس قواعد','тем грамматики']].map(([n,a,r])=>`<div class="stat"><b>${n}</b><span class="s-ar" dir="rtl">${a}</span><span class="s-ru" dir="ltr">${r}</span></div>`).join('')}</div></section>
-  <section class="tracks">${cards}</section>
-  <section class="how" dir="rtl"><div><h3>اسمع وكرّر</h3><p>كل حرف وكلمة وجملة لها صوت، ويمكنك التحكم بالسرعة وطبقة الصوت واختيار الصوت. اضغط على أي كلمة في النصوص لتسمعها وترى معناها.</p></div>
-  <div><h3>اكتب بيدك</h3><p>تتبّع الحروف بالخط المطبوع وخط اليد، ثم تدرّب على الإملاء ونسخ الجمل بلوحة مفاتيح اللغة.</p></div>
-  <div><h3>امتحان لكل مستوى</h3><p>لا تنتقل إلا بعد 80٪. إذا لم تنجح تراجع أخطاءك، ويأتيك امتحان جديد مختلف يركّز على ما أخطأت فيه.</p></div></section>
-  <section class="how" dir="ltr" style="border-top:0;padding-top:0"><div><h3>Слушайте и повторяйте</h3><p>У каждой буквы, слова и фразы есть озвучка с регулировкой скорости и высоты голоса. Нажмите на любое слово в тексте — услышите его и увидите перевод.</p></div>
-  <div><h3>Пишите от руки</h3><p>Прописи печатным и рукописным шрифтом, диктант и списывание с экранной клавиатурой нужного алфавита.</p></div>
-  <div><h3>Экзамен на каждом уровне</h3><p>Дальше — только после 80%. Не сдали? Разберите ошибки и пройдите новый экзамен с упором на них.</p></div></section>
-  <p class="note" dir="rtl" style="margin-bottom:10px">${esc(T.ar.audioNote)}</p><p class="note" dir="ltr">${esc(T.ru.audioNote)}</p></main>`;
+  const ul=uiLang(), H=HOME[ul]; const nat=Store.d.native;
+  const allW = ['ru','en','ar','uz','es'].map(t=>trackStats(t==='ru'?'ar-ru':t==='en'?'ar-en':t==='ar'?'ru-ar':'ar-'+t).w).reduce((a,b)=>a+b,0);
+  const stats=[[5,H.stats[0]],[Object.keys(TRACKS).length,H.stats[1]],[6,H.stats[2]],[allW.toLocaleString('en-US'),H.stats[3]]].map(([n,l])=>`<div class="stat"><b>${n}</b><span>${esc(l)}</span></div>`).join('');
+  let pickHTML;
+  if (!NATIVES.includes(nat)){
+    pickHTML = `<section class="pick" aria-labelledby="pk1"><div class="pick-h"><span class="stepn">1</span><div><h2 id="pk1">${esc(H.step1)}</h2><p class="muted">${esc(H.step1d)}</p></div></div>
+    <div class="natives">${NATIVES.map(l=>`<button class="native" data-act="native" data-l="${l}" lang="${l}">${flag(l,'lg')}<span class="nm"${l==='ar'?' dir="rtl"':''}>${SELF[l]}</span><span class="sub">${esc(LNAME[ul][l])}</span></button>`).join('')}</div></section>`;
+  } else {
+    const cards = TARGETS[nat].map(t=>{ const id=nat+'-'+t; const st=trackStats(id); const done=LEVELS.filter(L=>Store.passed(id,L)).length; const u=T[nat];
+      return `<button class="track" dir="${T[nat].dir}" lang="${nat}" data-act="nav" data-h="${id}"><span class="pair">${flag(nat,'sm')}<span class="arrow" aria-hidden="true">${T[nat].dir==='rtl'?'←':'→'}</span>${flag(t,'md')}</span>
+      <h3>${esc(LEARN[nat](t))}</h3><span class="self"${t==='ar'?' dir="rtl"':''} lang="${t}">${SELF[t]}</span>
+      <span class="meta"><bdi>A1–C2</bdi> · <bdi>${st.w} ${esc(u.words)}</bdi> · <bdi>${st.g} ${esc(u.topics)}</bdi></span><span class="bar" aria-label="${done}/6"><i style="width:${done/6*100}%"></i></span></button>`; }).join('');
+    pickHTML = `<section class="pick" aria-labelledby="pk2"><div class="pick-h"><span class="stepn">2</span><div><h2 id="pk2">${esc(H.step2)}</h2>
+      <p class="chosen">${esc(H.yourLang)}: ${flag(nat,'sm')} <b lang="${nat}">${SELF[nat]}</b> <button class="linkbtn" data-act="native" data-l="">${esc(H.change)}</button></p></div></div>
+      <div class="tracks">${cards}</div></section>`;
+  }
+  const feats = H.feats.map(([i,t,d])=>`<div class="feat"><span class="fi">${FICON[i]}</span><div><h3>${esc(t)}</h3><p>${esc(d)}</p></div></div>`).join('');
+  return `<main class="wrap home" dir="${H.dir}" lang="${ul}">${greetStrip()}<section class="hero"><p class="kicker">${esc(H.kicker)}</p><h1>${esc(H.title)}</h1><p class="lead">${esc(H.lead)}</p><div class="stats">${stats}</div></section>
+  ${pickHTML}
+  <section class="feats" aria-labelledby="ft"><h2 id="ft" class="sec-title">${esc(H.featT)}</h2><div class="feat-grid">${feats}</div></section>
+  <p class="note">${esc(T[ul].audioNote)}</p></main>`;
 }
 
 /* ---------- track ---------- */
 function trackView(){
   const u=ui(); const rows = LEVELS.map((L,i)=>{ const lv=level(S.tr,L); const un=Store.unlocked(S.tr,i); const ps=Store.passed(S.tr,L); const best=Store.d.best[S.tr+':'+L];
     const pill = ps?`<span class="pill ok">✓ ${esc(u.passed)} · ${best}%</span>`: un?`<span class="pill open">${esc(u.open)}${best!=null?' · '+best+'%':''}</span>`:`<span class="pill lock">🔒 ${esc(u.locked)}</span>`;
-    return `<button class="lvl${un?'':' locked'}" data-act="nav" data-h="${S.tr}-${L.toLowerCase()}"><span class="code">${L}</span><span class="info"><h3>${esc(u.lv[L])}</h3><p>${esc(u.lvd[L])}</p><div class="counts">${lv.alphabet?lv.alphabet.length+' '+(TRACKS[S.tr].n==='ar'?'حرفاً':'букв')+' · ':''}${lv.vocab.length} ${esc(u.words)} · ${lv.sentences.length} ${esc(u.phrases)} · ${lv.grammar.length} ${esc(u.topics)}</div></span>${pill}</button>`; }).join('');
-  return `<main class="wrap"><div class="page-h"><h2>${esc(u.trackOf[S.tr])}</h2><p class="muted">${esc(u.levelsTitle)}</p></div><div class="ladder">${rows}</div>
+    return `<button class="lvl${un?'':' locked'}" data-act="nav" data-h="${S.tr}-${L.toLowerCase()}"><span class="code">${L}</span><span class="info"><h3>${esc(u.lv[L])}</h3><p>${esc(u.lvd[L])}</p><div class="counts">${lv.alphabet?lv.alphabet.length+' '+u.lettersN+' · ':''}${lv.vocab.length} ${esc(u.words)} · ${lv.sentences.length} ${esc(u.phrases)} · ${lv.grammar.length} ${esc(u.topics)}</div></span>${pill}</button>`; }).join('');
+  const TR=TRACKS[S.tr];
+  return `<main class="wrap"><div class="page-h"><span class="pair">${flag(TR.n,'sm')}<span class="arrow" aria-hidden="true">${u.dir==='rtl'?'←':'→'}</span>${flag(TR.t,'md')}</span><div><h2>${esc(u.trackOf[S.tr])}</h2><p class="muted">${esc(u.levelsTitle)} · <button class="linkbtn" data-act="nav" data-h="">${esc(HOME[TR.n].change)}</button></p></div></div><div class="ladder">${rows}</div>
   <p class="small"><button class="btn ghost sm" data-act="reset">${esc(u.reset)}</button></p></main>`;
 }
 
@@ -351,7 +433,7 @@ function readView(lv){
   const pick = lv.readings.length>1 ? `<div class="chips">${lv.readings.map((x,i)=>`<button class="chip${i===S.reading?' on':''}" data-act="readingSel" data-i="${i}">${esc(x.title)}</button>`).join('')}</div>`:'';
   return `${pick}<div class="sec-h"><div><h3 class="${tclass()}" dir="${tdir()}">${esc(r.title)}</h3><div class="muted small">${esc(r.tr)}</div></div><div class="row-btns"><button class="btn sm" data-act="playList" data-src="read">${ICON.play} ${esc(u.listenAll)}</button><button class="btn ghost sm" data-act="playList" data-src="read" data-slow="1">${ICON.slow}</button><button class="btn ghost sm" data-act="toggleTr">${esc(S.showTr?u.hideTr:u.showTr)}</button></div></div>
   <div class="ruled reading${tl==='ar'?' ar':''}" dir="${tdir()}">${r.sents.map((s,i)=>`<span class="sent" data-si="${i}">${wordsHTML(s.src,i)}</span> ${S.showTr?`<span class="trl" dir="${ui().dir}">${esc(s.m)}</span>`:''}`).join('')}</div>
-  <p class="small muted" style="margin-top:10px">${TRACKS[S.tr].n==='ar'?'اضغط على أي كلمة لتسمعها وترى معناها.':'Нажмите на любое слово, чтобы услышать его и увидеть перевод.'}</p>`;
+  <p class="small muted" style="margin-top:10px">${esc(ui().tapHint)}</p>`;
 }
 
 /* dialogue */
@@ -369,7 +451,9 @@ function talkView(lv){
 const KB = {
  ru:['йцукенгшщзхъ','фывапролджэ','ячсмитьбюё'],
  en:['qwertyuiop','asdfghjkl',"zxcvbnm'"],
- ar:['ضصثقفغعهخحجد','شسيبلاتنمكط','ئءؤرىةوزظذ','أإآ']
+ ar:['ضصثقفغعهخحجد','شسيبلاتنمكط','ئءؤرىةوزظذ','أإآ'],
+ uz:['qwertyuiop','asdfghjkl','zxcvbnmʻʼ'],
+ es:['qwertyuiopáé','asdfghjklñíó','zxcvbnmúü¿¡']
 };
 function kbHTML(){ const tl=TRACKS[S.tr].t; return `<div class="kbd${tl==='ar'?' ar':''}" dir="${tdir()}">${KB[tl].map(r=>`<div class="krow">${[...r].map(c=>`<button data-act="key" data-k="${esc(c)}">${esc(c)}</button>`).join('')}</div>`).join('')}<div class="krow"><button class="wide" data-act="key" data-k=" ">␣</button><button class="wide" data-act="key" data-k="BS">⌫</button></div></div>`; }
 function writeItems(lv){ if (lv.alphabet) return lv.alphabet.map(a=>({text:a.letter.replace(' ', TRACKS[S.tr].t==='ar'?' ':''), say:a.nameSay})); return lv.vocab.filter(v=>v.say.length<=14).map(v=>({text:v.t, say:v.say})); }
@@ -493,23 +577,40 @@ function finishExam(){
   if (pct>=PASS){ (Store.d.passed[S.tr]||(Store.d.passed[S.tr]={}))[S.L]=true; S.lockedView=false; }
   Store.save();
 }
-function checkTyped(given, item){ const tl=TRACKS[S.tr].t; let a=norm(given,tl), b=norm(item.say,tl); if (tl==='ar'){ a=a.replace(/ة/g,'ه'); b=b.replace(/ة/g,'ه'); } return a===b; }
+function checkTyped(given, item){ const tl=TRACKS[S.tr].t; let a=norm(given,tl), b=norm(item.say,tl); if (tl==='ar'){ a=a.replace(/ة/g,'ه'); b=b.replace(/ة/g,'ه'); }
+  if (tl==='es'){ const f=x=>x.replace(/[¿¡]/g,'').normalize('NFD').replace(/[\u0301\u0308]/g,'').normalize('NFC').trim(); a=f(a); b=f(b); }
+  return a===b; }
 
 /* ---------- sheets ---------- */
 function closeSheet(){ const s=$('#sheet'); if(s) s.remove(); S.audioOpen=false; }
 function openSheet(html){ closeSheet(); const d=document.createElement('div'); d.id='sheet'; d.innerHTML=`<div class="sheet-back" data-act="closeSheet"></div><div class="sheet" role="dialog" aria-modal="true" dir="${ui().dir}"><div class="grip"></div>${html}</div>`; document.body.appendChild(d); }
 function renderAudioSheet(){
-  const u=ui(), tl=TRACKS[S.tr].t, st=Store.d.settings; const vs=Speech.list(tl); const curSel = st.voice[tl]||(tl==='ar'?'auto':'lisan');
-  const opts = (tl==='ar'?`<option value="auto" ${curSel==='auto'?'selected':''}>${esc(u.autoVoice)}</option>`:'') + `<option value="lisan" ${curSel==='lisan'?'selected':''}>${esc(u.lisanVoice)}</option>` + vs.map(v=>`<option value="${esc(v.voiceURI)}" ${curSel===v.voiceURI?'selected':''}>${esc(u.deviceVoice)}: ${esc(v.name)} (${esc(v.lang)})</option>`).join('');
+  const u=ui(), tl=TRACKS[S.tr].t, st=Store.d.settings; const vs=Speech.list(tl); const curSel = st.voice[tl]||(AUTO_LANGS.includes(tl)?'auto':'lisan');
+  const opts = (AUTO_LANGS.includes(tl)?`<option value="auto" ${curSel==='auto'?'selected':''}>${esc(u.autoVoice)}</option>`:'') + `<option value="lisan" ${curSel==='lisan'?'selected':''}>${esc(u.lisanVoice)}</option>` + vs.map(v=>`<option value="${esc(v.voiceURI)}" ${curSel===v.voiceURI?'selected':''}>${esc(u.deviceVoice)}: ${esc(v.name)} (${esc(v.lang)})</option>`).join('');
   openSheet(`<div class="stack"><h3>${esc(u.audio)}</h3>
   <label>${esc(u.voice)}<select id="voiceSel">${opts}</select></label>
   <label>${esc(u.speed)}<span class="rng"><input type="range" id="rate" min="0.5" max="1.5" step="0.05" value="${st.rate||1}"><output id="rateO">${(+(st.rate||1)).toFixed(2)}×</output></span></label>
   <label>${esc(u.volume)}<span class="rng"><input type="range" id="vol" min="0" max="1" step="0.05" value="${st.volume==null?1:st.volume}"><output id="volO">${Math.round((st.volume==null?1:st.volume)*100)}%</output></span></label>
-  <div class="row-btns"><button class="btn" data-act="testVoice">${ICON.play} ${esc(u.test)}</button><button class="btn ghost" data-act="closeSheet">${esc(u.close)}</button></div><p class="small muted" style="margin:0">${esc(u.audioNote)}</p></div>`);
+  <div class="row-btns"><button class="btn" data-act="testVoice">${ICON.play} ${esc(u.test)}</button><button class="btn ghost" data-act="closeSheet">${esc(u.close)}</button></div><p class="small muted" style="margin:0">${esc(u.audioNote)}</p>${tl==='uz'?`<p class="small muted" style="margin:0">${esc(u.uzNote)}</p>`:''}</div>`);
   S.audioOpen=true; const r=$('#rate'), p=$('#vol'), vsel=$('#voiceSel');
   r.oninput=()=>{ st.rate=+r.value; $('#rateO').textContent=(+r.value).toFixed(2)+'×'; Store.save(); };
   p.oninput=()=>{ st.volume=+p.value; $('#volO').textContent=Math.round(p.value*100)+'%'; Store.save(); };
   vsel.onchange=()=>{ st.voice[tl]=vsel.value; Store.save(); };
+}
+/* light stemmer for Uzbek / Spanish word lookup */
+const UZ_SUF=['larimizdan','larimizga','larimizni','larimiz','laringiz','larining','laridan','larida','lariga','larini','lardan','larda','larga','larni','lari','lar','imizdan','imizga','imizni','imiz','ingizga','ingiz','ning','dagi','dan','da','ga','ka','qa','ni','im','ing','si','i','m','ng','miz','siz','man','san','mi','chi','ku','dir','moqchiman','moqchimiz','moqchi','yapman','yapsan','yapti','yapmiz','yapsiz','yapmiz','ayapti','yapti','aman','ayman','yman','asan','aysan','ysan','adi','aydi','ydi','amiz','aymiz','ymiz','asiz','aysiz','ysiz','ishadi','dim','ding','di','dik','dingiz','ishdi','gan','ganman','gan edi','ib','b','sa','sam','sang','sak','ish','ishi','ishim','ma','may','mayman','madim','madi'];
+function stemLookup(k, tl, D, C){
+  const get=w=>{ if(D[w]) return {v:D[w], m:D[w].m}; if(C[w]) return {m:C[w]}; return null; }; const h0=get(k); if (h0) return h0;
+  if (tl==='uz'){ let cands=[k]; for (let round=0; round<3; round++){ const next=[]; for (const w of cands){ for (const suf of UZ_SUF){ if (w.length>suf.length+1 && w.endsWith(suf)){ const st=w.slice(0,-suf.length); next.push(st); } } } 
+      for (const w of next){ const h=get(w)||get(w+'moq')||get(w+'imoq')||get(w.replace(/y$/,'')+'moq')||get(w.replace(/a$/,'')+'moq'); if (h) return h; } cands=[...new Set(next)].slice(0,60); if(!cands.length) break; }
+    return null; }
+  if (tl==='es'){ const tries=[]; const w=k;
+    if (w.endsWith('es')) tries.push(w.slice(0,-2)); if (w.endsWith('s')) tries.push(w.slice(0,-1));
+    if (w.endsWith('a')) tries.push(w.slice(0,-1)+'o'); if (w.endsWith('as')) tries.push(w.slice(0,-2)+'o');
+    const VE=['o','as','a','amos','áis','an','es','e','emos','éis','en','imos','ís','é','aste','ó','asteis','aron','í','iste','ió','isteis','ieron','aba','abas','ábamos','aban','ía','ías','íamos','ían','ando','iendo','ado','ido','ada','ida','ados','idos','aré','arás','ará','aremos','arán','eré','erá','iré','irá','aría','ería','iría','e','es','en','a','an'];
+    for (const e of VE){ if (w.length>e.length+1 && w.endsWith(e)){ const st=w.slice(0,-e.length); tries.push(st+'ar',st+'er',st+'ir'); } }
+    for (const t of tries){ const h=get(t); if(h) return h; } return null; }
+  return null;
 }
 function wordSheet(raw, ctx){
   const tr=TRACKS[S.tr], tl=tr.t, u=ui(); const k=norm(raw,tl); const lv=level(S.tr,S.L);
@@ -517,8 +618,10 @@ function wordSheet(raw, ctx){
   if (S.tab==='read'){ const r=lv.readings[S.reading]; if (r) m = r.gloss[k]; }
   const D=dict(S.tr); let v=D[k];
   if (!m && v) m=v.m;
-  if (!m){ const G=(GL[tl]||{})[k]; if (G) m = Array.isArray(G) ? (tr.n==='ar'?G[0]:G[1]) : G; }
-  if (!m && !v && tl==='ar'){ for (const p of ['و','ف','ب','ل','ال','وال','بال','لل','فال']){ const r=k.slice(p.length); if (k.startsWith(p) && (D[r]||(GL.ar||{})[r])){ v=D[r]; m=(v&&v.m)||GL.ar[r]; break; } } }
+  const glOK = (tl==='ru'&&tr.n==='ar')||(tl==='ar'&&tr.n==='ru')||(tl==='en'&&(tr.n==='ar'||tr.n==='ru'));
+  if (!m && glOK){ const G=(GL[tl]||{})[k]; if (G) m = Array.isArray(G) ? (tr.n==='ar'?G[0]:G[1]) : G; }
+  if (!m && !v && (tl==='uz'||tl==='es')){ const C=common(S.tr); const hit=stemLookup(k,tl,D,C); if(hit){ v=hit.v||v; m=hit.m; } }
+  if (!m && !v && tl==='ar' && glOK){ for (const p of ['و','ف','ب','ل','ال','وال','بال','لل','فال']){ const r=k.slice(p.length); if (k.startsWith(p) && (D[r]||(GL.ar||{})[r])){ v=D[r]; m=(v&&v.m)||GL.ar[r]; break; } } }
   if (!m){ const C=common(S.tr); m = C[k]; if(!m && tl==='ar'){ for (const p of ['و','ف','ب','ل','ال','وال','بال']) if (k.startsWith(p)&&C[k.slice(p.length)]){ m=C[k.slice(p.length)]; break; } } if(!m && tl==='en' && k.endsWith('s')) m=C[k.slice(0,-1)]||(D[k.slice(0,-1)]||{}).m; }
   pr = pronOf(raw,tl);
   let ctxM=''; if (!m && ctx!=null){ if (S.tab==='read'){ const r=lv.readings[S.reading]; ctxM=r&&r.sents[+ctx]?r.sents[+ctx].m:''; } else ctxM=ctx; }
@@ -543,6 +646,8 @@ document.addEventListener('click', async e=>{
   const el=e.target.closest('[data-act]'); if(!el) return; const act=el.dataset.act; const lv = S.L && S.tr ? level(S.tr,S.L) : null; const u=ui();
   switch(act){
     case 'nav': closeSheet(); go(el.dataset.h); break;
+    case 'native': { const l=el.dataset.l; Store.d.native = l||null; if (l) Store.d.ui = l; Store.save(); if (location.hash.slice(1)) go(''); else render(); const pk=$('.pick'); if (pk && l) pk.scrollIntoView({block:'start', behavior:'smooth'}); break; }
+    case 'ui': Store.d.ui = el.dataset.l; Store.save(); render(); break;
     case 'tab': if (el.disabled) return; S.tab=el.dataset.tab; Speech.stop(); setHash(`${S.tr}-${S.L.toLowerCase()}-${S.tab}`); render(); window.scrollTo({top:0}); break;
     case 'say': { const slow=!!el.dataset.slow; Speech.stop(); const cid=Speech.chainId; el.classList.add('speaking'); await Speech.speak(el.dataset.say, el.dataset.tl, {slow, alt:!!el.dataset.alt}); if (cid===Speech.chainId) el.classList.remove('speaking'); else el.classList.remove('speaking'); break; }
     case 'word': wordSheet(el.dataset.w, el.dataset.ctx); break;

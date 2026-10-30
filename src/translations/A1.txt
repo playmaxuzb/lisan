@@ -1,0 +1,435 @@
+TH|Animals
+V|dog|it|el perro
+V|cat|mushuk|el gato
+V|horse|ot|el caballo
+V|cow|sigir|la vaca
+V|sheep|qo'y|la oveja
+V|goat|echki|la cabra
+V|rooster|xo'roz|el gallo
+V|hen|tovuq|la gallina
+V|bird|qush|el pájaro
+V|mouse|sichqon|el ratón
+V|bear|ayiq|el oso
+V|wolf|bo'ri|el lobo
+V|fox|tulki|el zorro
+V|rabbit|quyon|el conejo
+V|elephant|fil|el elefante
+V|lion|sher|el león
+V|monkey|maymun|el mono
+V|snake|ilon|la serpiente
+V|turtle|toshbaqa|la tortuga
+V|camel|tuya|el camello
+V|butterfly|kapalak|la mariposa
+V|bee|ari|la abeja
+TH|Fruits and Vegetables
+V|apple|olma|la manzana
+V|orange|apelsin|la naranja
+V|lemon|limon|el limón
+V|grapes|uzum|las uvas
+V|strawberry|qulupnay|la fresa
+V|peach|shaftoli|el melocotón
+V|pear|nok|la pera
+V|cherry|olcha|la cereza
+V|pineapple|ananas|la piña
+V|banana|banan|el plátano
+V|watermelon|tarvuz|la sandía
+V|carrot|sabzi|la zanahoria
+V|onion|piyoz|la cebolla
+V|garlic|sarimsoq|el ajo
+V|cabbage|karam|la col
+V|eggplant|baqlajon|la berenjena
+V|pepper|qalampir|el pimiento
+V|tomato|pomidor|el tomate
+V|cucumber|bodring|el pepino
+V|potato|kartoshka|la patata
+V|mushroom|qo'ziqorin|la seta
+V|olives|zaytun|las aceitunas
+V|nuts|yong'oqlar|los frutos secos
+TH|Food and Drinks
+V|butter|sariyog'|la mantequilla
+V|honey|asal|la miel
+V|porridge|bo'tqa|las gachas
+V|pasta|makaron|la pasta
+V|salad|salat|la ensalada
+V|ice cream|muzqaymoq|el helado
+V|cookie|pechene|la galleta
+V|juice|sharbat|el zumo
+V|chocolate|shokolad|el chocolate
+V|sandwich|buterbrod|el bocadillo
+V|pizza|pitsa|la pizza
+V|soup|sho'rva|la sopa
+V|fried eggs|quymoq|los huevos fritos
+V|cake|tort|la tarta
+V|milk|sut|la leche
+V|bread|non|el pan
+V|water|suv|el agua
+V|tea|choy|el té
+V|coffee|qahva|el café
+V|rice|guruch|el arroz
+V|meat|go'sht|la carne
+TH|Kitchen and Dishes
+V|plate|likopcha|el plato
+V|spoon|qoshiq|la cuchara
+V|fork|sanchqi|el tenedor
+V|knife|pichoq|el cuchillo
+V|cup|piyola|la taza
+V|glass|stakan|el vaso
+V|kettle|choynak|la tetera
+V|frying pan|tova|la sartén
+V|fridge|muzlatgich|la nevera
+V|stove|plita|la cocina
+V|pot|qozon|la olla
+V|bottle|shisha|la botella
+TH|Home and Furniture
+V|room|xona|la habitación
+V|bedroom|yotoqxona|el dormitorio
+V|living room|mehmonxona|el salón
+V|sofa|divan|el sofá
+V|mirror|ko'zgu|el espejo
+V|wardrobe|shkaf|el armario
+V|wall|devor|la pared
+V|floor|pol|el suelo
+V|ceiling|shift|el techo
+V|stairs|zina|la escalera
+V|apartment|kvartira|el piso
+V|shower|dush|la ducha
+V|carpet|gilam|la alfombra
+V|window|deraza|la ventana
+V|bed|karavot|la cama
+V|chair|stul|la silla
+V|table|stol|la mesa
+V|lamp|chiroq|la lámpara
+TH|The Body
+V|hair|soch|el pelo
+V|face|yuz|la cara
+V|tooth|tish|el diente
+V|tongue|til|la lengua
+V|knee|tizza|la rodilla
+V|shoulder|yelka|el hombro
+V|heart|yurak|el corazón
+V|finger|barmoq|el dedo
+V|stomach|qorin|el estómago
+V|back|bel|la espalda
+V|neck|bo'yin|el cuello
+V|eye|ko'z|el ojo
+V|ear|quloq|la oreja
+V|hand|qo'l|la mano
+V|leg|oyoq|la pierna
+V|head|bosh|la cabeza
+V|nose|burun|la nariz
+V|mouth|og'iz|la boca
+TH|School
+V|notebook|daftar|el cuaderno
+V|pen|ruchka|el bolígrafo
+V|pencil|qalam|el lápiz
+V|backpack|ryukzak|la mochila
+V|ruler|chizg'ich|la regla
+V|eraser|o'chirg'ich|la goma
+V|pupil|o'quvchi|el alumno
+V|lesson|dars|la lección
+V|word|so'z|la palabra
+V|question|savol|la pregunta
+V|answer|javob|la respuesta
+V|letter|harf|la letra
+V|board|doska|la pizarra
+V|classroom|sinf|el aula
+V|book|kitob|el libro
+V|map|xarita|el mapa
+TH|Nature
+V|tree|daraxt|el árbol
+V|flower|gul|la flor
+V|grass|o't|la hierba
+V|sea|dengiz|el mar
+V|river|daryo|el río
+V|mountain|tog'|la montaña
+V|forest|o'rmon|el bosque
+V|desert|cho'l|el desierto
+V|island|orol|la isla
+V|moon|oy|la luna
+V|star|yulduz|la estrella
+V|sky|osmon|el cielo
+V|stone|tosh|la piedra
+V|earth|yer|la tierra
+V|fire|olov|el fuego
+V|sun|quyosh|el sol
+TH|Transport
+V|bicycle|velosiped|la bicicleta
+V|train|poyezd|el tren
+V|ship|kema|el barco
+V|metro|metro|el metro
+V|taxi|taksi|el taxi
+V|bus|avtobus|el autobús
+V|plane|samolyot|el avión
+V|car|mashina|el coche
+V|motorcycle|mototsikl|la moto
+V|stop|bekat|la parada
+TH|Everyday Verbs
+V|stand|turmoq|estar de pie
+V|sit|o'tirmoq|sentarse
+V|run|yugurmoq|correr
+V|walk|sayr qilmoq|pasear
+V|look for|qidirmoq|buscar
+V|give|bermoq|dar
+V|take|olmoq|tomar
+V|open|ochmoq|abrir
+V|close|yopmoq|cerrar
+V|buy|sotib olmoq|comprar
+V|cook|ovqat pishirmoq|cocinar
+V|wash|yuvmoq|lavar
+V|play|o'ynamoq|jugar
+V|sing|qo'shiq aytmoq|cantar
+V|dance|raqsga tushmoq|bailar
+V|wait|kutmoq|esperar
+V|call|qo'ng'iroq qilmoq|llamar
+V|think|o'ylamoq|pensar
+V|understand|tushunmoq|entender
+V|help|yordam bermoq|ayudar
+V|come|kelmoq|venir
+V|smile|jilmaymoq|sonreír
+V|laugh|kulmoq|reír
+V|cry|yig'lamoq|llorar
+V|draw|rasm chizmoq|dibujar
+V|swim|suzmoq|nadar
+V|rest|dam olmoq|descansar
+V|ask|so'ramoq|preguntar
+V|answer (verb)|javob bermoq|responder
+V|see|ko'rmoq|ver
+V|hear|eshitmoq|oír
+V|start|boshlamoq|empezar
+TH|Adjectives
+V|long|uzun|largo
+V|short|qisqa|corto
+V|fast|tez|rápido
+V|slow|sekin|lento
+V|easy|oson|fácil
+V|heavy|og'ir|pesado
+V|difficult|qiyin|difícil
+V|expensive|qimmat|caro
+V|cheap|arzon|barato
+V|cheerful|quvnoq|alegre
+V|sad|g'amgin|triste
+V|smart|aqlli|inteligente
+V|clean|toza|limpio
+V|dirty|iflos|sucio
+V|tasty|mazali|rico
+V|young|yosh|joven
+V|interesting|qiziqarli|interesante
+V|boring|zerikarli|aburrido
+V|sick|kasal|enfermo
+V|strong|kuchli|fuerte
+V|weak|kuchsiz|débil
+V|bright|yorug'|luminoso
+V|dark|qorong'i|oscuro
+V|quiet|tinch|tranquilo
+V|correct|to'g'ri|correcto
+V|busy|band|ocupado
+V|hungry|och|hambriento
+V|happy|baxtli|feliz
+TH|Questions and Time
+V|what|nima|qué
+V|who|kim|quién
+V|where|qayerda|dónde
+V|when|qachon|cuándo
+V|how|qanday|cómo
+V|why|nega|por qué
+V|how much|qancha|cuánto
+V|where to|qayerga|adónde
+V|where from|qayerdan|de dónde
+V|which|qaysi|cuál
+V|morning|ertalab|la mañana
+V|day|kun|el día
+V|evening|kechqurun|la tarde
+V|night|tun|la noche
+V|year|yil|el año
+V|month|oy|el mes
+V|now|hozir|ahora
+V|soon|tez orada|pronto
+V|always|doim|siempre
+V|never|hech qachon|nunca
+V|often|tez-tez|a menudo
+V|sometimes|ba'zan|a veces
+V|later|keyinroq|más tarde
+TH|Big Numbers
+V|thirteen|o'n uch|trece
+V|fifteen|o'n besh|quince
+V|thirty|o'ttiz|treinta
+V|forty|qirq|cuarenta
+V|fifty|ellik|cincuenta
+V|sixty|oltmish|sesenta
+V|seventy|yetmish|setenta
+V|eighty|sakson|ochenta
+V|ninety|to'qson|noventa
+V|thousand|ming|mil
+TH|People
+V|man|erkak|el hombre
+V|woman|ayol|la mujer
+V|boy|o'g'il bola|el niño
+V|girl|qiz bola|la niña
+V|baby|chaqaloq|el bebé
+V|person|odam|la persona
+V|people|odamlar|la gente
+V|neighbor|qo'shni|el vecino
+V|guest|mehmon|el invitado
+V|name|ism|el nombre
+S|This is|Bu mening mushugim.|Este es mi gato.
+S|I have|Mening itim bor.|Tengo un perro.
+S|The dog|It katta.|El perro es grande.
+S|The cat|Mushuk kichkina.|El gato es pequeño.
+S|I love|Men hayvonlarni yaxshi ko'raman.|Me encantan los animales.
+S|Where is|Ruchkam qayerda?|¿Dónde está mi bolígrafo?
+S|The pen|Ruchka stol ustida.|El bolígrafo está en la mesa.
+S|The book|Kitob ryukzakda.|El libro está en la mochila.
+S|This is|Bu mening uyim.|Esta es mi casa.
+S|My house|Uyim yangi.|Mi casa es nueva.
+S|We have|Bizda uchta xona bor.|Tenemos tres habitaciones.
+S|The kitchen|Oshxona kichkina, lekin qulay.|La cocina es pequeña, pero cómoda.
+S|I live|Men kvartirada yashayman.|Vivo en un piso.
+S|I get|Men soat yettida turaman.|Me levanto a las siete.
+S|I drink|Ertalab qahva ichaman.|Por la mañana tomo café.
+S|For breakfast|Nonushtaga non va pishloq yeyman.|En el desayuno como pan y queso.
+S|I don't|Men go'sht yemayman.|No como carne.
+S|I love|Men mevalarni yaxshi ko'raman.|Me encanta la fruta.
+S|The apple|Olma qizil.|La manzana es roja.
+S|The banana|Banan sariq.|El plátano es amarillo.
+S|The grass|O't yashil.|La hierba es verde.
+S|The sky|Osmon ko'k.|El cielo es azul.
+S|Today it|Bugun iliq va quyoshli.|Hoy hace calor y sol.
+S|The water|Suv sovuq.|El agua está fría.
+S|The tea|Choy issiq.|El té está caliente.
+S|I want|Bir piyola choy istayman.|Quiero una taza de té.
+S|Give me|Iltimos, menga qoshiq bering.|Dame una cuchara, por favor.
+S|Where are|Pichoq va sanchqi qayerda?|¿Dónde están el cuchillo y el tenedor?
+S|The milk|Sut muzlatgichda.|La leche está en la nevera.
+S|Mom is|Onam sho'rva pishiryapti.|Mamá está haciendo sopa.
+S|Dad is|Dadam gazeta o'qiyapti.|Papá está leyendo el periódico.
+S|My brother|Akam futbol o'ynaydi.|Mi hermano juega al fútbol.
+S|My sister|Opam qo'shiq aytishni yaxshi ko'radi.|A mi hermana le encanta cantar.
+S|The children|Bolalar bog'da o'ynashyapti.|Los niños están jugando en el parque.
+S|My friend|Do'stim yaqin joyda yashaydi.|Mi amigo vive cerca.
+S|I am|Men maktabga ketyapman.|Voy a la escuela.
+S|The teacher|O'qituvchi doskaga yozyapti.|El profesor está escribiendo en la pizarra.
+S|I am|Men daftarga yozyapman.|Estoy escribiendo en mi cuaderno.
+S|I have|Mening savolim bor.|Tengo una pregunta.
+S|I know|Men javobni bilaman.|Sé la respuesta.
+S|What word|Bu qanday so'z?|¿Qué palabra es esta?
+S|How do|O'zbekcha «kitob» qanday bo'ladi?|¿Cómo se dice «libro» en español?|*
+S|I am|Men yangi so'zlarni o'rganyapman.|Estoy aprendiendo palabras nuevas.
+S|We often|Biz tez-tez bog'da sayr qilamiz.|A menudo paseamos por el parque.
+S|In the|Kechqurun televizor ko'ramiz.|Por la tarde vemos la tele.
+S|I sleep|Men sakkiz soat uxlayman.|Duermo ocho horas.
+S|At night|Kechasi uxlayman.|Por la noche duermo.
+S|He works|U kasalxonada ishlaydi.|Él trabaja en un hospital.
+S|She works|U maktabda ishlaydi.|Ella trabaja en una escuela.
+S|We are|Biz avtobusda ketyapmiz.|Vamos en autobús.
+S|I go|Ishga metroda boraman.|Voy al trabajo en metro.
+S|Where is|Avtobus bekati qayerda?|¿Dónde está la parada de autobús?
+S|The shop|Do'kon uyning yonida.|La tienda está al lado de la casa.
+S|The pharmacy|Dorixona bankning qarshisida.|La farmacia está enfrente del banco.
+S|I am|Men non va sut sotib olyapman.|Estoy comprando pan y leche.
+S|How much|Non qancha turadi?|¿Cuánto cuesta el pan?
+S|This is|Bu qimmat.|Esto es caro.
+S|This is|Bu arzon.|Esto es barato.
+S|I want|Men buni xohlayman.|Quiero esto.
+S|I like|Menga bu rang yoqadi.|Me gusta este color.
+S|My favorite|Sevimli rangim ko'k.|Mi color favorito es el azul.
+S|I have|Boshim og'riyapti.|Me duele la cabeza.
+S|I am|Men charchadim.|Estoy cansado.
+S|I am|Men ochman.|Tengo hambre.
+S|I am|Sizni ko'rganimdan xursandman.|Me alegro de verte.
+S|What is|Ismingiz nima?|¿Cómo te llamas?
+S|How old|Necha yoshdasiz?|¿Cuántos años tienes?
+S|I am|Men o'ttiz yoshdaman.|Tengo treinta años.
+S|Where do|Qayerda ishlaysiz?|¿Dónde trabajas?
+S|What are|Nima qilyapsiz?|¿Qué estás haciendo?
+S|I am|Men kitob o'qiyapman.|Estoy leyendo un libro.
+S|What is|Bu nima?|¿Qué es esto?
+S|Who is|Bu kim?|¿Quién es?
+S|This is|Bu mening qo'shnim.|Este es mi vecino.
+S|She is|U juda mehribon.|Ella es muy amable.
+S|He is|U baland bo'yli va kuchli.|Él es alto y fuerte.
+S|My grandfather|Bobom keksa, lekin quvnoq.|Mi abuelo es mayor, pero alegre.
+S|Grandmother makes|Buvim mazali tort pishiradi.|La abuela hace una tarta muy rica.
+S|I don't|Men kutishni yoqtirmayman.|No me gusta esperar.
+S|Wait, please|Iltimos, kuting.|Espera, por favor.
+S|Open the|Iltimos, derazani oching.|Abre la ventana, por favor.
+S|Close the|Eshikni yoping.|Cierra la puerta.
+S|Sit down|Iltimos, o'tiring.|Siéntate, por favor.
+S|I am|Men uyga ketyapman.|Me voy a casa.
+S|Are you|Uydamisiz?|¿Estás en casa?
+S|Yes, I|Ha, uydaman.|Sí, estoy en casa.
+S|No, I|Yo'q, ishdaman.|No, estoy en el trabajo.
+S|I call|Men har kuni onamga qo'ng'iroq qilaman.|Llamo a mi madre todos los días.
+S|We love|Biz dengizda suzishni yaxshi ko'ramiz.|Nos encanta nadar en el mar.
+S|It is|Yozda issiq bo'ladi.|En verano hace calor.
+S|In winter|Qishda sovuq bo'ladi va qor yog'adi.|En invierno hace frío y nieva.
+S|There are|O'rmonda daraxtlar ko'p.|En el bosque hay muchos árboles.
+S|The birds|Qushlar sayrayapti.|Los pájaros están cantando.
+S|I see|Men tog'ni ko'ryapman.|Veo una montaña.
+S|Today is|Bugun dushanba.|Hoy es lunes.
+S|Tomorrow is|Ertaga shanba.|Mañana es sábado.
+S|I am|Yakshanba kuni bo'shman.|El domingo estoy libre.
+S|See you|Ertagacha!|¡Hasta mañana!
+S|Good night|Xayrli tun!|¡Buenas noches!
+S|Enjoy your|Yoqimli ishtaha!|¡Buen provecho!
+S|Happy birthday|Tug'ilgan kuningiz bilan!|¡Feliz cumpleaños!
+S|Everything is|Hammasi yaxshi.|Todo está bien.
+S|It's nothing|Hech qisi yo'q.|No es nada grave.
+RT|In My|Mening kvartiramda|En mi piso
+RL|I live|Men shahar markazidagi kvartirada yashayman.|Vivo en un piso en el centro de la ciudad.
+RL|The apartment|Kvartira katta emas, lekin yorug'.|El piso no es grande, pero es luminoso.
+RL|There is|Unda yotoqxona, mehmonxona, oshxona va hammom bor.|Tiene un dormitorio, un salón, una cocina y un baño.
+RL|In the|Yotoqxonada karavot va shkaf bor.|En el dormitorio hay una cama y un armario.
+RL|In the|Mehmonxonada divan, stol va televizor bor.|En el salón hay un sofá, una mesa y una tele.
+RL|My favorite|Mening sevimli xonam oshxona.|Mi habitación favorita es la cocina.
+RL|There I|U yerda nonushta tayyorlayman va choy ichaman.|Allí preparo el desayuno y tomo té.
+RL|From the|Derazadan bog' va daraxtlarni ko'raman.|Desde la ventana veo un parque y árboles.
+RL|My neighbors|Qo'shnilarim tinch va mehribon.|Mis vecinos son tranquilos y amables.
+RL|I really|Menga kvartiram juda yoqadi.|Me gusta mucho mi piso.
+RT|At the|Bozorda|En el mercado
+RL|On Saturday|Shanba kuni bozorga boraman.|Los sábados voy al mercado.
+RL|There are|U yerda meva va sabzavotlar ko'p.|Allí hay muchas frutas y verduras.
+RL|I buy|Men olma, pomidor va bodring sotib olaman.|Compro manzanas, tomates y pepinos.
+RL|The seller|Sotuvchi juda mehribon.|El vendedor es muy amable.
+RL|He says|U: «Assalomu alaykum! Nima kerak?» — deydi.|Dice: «¡Hola! ¿Qué desea?»
+RL|I answer|Men: «Bir kilo uzum, iltimos», — deb javob beraman.|Respondo: «Un kilo de uvas, por favor».
+RL|The grapes|Uzum shirin va qimmat emas.|Las uvas son dulces y no son caras.
+RL|I also|Yana non, pishloq va asal olaman.|También compro pan, queso y miel.
+RL|Then I|Keyin uyga borib, salat tayyorlayman.|Luego vuelvo a casa y preparo una ensalada.
+RT|My Friend|Do'stim Ivan|Mi amigo Iván
+RL|I have|Mening do'stim bor. Uning ismi Ivan.|Tengo un amigo. Se llama Iván.
+RL|He is|U yigirma sakkiz yoshda.|Tiene veintiocho años.
+RL|Ivan lives|Ivan Moskvada yashaydi.|Iván vive en Moscú.
+RL|He works|U bankda ishlaydi.|Trabaja en un banco.
+RL|Ivan is|Ivan baland bo'yli, sochlari qora.|Iván es alto y tiene el pelo oscuro.
+RL|He loves|U sportni juda yaxshi ko'radi.|Le encanta el deporte.
+RL|Every morning|Har kuni ertalab bog'da yuguradi.|Todas las mañanas corre en el parque.
+RL|In the|Kechqurun kitob o'qiydi yoki film ko'radi.|Por la tarde lee o ve una película.
+RL|Ivan has|Ivanning iti bor. Uning ismi Bobik.|Iván tiene un perro. Se llama Bobik.
+RL|We often|Biz tez-tez birga sayr qilamiz.|A menudo paseamos juntos.
+DT|At the Restaurant
+DL|A|Good evening|Xayrli kech! Mana menyu.|¡Buenas noches! Aquí tiene la carta.
+DL|B|Thank you|Rahmat. Nimani maslahat berasiz?|Gracias. ¿Qué me recomienda?
+DL|A|Today the|Bugun sho'rva juda mazali.|Hoy la sopa está muy rica.
+DL|B|Good. Soup|Yaxshi. Sho'rva va salat, iltimos.|Bien. Sopa y una ensalada, por favor.
+DL|A|What will|Nima ichasiz?|¿Qué va a beber?
+DL|B|A glass|Bir stakan suv va choy.|Un vaso de agua y un té.
+DL|A|Fine. Anything|Yaxshi. Yana biror narsa?|Muy bien. ¿Algo más?
+DL|B|No, thank|Yo'q, rahmat. Keyin hisobni bering, iltimos.|No, gracias. Luego la cuenta, por favor.
+DT|Where Is the Pharmacy?
+DL|A|Excuse me|Kechirasiz, dorixona qayerda?|Perdone, ¿dónde está la farmacia?
+DL|B|The pharmacy|Dorixona anavi yerda, bankning qarshisida.|La farmacia está allí, enfrente del banco.
+DL|A|Is it|Uzoqmi?|¿Está lejos?
+DL|B|No, it's|Yo'q, yaqin. Piyoda besh daqiqa.|No, está cerca. A cinco minutos a pie.
+DL|A|Should I|To'g'riga yuraymi?|¿Sigo recto?
+DL|B|Yes, straight|Ha, to'g'riga, keyin o'ngga.|Sí, recto y luego a la derecha.
+DL|A|Thank you|Katta rahmat!|¡Muchas gracias!
+DL|B|You're welcome|Arzimaydi!|¡De nada!
+DT|About the Family
+DL|A|Do you|Oilangiz kattami?|¿Tienes una familia grande?
+DL|B|Yes. I|Ha. Ikkita akam va bitta opam bor.|Sí. Tengo dos hermanos y una hermana.
+DL|A|Where do|Ular qayerda yashashadi?|¿Dónde viven?
+DL|B|My brothers|Akalarim Ammanda, opam esa shu yerda yashaydi.|Mis hermanos viven en Ammán y mi hermana vive aquí.
+DL|A|And your|Ota-onangiz-chi?|¿Y tus padres?
+DL|B|My parents|Ota-onam ham Ammanda.|Mis padres también están en Ammán.
+DL|A|Do you|Ularni sog'inasizmi?|¿Los echas de menos?
+DL|B|Yes, very|Ha, juda. Ularga har kuni qo'ng'iroq qilaman.|Sí, mucho. Los llamo todos los días.

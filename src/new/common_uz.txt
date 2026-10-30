@@ -1,0 +1,239 @@
+bu|هذا|это|this
+u|هو / هي / ذلك|он / она / тот|he / she / that
+va|و|и|and
+men|أنا|я|I
+sen|أنتَ|ты|you
+biz|نحن|мы|we
+siz|أنتم / حضرتك|вы|you (polite)
+ular|هم|они|they
+ham|أيضاً|тоже, и|also, too
+yaxshi|جيد|хорошо, хороший|good, well
+uning|له / لها (ـه)|его, её|his, her
+juda|جداً|очень|very
+uchun|من أجل / لـ|для, ради|for
+emas|ليس|не (является)|is not
+menga|لي / إليّ|мне|to me
+mening|لي (ملكي)|мой|my
+meni|إيّاي|меня|me
+bor|يوجد|есть|there is
+yo'q|لا / لا يوجد|нет|no / there isn't
+ha|نعم|да|yes
+lekin|لكن|но|but
+ammo|لكن|однако, но|but
+biroq|غير أنّ|однако|however
+har|كل|каждый|every
+keyin|بعد / ثم|потом, после|after, then
+oldin|قبل|до, раньше|before
+iltimos|من فضلك|пожалуйста|please
+rahmat|شكراً|спасибо|thank you
+hamma|الجميع|все|everyone
+hammasi|كل شيء|всё|everything
+barcha|جميع|все|all
+yangi|جديد|новый|new
+katta|كبير|большой|big
+kichik|صغير|маленький|small
+kichkina|صغير|маленький|little
+narsa|شيء|вещь|thing
+ko'p|كثير|много|many, a lot
+ko'proq|أكثر|больше|more
+kam|قليل|мало|little, few
+vaqt|وقت|время|time
+bugun|اليوم|сегодня|today
+kecha|أمس / ليلة|вчера / ночь|yesterday / night
+ertaga|غداً|завтра|tomorrow
+hozir|الآن|сейчас|now
+yerda|في المكان|на месте, здесь|in the place
+bu yerda|هنا|здесь|here
+u yerda|هناك|там|there
+o'z|نفسه / خاصّته|свой|one's own
+balki|ربما|может быть|maybe
+haqida|عن (حول)|о, про|about
+menimcha|برأيي|по-моему|I think
+mumkin|ممكن|можно|possible
+deb|قائلاً (لاقتباس الكلام)|говоря (вводит цитату)|(quotes speech)
+yana|مرة أخرى / أيضاً|ещё, снова|again, more
+faqat|فقط|только|only
+aynan|بالضبط|именно|exactly
+mana|ها هو|вот|here is
+boshqa|آخر|другой|other
+marta|مرة|раз|time (times)
+allaqachon|بالفعل|уже|already
+hali|بعد / لا يزال|ещё|still, yet
+endi|الآن (من الآن)|теперь|now (from now on)
+shuning uchun|لذلك|поэтому|therefore
+chunki|لأنّ|потому что|because
+agar|إذا|если|if
+esa|أمّا|а (что касается)|as for
+-chi|وماذا عن…؟|а…?|what about…?
+birga|معاً|вместе|together
+qachon|متى|когда|when
+qayerda|أين|где|where
+qayerga|إلى أين|куда|where to
+qayerdan|من أين|откуда|where from
+nima|ماذا|что|what
+kim|مَن|кто|who
+nega|لماذا|почему|why
+qanday|كيف|как, какой|how
+qancha|كم|сколько|how much
+necha|كم (عدد)|сколько|how many
+qaysi|أيّ|который, какой|which
+nechada|في أي ساعة|во сколько|at what time
+soat|ساعة|час, часы|hour, o'clock
+yil|سنة|год|year
+yili|في سنة|в году|in the year
+kun|يوم|день|day
+kuni|يوم (ـه)|день (его)|day (of)
+kuniga|في اليوم|в день|per day
+oy|شهر / قمر|месяц, луна|month, moon
+hafta|أسبوع|неделя|week
+ertalab|صباحاً|утром|in the morning
+kechqurun|مساءً|вечером|in the evening
+kechasi|ليلاً|ночью|at night
+bir|واحد|один|one
+bitta|واحد (قطعة)|одна штука|one (piece)
+ikki|اثنان|два|two
+uch|ثلاثة|три|three
+to'rt|أربعة|четыре|four
+besh|خمسة|пять|five
+olti|ستة|шесть|six
+yetti|سبعة|семь|seven
+sakkiz|ثمانية|восемь|eight
+to'qqiz|تسعة|девять|nine
+o'n|عشرة|десять|ten
+yigirma|عشرون|двадцать|twenty
+o'ttiz|ثلاثون|тридцать|thirty
+yuz|مئة / وجه|сто / лицо|hundred / face
+ming|ألف|тысяча|thousand
+qil|يفعل|делать|do
+qilmoq|يفعل|делать|to do
+bo'lmoq|يكون / يصبح|быть, становиться|to be, become
+bo'ldi|حدث / صار / يكفي|стал, случилось / хватит|became / happened / enough
+bo'ladi|سيكون / يمكن|будет / можно|will be / it's OK
+bo'lmaydi|لا يمكن|нельзя|not possible
+edi|كان|был (было)|was
+ekan|يبدو أنّه / تبيّن أنّ|оказывается|apparently
+emish|يُقال إنّ|говорят, будто|reportedly
+kerak|يجب / لازم|нужно|necessary
+kel|تعالَ|приходи|come
+keling|تفضّلوا / تعالوا|приходите, давайте|come (polite)
+bering|أعطوا|дайте|give (polite)
+oling|خذوا|возьмите|take (polite)
+iching|اشربوا|пейте|drink (polite)
+ajoyib|رائع|замечательный|wonderful
+zo'r|رائع / ممتاز|отлично, классно|great
+qiziq|ممتع|интересный|interesting
+muhim|مهم|важный|important
+eski|قديم|старый|old
+yosh|شاب / عمر|молодой / возраст|young / age
+uzoq|بعيد / طويل|далеко, долго|far, long
+yaqin|قريب|близкий, близко|near
+tez|سريع|быстро|fast
+sekin|بطيء|медленно|slowly
+oson|سهل|легко|easy
+qiyin|صعب|трудно|difficult
+issiq|حار|жарко, тёплый|hot
+sovuq|بارد|холодно|cold
+yomon|سيئ|плохо|bad
+rost|صحيح / حقيقة|правда|true
+rostini aytsam|بصراحة|честно говоря|to be honest
+assalomu alaykum|السلام عليكم|здравствуйте|hello
+xayr|مع السلامة|до свидания|goodbye
+kechirasiz|عفواً / المعذرة|извините|excuse me
+mayli|حسناً|ладно|okay
+albatta|طبعاً|конечно|of course
+masalan|مثلاً|например|for example
+avval|أولاً / سابقاً|сначала, раньше|first, before
+avvaliga|في البداية|сначала|at first
+oxiri|النهاية|конец|the end
+bilan|مع / بواسطة|с, вместе с|with
+dan|من|из, от|from
+ga|إلى|в, к|to
+da|في|в, на|in, at
+ni|(علامة المفعول)|(показатель дополнения)|(object marker)
+ning|لـ (الإضافة)|(показатель принадлежности)|of
+ustida|فوق|на, над|on top of
+ostida|تحت|под|under
+yonida|بجانب|рядом с|next to
+oldida|أمام|перед|in front of
+orqasida|خلف|за, позади|behind
+ichida|داخل|внутри|inside
+tashqarisida|خارج|снаружи|outside
+qarshisida|مقابل|напротив|opposite
+o'rtasida|بين / وسط|между, посередине|between
+bo'yi|طوال|весь (в течение)|throughout
+beri|منذ|с (тех пор)|since
+gacha|حتى|до|until
+sari|نحو / كلما|по мере|as, towards
+kabi|مثل|как, подобно|like
+uchun|لأجل|для|for
+haqida|حول|о|about
+tufayli|بفضل / بسبب|благодаря, из-за|thanks to, because of
+qaramay|رغم|несмотря на|despite
+o'rniga|بدلاً من|вместо|instead of
+aka|أخ أكبر|старший брат|older brother
+akam|أخي الأكبر|мой старший брат|my older brother
+opa|أخت كبرى|старшая сестра|older sister
+opam|أختي الكبرى|моя старшая сестра|my older sister
+uka|أخ أصغر|младший брат|younger brother
+singil|أخت صغرى|младшая сестра|younger sister
+ona|أم|мать|mother
+onam|أمي|моя мама|my mother
+ota|أب|отец|father
+dadam|أبي|мой папа|my dad
+bobom|جدّي|мой дедушка|my grandfather
+buvim|جدّتي|моя бабушка|my grandmother
+do'stim|صديقي|мой друг|my friend
+dugonam|صديقتي|моя подруга|my (female) friend
+oila|عائلة|семья|family
+ism|اسم|имя|name
+ismim|اسمي|меня зовут|my name
+ismingiz|اسمك|ваше имя|your name
+uy|بيت|дом|house
+uyda|في البيت|дома|at home
+uyga|إلى البيت|домой|home (to)
+ish|عمل|работа|work
+ishda|في العمل|на работе|at work
+ishga|إلى العمل|на работу|to work
+o'zbek|أوزبكي|узбек, узбекский|Uzbek
+o'zbekcha|بالأوزبكية|по-узбекски|in Uzbek
+ruscha|بالروسية|по-русски|in Russian
+inglizcha|بالإنجليزية|по-английски|in English
+arabcha|بالعربية|по-арабски|in Arabic
+tilini|اللغة (ـه)|язык (вин.)|the language
+bilaman|أعرف|я знаю|I know
+bilmayman|لا أعرف|я не знаю|I don't know
+tushunaman|أفهم|я понимаю|I understand
+tushunmayman|لا أفهم|я не понимаю|I don't understand
+xohlayman|أريد|я хочу|I want
+yoqadi|يعجب|нравится|is liked
+yoqmaydi|لا يعجب|не нравится|is not liked
+yaxshi ko'raman|أحبّ|я люблю|I love, I like
+qilaman|أفعل|я делаю|I do
+qiladi|يفعل|делает|does
+qildim|فعلتُ|я сделал|I did
+qildi|فعل|сделал|he did
+boraman|أذهب / سأذهب|я иду, пойду|I go / I'll go
+bordim|ذهبتُ|я ходил|I went
+keldi|جاء / وصل|пришёл|came
+keldim|جئتُ|я пришёл|I came
+kelaman|آتي / سآتي|приду|I'll come
+ko'raman|أرى|я вижу|I see
+ko'rdim|رأيتُ|я видел|I saw
+aytdi|قال|сказал|said
+aytdim|قلتُ|я сказал|I said
+beradi|يعطي|даёт|gives
+berdi|أعطى|дал|gave
+oldim|أخذتُ / اشتريتُ|я взял, купил|I took, bought
+olaman|آخذ / أشتري|возьму, куплю|I take, buy
+yashayman|أعيش / أسكن|я живу|I live
+yashaydi|يعيش|живёт|lives
+ishlayman|أعمل|я работаю|I work
+ishlaydi|يعمل|работает|works
+o'qiyman|أقرأ / أدرس|я читаю, учусь|I read, study
+yozaman|أكتب|я пишу|I write
+ichaman|أشرب|я пью|I drink
+yeyman|آكل|я ем|I eat
+uxlayman|أنام|я сплю|I sleep
+ketyapman|أنا ذاهب|я ухожу, еду|I'm leaving, going
+o'rganyapman|أتعلّم|я изучаю|I'm learning
+gapiraman|أتكلم|я говорю|I speak

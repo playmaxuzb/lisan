@@ -1,0 +1,250 @@
+el|الـ (مذكر)|(опред. артикль м. р.)|the (masc.)
+la|الـ (مؤنث) / ها|(опред. артикль ж. р.) / её|the (fem.) / her
+los|الـ (جمع مذكر) / هم|(артикль мн. ч.) / их|the (pl.) / them
+las|الـ (جمع مؤنث) / هنّ|(артикль мн. ч. ж. р.) / их|the (fem. pl.) / them
+un|أداة نكرة (مذكر)|(неопред. артикль м. р.)|a (masc.)
+una|أداة نكرة (مؤنث)|(неопред. артикль ж. р.)|a (fem.)
+unos|بعض|несколько|some
+unas|بعض|несколько|some
+de|من / لـ (الإضافة)|из, (родительный)|of, from
+del|من الـ|(de + el)|of the
+al|إلى الـ|(a + el)|to the
+a|إلى|в, к|to
+en|في|в, на|in, on
+con|مع|с|with
+sin|بدون|без|without
+por|بسبب / عبر / بواسطة|из-за, через, по|by, through, because of
+para|لـ / من أجل|для, чтобы|for, in order to
+sobre|عن / فوق|о, на|about, on
+hasta|حتى|до|until
+desde|منذ / من|с (от)|since, from
+entre|بين|между|between
+durante|خلال|в течение|during
+y|و|и|and
+o|أو|или|or
+pero|لكن|но|but
+que|أنّ / الذي / مِن|что, который, чем|that, which, than
+si|إذا|если|if
+sí|نعم|да|yes
+no|لا|нет, не|no, not
+también|أيضاً|тоже|also
+tampoco|ولا أيضاً|тоже не|neither
+muy|جداً|очень|very
+mucho|كثيراً|много|a lot
+mucha|كثيرة|много|much
+muchos|كثيرون|многие|many
+muchas|كثيرات|многие|many
+poco|قليل|мало|little
+más|أكثر|больше, более|more
+menos|أقل|меньше|less
+bien|جيداً|хорошо|well
+mal|سيئاً|плохо|badly
+ya|بالفعل|уже|already
+todavía|ما زال / بعد|ещё|still, yet
+siempre|دائماً|всегда|always
+nunca|أبداً|никогда|never
+a menudo|غالباً|часто|often
+ahora|الآن|сейчас|now
+hoy|اليوم|сегодня|today
+ayer|أمس|вчера|yesterday
+mañana|غداً / صباح|завтра / утро|tomorrow / morning
+luego|لاحقاً / ثم|потом|later, then
+después|بعد|после, потом|after
+antes|قبل|раньше, до|before
+aquí|هنا|здесь|here
+allí|هناك|там|there
+ahí|هناك (قريب)|там (рядом)|there
+donde|حيث|где (который)|where
+dónde|أين|где|where
+qué|ماذا / ما|что|what
+quién|مَن|кто|who
+cuándo|متى|когда|when
+cómo|كيف|как|how
+cuánto|كم|сколько|how much
+por qué|لماذا|почему|why
+porque|لأنّ|потому что|because
+cuál|أيّ|какой, который|which
+yo|أنا|я|I
+tú|أنتَ|ты|you
+él|هو|он|he
+ella|هي|она|she
+usted|حضرتك|вы (вежл.)|you (polite)
+nosotros|نحن|мы|we
+vosotros|أنتم|вы|you (pl.)
+ellos|هم|они|they
+ellas|هنّ|они (ж.)|they (fem.)
+me|لي / إياي|мне, меня|me
+te|لك / إياك|тебе, тебя|you
+se|نفسه / (للمبني للمجهول)|себя, -ся|oneself (passive)
+nos|لنا / إيانا|нам, нас|us
+le|له / لها|ему, ей|to him / her
+les|لهم|им|to them
+lo|ـه / ذلك|его, это|it, him
+mi|ـي (ملكي)|мой|my
+mis|ـي (جمع)|мои|my (pl.)
+tu|ـك|твой|your
+tus|ـك (جمع)|твои|your (pl.)
+su|ـه / ـها / ـكم|его, её, ваш|his, her, your
+sus|ـه (جمع)|его, её (мн.)|his, her (pl.)
+nuestro|ـنا|наш|our
+nuestra|ـنا (مؤنث)|наша|our (fem.)
+este|هذا|этот|this
+esta|هذه|эта|this (fem.)
+esto|هذا (محايد)|это|this
+estos|هؤلاء|эти|these
+estas|هؤلاء (مؤنث)|эти|these (fem.)
+ese|ذلك|тот|that
+esa|تلك|та|that (fem.)
+eso|ذلك (محايد)|то, это|that
+todo|كل شيء / كلّ|всё, весь|everything, all
+toda|كلّ (مؤنث)|вся|all (fem.)
+todos|الجميع|все|everyone
+todas|الجميع (مؤنث)|все|all (fem.)
+otro|آخر|другой|other
+otra|أخرى|другая|other (fem.)
+cada|كل|каждый|each
+nada|لا شيء|ничего|nothing
+algo|شيء ما|что-то|something
+alguien|أحدٌ ما|кто-то|someone
+nadie|لا أحد|никто|nobody
+solo|فقط / وحيد|только, один|only, alone
+tan|بهذا القدر|так, настолько|so
+así|هكذا|так|like this
+ser|يكون|быть|to be
+soy|أنا (أكون)|я (есть)|I am
+eres|أنتَ (تكون)|ты (есть)|you are
+es|هو / هي (يكون)|он, она (есть)|is
+somos|نحن (نكون)|мы (есть)|we are
+son|هم (يكونون)|они (есть)|they are
+era|كان|был|was
+fue|كان / ذهب|был / пошёл|was / went
+estar|يكون (حالة / مكان)|находиться, быть|to be (state)
+estoy|أنا (في حالة / مكان)|я нахожусь|I am
+estás|أنتَ (في حالة)|ты (находишься)|you are
+está|هو (في حالة / مكان)|находится|is
+estamos|نحن|мы (находимся)|we are
+están|هم|они (находятся)|they are
+estaba|كان|был|was
+hay|يوجد|есть, имеется|there is / are
+había|كان يوجد|было|there was
+tener|يملك|иметь|to have
+tengo|عندي|у меня есть|I have
+tienes|عندك|у тебя есть|you have
+tiene|عنده|у него есть|he has
+tenemos|عندنا|у нас есть|we have
+tienen|عندهم|у них есть|they have
+ir|يذهب|идти|to go
+voy|أذهب|я иду|I go
+vas|تذهب|ты идёшь|you go
+va|يذهب|идёт|goes
+vamos|نذهب / هيا بنا|идём, пойдём|we go / let's go
+fui|ذهبتُ / كنتُ|я ходил / был|I went / was
+fuimos|ذهبنا|мы ходили|we went
+hacer|يفعل|делать|to do, make
+hago|أفعل|я делаю|I do
+hace|يفعل / منذ|делает / назад|does / ago
+hizo|فعل|сделал|did
+he|(فعل مساعد) أنا|(вспом. глагол) я|I have (done)
+has|(مساعد) أنتَ|(вспом.) ты|you have (done)
+ha|(مساعد) هو|(вспом.) он|has (done)
+hemos|(مساعد) نحن|(вспом.) мы|we have (done)
+han|(مساعد) هم|(вспом.) они|they have (done)
+poder|يستطيع|мочь|to be able
+puedo|أستطيع|я могу|I can
+puede|يستطيع|может|can
+puedes|تستطيع|ты можешь|you can
+querer|يريد|хотеть|to want
+quiero|أريد|я хочу|I want
+quería|كنتُ أريد|я хотел|I wanted
+gusta|يعجب|нравится|is liked
+gustan|تعجب (جمع)|нравятся|are liked
+encanta|يعجب كثيراً|очень нравится|love (it)
+necesito|أحتاج|мне нужно|I need
+saber|يعرف|знать|to know
+sé|أعرف|я знаю|I know
+creo|أعتقد|я думаю, верю|I think, believe
+parece|يبدو|кажется|seems
+dice|يقول|говорит|says
+dijo|قال|сказал|said
+decir|يقول|сказать|to say
+hablar|يتكلم|говорить|to speak
+vivir|يعيش|жить|to live
+vive|يعيش|живёт|lives
+trabajar|يعمل|работать|to work
+trabaja|يعمل|работает|works
+comer|يأكل|есть (кушать)|to eat
+beber|يشرب|пить|to drink
+leer|يقرأ|читать|to read
+ver|يرى|видеть|to see
+veo|أرى|я вижу|I see
+dar|يعطي|давать|to give
+dame|أعطني|дай мне|give me
+llamo|أتصل / اسمي|звоню / меня зовут|I call / my name is
+me llamo|اسمي|меня зовут|my name is
+hola|مرحباً|привет|hello
+adiós|مع السلامة|до свидания|goodbye
+gracias|شكراً|спасибо|thank you
+por favor|من فضلك|пожалуйста|please
+perdón|عفواً|извините|sorry
+claro|طبعاً / واضح|конечно / ясно|of course / clear
+vale|حسناً|ладно, хорошо|okay
+bueno|جيد / حسناً|хороший / ну|good / well
+buena|جيدة|хорошая|good (fem.)
+buen|جيد (قبل الاسم)|хороший|good
+mejor|أفضل|лучше|better
+peor|أسوأ|хуже|worse
+grande|كبير|большой|big
+gran|عظيم|великий, большой|great
+pequeño|صغير|маленький|small
+pequeña|صغيرة|маленькая|small (fem.)
+nuevo|جديد|новый|new
+nueva|جديدة|новая|new (fem.)
+viejo|قديم / عجوز|старый|old
+primer|أول|первый|first
+primero|أولاً / الأول|сначала, первый|first
+último|آخر / أخير|последний|last
+uno|واحد|один|one
+dos|اثنان|два|two
+tres|ثلاثة|три|three
+cuatro|أربعة|четыре|four
+cinco|خمسة|пять|five
+seis|ستة|шесть|six
+siete|سبعة|семь|seven
+ocho|ثمانية|восемь|eight
+nueve|تسعة|девять|nine
+diez|عشرة|десять|ten
+veinte|عشرون|двадцать|twenty
+cien|مئة|сто|hundred
+mil|ألف|тысяча|thousand
+año|سنة|год|year
+años|سنوات|лет, годы|years
+día|يوم|день|day
+días|أيام|дни|days
+hora|ساعة|час|hour
+horas|ساعات|часы|hours
+vez|مرة|раз|time (once)
+veces|مرات|раз (мн.)|times
+semana|أسبوع|неделя|week
+mes|شهر|месяц|month
+noche|ليل / مساء|ночь, вечер|night
+tarde|بعد الظهر / متأخر|день, вечер / поздно|afternoon / late
+mamá|ماما|мама|mum
+papá|بابا|папа|dad
+madre|أم|мать|mother
+padre|أب|отец|father
+hermano|أخ|брат|brother
+hermana|أخت|сестра|sister
+amigo|صديق|друг|friend
+amiga|صديقة|подруга|friend (fem.)
+amigos|أصدقاء|друзья|friends
+familia|عائلة|семья|family
+casa|بيت|дом|house
+ciudad|مدينة|город|city
+trabajo|عمل|работа|work
+español|الإسبانية / إسباني|испанский|Spanish
+palabras|كلمات|слова|words
+cosa|شيء|вещь|thing
+gente|ناس|люди|people
+mundo|عالم|мир|world
+vida|حياة|жизнь|life
+tiempo|وقت / طقس|время / погода|time / weather

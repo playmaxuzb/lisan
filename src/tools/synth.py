@@ -2,11 +2,13 @@ import json, re, sys, os, io, wave, base64, subprocess, numpy as np, onnxruntime
 from ph import ph
 VOICES={'ru':('vits-piper-ru_RU-irina-medium','ru_RU-irina-medium'),'ruB':('vits-piper-ru_RU-dmitri-medium','ru_RU-dmitri-medium'),
         'en':('vits-piper-en_US-lessac-medium','en_US-lessac-medium'),'enB':('vits-piper-en_US-ryan-medium','en_US-ryan-medium'),
-        'ar':('vits-piper-ar_JO-kareem-medium','ar_JO-kareem-medium'),'arB':('vits-piper-ar_JO-kareem-medium','ar_JO-kareem-medium')}
-ESPEAK={'ru':'ru','en':'en-us','ar':'ar'}
+        'ar':('vits-piper-ar_JO-kareem-medium','ar_JO-kareem-medium'),'arB':('vits-piper-ar_JO-kareem-medium','ar_JO-kareem-medium'),
+        'es':('vits-piper-es_ES-sharvard-medium','es_ES-sharvard-medium',1),'esB':('vits-piper-es_ES-davefx-medium','es_ES-davefx-medium'),
+        'uz':('vits-piper-tr_TR-dfki-medium','tr_TR-dfki-medium'),'uzB':('vits-piper-tr_TR-fettah-medium','tr_TR-fettah-medium')}
+ESPEAK={'ru':'ru','en':'en-us','ar':'ar','es':'es','uz':'tr'}
 class Voice:
     def __init__(s,key):
-        d,n=VOICES[key]; s.cfg=json.load(open(f'{d}/{n}.onnx.json')); s.m=s.cfg['phoneme_id_map']
+        v=VOICES[key]; d,n=v[0],v[1]; s.sid=v[2] if len(v)>2 else 0; s.cfg=json.load(open(f'{d}/{n}.onnx.json')); s.m=s.cfg['phoneme_id_map']
         so=ort.SessionOptions(); so.intra_op_num_threads=1
         s.sess=ort.InferenceSession(f'{d}/{n}.onnx',so); s.sr=s.cfg['audio']['sample_rate']
         s.inputs=[i.name for i in s.sess.get_inputs()]
@@ -16,7 +18,7 @@ class Voice:
             if ch in m: ids+=m[ch]+m['_']
         ids+=m['$']
         feed={'input':np.array([ids],dtype=np.int64),'input_lengths':np.array([len(ids)],dtype=np.int64),'scales':np.array([noise,length,noisew],dtype=np.float32)}
-        if 'sid' in s.inputs: feed['sid']=np.array([0],dtype=np.int64)
+        if 'sid' in s.inputs: feed['sid']=np.array([s.sid],dtype=np.int64)
         a=s.sess.run(None,feed)[0].squeeze()
         a=a/max(0.01,np.abs(a).max())*0.92
         return (a*32767).astype(np.int16)
@@ -72,6 +74,11 @@ def phon(text,lang):
     if lang=='ar':
         t=arfix(t)
         t=waqf(t)
+    if lang=='uz':
+        from uzg2p import to_tr
+        t=to_tr(t)
+    if lang=='es':
+        t=t.replace('¿','').replace('¡','')
     return ph(t,ESPEAK[lang]).strip()
 TW='\u0640'
 SUN='تثدذرزسشصضطظلن'

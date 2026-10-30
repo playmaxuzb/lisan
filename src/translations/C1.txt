@@ -1,0 +1,381 @@
+TH|Academic Vocabulary
+V|tendency|tendensiya|la tendencia
+V|consequence|oqibat (natija)|la consecuencia
+V|assumption|taxmin|la suposición
+V|evidence|dalil|la prueba
+V|contradiction|ziddiyat|la contradicción
+V|essence|mohiyat|la esencia
+V|conclusion|xulosa|la conclusión
+V|approach|yondashuv|el enfoque
+V|view|qarash|la visión
+V|value|qadriyat|el valor
+V|conviction|e'tiqod|la convicción
+V|doubt|shubha|la duda
+V|phenomenon|hodisa|el fenómeno
+V|hypothesis|gipoteza|la hipótesis
+V|methodology|metodologiya|la metodología
+V|argument|dalil (argument)|el argumento
+V|process|jarayon|el proceso
+V|structure|tuzilma|la estructura
+V|concept|konsepsiya|el concepto
+V|interrelation|o'zaro bog'liqlik|la interrelación
+V|criterion|mezon|el criterio
+V|classification|tasnif|la clasificación
+V|aspect|jihat|el aspecto
+V|context|kontekst|el contexto
+V|compromise|murosa|el compromiso (acuerdo)
+TH|Formal Verbs
+V|emphasize|ta'kidlab o'tmoq|subrayar
+V|consider|ko'rib chiqmoq|examinar
+V|carry out|amalga oshirmoq|llevar a cabo
+V|provide|taqdim etmoq|proporcionar
+V|ensure|ta'minlamoq|garantizar
+V|contribute to|hissa qo'shmoq|contribuir a
+V|hinder|to'sqinlik qilmoq|obstaculizar
+V|evaluate|baholamoq|evaluar
+V|forecast|bashorat qilmoq|pronosticar
+V|implement|joriy etmoq|implantar
+V|formulate|ifodalab bermoq|formular
+V|investigate|tadqiq etmoq|investigar
+V|revise|qayta ko'rib chiqmoq|revisar
+V|refute|rad etmoq (isbot bilan)|refutar
+V|confirm|tasdiqlamoq|confirmar
+V|settle|hal qilmoq (nizoni)|resolver (un conflicto)
+V|identify|aniqlamoq|detectar
+V|mention|tilga olmoq|mencionar
+V|determine|belgilamoq|determinar
+V|express|ifoda etmoq|expresar
+V|take into account|hisobga olmoq|tener en cuenta
+V|combine|uyg'unlashtirmoq|combinar
+V|reveal|ochib bermoq|revelar
+V|lower|pasaytirmoq|bajar
+V|arise|yuzaga kelmoq|surgir
+TH|Finance and Business
+V|assets|aktivlar|los activos
+V|liabilities|majburiyatlar|los pasivos
+V|stock exchange|birja|la bolsa
+V|share|aksiya|la acción
+V|capital|kapital|el capital
+V|merger|qo'shilish (kompaniyalar)|la fusión
+V|reporting|hisobot berish|los informes financieros
+V|profitability|rentabellik|la rentabilidad
+V|partnership|sheriklik|la asociación
+V|crisis|inqiroz|la crisis
+V|audit|audit|la auditoría
+V|costs|xarajatlar|los costes
+V|service|xizmat|el servicio
+V|industry|soha|el sector
+V|globalization|globallashuv|la globalización
+V|supplier|yetkazib beruvchi|el proveedor
+V|strategy|strategiya|la estrategia
+V|innovation|innovatsiya|la innovación
+V|management|rahbariyat|la dirección
+V|arrangement|kelishuv (og'zaki)|el acuerdo
+TH|Law
+V|justice|odil sudlov|la justicia (tribunales)
+V|resolution|qaror|la resolución
+V|attorney|advokat|el abogado
+V|plaintiff|da'vogar|el demandante
+V|defense|himoya|la defensa
+V|verdict|hukm|la sentencia
+V|personal data|shaxsiy ma'lumotlar|los datos personales
+V|copyright|mualliflik huquqi|los derechos de autor
+V|license|litsenziya|la licencia
+V|bill|qonun loyihasi|el proyecto de ley
+V|parliament|parlament|el parlamento
+V|referendum|referendum|el referéndum
+V|confidentiality|maxfiylik|la confidencialidad
+V|duty|burch|el deber
+TH|Medicine
+V|diagnosis|tashxis|el diagnóstico
+V|symptom|simptom|el síntoma
+V|vaccination|emlash|la vacuna (inyección)
+V|laboratory|laboratoriya|el laboratorio
+V|infection|infeksiya|la infección
+V|psychotherapy|psixoterapiya|la psicoterapia
+V|X-ray|rentgen|la radiografía
+V|antibiotic|antibiotik|el antibiótico
+V|rehabilitation|reabilitatsiya|la rehabilitación
+V|recovery|tuzalish|la recuperación
+V|chronic|surunkali|crónico
+V|surgeon|jarroh|el cirujano
+V|prevention|profilaktika|la prevención
+TH|Language and Literature
+V|narrative|hikoya qilish|la narración
+V|character|personaj|el personaje
+V|style|uslub|el estilo
+V|plot|syujet|la trama
+V|metaphor|metafora|la metáfora
+V|dialect|sheva|el dialecto
+V|genre|janr|el género
+V|journalism|publitsistika|el periodismo de opinión
+V|essay|esse|el ensayo
+V|linguistics|tilshunoslik|la lingüística
+V|term|atama|el término
+V|quotation|iqtibos|la cita
+V|abstract|annotatsiya|el resumen
+TH|Philosophy and Ethics
+V|philosophy|falsafa|la filosofía
+V|morality|axloq|la moral
+V|conscience|vijdon|la conciencia (moral)
+V|will|iroda|la voluntad
+V|meaning of life|hayot mazmuni|el sentido de la vida
+V|truth|haqiqat|la verdad
+V|faith|iymon|la fe
+V|humanism|insonparvarlik|el humanismo
+V|self-knowledge|o'zini anglash|el autoconocimiento
+V|consciousness|ong|la consciencia
+V|worldview|dunyoqarash|la cosmovisión
+V|justice|adolat|la justicia
+V|wisdom|donolik|la sabiduría
+TH|Literary Adjectives
+V|inevitable|muqarrar|inevitable
+V|significant|sezilarli|considerable
+V|obvious|ravshan|evidente
+V|multifaceted|ko'p qirrali|polifacético
+V|scientific|ilmiy|científico
+V|expedient|maqsadga muvofiq|conveniente
+V|sustainable|barqaror|sostenible
+V|ambiguous|noaniq (ikki ma'noli)|ambiguo
+V|fundamental|fundamental|fundamental
+V|questionable|shubha uyg'otadigan|cuestionable
+V|paramount|birinchi darajali|primordial
+V|insignificant|arzimas|insignificante
+V|temporary|vaqtinchalik|temporal
+V|permanent|doimiy|permanente
+V|comprehensive|kompleks|integral
+V|universal|umumiy|universal
+V|subjective|subyektiv|subjetivo
+V|objective|obyektiv|objetivo
+V|rapid|shiddatli|vertiginoso
+V|thorough|puxta|minucioso
+V|outstanding|atoqli|destacado
+V|controversial|bahsli|polémico
+V|reserved|vazmin|reservado
+V|passionate|berilgan (ishqiboz)|apasionado
+V|vulnerable|zaif|vulnerable
+TH|Connectors and Adverbs
+V|however|biroq|sin embargo
+V|nevertheless|shunga qaramay|no obstante
+V|consequently|demak|por consiguiente
+V|besides|buning ustiga|además
+V|at the same time|ayni paytda|al mismo tiempo
+V|thanks to|tufayli|gracias a
+V|despite|qaramay|a pesar de
+V|contrary to|zid ravishda|en contra de
+V|thus|shunday qilib|así pues
+V|on the whole|umuman olganda|en general
+V|in particular|xususan|en particular
+V|first of all|eng avvalo|ante todo
+V|on the contrary|aksincha|al contrario
+V|in this way|shu tariqa|de este modo
+V|ultimately|oxir-oqibat|en última instancia
+V|essentially|aslida|en el fondo
+V|in connection with|munosabati bilan|en relación con
+V|as a result of|natijasida|como consecuencia de
+V|thereby|shu bilan|con ello
+V|undoubtedly|shubhasiz|sin duda
+TH|Research
+V|researcher|tadqiqotchi|el investigador
+V|sample|tanlanma|la muestra
+V|indicator|ko'rsatkich|el indicador
+V|analysis|tahlil|el análisis (estudio)
+V|publication|nashr|la publicación
+V|discovery|kashfiyot|el descubrimiento
+V|dissertation|dissertatsiya|la tesis doctoral
+V|literature source|adabiy manba|la fuente bibliográfica
+V|margin of error|xatolik darajasi|el margen de error
+V|grant|grant|la beca de investigación
+V|PhD holder|fan nomzodi|el doctor (académico)
+TH|Diplomacy
+V|negotiations|muzokaralar|las negociaciones
+V|embassy|elchixona|la embajada
+V|ambassador|elchi|el embajador
+V|treaty|shartnoma (davlatlararo)|el tratado
+V|cooperation|hamkorlik|la cooperación
+V|sanctions|sanksiyalar|las sanciones
+V|ceasefire|sulh|el alto el fuego
+V|statement|bayonot|la declaración
+V|neutrality|betaraflik|la neutralidad
+V|humanitarian aid|insonparvarlik yordami|la ayuda humanitaria
+TH|Modern Society
+V|urbanization|urbanizatsiya|la urbanización
+V|demography|demografiya|la demografía
+V|population aging|aholining qarishi|el envejecimiento de la población
+V|labor migration|mehnat migratsiyasi|la migración laboral
+V|tolerance|bag'rikenglik|la tolerancia
+V|civil society|fuqarolik jamiyati|la sociedad civil
+V|digitalization|raqamlashtirish|la digitalización
+V|cybersecurity|kiberxavfsizlik|la ciberseguridad
+V|cognitive|kognitiv|cognitivo
+V|uneven|notekis|desigual
+V|industrial|sanoat|industrial
+V|ecology|ekologiya|la ecología
+V|literacy|savodxonlik|la alfabetización
+V|identity|o'zlik|la identidad
+V|propaganda|tashviqot|la propaganda
+V|discrimination|kamsitish|la discriminación
+V|solidarity|birdamlik|la solidaridad
+V|corruption|korrupsiya|la corrupción
+V|reform|islohot|la reforma
+V|civil servant|davlat xizmatchisi|el funcionario
+V|integration|integratsiya|la integración
+V|expert examination|ekspertiza|el peritaje
+V|downturn|pasayish|la recesión
+V|infrastructure|infratuzilma|la infraestructura
+V|interaction|o'zaro hamkorlik|la interacción
+S|Despite the|Qiyinchiliklarga qaramay, loyiha o'z vaqtida yakunlandi.|A pesar de las dificultades, el proyecto se terminó a tiempo.
+S|Having read|Maqolani o'qib, u fikrini o'zgartirdi.|Tras leer el artículo, cambió de opinión.
+S|This issue|Bu masala puxta tahlilni talab qiladi.|Esta cuestión requiere un análisis minucioso.
+S|It should|Natijalar dastlabki ekanini ta'kidlash lozim.|Cabe subrayar que los resultados son preliminares.
+S|Thanks to|Hamkasblarning qo'llab-quvvatlashi tufayli maqsadga erishdik.|Gracias al apoyo de los colegas, alcanzamos el objetivo.
+S|The study|Tadqiqot sezilarli o'sishni ko'rsatdi.|El estudio mostró un crecimiento considerable.
+S|While returning|Uyga qaytayotib, eski do'stimni uchratdim.|Volviendo a casa, me encontré con un viejo amigo.
+S|As is|Ma'lumki, til doimo o'zgarib turadi.|Como es sabido, la lengua cambia constantemente.
+S|Thus, we|Shunday qilib, gipoteza tasdiqlandi degan xulosaga kelish mumkin.|Así pues, podemos concluir que la hipótesis se ha confirmado.
+S|His words|Uning so'zlari shubha uyg'otdi.|Sus palabras despertaron dudas.
+S|The question|Masala ochiqligicha qolmoqda.|La cuestión sigue abierta.
+S|The data|Ma'lumotlar bu nazariyani tasdiqlamaydi.|Los datos no confirman esta teoría.
+S|It is|Barcha omillarni hisobga olish zarur.|Es necesario tener en cuenta todos los factores.
+S|The author|Muallif ishonarli dalillar keltiradi.|El autor presenta argumentos convincentes.
+S|From an|Iqtisodiy nuqtai nazardan, bu xavfli.|Desde el punto de vista económico, es arriesgado.
+S|The company|Kompaniya barqaror rivojlanishga intiladi.|La empresa aspira a un desarrollo sostenible.
+S|The decision|Qaror bir ovozdan qabul qilindi.|La decisión se tomó por unanimidad.
+S|The parties|Tomonlar murosaga kelishdi.|Las partes llegaron a un compromiso.
+S|The negotiations|Muzokaralar tun bo'yi davom etdi.|Las negociaciones duraron toda la noche.
+S|The more|Qancha ko'p bilsak, shuncha ko'p savollar tug'iladi.|Cuanto más sabemos, más preguntas surgen.
+S|As a|Inqiroz natijasida ko'pchilik ishini yo'qotdi.|Como consecuencia de la crisis, muchos perdieron su trabajo.
+S|His speech|Uning nutqi olqishlar bilan kutib olindi.|Su discurso fue recibido con aplausos.
+S|One cannot|Bu fikrga qo'shilmaslikning iloji yo'q.|No se puede estar en desacuerdo con esta afirmación.
+S|She has|Uning ajoyib qobiliyatlari bor.|Tiene unas capacidades extraordinarias.
+S|If it|Yomg'ir bo'lmaganida, shahar tashqarisiga chiqardik.|Si no hubiera sido por la lluvia, habríamos salido al campo.
+S|We have|Bir qator murakkab vazifalarni hal qilishimiz kerak.|Tenemos que resolver una serie de tareas complejas.
+S|She said|U buni biroz kinoya bilan aytdi.|Lo dijo con cierta ironía.
+S|His position|Uning pozitsiyasi hurmatga loyiq.|Su postura merece respeto.
+S|The data|Olingan ma'lumotlarni tekshirish kerak.|Los datos obtenidos deben verificarse.
+S|This is|Bu mumkin bo'lgan talqinlardan faqat biri.|Esta es solo una de las posibles interpretaciones.
+S|The author|Muallif muhim ijtimoiy muammolarga to'xtalib o'tadi.|El autor aborda importantes problemas sociales.
+S|The book|Kitob yigirma tilga tarjima qilingan.|El libro ha sido traducido a veinte idiomas.
+S|The doctors|Shifokorlar tashxisni darhol qo'yishmadi.|Los médicos no dieron con el diagnóstico enseguida.
+S|Prevention is|Oldini olish davolashdan arzonroq.|Prevenir es más barato que curar.
+S|Chronic diseases|Surunkali kasalliklar doimiy nazoratni talab qiladi.|Las enfermedades crónicas requieren un control constante.
+S|The law|Qonun birinchi yanvardan kuchga kiradi.|La ley entra en vigor el uno de enero.
+S|The court|Sud oqlov hukmini chiqardi.|El tribunal dictó una sentencia absolutoria.
+S|Clients' personal|Mijozlarning shaxsiy ma'lumotlari himoyalangan.|Los datos personales de los clientes están protegidos.
+S|Every citizen|Har bir fuqaro ta'lim olish huquqiga ega.|Todo ciudadano tiene derecho a la educación.
+S|The ambassador|Elchi tashqi ishlar vaziri bilan uchrashdi.|El embajador se reunió con el ministro de Exteriores.
+S|The parties|Tomonlar hamkorlik to'g'risidagi shartnomani imzoladi.|Las partes firmaron un acuerdo de cooperación.
+S|The residents|Aholi insonparvarlik yordamini oldi.|Los habitantes recibieron ayuda humanitaria.
+S|Investments in|Ta'limga kiritilgan sarmoya o'zini oqlaydi.|Las inversiones en educación compensan.
+S|The company|Kompaniya raqobatchi bilan qo'shilishini e'lon qildi.|La empresa anunció su fusión con un competidor.
+S|The project's|Loyihaning rentabelligi shubha ostida.|La rentabilidad del proyecto está en duda.
+S|We have|Biz strategiyamizni qayta ko'rib chiqdik.|Hemos revisado nuestra estrategia.
+S|Innovation is|Innovatsiyalar — iqtisodiyotning harakatlantiruvchi kuchi.|La innovación es el motor de la economía.
+S|Management met|Rahbariyat biz bilan murosaga bordi.|La dirección nos hizo concesiones.
+S|We need|Xarajatlarni kamaytirishimiz kerak.|Tenemos que reducir costes.
+S|The results|Yil natijalari kutilganidan oshib ketdi.|Los resultados del año superaron las expectativas.
+S|He has|Uning dunyoqarashi keng.|Tiene una amplia visión del mundo.
+S|Her speech|Uning nutqi aniq va mantiqiy edi.|Su discurso fue claro y lógico.
+S|I find|Siz bilan rozi bo'lishim qiyin.|Me cuesta estar de acuerdo con usted.
+S|Allow me|Fikrimni bildirishga ijozat bering.|Permítame expresar mi punto de vista.
+S|I would|Buni keyinroq muhokama qilishni afzal ko'rardim.|Preferiría hablarlo más tarde.
+S|One cannot|Bitta misoldan xulosa chiqarib bo'lmaydi.|No se pueden sacar conclusiones de un solo ejemplo.
+S|The question|Masala buni qanday amalga oshirishda.|La cuestión es cómo llevarlo a cabo.
+S|She set|U ishga ishtiyoq bilan kirishdi.|Se puso a trabajar con entusiasmo.
+S|We are|Uchrashuvni qoldirishga majburmiz.|Nos vemos obligados a aplazar la reunión.
+S|His contribution|Uning ilmga qo'shgan hissasini ortiqcha baholash qiyin.|Es difícil sobrestimar su contribución a la ciencia.
+S|As technology|Texnologiyalar rivojlangani sari jamiyat ham o'zgaradi.|A medida que avanza la tecnología, la sociedad también cambia.
+S|Moreover, prices|Buning ustiga, narxlar o'sishda davom etmoqda.|Además, los precios siguen subiendo.
+S|In particular|Xususan, gap yoshlar haqida ketmoqda.|En particular, se trata de los jóvenes.
+S|On the|Aksincha, u juda mamnun edi.|Al contrario, estaba muy contento.
+S|Ultimately, everything|Oxir-oqibat, hammasi o'zimizga bog'liq.|En última instancia, todo depende de nosotros.
+S|She speaks|U arab tilida aksentsiz gapiradi.|Habla árabe sin acento.
+S|I'm used|Fikrlarimni aniq ifoda etishga odatlanganman.|Estoy acostumbrado a expresar mis ideas con claridad.
+S|One should|O'zgarishlarga qarshilikni yengil baholamaslik kerak.|No hay que subestimar la resistencia al cambio.
+S|His act|Uning qilmishini oqlab bo'lmaydi.|Su acto no tiene justificación.
+S|We encountered|Kutilmagan qiyinchiliklarga duch keldik.|Nos encontramos con dificultades imprevistas.
+S|Such cases|Bunday holatlar kam uchramaydi.|Estos casos no son raros.
+S|His views|Uning qarashlari vaqt o'tishi bilan o'zgardi.|Sus opiniones cambiaron con el tiempo.
+S|She has|Unda har doim hazil tuyg'usi bo'lgan.|Siempre ha tenido sentido del humor.
+S|I value|Fikringizni juda qadrlayman.|Valoro mucho su opinión.
+S|This topic|Bu mavzu alohida muhokamani talab qiladi.|Este tema requiere un debate aparte.
+S|The survey|So'rovnoma natijalari kutilmagan bo'lib chiqdi.|Los resultados de la encuesta fueron inesperados.
+S|We proceed|Biz barcha ishtirokchilar rozi degan taxmindan kelib chiqamiz.|Partimos de la suposición de que todos los participantes están de acuerdo.
+S|These two|Bu ikki hodisa bir-biri bilan chambarchas bog'liq.|Estos dos fenómenos están estrechamente relacionados.
+S|Scientists identified|Olimlar qonuniyatni aniqladi.|Los científicos identificaron un patrón.
+S|Life is|Hayot faqat ishdan iborat emas.|La vida no es solo trabajo.
+S|His conscience|Vijdoni unga yolg'on gapirishga yo'l qo'ymadi.|Su conciencia no le permitió mentir.
+S|Wisdom comes|Donolik tajriba bilan keladi.|La sabiduría llega con la experiencia.
+S|The truth|Haqiqat qayerdadir o'rtada.|La verdad está en algún punto intermedio.
+S|Urbanization leads|Urbanizatsiya shaharlarning o'sishiga olib keladi.|La urbanización provoca el crecimiento de las ciudades.
+S|Digitalization has|Raqamlashtirish hayotning barcha sohalariga ta'sir qildi.|La digitalización ha afectado a todos los ámbitos de la vida.
+S|Cybersecurity is|Kiberxavfsizlik tobora dolzarb bo'lib bormoqda.|La ciberseguridad es cada vez más actual.
+S|Population aging|Aholining qarishi iqtisodiyot uchun sinovdir.|El envejecimiento de la población es un reto para la economía.
+S|Tolerance is|Bag'rikenglik tinch-totuv yashashning asosidir.|La tolerancia es la base de la convivencia pacífica.
+S|Without developed|Rivojlangan infratuzilmasiz o'sish mumkin emas.|Sin una infraestructura desarrollada, el crecimiento es imposible.
+S|The reform|Islohot turlicha qabul qilindi.|La reforma tuvo una acogida desigual.
+S|Civil society|Fuqarolik jamiyati muhim rol o'ynaydi.|La sociedad civil desempeña un papel importante.
+S|Discrimination is|Kamsitishga yo'l qo'yib bo'lmaydi.|La discriminación es inadmisible.
+S|The economic|Iqtisodiy pasayish ko'plab sohalarga ta'sir qildi.|La recesión económica afectó a muchos sectores.
+S|The literacy|Aholining savodxonligi doimiy ravishda oshib bormoqda.|La alfabetización de la población crece constantemente.
+S|Experts differ|Mutaxassislarning fikrlari turlicha.|Los expertos tienen opiniones distintas.
+S|Solidarity helped|Birdamlik inqirozni yengishga yordam berdi.|La solidaridad ayudó a superar la crisis.
+S|He became|U tashviqot qurboniga aylandi.|Fue víctima de la propaganda.
+S|The integration|Migrantlarning integratsiyasi vaqt talab qiladi.|La integración de los inmigrantes lleva tiempo.
+S|Interaction with|Mijozlar bilan o'zaro munosabat — muvaffaqiyat kaliti.|La interacción con los clientes es la clave del éxito.
+S|One cannot|Hamma narsani iqtisodga bog'lab bo'lmaydi.|No se puede reducir todo a la economía.
+S|This problem|Bu muammo tizimli xususiyatga ega.|Este problema tiene un carácter sistémico.
+S|We are|Biz ochiqlik tamoyiliga amal qilamiz.|Nos guiamos por el principio de transparencia.
+S|Summing up|Yakun yasar ekanman, barcha ishtirokchilarga rahmat aytmoqchiman.|Para concluir, quiero dar las gracias a todos los participantes.
+RT|Reading in|Raqamli asrda kitob o'qish|La lectura en la era digital
+RL|Lately many|So'nggi paytlarda ko'pchilik odamlar kitob o'qimay qo'ydi deb noliydi.|Últimamente muchos se quejan de que la gente ha dejado de leer.
+RL|However, research|Biroq tadqiqotlar murakkabroq manzarani ko'rsatmoqda.|Sin embargo, los estudios muestran un panorama más complejo.
+RL|We read|Biz avvalgidan kam o'qimaymiz, lekin boshqacha o'qiymiz.|No leemos menos que antes, pero leemos de otra manera.
+RL|Texts have|Matnlar qisqaroq, diqqat esa tarqoqroq bo'lib qoldi.|Los textos se han vuelto más cortos y la atención, más dispersa.
+RL|Thus, it|Shunday qilib, o'qishning miqdori emas, chuqurligi zarar ko'rmoqda.|Así pues, no sufre la cantidad, sino la profundidad de la lectura.
+RL|Scientists emphasize|Olimlar diqqatni jamlash qobiliyati — bu ko'nikma ekanini ta'kidlaydi.|Los científicos subrayan que la capacidad de concentrarse es una habilidad.
+RL|Like any|Har qanday ko'nikma kabi uni mashq qildirish kerak.|Como cualquier habilidad, hay que entrenarla.
+RL|For example|Masalan, qog'oz kitoblarni yonida telefon bo'lmagan holda o'qish foydali.|Por ejemplo, es útil leer libros en papel sin el móvil al lado.
+RL|On the|Umuman olganda, raqamli texnologiyalarning o'zi zararli emas.|En general, las tecnologías digitales no son perjudiciales en sí mismas.
+RL|Everything depends|Hammasi ulardan qanday foydalanishimizga bog'liq.|Todo depende de cómo las usemos.
+RT|Sustainable Development|Barqaror rivojlanish|El desarrollo sostenible
+RL|The concept|Barqaror rivojlanish konsepsiyasi yigirmanchi asr oxirida paydo bo'lgan.|El concepto de desarrollo sostenible apareció a finales del siglo veinte.
+RL|Its essence|Uning mohiyati oddiy: kelajak avlodlarga zarar yetkazmasdan bugungi ehtiyojlarni qondirish.|Su esencia es sencilla: satisfacer las necesidades actuales sin perjudicar a las generaciones futuras.
+RL|However, in|Biroq amalda bu ancha murakkab bo'lib chiqdi.|Sin embargo, en la práctica resultó mucho más difícil.
+RL|Economic growth|Iqtisodiy o'sish ko'pincha atrof-muhitni muhofaza qilishga zid keladi.|El crecimiento económico a menudo choca con la protección del medio ambiente.
+RL|Nevertheless, many|Shunga qaramay, ko'plab mamlakatlar «yashil» texnologiyalarni joriy etmoqda.|No obstante, muchos países están implantando tecnologías «verdes».
+RL|Companies also|Kompaniyalar ham ekologik omillarni hisobga olmoqda.|Las empresas también tienen en cuenta los factores medioambientales.
+RL|Undoubtedly, without|Shubhasiz, har birimizning ishtirokimizsiz muvaffaqiyat bo'lmaydi.|Sin duda, sin la participación de cada uno de nosotros no habrá éxito.
+RT|The Art|Bahslashish san'ati|El arte de discutir
+RL|The ability|Bahslasha olish — zamonaviy dunyodagi eng muhim qobiliyatlardan biri.|Saber discutir es una de las habilidades más importantes del mundo actual.
+RL|The goal|Bahsning maqsadi suhbatdoshni yengish emas, balki haqiqatga yaqinlashishdir.|El objetivo de una discusión no es vencer al interlocutor, sino acercarse a la verdad.
+RL|First of|Eng avvalo, raqibni diqqat bilan tinglash kerak.|Ante todo, hay que escuchar con atención al oponente.
+RL|Then you|Keyin hissiyotlarni emas, dalillarni keltirish kerak.|Después hay que aportar argumentos, no emociones.
+RL|It is|Faktlarni fikrlardan ajrata bilish muhim.|Es importante distinguir los hechos de las opiniones.
+RL|If you|Agar noto'g'ri bo'lsangiz, tan oling — bu zaiflik emas, kuch belgisi.|Si te equivocas, admítelo: es señal de fortaleza, no de debilidad.
+RL|Ultimately, a|Oxir-oqibat, yaxshi bahs ikkala tomonni ham boyitadi.|En última instancia, una buena discusión enriquece a ambas partes.
+DT|A Discussion about AI
+DL|A|How do|Sun'iy intellektning mehnat bozoriga ta'sirini qanday baholaysiz?|¿Cómo valora el impacto de la inteligencia artificial en el mercado laboral?
+DL|B|On the|Bir tomondan, u odatiy vazifalarni avtomatlashtiradi.|Por un lado, automatiza las tareas rutinarias.
+DL|B|On the|Boshqa tomondan, yangi kasblar paydo bo'lmoqda.|Por otro lado, surgen nuevas profesiones.
+DL|A|But not|Lekin hamma ham qayta o'qib ulgurmaydi.|Pero no todos conseguirán reciclarse.
+DL|B|That's exactly|Aynan shuning uchun davlat ta'limga sarmoya kiritishi kerak.|Precisamente por eso el Estado debe invertir en educación.
+DL|A|I agree|Qo'shilaman, lekin bu vaqt talab qiladi.|Estoy de acuerdo, pero eso lleva tiempo.
+DL|B|Certainly. That's|Albatta. Shuning uchun bugundan boshlash kerak.|Desde luego. Por eso hay que empezar hoy.
+DT|A Business Meeting
+DL|A|I suggest|Asosiy masalaga o'tishni taklif qilaman.|Propongo pasar a la cuestión principal.
+DL|B|Yes, let's|Ha, shartnoma shartlarini muhokama qilaylik.|Sí, hablemos de las condiciones del contrato.
+DL|A|The delivery|Yetkazib berish muddatlari bizga to'g'ri kelmaydi.|Los plazos de entrega no nos convienen.
+DL|B|We can|Biz ularni bir haftaga qisqartira olamiz.|Podemos reducirlos en una semana.
+DL|A|And what|Narx-chi?|¿Y el precio?
+DL|B|For a|Katta buyurtma uchun chegirma berishga tayyormiz.|Para un pedido grande estamos dispuestos a hacer un descuento.
+DL|A|In that|Unday bo'lsa, shartnomani imzolashimiz mumkin.|En ese caso podemos firmar el acuerdo.
+DL|B|Excellent. I'll|Ajoyib. Hujjatlarni ertagacha tayyorlayman.|Excelente. Prepararé los documentos para mañana.
+DT|On Literature
+DL|A|What book|Hozir qanday kitob o'qiyapsiz?|¿Qué libro está leyendo ahora?
+DL|B|I'm rereading|«Jinoyat va jazo»ni qayta o'qiyapman.|Estoy releyendo «Crimen y castigo».
+DL|A|Isn't it|Juda g'amgin emasmi?|¿No es demasiado sombrío?
+DL|B|Gloomy, but|G'amgin, lekin chuqur. Har safar yangi narsa topaman.|Sombrío, pero profundo. Cada vez descubro algo nuevo.
+DL|A|What attracts|Unda sizni eng ko'p nima jalb qiladi?|¿Qué es lo que más le atrae de él?
+DL|B|The psychology|Qahramonlar psixologiyasi va vijdon haqidagi abadiy savollar.|La psicología de los personajes y las eternas preguntas sobre la conciencia.
+DL|A|Perhaps I|Balki men ham uni qayta o'qishim kerakdir.|Quizá yo también debería releerlo.
