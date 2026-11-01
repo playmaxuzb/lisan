@@ -4,7 +4,7 @@ const RAW = 'AF93 AL355 DZ213 AS1684 AD376 AO244 AI1264 AG1268 AR54 AM374 AW297 
 export const COUNTRIES = RAW.split(' ').map((s) => ({ code: s.slice(0, 2), dial: '+' + s.slice(2) }));
 export const flagEmoji = (cc) => String.fromCodePoint(...[...cc].map((c) => 0x1f1e6 + c.charCodeAt(0) - 65));
 export function countryName(cc, lang){ try { return new Intl.DisplayNames([lang], { type: 'region' }).of(cc) || cc; } catch (e){ return cc; } }
-const BY_LANG = { uz: 'UZ', ru: 'RU', ar: 'JO', en: 'US', es: 'ES', zh: 'CN' };
+const BY_LANG = { uz: 'UZ', ru: 'RU', ar: 'JO', en: 'US', es: 'ES', zh: 'CN', de: 'DE', fr: 'FR', it: 'IT', tr: 'TR', ja: 'JP', ko: 'KR' };
 export function defaultCountry(lang){
   try { for (const l of (navigator.languages || [navigator.language])){ const m = String(l).match(/-([A-Za-z]{2})$/); if (m){ const c = m[1].toUpperCase(); if (COUNTRIES.some((x) => x.code === c)) return c; } } } catch (e){}
   return BY_LANG[lang] || 'UZ';

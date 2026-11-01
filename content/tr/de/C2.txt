@@ -1,0 +1,361 @@
+TH|Feine Bedeutungsnuancen
+V|heuchlerisch
+V|arrogant
+V|unerschütterlich
+V|vage
+V|raffiniert
+V|scharfsinnig
+V|wortkarg
+V|eitel
+V|großherzig
+V|heimtückisch
+V|prinzipientreu
+V|impulsiv
+V|unbeugsam
+V|selbstgefällig
+V|unterwürfig
+V|unbezwingbar
+V|melancholisch
+V|anmutig
+V|standhaft
+V|umsichtig
+V|vielversprechend
+V|verworren
+V|stürmisch
+V|unparteiisch
+V|teilnahmslos
+TH|Literarische Verben
+V|übergreifen
+V|sich verflechten
+V|erhellen
+V|verblassen
+V|aufbrausen
+V|beherzigen
+V|sich herablassen
+V|sich verstellen
+V|erfassen
+V|entfachen
+V|überwältigen
+V|sich abfinden
+V|vorwerfen
+V|enttäuscht werden
+V|vertrauen auf
+V|verdächtigen
+V|hinauszögern
+V|verteidigen
+V|ernten
+V|sich vertiefen
+V|streben
+V|versöhnen
+V|in den Schatten stellen
+V|ausweichen
+V|begreifen
+TH|Gefühlsnuancen
+V|die Gelassenheit
+V|die Sehnsucht
+V|die Zärtlichkeit
+V|die Verzweiflung
+V|die Verlegenheit
+V|die Empörung
+V|die Demut
+V|die Verachtung
+V|die Bewunderung
+V|die Besorgnis
+V|die Entfremdung
+V|die Schadenfreude
+V|die Reue
+V|die Nostalgie
+V|die Inspiration
+V|die Erschöpfung
+V|die Verwirrung
+V|der Groll
+V|die Verbundenheit
+V|die Apathie
+TH|Rhetorik und Stil
+V|die Ironie
+V|die Rhetorik
+V|der Subtext
+V|die Stilistik
+V|die Wiederholung
+V|die Allegorie
+V|der Sarkasmus
+V|die Übertreibung
+V|der Aphorismus
+V|die Anspielung
+V|der Rhythmus
+V|die Silbe
+V|die Redekunst
+V|der Erzähler
+V|der Höhepunkt
+V|die Auflösung
+V|die Personifikation
+TH|Verwaltung und Recht
+V|die Behörde
+V|die Vorschriften
+V|die Rechtsvorschrift
+V|die Befugnisse
+V|die Zuständigkeit
+V|das Vergehen
+V|die Berufung
+V|das Schiedsgericht
+V|der Präzedenzfall
+V|die Ratifizierung
+V|die Legitimität
+V|die Unantastbarkeit
+V|übertragen
+V|die Bürokratie
+V|die Transparenz
+TH|Wissenschaft
+V|die Evolution
+V|das Quant
+V|das Universum
+V|der Katalysator
+V|die Beobachtung
+V|der Organismus
+V|die Anomalie
+V|die Gesetzmäßigkeit
+V|der Algorithmus
+V|das Neuron
+V|das Ökosystem
+V|das Molekül
+V|die Umlaufbahn
+V|die Schwerkraft
+V|die Immunität
+TH|Abstrakte Begriffe
+V|die Dualität
+V|der Orientierungspunkt
+V|das Dilemma
+V|das Paradox
+V|die Ungewissheit
+V|die Hierarchie
+V|die Ganzheit
+V|die Bestimmung
+V|die Vielfalt
+V|die Voraussetzung
+V|die Bedingtheit
+V|die Illusion
+V|der Umbruch
+V|die Vorbestimmung
+V|die Echtheit
+V|die Kontinuität
+V|die Intuition
+V|die Mehrdeutigkeit
+TH|Adverbien
+V|keineswegs
+V|teilweise
+V|plötzlich
+V|allmählich
+V|ausnahmslos
+V|kaum
+V|gründlich (bis ins Detail)
+V|unbeabsichtigt
+V|nebenbei
+V|seit jeher
+V|rasch
+V|absichtlich
+V|wahrhaftig
+V|gemäß
+V|unmerklich
+V|am Ende
+TH|Kunstkritik
+V|die Leinwand
+V|die Farbgebung
+V|das Meisterwerk
+V|der Pinselstrich
+V|die Avantgarde
+V|die Antike
+V|die Handschrift
+V|die Sinfonie
+V|die Choreografie
+V|die Perspektive
+V|die Nachahmung
+V|die Originalität
+V|die Statue
+V|die Anthologie
+TH|Gehobener Stil
+V|die Ehrfurcht
+V|die Verzückung
+V|die Erleuchtung
+V|ungreifbar
+V|unerschütterlich (fest)
+V|die Gleichheit
+V|die Verflechtung
+V|der Eifer
+V|der Abgrund
+V|vergänglich
+V|flüchtig
+V|der Lebensweg
+V|erlesen
+V|innerst
+V|die Dämmerung
+V|versiegen
+V|beruhen auf
+V|sich verneigen vor
+V|enträtseln
+V|abwägen
+V|chaotisch
+V|die Stille
+V|vormorgendlich
+V|die Chronik
+V|die Pflicht (Schuldigkeit)
+V|trügerisch
+V|welkend
+V|eigenwillig
+V|die Schauspielerei
+V|die Vorahnung
+V|die Einsicht
+V|vergeblich
+V|das Dasein
+V|die Unendlichkeit
+V|das Mitleid
+S|Seine Ironie verstand nicht jeder.
+S|Der Autor setzt den Subtext meisterhaft ein.
+S|Was man auch sagt, er hat recht.
+S|Er ist keineswegs so einfach, wie er scheint.
+S|Ihre Großherzigkeit überraschte alle.
+S|Seine Worte klangen wie ein Vorwurf.
+S|Sie tat so, als hätte sie nichts bemerkt.
+S|Mit der Zeit verblasste der Schmerz.
+S|Er konnte sich nie mit dem Verlust abfinden.
+S|Man kann nicht alles auf einmal erfassen.
+S|In seiner Stimme klang Empörung.
+S|Mich überkam die Sehnsucht nach der Heimat.
+S|Ihre Rede zeichnete sich durch Anmut aus.
+S|Wir stehen vor einem schwierigen Dilemma.
+S|Darin liegt das Paradox.
+S|Die Veränderungen geschahen allmählich und unmerklich.
+S|Er erwähnte das nur nebenbei.
+S|Sie werden es kaum bis zur Frist schaffen.
+S|Er hat die Frage bis ins Detail untersucht.
+S|Seit jeher streben die Menschen nach Freiheit.
+S|Das Bild besticht durch seine Farben.
+S|Diese Leinwand gilt als Meisterwerk.
+S|Der Höhepunkt des Romans kommt im letzten Kapitel.
+S|Die Auflösung war unerwartet.
+S|Der Erzähler weckt kein Vertrauen.
+S|Gegen das Urteil des Gerichts kann man Berufung einlegen.
+S|Die Befugnisse wurden dem Stellvertreter übertragen.
+S|Transparenz ist die Grundlage des Vertrauens.
+S|Die Bürokratie bremst jede Reform.
+S|Dieser Präzedenzfall hat die Rechtsprechung verändert.
+S|Das Universum birgt noch viele Geheimnisse.
+S|Die Wissenschaftler haben eine seltsame Anomalie festgestellt.
+S|Die Evolution ist ein langsamer, aber unaufhaltsamer Prozess.
+S|Die Echtheit der Handschrift wird angezweifelt.
+S|Gesagt, getan.
+S|Morgenstund hat Gold im Mund.
+S|Es ist nicht alles Gold, was glänzt.
+S|Eile mit Weile.
+S|Ohne Fleiß kein Preis.
+S|Geduld und Arbeit überwinden alles.
+S|Er schwieg absichtlich.
+S|Sie berührte unbeabsichtigt ein wundes Thema.
+S|Uns bleibt nur, auf das Beste zu hoffen.
+S|Wir ernten die Früchte unserer Entscheidungen.
+S|Er verteidigte seinen Standpunkt bis zuletzt.
+S|Um die Vergangenheit zu begreifen, braucht man Zeit.
+S|Ihr Erfolg stellte alle Konkurrenten in den Schatten.
+S|Sein Verhalten grenzt an Unhöflichkeit.
+S|Wie sehr man sich auch bemüht, man kann es nicht allen recht machen.
+S|Obendrein kam er auch noch zu spät.
+S|Wenn nur alles glattgeht.
+S|Nicht dass ich dagegen wäre, aber ich habe Zweifel.
+S|Kaum war er eingetreten, verstummten alle.
+S|Was auch passiert, ich bin da.
+S|Sie sprach, als wäre nichts geschehen.
+S|Soweit ich weiß, ist die Frage schon geklärt.
+S|Am Ende fügte sich alles.
+S|Dennoch blieben ungelöste Fragen.
+S|Sein Beitrag ist kaum zu überschätzen.
+S|Wahrhaftig, die Weisheit kennt keine Grenzen.
+S|Sie blieb ihren Überzeugungen treu.
+S|Die Eitelkeit wurde ihm zum Verhängnis.
+S|Seine Selbstgefälligkeit ärgerte die Kollegen.
+S|Bei dieser Wahl gibt es weder Richtig noch Falsch.
+S|Die Zukunft ist in Ungewissheit gehüllt.
+S|Die Vielfalt der Meinungen ist ein Reichtum.
+S|Dieses Buch ist die Frucht jahrelanger Arbeit.
+S|Die Worte des Dichters klingen neu.
+S|Ein Gedanke lässt mir keine Ruhe.
+S|Der Ruhm hat ihn nicht verdorben.
+S|Wir haben uns lange geschrieben.
+S|Der Lebenswille ist stärker als die Angst.
+S|Wie durch ein Wunder entgingen sie der Katastrophe.
+S|Seine Rede war voller Zitate.
+S|Vielleicht war es zum Besten.
+S|Die Zeit wird es zeigen.
+S|Sein Eifer kannte keine Grenzen.
+S|Alles auf dieser Welt ist vergänglich.
+S|Ihre Geduld war am Ende.
+S|Sie hat seinen Plan durchschaut.
+S|Nachdem er alles Für und Wider abgewogen hatte, lehnte er ab.
+S|Eine seltsame Vorahnung überkam mich.
+S|In der Dämmerung wirkte die Stadt gespenstisch.
+S|Das Glück ist flüchtig wie ein Frühlingsregen.
+S|Sein Geschmack zeichnete sich durch Raffinesse aus.
+S|Mitgefühl ist keine Schwäche.
+S|Sie vertraute ihm ihre innersten Gedanken an.
+S|All seine Mühen waren vergeblich.
+S|Wir verneigen uns vor seinem Talent.
+S|Es herrschte die Stille vor dem Morgengrauen.
+S|Er hat seinen Weg schon in der Jugend gewählt.
+S|Die Chronik bewahrt die Erinnerung an jene Ereignisse.
+S|Wir tun nur unsere Pflicht.
+S|Dieses Buch ist ein verschlungenes Geflecht von Schicksalen.
+S|Seine Rede war chaotisch.
+S|Ihm ging ein Licht auf.
+S|Die Schönheit wird die Welt retten.
+S|Das Leben ist kein Spaziergang.
+S|Besser spät als nie.
+S|Ein Ertrinkender greift nach jedem Strohhalm.
+S|Wo Rauch ist, ist auch Feuer.
+S|Erst die Arbeit, dann das Vergnügen.
+S|Ein Freund in der Not ist ein wahrer Freund.
+S|Die Kraft liegt in der Wahrheit.
+RT|Die Kunst des Schweigens
+RL|Man sagt: Reden ist Silber, Schweigen ist Gold.
+RL|Im Zeitalter endloser Nachrichten klingt dieses Sprichwort fast wie eine Herausforderung.
+RL|Wir beeilen uns zu antworten, zu kommentieren, unseren Senf dazuzugeben.
+RL|Und fragen uns selten, ob es sich gelohnt hat.
+RL|Dabei ist die Fähigkeit, im richtigen Moment zu schweigen, kein Zeichen von Schwäche, sondern von Reife.
+RL|Schweigen gibt Zeit, das Gehörte zu verarbeiten.
+RL|Es zeigt sich, dass Zuhören nicht weniger wichtig ist als Reden.
+RL|Nicht zufällig schätzten die Weisen aller Zeiten die Wortkargheit.
+RT|Über das Übersetzen
+RL|Übersetzen ist kein einfaches Ersetzen von Wörtern.
+RL|Jede Sprache trägt eine eigene Sicht auf die Welt in sich.
+RL|Redewendungen, Wortspiele, Subtext: All das ist schwer zu übersetzen.
+RL|Der Übersetzer muss zwischen Genauigkeit und Schönheit wählen.
+RL|Nicht umsonst sagt man, der Übersetzer sei ein Mitautor.
+RL|Eine gute Übersetzung bewahrt nicht nur den Sinn, sondern auch den Geist des Originals.
+RL|Genau deshalb werden große Bücher immer wieder neu übersetzt.
+RT|Die Erinnerung an einen Ort
+RL|Es gibt Städte, die in uns weiterleben, lange nachdem wir sie verlassen haben.
+RL|Der Geruch von Regen in einer alten Straße, Glockenläuten, die Stimme eines Händlers auf dem Markt.
+RL|All das taucht plötzlich in der Erinnerung auf.
+RL|Nostalgie ist nicht nur Sehnsucht nach der Vergangenheit.
+RL|Sie ist der Versuch, einen Teil von sich zurückzuholen, der dort geblieben ist.
+RL|Wenn wir Jahre später zurückkehren, erkennen wir oft weder die Stadt noch uns selbst wieder.
+RL|Und doch schenkt diese Begegnung eine seltsame Gelassenheit.
+DT|Gespräch über einen Roman
+DL|A|Na, hast du den Roman zu Ende gelesen?
+DL|B|Ja. Ehrlich gesagt hat mich das Ende ratlos gemacht.
+DL|A|Ja, der Autor lässt gern vieles ungesagt.
+DL|B|Genau. Alles beruht auf dem Subtext.
+DL|A|Aber was für eine Sprache! Ich konnte nicht aufhören zu lesen.
+DL|B|Das stimmt, da gibt es nichts zu streiten.
+DT|Ein Streit
+DL|A|Bist du immer noch beleidigt?
+DL|B|Nicht so sehr beleidigt als vielmehr enttäuscht.
+DL|A|Ich verstehe. Ich habe mich hinreißen lassen und zu viel gesagt.
+DL|B|Ein gesprochenes Wort kann man nicht zurückholen.
+DL|A|Ich weiß. Verzeih mir bitte.
+DL|B|Schon gut, Schwamm drüber.
+DL|A|Danke. Du bist ein wahrer Freund.
+DT|In der Ausstellung
+DL|A|Was sagst du zu diesem Bild?
+DL|B|Die Farben sind eindrucksvoll, aber die Komposition ist meiner Meinung nach überladen.
+DL|A|Und ich glaube, genau das ist die Absicht des Künstlers.
+DL|B|Möglich. Das Chaos als Spiegel der Epoche?
+DL|A|Genau. Schau dir die Pinselstriche an: Wie viel Unruhe darin liegt.
+DL|B|Du hast mich fast überzeugt.

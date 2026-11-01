@@ -1,0 +1,383 @@
+TH|Kleidung
+V|die Jacke
+V|der Mantel
+V|das Hemd
+V|das T-Shirt
+V|das Kleid
+V|die Jeans
+V|die Hose
+V|die Shorts
+V|der Rock
+V|der Pullover
+V|der Schal
+V|die Mütze
+V|die Handschuhe
+V|die Socken
+V|die Turnschuhe
+V|die Stiefel
+V|die Schuhe
+V|die Tasche
+V|die Armbanduhr
+V|die Brille
+V|der Ring
+V|der Anzug
+TH|Einkaufen
+V|das Geschäft
+V|der Markt
+V|der Preis
+V|der Rabatt
+V|die Größe
+V|der Kassenbon
+V|das Geld
+V|die Karte
+V|das Wechselgeld
+V|der Geldautomat
+V|der Verkäufer
+V|der Kunde
+V|das Geschenk
+V|bezahlen
+V|anprobieren
+V|umtauschen
+TH|Wetter und Jahreszeiten
+V|das Wetter
+V|der Regen
+V|der Schnee
+V|der Wind
+V|der Nebel
+V|das Gewitter
+V|die Temperatur
+V|der Regenschirm
+V|der Regenbogen
+V|der Winter
+V|der Frühling
+V|der Sommer
+V|der Herbst
+V|sonnig
+V|bewölkt
+V|heiß
+V|kalt
+V|warm
+V|kühl
+TH|Monate
+V|der Januar
+V|der Februar
+V|der März
+V|der April
+V|der Mai
+V|der Juni
+V|der Juli
+V|der August
+V|der September
+V|der Oktober
+V|der November
+V|der Dezember
+TH|Reisen
+V|die Reise
+V|die Fahrkarte
+V|der Reisepass
+V|das Visum
+V|der Koffer
+V|der Flughafen
+V|der Bahnhof
+V|das Hotel
+V|das Hotelzimmer
+V|das Foto
+V|die Rundreise
+V|der Tourist
+V|das Museum
+V|das Schloss
+V|der Strand
+V|der Fahrplan
+V|ankommen
+V|abfliegen
+V|reservieren
+TH|Berufe
+V|der Arzt
+V|der Lehrer
+V|der Ingenieur
+V|der Koch
+V|der Fahrer
+V|der Programmierer
+V|die Krankenschwester
+V|der Anwalt
+V|der Buchhalter
+V|der Künstler
+V|der Musiker
+V|der Polizist
+V|der Feuerwehrmann
+V|der Bauer
+V|der Friseur
+V|der Pilot
+V|der Journalist
+V|der Bauarbeiter
+V|der Mechaniker
+V|der Zahnarzt
+TH|Hobbys und Sport
+V|der Fußball
+V|der Basketball
+V|das Tennis
+V|das Schwimmen
+V|das Laufen
+V|das Radfahren
+V|das Fitnessstudio
+V|das Schach
+V|die Gitarre
+V|das Klavier
+V|der Film
+V|die Serie
+V|das Spiel
+V|fotografieren
+V|stricken
+V|das Angeln
+V|die Wanderung
+V|die Mannschaft
+V|das Spiel (Match)
+V|der Sieg
+TH|Gesundheit
+V|das Fieber
+V|der Schnupfen
+V|der Husten
+V|der Schmerz
+V|die Tablette
+V|die Spritze
+V|die Klinik
+V|der Krankenwagen
+V|das Pflaster
+V|sich schlecht fühlen
+V|krank sein
+V|gesund
+TH|Stadt und Wege
+V|nach rechts
+V|nach links
+V|geradeaus
+V|zurück
+V|in der Nähe
+V|weit
+V|nah
+V|die Ampel
+V|der Fußgängerüberweg
+V|abbiegen
+V|das Zentrum
+V|die Brücke
+V|der Platz
+V|der Supermarkt
+V|die Kirche
+V|die Post
+V|der Parkplatz
+V|das Stadion
+V|das Theater
+V|die Bibliothek
+TH|Hausarbeit
+V|aufräumen
+V|Wäsche waschen
+V|bügeln
+V|abwaschen
+V|den Müll rausbringen
+V|die Blumen gießen
+V|einkaufen gehen
+V|der Staubsauger
+V|die Seife
+V|das Handtuch
+TH|Kochen
+V|schneiden
+V|braten
+V|kochen (in Wasser)
+V|umrühren
+V|salzen
+V|backen
+V|das Rezept
+V|süß
+V|sauer
+V|salzig
+V|scharf
+V|das Rindfleisch
+V|das Lammfleisch
+V|der Nachtisch
+V|das Abendessen
+V|das Frühstück
+V|das Mittagessen
+TH|Tagesablauf
+V|aufwachen
+V|aufstehen
+V|duschen
+V|Zähne putzen
+V|sich anziehen
+V|frühstücken
+V|zu Mittag essen
+V|zu Abend essen
+V|weggehen
+V|zurückkommen
+V|ins Bett gehen
+V|sich verspäten
+V|der Arbeitstag
+V|das Wochenende
+TH|Gefühle
+V|zufrieden
+V|sich Sorgen machen
+V|Angst haben
+V|sich ärgern
+V|verliebt
+V|schüchtern sein
+V|sich wundern
+V|danken
+V|umarmen
+V|vermissen
+S|Gestern war ich im Geschäft.
+S|Ich habe eine neue Jacke gekauft.
+S|Sie hat ein rotes Kleid gekauft.
+S|Wie viel kosten diese Schuhe?
+S|Dieses Hemd ist mir zu klein.
+S|Haben Sie diesen Pullover in einer anderen Farbe?
+S|Kann ich mit Karte bezahlen?
+S|Heute gibt es große Rabatte.
+S|Ich suche ein Geschenk für meine Mama.
+S|Ich brauche eine größere Größe.
+S|Wie ist das Wetter heute?
+S|Heute regnet es.
+S|Nimm einen Regenschirm mit.
+S|Morgen wird es sonnig.
+S|Gestern war ein starker Wind.
+S|Im Winter ist es in Moskau sehr kalt.
+S|Im Sommer ist es in Taschkent heiß.
+S|Meine Lieblingsjahreszeit ist der Frühling.
+S|Mein Geburtstag ist im Mai.
+S|Im August fahren wir ans Meer.
+S|Ich habe ein Zimmer im Hotel reserviert.
+S|Wo ist mein Reisepass?
+S|Ich brauche eine Fahrkarte nach Samarkand.
+S|Der Zug fährt um neun Uhr ab.
+S|Das Flugzeug hat eine Stunde Verspätung.
+S|Wir waren im Museum und im Theater.
+S|Ich habe viele Fotos gemacht.
+S|Wir haben in einem Hotel am Meer gewohnt.
+S|Ich möchte nach Russland fahren.
+S|Wie komme ich zum Bahnhof?
+S|Geh geradeaus und dann nach links.
+S|Die Bibliothek ist um die Ecke.
+S|Die Post ist neben dem Platz.
+S|Geh bei der Ampel über die Straße.
+S|Ist es weit von hier?
+S|Mein Bruder arbeitet als Fahrer.
+S|Meine Freundin ist Krankenschwester.
+S|Ich möchte Programmierer werden.
+S|Was machst du beruflich?
+S|Mein Vater hat als Ingenieur gearbeitet.
+S|Am Wochenende spiele ich Tennis.
+S|Ich gehe dreimal pro Woche ins Fitnessstudio.
+S|Kannst du Gitarre spielen?
+S|Gestern haben wir einen interessanten Film gesehen.
+S|Unsere Mannschaft hat das Spiel gewonnen.
+S|Ich lese sehr gern Krimis.
+S|Mein Papa angelt sehr gern.
+S|Ich habe Fieber.
+S|Mir tut der Hals weh.
+S|Ich muss zum Arzt gehen.
+S|Nimm eine Tablette und ruh dich aus.
+S|Ruf einen Krankenwagen!
+S|Mir geht es schon gut.
+S|Ich wache um sechs Uhr auf.
+S|Dann dusche ich und frühstücke.
+S|Ich gehe um acht aus dem Haus.
+S|Abends komme ich nach Hause zurück.
+S|Ich gehe um elf ins Bett.
+S|Entschuldigung, ich habe mich verspätet.
+S|Am Samstag räume ich die Wohnung auf.
+S|Wer wäscht ab?
+S|Ich bringe jeden Abend den Müll raus.
+S|Mama bügelt Hemden.
+S|Ich koche das Abendessen für die ganze Familie.
+S|Schneide die Zwiebel und die Tomaten.
+S|Die Suppe ist sehr salzig.
+S|Diese Zitrone ist sehr sauer.
+S|Was ist dein Rezept?
+S|Ich esse meistens in einem Café zu Mittag.
+S|Wir essen um sieben zu Abend.
+S|Moskau ist größer als Taschkent.
+S|Diese Jacke ist wärmer.
+S|Mein Bruder ist älter als ich.
+S|Die U-Bahn ist das schnellste Verkehrsmittel.
+S|Ich habe Angst vor Hunden.
+S|Mach dir keine Sorgen, alles wird gut.
+S|Ich vermisse mein Zuhause sehr.
+S|Danke für das Geschenk!
+S|Ich war sehr überrascht.
+S|Wir haben uns letztes Jahr kennengelernt.
+S|Was machst du heute Abend?
+S|Ich werde eine Serie schauen.
+S|Treffen wir uns im Zentrum.
+S|Um wie viel Uhr hast du Zeit?
+S|Ich rufe dich später an.
+S|Wir gehen oft ins Kino.
+S|Er kommt nie zu spät.
+S|Manchmal koche ich Plov.
+S|Gestern habe ich den ganzen Tag gearbeitet.
+S|Ich war noch nie in Sankt Petersburg.
+S|Wir werden in einer neuen Wohnung wohnen.
+S|Sie sind in eine andere Stadt gezogen.
+S|Ich habe meine Schlüssel zu Hause vergessen.
+S|Erinnerst du dich, wo wir letztes Jahr waren?
+S|Ich habe heute Nacht schlecht geschlafen.
+S|Wir müssen Lebensmittel kaufen.
+S|Kann ich die Speisekarte sehen?
+S|Ich möchte ein Taxi bestellen.
+S|Bringen Sie mich bitte zum Flughafen.
+RT|Mein Wochenende
+RL|Am Samstag bin ich spät aufgewacht, um zehn Uhr.
+RL|Ich habe gefrühstückt und einen Freund angerufen.
+RL|Wir haben beschlossen, in den Park zu gehen.
+RL|Das Wetter war herrlich: warm und sonnig.
+RL|Im Park sind wir spazieren gegangen und haben Eis gegessen.
+RL|Dann sind wir ins Kino gegangen.
+RL|Der Film war lustig, und wir haben viel gelacht.
+RL|Am Sonntag habe ich die Wohnung aufgeräumt und Mittagessen gekocht.
+RL|Am Abend haben mich meine Eltern besucht.
+RL|Wir haben Tee getrunken und über die Familie gesprochen.
+RL|Es war ein tolles Wochenende.
+RT|Am Flughafen
+RL|Letzte Woche bin ich nach Moskau geflogen.
+RL|Ich war zwei Stunden vor dem Flug am Flughafen.
+RL|Zuerst habe ich meinen Koffer aufgegeben.
+RL|Dann habe ich meinen Pass und mein Ticket gezeigt.
+RL|Das Flugzeug hatte eine Stunde Verspätung.
+RL|Ich habe in einem Café gesessen, Kaffee getrunken und ein Buch gelesen.
+RL|Der Flug hat drei Stunden gedauert.
+RL|In Moskau war es kalt, es hat geschneit.
+RL|Zum Glück hatte ich eine warme Jacke dabei!
+RT|Ein Traumberuf
+RL|Meine Schwester Leila arbeitet als Ärztin.
+RL|Schon in der Schule wollte sie Menschen helfen.
+RL|Sie hat sechs Jahre an der Universität studiert.
+RL|Jetzt arbeitet sie in einem großen Krankenhaus.
+RL|Ihr Arbeitstag beginnt um sieben Uhr morgens.
+RL|Manchmal arbeitet sie auch nachts.
+RL|Die Arbeit ist schwer, aber interessant.
+RL|Leila sagt, das ist ihre Berufung.
+DT|Im Hotel
+DL|A|Guten Tag! Ich habe eine Reservierung auf den Namen Ahmad.
+DL|B|Guten Tag! Ihren Pass, bitte.
+DL|A|Bitte schön.
+DL|B|Ihr Zimmer ist im dritten Stock. Hier ist der Schlüssel.
+DL|A|Um wie viel Uhr gibt es Frühstück?
+DL|B|Von sieben bis zehn im Restaurant.
+DL|A|Gibt es im Zimmer Internet?
+DL|B|Ja, das Passwort steht auf der Karte.
+DL|A|Danke!
+DL|B|Einen schönen Aufenthalt!
+DT|Pläne fürs Wochenende
+DL|A|Was machst du am Samstag?
+DL|B|Ich weiß es noch nicht. Warum?
+DL|A|Lass uns in die Berge fahren!
+DL|B|Gute Idee. Und wie wird das Wetter?
+DL|A|Es soll sonnig werden.
+DL|B|Super! Um wie viel Uhr treffen wir uns?
+DL|A|Um acht Uhr morgens an der U-Bahn.
+DL|B|Abgemacht. Ich bringe Wasser und Sandwiches mit.
+DT|Beim Arzt
+DL|A|Was fehlt Ihnen?
+DL|B|Ich habe Husten und Schnupfen.
+DL|A|Haben Sie Fieber?
+DL|B|Ja, gestern hatte ich achtunddreißig.
+DL|A|Das ist eine Erkältung. Trinken Sie viel warmen Tee.
+DL|B|Brauche ich Tabletten?
+DL|A|Ja, hier ist ein Rezept. Dreimal am Tag.
+DL|B|Danke, Herr Doktor.

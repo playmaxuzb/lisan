@@ -12,6 +12,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .tgt{ font-family:Inter,"Noto Sans SC",system-ui,sans-serif; }
 .tgt-ar{ font-family:"Amiri","IBM Plex Sans Arabic",serif; font-size:1.12em; line-height:1.9; }
 .tgt-zh{ font-family:"Noto Sans SC",system-ui,sans-serif; }
+.tgt-ja{ font-family:"Noto Sans JP","Noto Sans SC",system-ui,sans-serif; }
+.tgt-ko{ font-family:"Noto Sans KR",system-ui,sans-serif; }
+[lang="ja"]{ font-family:Inter,"Noto Sans JP",system-ui,sans-serif; } [lang="ko"]{ font-family:Inter,"Noto Sans KR",system-ui,sans-serif; }
 .muted{ color:var(--ink-2); }
 /* grammar body */
 .gbody p{ margin:.55em 0; line-height:1.75; } .gbody .tip{ background:#F5F8FF; border:1.5px dashed var(--line-2); border-radius:12px; padding:10px 14px; color:var(--ink); }

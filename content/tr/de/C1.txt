@@ -1,0 +1,381 @@
+TH|Wissenschaftlicher Wortschatz
+V|die Tendenz
+V|die Konsequenz
+V|die Annahme
+V|der Beweis
+V|der Widerspruch
+V|das Wesen
+V|die Schlussfolgerung
+V|der Ansatz
+V|die Ansicht
+V|der Wert
+V|die Überzeugung
+V|der Zweifel
+V|das Phänomen
+V|die Hypothese
+V|die Methodik
+V|das Argument
+V|der Prozess
+V|die Struktur
+V|das Konzept
+V|der Zusammenhang
+V|das Kriterium
+V|die Einteilung
+V|der Aspekt
+V|der Kontext
+V|der Kompromiss
+TH|Formelle Verben
+V|hervorheben
+V|betrachten
+V|durchführen
+V|bereitstellen
+V|gewährleisten
+V|beitragen zu
+V|behindern
+V|bewerten
+V|vorhersagen
+V|umsetzen
+V|formulieren
+V|erforschen
+V|überarbeiten
+V|widerlegen
+V|bestätigen
+V|regeln
+V|feststellen
+V|erwähnen
+V|bestimmen
+V|äußern
+V|berücksichtigen
+V|verbinden
+V|aufdecken
+V|senken
+V|entstehen
+TH|Finanzen und Geschäft
+V|die Aktiva
+V|die Passiva
+V|die Börse
+V|die Aktie
+V|das Kapital
+V|die Fusion
+V|die Berichterstattung
+V|die Rentabilität
+V|die Partnerschaft
+V|die Krise
+V|die Prüfung (Audit)
+V|die Kosten
+V|die Dienstleistung
+V|die Branche
+V|die Globalisierung
+V|der Lieferant
+V|die Strategie
+V|die Innovation
+V|das Management
+V|die Vereinbarung
+TH|Recht
+V|die Justiz
+V|der Beschluss
+V|der Rechtsanwalt
+V|der Kläger
+V|die Verteidigung
+V|das Urteil
+V|die personenbezogenen Daten
+V|das Urheberrecht
+V|die Lizenz
+V|der Gesetzentwurf
+V|das Parlament
+V|die Volksabstimmung
+V|die Vertraulichkeit
+V|die Pflicht
+TH|Medizin
+V|die Diagnose
+V|das Symptom
+V|die Impfung
+V|das Labor
+V|die Infektion
+V|die Psychotherapie
+V|das Röntgenbild
+V|das Antibiotikum
+V|die Rehabilitation
+V|die Genesung
+V|chronisch
+V|der Chirurg
+V|die Vorbeugung
+TH|Sprache und Literatur
+V|die Erzählung
+V|die Figur
+V|der Stil
+V|die Handlung
+V|die Metapher
+V|der Dialekt
+V|die Gattung
+V|die Publizistik
+V|der Essay
+V|die Sprachwissenschaft
+V|der Fachbegriff
+V|das Zitat
+V|der Absatz
+TH|Philosophie und Ethik
+V|die Philosophie
+V|die Moral
+V|das Gewissen
+V|der Wille
+V|der Sinn des Lebens
+V|die Wahrheit
+V|der Glaube
+V|der Humanismus
+V|die Selbsterkenntnis
+V|das Bewusstsein
+V|die Weltanschauung
+V|die Gerechtigkeit
+V|die Weisheit
+TH|Gehobene Adjektive
+V|unvermeidlich
+V|bedeutend
+V|offensichtlich
+V|vielseitig
+V|wissenschaftlich
+V|zweckmäßig
+V|nachhaltig
+V|mehrdeutig
+V|grundlegend
+V|fragwürdig
+V|vorrangig
+V|unbedeutend
+V|vorübergehend
+V|dauerhaft
+V|umfassend
+V|allgemeingültig
+V|subjektiv
+V|objektiv
+V|rasant
+V|gründlich
+V|herausragend
+V|umstritten
+V|zurückhaltend
+V|leidenschaftlich
+V|verletzlich
+TH|Bindewörter und Adverbien
+V|jedoch
+V|dennoch
+V|folglich
+V|außerdem
+V|gleichzeitig
+V|dank
+V|trotz
+V|entgegen
+V|somit
+V|im Großen und Ganzen
+V|insbesondere
+V|vor allem
+V|im Gegenteil
+V|auf diese Weise
+V|letztendlich
+V|im Wesentlichen
+V|im Zusammenhang mit
+V|infolge
+V|dadurch
+V|zweifellos
+TH|Forschung
+V|der Forscher
+V|die Stichprobe
+V|der Indikator
+V|die Analyse
+V|die Veröffentlichung
+V|die Entdeckung
+V|die Doktorarbeit
+V|die Quelle (Fachliteratur)
+V|die Fehlerspanne
+V|das Stipendium
+V|der Promovierte
+TH|Diplomatie
+V|die Verhandlungen
+V|die Botschaft
+V|der Botschafter
+V|der Vertrag (zwischen Staaten)
+V|die Zusammenarbeit
+V|die Sanktionen
+V|der Waffenstillstand
+V|die Erklärung
+V|die Neutralität
+V|die humanitäre Hilfe
+TH|Moderne Gesellschaft
+V|die Urbanisierung
+V|die Demografie
+V|die Alterung der Bevölkerung
+V|die Arbeitsmigration
+V|die Toleranz
+V|die Zivilgesellschaft
+V|die Digitalisierung
+V|die Cybersicherheit
+V|kognitiv
+V|ungleichmäßig
+V|industriell
+V|die Ökologie
+V|die Lese- und Schreibfähigkeit
+V|die Identität
+V|die Propaganda
+V|die Diskriminierung
+V|die Solidarität
+V|die Korruption
+V|die Reform
+V|der Beamte
+V|die Integration
+V|das Gutachten
+V|der Abschwung
+V|die Infrastruktur
+V|das Zusammenwirken
+S|Trotz der Schwierigkeiten wurde das Projekt rechtzeitig abgeschlossen.
+S|Nachdem er den Artikel gelesen hatte, änderte er seine Meinung.
+S|Diese Frage erfordert eine gründliche Analyse.
+S|Es ist hervorzuheben, dass die Ergebnisse vorläufig sind.
+S|Dank der Unterstützung der Kollegen haben wir das Ziel erreicht.
+S|Die Untersuchung zeigte ein deutliches Wachstum.
+S|Auf dem Heimweg traf ich einen alten Freund.
+S|Bekanntlich verändert sich die Sprache ständig.
+S|Somit kann man schließen, dass sich die Hypothese bestätigt hat.
+S|Seine Worte weckten Zweifel.
+S|Die Frage bleibt offen.
+S|Die Daten bestätigen diese Theorie nicht.
+S|Man muss alle Faktoren berücksichtigen.
+S|Der Autor führt überzeugende Argumente an.
+S|Aus wirtschaftlicher Sicht ist das riskant.
+S|Das Unternehmen strebt eine nachhaltige Entwicklung an.
+S|Die Entscheidung wurde einstimmig getroffen.
+S|Die Parteien haben einen Kompromiss gefunden.
+S|Die Verhandlungen dauerten die ganze Nacht.
+S|Je mehr wir wissen, desto mehr Fragen entstehen.
+S|Infolge der Krise verloren viele ihre Arbeit.
+S|Seine Rede wurde mit Applaus aufgenommen.
+S|Dieser Aussage muss man zustimmen.
+S|Sie hat herausragende Fähigkeiten.
+S|Wäre der Regen nicht gewesen, wären wir aufs Land gefahren.
+S|Wir müssen eine Reihe komplexer Aufgaben lösen.
+S|Sie sagte das mit leichter Ironie.
+S|Seine Haltung verdient Respekt.
+S|Die gewonnenen Daten müssen überprüft werden.
+S|Das ist nur eine der möglichen Deutungen.
+S|Der Autor greift wichtige gesellschaftliche Probleme auf.
+S|Das Buch wurde in zwanzig Sprachen übersetzt.
+S|Die Ärzte stellten die Diagnose nicht sofort.
+S|Vorbeugung ist billiger als Behandlung.
+S|Chronische Krankheiten erfordern ständige Kontrolle.
+S|Das Gesetz tritt am ersten Januar in Kraft.
+S|Das Gericht hat einen Freispruch verkündet.
+S|Die personenbezogenen Daten der Kunden sind geschützt.
+S|Jeder Bürger hat ein Recht auf Bildung.
+S|Der Botschafter traf sich mit dem Außenminister.
+S|Die Parteien unterzeichneten ein Abkommen über Zusammenarbeit.
+S|Die Bewohner erhielten humanitäre Hilfe.
+S|Investitionen in Bildung zahlen sich aus.
+S|Das Unternehmen gab die Fusion mit einem Konkurrenten bekannt.
+S|Die Rentabilität des Projekts ist fraglich.
+S|Wir haben unsere Strategie überarbeitet.
+S|Innovationen sind der Motor der Wirtschaft.
+S|Die Geschäftsleitung ist uns entgegengekommen.
+S|Wir müssen die Kosten senken.
+S|Die Ergebnisse des Jahres übertrafen die Erwartungen.
+S|Er hat einen weiten Horizont.
+S|Ihre Rede war klar und logisch.
+S|Es fällt mir schwer, Ihnen zuzustimmen.
+S|Gestatten Sie mir, meinen Standpunkt darzulegen.
+S|Ich würde das lieber später besprechen.
+S|Aus einem einzigen Beispiel kann man keine Schlüsse ziehen.
+S|Die Frage ist, wie man das umsetzt.
+S|Sie machte sich mit Begeisterung an die Arbeit.
+S|Wir sind gezwungen, die Sitzung zu verschieben.
+S|Sein Beitrag zur Wissenschaft ist kaum zu überschätzen.
+S|Mit der Entwicklung der Technik verändert sich auch die Gesellschaft.
+S|Außerdem steigen die Preise weiter.
+S|Insbesondere geht es um junge Menschen.
+S|Im Gegenteil, er war sehr zufrieden.
+S|Letztendlich hängt alles von uns ab.
+S|Sie spricht Arabisch ohne Akzent.
+S|Ich bin es gewohnt, meine Gedanken klar auszudrücken.
+S|Man darf den Widerstand gegen Veränderungen nicht unterschätzen.
+S|Seine Tat lässt sich nicht rechtfertigen.
+S|Wir stießen auf unvorhergesehene Schwierigkeiten.
+S|Solche Fälle sind keine Seltenheit.
+S|Seine Ansichten haben sich mit der Zeit geändert.
+S|Sie hatte schon immer Sinn für Humor.
+S|Ich schätze Ihre Meinung sehr.
+S|Dieses Thema verdient eine eigene Diskussion.
+S|Die Ergebnisse der Umfrage waren unerwartet.
+S|Wir gehen davon aus, dass alle Teilnehmer einverstanden sind.
+S|Diese beiden Phänomene hängen eng zusammen.
+S|Die Wissenschaftler haben eine Gesetzmäßigkeit festgestellt.
+S|Das Leben ist nicht nur Arbeit.
+S|Sein Gewissen erlaubte ihm nicht zu lügen.
+S|Weisheit kommt mit der Erfahrung.
+S|Die Wahrheit liegt irgendwo in der Mitte.
+S|Die Urbanisierung führt zum Wachstum der Städte.
+S|Die Digitalisierung hat alle Lebensbereiche erfasst.
+S|Cybersicherheit wird immer wichtiger.
+S|Die Alterung der Bevölkerung ist eine Herausforderung für die Wirtschaft.
+S|Toleranz ist die Grundlage eines friedlichen Zusammenlebens.
+S|Ohne eine entwickelte Infrastruktur ist Wachstum unmöglich.
+S|Die Reform wurde unterschiedlich aufgenommen.
+S|Die Zivilgesellschaft spielt eine wichtige Rolle.
+S|Diskriminierung ist inakzeptabel.
+S|Der wirtschaftliche Abschwung hat viele Branchen getroffen.
+S|Die Lese- und Schreibfähigkeit der Bevölkerung wächst ständig.
+S|Die Meinungen der Experten gehen auseinander.
+S|Die Solidarität half, die Krise zu überwinden.
+S|Er wurde ein Opfer der Propaganda.
+S|Die Integration von Migranten braucht Zeit.
+S|Das Zusammenwirken mit den Kunden ist der Schlüssel zum Erfolg.
+S|Man kann nicht alles auf die Wirtschaft reduzieren.
+S|Dieses Problem ist systemischer Natur.
+S|Wir orientieren uns am Prinzip der Offenheit.
+S|Abschließend möchte ich allen Teilnehmern danken.
+RT|Lesen im digitalen Zeitalter
+RL|In letzter Zeit klagen viele, dass die Menschen nicht mehr lesen.
+RL|Die Forschung zeigt jedoch ein komplexeres Bild.
+RL|Wir lesen nicht weniger als früher, aber wir lesen anders.
+RL|Die Texte sind kürzer geworden und die Aufmerksamkeit zerstreuter.
+RL|Somit leidet nicht die Menge, sondern die Tiefe des Lesens.
+RL|Wissenschaftler betonen, dass die Fähigkeit zur Konzentration eine Fertigkeit ist.
+RL|Wie jede Fertigkeit muss sie trainiert werden.
+RL|Es ist zum Beispiel sinnvoll, Bücher aus Papier ohne Handy in der Nähe zu lesen.
+RL|Im Großen und Ganzen sind digitale Technologien an sich nicht schädlich.
+RL|Alles hängt davon ab, wie wir sie nutzen.
+RT|Nachhaltige Entwicklung
+RL|Das Konzept der nachhaltigen Entwicklung entstand Ende des zwanzigsten Jahrhunderts.
+RL|Sein Kern ist einfach: die heutigen Bedürfnisse decken, ohne künftigen Generationen zu schaden.
+RL|In der Praxis erwies sich das jedoch als viel schwieriger.
+RL|Wirtschaftswachstum steht oft im Widerspruch zum Umweltschutz.
+RL|Dennoch führen viele Länder „grüne“ Technologien ein.
+RL|Auch Unternehmen berücksichtigen ökologische Faktoren.
+RL|Zweifellos wird es ohne die Beteiligung jedes Einzelnen keinen Erfolg geben.
+RT|Die Kunst des Streitens
+RL|Die Fähigkeit zu streiten gehört zu den wichtigsten in der modernen Welt.
+RL|Das Ziel eines Streits ist nicht, den anderen zu besiegen, sondern der Wahrheit näherzukommen.
+RL|Vor allem muss man dem Gegenüber aufmerksam zuhören.
+RL|Dann sollte man Argumente statt Gefühle anführen.
+RL|Es ist wichtig, Fakten von Meinungen zu unterscheiden.
+RL|Wenn du dich irrst, gib es zu: Das ist ein Zeichen von Stärke, nicht von Schwäche.
+RL|Letztendlich bereichert ein guter Streit beide Seiten.
+DT|Eine Diskussion über KI
+DL|A|Wie bewerten Sie den Einfluss der künstlichen Intelligenz auf den Arbeitsmarkt?
+DL|B|Einerseits automatisiert sie Routineaufgaben.
+DL|B|Andererseits entstehen neue Berufe.
+DL|A|Aber nicht jeder wird sich umschulen lassen können.
+DL|B|Gerade deshalb sollte der Staat in Bildung investieren.
+DL|A|Einverstanden, aber das braucht Zeit.
+DL|B|Natürlich. Deshalb müssen wir heute anfangen.
+DT|Eine geschäftliche Besprechung
+DL|A|Ich schlage vor, zur Hauptfrage überzugehen.
+DL|B|Ja, besprechen wir die Vertragsbedingungen.
+DL|A|Die Lieferfristen passen uns nicht.
+DL|B|Wir können sie um eine Woche verkürzen.
+DL|A|Und was ist mit dem Preis?
+DL|B|Bei einer großen Bestellung sind wir bereit, einen Rabatt zu gewähren.
+DL|A|In diesem Fall können wir die Vereinbarung unterzeichnen.
+DL|B|Ausgezeichnet. Ich bereite die Unterlagen bis morgen vor.
+DT|Über Literatur
+DL|A|Welches Buch liest du gerade?
+DL|B|Ich lese „Schuld und Sühne“ noch einmal.
+DL|A|Ist das nicht zu düster?
+DL|B|Düster, aber tiefgründig. Jedes Mal entdecke ich etwas Neues.
+DL|A|Was zieht dich daran am meisten an?
+DL|B|Die Psychologie der Figuren und die ewigen Fragen nach dem Gewissen.
+DL|A|Vielleicht sollte ich es auch noch einmal lesen.

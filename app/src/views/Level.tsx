@@ -57,13 +57,13 @@ const useWord = (lv) => { const { openWord } = useApp(); return (raw, ctxM, glos
 /* ---------- letters ---------- */
 function Letters({ lv, go }){
   const { u } = useApp(); const A = lv.alphabet; const [i, setI] = useState(0); const a = A[i]; const tl = lv.t; const ar = tl === 'ar';
-  const big = tl === 'zh' ? a.letter : a.letter.replace(' ', '');
+  const cjk = tl === 'zh' || tl === 'ja' || tl === 'ko'; const big = cjk ? a.letter : a.letter.replace(' ', '');
   return <div className="grid gap-5 lg:grid-cols-[1.1fr_1fr]">
     <div className="card p-5 sm:p-6">
       <div className="ruled grid place-items-center min-h-[220px] !p-6" dir={tdir(tl)}>
         <div className="flex items-end gap-6 flex-wrap justify-center">
           <span className={`${tcls(tl)} text-7xl sm:text-8xl font-semibold text-ink leading-none`} lang={tl}>{big}</span>
-          {tl === 'zh' ? <span className="tgt-zh text-6xl text-brand-600" lang="zh">{a.nameSay}</span> :
+          {tl === 'zh' ? <span className="tgt-zh text-6xl text-brand-600" lang="zh">{a.nameSay}</span> : (tl === 'ja' || tl === 'ko') ? (a.forms ? <span className={`${tcls(tl)} text-6xl sm:text-7xl text-brand-600 leading-none`} lang={tl}>{a.forms}</span> : null) :
             <span className="text-6xl sm:text-7xl text-brand-600 leading-none" style={{ fontFamily: ar ? '"Aref Ruqaa", serif' : '"Marck Script","Caveat",cursive' }}>{big}</span>}
         </div>
       </div>
@@ -75,9 +75,9 @@ function Letters({ lv, go }){
     </div>
     <div className="card p-5 sm:p-6 flex flex-col gap-4">
       <div><div className="text-xs font-semibold uppercase tracking-wider text-ink-3">{u.name}</div>
-        <div className="mt-1 flex items-center gap-3 text-2xl font-bold"><Tgt tl={tl === 'zh' ? 'en' : tl}>{a.name}</Tgt><PlayPair say={a.nameSay} tl={tl} u={u}/></div></div>
+        <div className="mt-1 flex items-center gap-3 text-2xl font-bold"><Tgt tl={tl === 'zh' || tl === 'ja' ? 'en' : tl}>{a.name}</Tgt><PlayPair say={a.nameSay} tl={tl} u={u}/></div></div>
       <div><div className="text-xs font-semibold uppercase tracking-wider text-ink-3">{u.sound}</div><div className="mt-1 text-ink text-[1.05rem] leading-relaxed" dir="auto">{a.sound}</div></div>
-      {a.forms && <div><div className="text-xs font-semibold uppercase tracking-wider text-ink-3">{u.forms}</div><div className="mt-1 tgt-ar text-3xl text-ink" dir="rtl">{a.letter} {a.forms}</div></div>}
+      {a.forms && tl === 'ar' && <div><div className="text-xs font-semibold uppercase tracking-wider text-ink-3">{u.forms}</div><div className="mt-1 tgt-ar text-3xl text-ink" dir="rtl">{a.letter} {a.forms}</div></div>}
       <div><div className="text-xs font-semibold uppercase tracking-wider text-ink-3">{u.example}</div>
         <div className="mt-2 flex items-center gap-3 rounded-2xl bg-paper border-[1.5px] border-line p-3">
           <span className="text-4xl" aria-hidden="true">{a.e}</span>
@@ -184,7 +184,7 @@ function Reading({ lv }){
         <button className="btn ghost sm" onClick={() => ch.run(r.sents, true)} aria-label={u.speed}><I.slow className="w-4 h-4"/></button>
         <button className="btn ghost sm" onClick={() => setTr(!tr)}>{tr ? u.hideTr : u.showTr}</button></div>
     </div>
-    <div className={`ruled ${tl === 'ar' ? 'ar' : ''} ${tl === 'zh' ? 'tgt-zh' : ''}`} dir={tdir(tl)} lang={tl}>
+    <div className={`ruled ${tl === 'ar' ? 'ar' : ''} ${tl === 'zh' ? 'tgt-zh' : tl === 'ja' ? 'tgt-ja' : tl === 'ko' ? 'tgt-ko' : ''}`} dir={tdir(tl)} lang={tl}>
       {r.sents.map((s, k) => <React.Fragment key={k}><span data-chain={k} className={`sent ${ch.idx === k ? 'playing' : ''}`}><Words src={s.src} tl={tl} ctx={s.m} onWord={(w, c) => word(w, c, r.gloss)}/></span>{tl === 'zh' ? '' : ' '}{tr && <span className="trl" dir="auto">{s.m}</span>}</React.Fragment>)}
     </div>
     <p className="mt-3 text-sm text-ink-3">{u.tapHint}</p>
@@ -229,7 +229,9 @@ function Talk({ lv }){
 export const KB = {
   ru: ['йцукенгшщзхъ', 'фывапролджэ', 'ячсмитьбюё'], en: ['qwertyuiop', 'asdfghjkl', "zxcvbnm'"],
   ar: ['ضصثقفغعهخحجد', 'شسيبلاتنمكط', 'ئءؤرىةوزظذ', 'أإآ'], uz: ['qwertyuiop', 'asdfghjkl', 'zxcvbnmʻʼ'], es: ['qwertyuiopáé', 'asdfghjklñíó', 'zxcvbnmúü¿¡'],
-  zh: ['āáǎàēéěè', 'īíǐìōóǒò', 'ūúǔùǖǘǚǜ']
+  zh: ['āáǎàēéěè', 'īíǐìōóǒò', 'ūúǔùǖǘǚǜ'],
+  de: ['qwertzuiopü', 'asdfghjklöä', 'yxcvbnmß'], fr: ['azertyuiopéè', 'qsdfghjklmàù', 'wxcvbnçêâîôûëïœ'], it: ['qwertyuiopèé', 'asdfghjklòàù', 'zxcvbnmì'], tr: ['ertyuıopğü', 'asdfghjklşi', 'zcvbnmöç', 'qwx'],
+  ja: ['あいうえおかきくけこ', 'さしすせそたちつてと', 'なにぬねのはひふへほ', 'まみむめもやゆよらりるれろ', 'わをんがぎぐげござじずぜぞ', 'だでどばびぶべぼぱぴぷぺぽ', 'ゃゅょっーアイウエオ']
 };
 export function Keyboard({ tl, onKey }){
   return <div className="kbd mt-3" dir={tdir(tl)}>{(KB[tl] || []).map((r, k) => <div key={k} className="krow">{[...r].map((c) => <button key={c} type="button" className={tcls(tl)} onClick={() => onKey(c)}>{c}</button>)}</div>)}

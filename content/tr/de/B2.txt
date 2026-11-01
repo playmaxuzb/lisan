@@ -1,0 +1,397 @@
+TH|Gesellschaft
+V|die Gesellschaft
+V|die Bevölkerung
+V|die Generation
+V|die Ungleichheit
+V|die Gleichberechtigung
+V|die Armut
+V|der Reichtum
+V|die Arbeitslosigkeit
+V|die Migration
+V|das Stadtleben
+V|die Bildung
+V|die Sicherheit
+V|der Freiwillige
+V|die Wohltätigkeit
+V|die Tradition
+V|die Religion
+V|die öffentliche Meinung
+V|die Familienwerte
+V|das Gesundheitswesen
+V|die Rente
+TH|Wirtschaft und Geschäft
+V|die Wirtschaft
+V|der Markt (Wirtschaft)
+V|die Produktion
+V|die Ware
+V|die Nachfrage
+V|das Angebot
+V|der Gewinn
+V|der Verlust
+V|die Inflation
+V|die Investitionen
+V|die Steuer
+V|das Geschäft (Abschluss)
+V|das Unternehmen
+V|der Unternehmer
+V|der Export
+V|der Import
+V|die Konkurrenz
+V|die Werbung
+V|der Verbraucher
+V|der Aktionär
+V|die Statistik
+V|die Buchhaltung
+TH|Umwelt
+V|die Natur
+V|die Verschmutzung
+V|das Klima
+V|die Erderwärmung
+V|der Müll
+V|das Recycling
+V|die Energie
+V|die Solarenergie
+V|die Windenergie
+V|das Erdöl
+V|das Gas
+V|die Dürre
+V|die Überschwemmung
+V|das Erdbeben
+V|die bedrohten Arten
+V|die Abholzung
+V|das Süßwasser
+V|der Smog
+V|das Naturschutzgebiet
+V|umweltfreundlich
+TH|Medien
+V|die Nachrichten
+V|der Artikel
+V|das Interview
+V|das Fernsehen
+V|das Radio
+V|die Zeitung
+V|die Zeitschrift
+V|die Reportage
+V|der Autor
+V|der Blogger
+V|die Schlagzeile
+V|die Recherche
+V|die Falschmeldung
+V|die Sendung
+V|die Meinung
+V|die Umfrage
+V|die Quelle
+V|der Dokumentarfilm
+TH|Staat und Recht
+V|der Staat
+V|die Regierung
+V|das Gesetz
+V|die Wahlen
+V|das Gericht
+V|die Verfassung
+V|die Staatsbürgerschaft
+V|der Richter
+V|die Grenze
+V|die Hauptstadt
+V|das Abkommen
+V|die Diplomatie
+V|die Menschenrechte
+V|der Frieden
+V|der Konflikt
+V|das Dokument
+TH|Wissenschaft und Technik
+V|die Forschung
+V|das Experiment
+V|der Wissenschaftler
+V|die Erfindung
+V|der Weltraum
+V|der Satellit
+V|der Roboter
+V|die künstliche Intelligenz
+V|die Genetik
+V|der Impfstoff
+V|das Teleskop
+V|die Daten
+V|die Technologie
+V|das Gerät
+V|der Erfinder
+V|die Theorie
+TH|Kultur und Kunst
+V|die Kunst
+V|die Malerei
+V|die Ausstellung
+V|die Aufführung
+V|das Konzert
+V|die Literatur
+V|der Schriftsteller
+V|das Gedicht
+V|der Sänger
+V|das Ballett
+V|der Regisseur
+V|der Schauspieler
+V|das Erbe
+V|die Skulptur
+V|die Architektur
+V|die Melodie
+V|der Roman
+V|der Zuschauer
+TH|Psychologie
+V|die Persönlichkeit
+V|der Stress
+V|die Unruhe
+V|die Zuversicht
+V|die Motivation
+V|das Verhalten
+V|das Mitgefühl
+V|die Gleichgültigkeit
+V|die Einsamkeit
+V|das Vertrauen
+V|der Neid
+V|die Dankbarkeit
+V|das Missverständnis
+V|die Selbstbeherrschung
+TH|Abstrakte Begriffe
+V|das Problem
+V|die Lösung
+V|die Entwicklung
+V|die Verantwortung
+V|die Möglichkeit
+V|der Vorteil
+V|der Nachteil
+V|der Einfluss
+V|die Qualität
+V|die Menge
+V|die Bedingung
+V|die Hilfe
+V|das Ziel
+V|das Ergebnis
+V|die Verbindung
+V|die Ursache
+V|die Folge
+V|die Richtung
+V|das Gleichgewicht
+V|die Freiheit
+TH|Verben B2
+V|diskutieren
+V|glauben
+V|analysieren
+V|vergleichen
+V|schützen
+V|kritisieren
+V|behaupten
+V|leugnen
+V|unterstützen
+V|erhöhen
+V|verringern
+V|zusammenarbeiten
+V|schaffen
+V|beeinflussen
+V|erreichen
+V|wachsen
+V|verbieten
+V|erlauben
+V|untersuchen
+V|überzeugen
+TH|Adjektive B2
+V|global
+V|lokal
+V|wirksam
+V|verantwortlich
+V|zweifelhaft
+V|aktuell
+V|praktisch
+V|politisch
+V|wirtschaftlich
+V|ökologisch
+V|sozial
+V|verpflichtend
+V|freiwillig
+V|gerecht
+V|widersprüchlich
+V|langfristig
+TH|Bildung und Beruf
+V|die Qualifikation
+V|der Mentor
+V|der Absolvent
+V|das Selbststudium
+V|die Berufsjahre
+V|die Fernarbeit
+V|der Zeitplan
+V|das Burnout
+V|der Mitarbeiter
+V|die Beförderung
+V|die Priorität
+V|die Fähigkeit
+V|der Verhandlungspartner
+V|die Präsentation
+V|der Satz (Tarif)
+V|der Untergebene
+V|das Start-up
+V|die Leistung
+V|das Praktikum
+V|der Antrag
+S|Wenn ich mehr Zeit hätte, würde ich reisen.
+S|Ich würde gern einen Tisch für zwei reservieren.
+S|Wenn ich das gewusst hätte, hätte ich es dir gesagt.
+S|Das Problem der Luftverschmutzung wird immer ernster.
+S|Viele Menschen arbeiten jetzt von zu Hause aus.
+S|Experten zufolge wird die Wirtschaft wachsen.
+S|Die Preise steigen schneller als die Gehälter.
+S|Jugendarbeitslosigkeit ist ein ernstes Problem.
+S|Die Stadt stellt Geld für neue Parks bereit.
+S|Wir müssen eine Lösung für dieses Problem finden.
+S|Dieser Ansatz hat sowohl Vor- als auch Nachteile.
+S|Ich bin überzeugt, dass Bildung der Schlüssel zum Erfolg ist.
+S|Einerseits ist es bequem, andererseits ist es teuer.
+S|Um seine Sprache zu verbessern, muss man viel sprechen.
+S|Der Student, der die Prüfung bestanden hat, ist zufrieden.
+S|Das Buch, das ich lese, ist sehr interessant.
+S|Das ist die Stadt, in der ich geboren wurde.
+S|Die Brücke wurde im letzten Jahrhundert gebaut.
+S|Der Brief wurde gestern abgeschickt.
+S|Das Geschäft ist wegen Renovierung geschlossen.
+S|Hier wird nicht geraucht.
+S|Wir haben uns mit Freunden im Zentrum getroffen.
+S|Ich interessiere mich für Politik und Wirtschaft.
+S|Er arbeitet als Journalist bei einer großen Zeitung.
+S|Die Wahlen finden nächstes Jahr statt.
+S|Jeder muss Verantwortung für sein Handeln übernehmen.
+S|Das Gesetz muss für alle gleich sein.
+S|Wir müssen die Natur für die kommenden Generationen schützen.
+S|Immer mehr Menschen trennen ihren Müll.
+S|Solarenergie ist billiger geworden.
+S|Wegen der Dürre hat die Ernte gelitten.
+S|Wissenschaftler warnen vor dem Klimawandel.
+S|Ich versuche, weniger Plastik zu benutzen.
+S|Glaub nicht alles, was im Internet steht.
+S|Überprüfe immer die Quelle einer Information.
+S|Der Journalist hat den Minister interviewt.
+S|Diese Nachricht hat sich schnell verbreitet.
+S|Die Firma hat einen großen Gewinn gemacht.
+S|Die Steuern in diesem Land sind hoch.
+S|Die Konkurrenz auf dem Markt ist sehr hart.
+S|Sie haben einen wichtigen Vertrag unterschrieben.
+S|Ich möchte ein eigenes Unternehmen gründen.
+S|Die Nachfrage nach dieser Ware wächst.
+S|Künstliche Intelligenz verändert unser Leben.
+S|Die Wissenschaftler führen ein neues Experiment durch.
+S|Diese Erfindung hat die Welt verändert.
+S|Der Mensch ist 1961 zum ersten Mal ins All geflogen.
+S|Wir waren in einer Ausstellung für zeitgenössische Kunst.
+S|Die Aufführung hat einen starken Eindruck auf mich gemacht.
+S|Ich mag die Romane von Tolstoi.
+S|Diesen Film hat ein berühmter Regisseur gedreht.
+S|Die Architektur dieser Stadt ist sehr vielfältig.
+S|Wir müssen das kulturelle Erbe bewahren.
+S|Stress wirkt sich auf die Gesundheit aus.
+S|Ohne Vertrauen gibt es keine guten Beziehungen.
+S|Sie fühlt sich in der großen Stadt einsam.
+S|Motivation ist das Wichtigste beim Lernen.
+S|Ich bin dir für deine Hilfe dankbar.
+S|Wir haben alle Einzelheiten des Projekts besprochen.
+S|Vergleichen wir diese beiden Möglichkeiten.
+S|Er bestreitet seine Schuld.
+S|Ich unterstütze diese Idee voll und ganz.
+S|Man sollte die Zahl der Grünflächen erhöhen.
+S|Wir versuchen, die Ausgaben zu senken.
+S|Ihn zu überzeugen ist schwer.
+S|Parken ist hier verboten.
+S|Wir haben unser Ziel erreicht.
+S|Qualität ist wichtiger als Quantität.
+S|Alles hängt von den Umständen ab.
+S|Ehrlich gesagt gefällt mir das nicht.
+S|Soviel ich weiß, ist er weggefahren.
+S|Dank der Hilfe meiner Freunde habe ich es geschafft.
+S|Trotz des Regens sind wir spazieren gegangen.
+S|Je mehr man liest, desto mehr weiß man.
+S|Womit bist du unzufrieden?
+S|Mir scheint, du übertreibst.
+S|Ich bin nicht sicher, dass das stimmt.
+S|Die Sache ist die, dass wir wenig Zeit haben.
+S|Er hat gesagt, dass er später kommt.
+S|Sie hat gefragt, wo ich arbeite.
+S|Ich habe ihn gebeten, das Fenster zu schließen.
+S|Ich möchte, dass du glücklich bist.
+S|Es ist wichtig, dass alle pünktlich kommen.
+S|Früher habe ich in einem Dorf gewohnt.
+S|Sie hat sich an die Kälte gewöhnt.
+S|Ich kann mich einfach nicht an die neue Arbeit gewöhnen.
+S|Sie engagiert sich für wohltätige Zwecke.
+S|Mein Großvater bekommt eine Rente.
+S|Traditionen werden von Generation zu Generation weitergegeben.
+S|Die Bevölkerung der Stadt wächst schnell.
+S|Ich bin für Gleichberechtigung.
+S|An deiner Stelle würde ich zustimmen.
+S|Man hat mir eine Beförderung angeboten.
+S|Fernarbeit passt nicht für jeden.
+S|Er arbeitet ohne freie Tage und ist schon müde.
+S|Um kein Burnout zu bekommen, muss man sich erholen.
+S|Ich habe eine Präsentation für die Kunden vorbereitet.
+S|Mein Mentor hat mir einen nützlichen Rat gegeben.
+S|Ich schreibe einen Urlaubsantrag.
+S|Unser Start-up hat Investitionen bekommen.
+S|Das ist meine größte Leistung.
+S|Jetzt ist meine wichtigste Priorität die Familie.
+S|Stimmt es, dass du die Firma verlässt?
+S|Sie ist viel klüger, als sie scheint.
+S|Je früher du anfängst, desto besser.
+S|Wir sind zu dem Schluss gekommen, dass der Plan geändert werden muss.
+RT|Die Stadt der Zukunft
+RL|Wie wird die Stadt der Zukunft aussehen?
+RL|Viele Experten meinen, dass es dort mehr Grün und weniger Autos geben wird.
+RL|Die Menschen werden mit Elektroautos und Fahrrädern fahren.
+RL|Die Häuser werden ihre Energie aus Sonne und Wind beziehen.
+RL|Intelligente Systeme werden Licht und Wärme steuern.
+RL|Diese Idee hat jedoch auch Kritiker.
+RL|Sie sagen, solche Technologien seien zu teuer.
+RL|Außerdem ist nicht jeder bereit, seine Gewohnheiten zu ändern.
+RL|Wer recht hat, ist schwer zu sagen.
+RL|Aber eines ist klar: Eine Stadt muss für die Menschen angenehm sein.
+RT|Soziale Netzwerke
+RL|Soziale Netzwerke sind ein Teil unseres Lebens geworden.
+RL|Sie helfen uns, mit Freunden zu sprechen, die weit weg wohnen.
+RL|Wir erfahren die Nachrichten schneller als früher.
+RL|Soziale Netzwerke haben aber auch eine Kehrseite.
+RL|Viele Menschen verbringen mehrere Stunden am Tag am Handy.
+RL|Das beeinflusst den Schlaf, das Lernen und die Stimmung.
+RL|Außerdem gibt es im Netz viele Falschmeldungen.
+RL|Psychologen raten, Pausen zu machen.
+RL|Man kann zum Beispiel das Handy nicht mit ins Schlafzimmer nehmen.
+RL|Das Wichtigste ist, nicht zu vergessen, dass das Leben nicht auf dem Bildschirm stattfindet.
+RT|Freiwillige
+RL|Meine Freundin Anja hilft ehrenamtlich in einem Tierheim.
+RL|Sie geht jeden Samstag dorthin.
+RL|Anja füttert die Hunde, geht mit ihnen spazieren und macht sauber.
+RL|Dafür bekommt sie kein Geld.
+RL|Aber sie sagt, sie bekommt viel mehr: Freude.
+RL|Dank der Freiwilligen finden viele Tiere ein neues Zuhause.
+RL|Letzten Monat hat Anja auch mich überredet.
+RL|Jetzt gehen wir zusammen dorthin.
+RL|Ich habe verstanden, dass anderen zu helfen Glück bedeutet.
+DT|Diskussion: Stadt oder Land?
+DL|A|Ich würde gern auf dem Land leben. Dort ist es ruhig und die Luft ist sauber.
+DL|B|Aber in der Stadt gibt es mehr Möglichkeiten.
+DL|A|Zum Beispiel?
+DL|B|Arbeit, gute Schulen, Krankenhäuser, Theater.
+DL|A|Da hast du recht, aber in der Stadt gibt es viel Stress und Staus.
+DL|B|Das stimmt. Vielleicht wohnt man am besten im Vorort?
+DL|A|Gute Idee! Die Natur ist nah und die Stadt nicht weit.
+DL|B|Dann sind wir uns einig.
+DT|Nach dem Film
+DL|A|Na, wie hat dir der Film gefallen?
+DL|B|Ehrlich gesagt habe ich mehr erwartet.
+DL|A|Wirklich? Mir hat er gefallen. Die Schauspieler haben toll gespielt.
+DL|B|Da stimme ich zu. Aber die Handlung war zu vorhersehbar.
+DL|A|Dafür war das Ende überraschend.
+DL|B|Vielleicht. Die Musik war auch gut.
+DL|A|Nächstes Mal suchst du den Film aus.
+DL|B|Abgemacht!
+DT|Interview
+DL|A|Erzählen Sie, wie haben Sie Ihr Unternehmen gegründet?
+DL|B|Alles hat mit einer kleinen Idee und einem großen Wunsch angefangen.
+DL|A|War es schwer?
+DL|B|Sehr. Im ersten Jahr haben wir mit Verlust gearbeitet.
+DL|A|Was hat Ihnen geholfen, nicht aufzugeben?
+DL|B|Die Unterstützung meiner Familie und der Glaube an mein Produkt.
+DL|A|Was würden Sie jungen Unternehmern raten?
+DL|B|Keine Angst vor Fehlern zu haben und aus ihnen zu lernen.

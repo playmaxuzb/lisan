@@ -2,7 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import WaveGridBackground from '@/ui/Wave';
-import { Store, LANGS } from '@/core/engine';
+import { Store, activeLangs } from '@/core/engine';
 import { SELF } from '@/core/strings_app';
 import { Auth, emailSignIn, googleSignIn, phoneStart, phoneVerify, sendWelcome } from '@/core/auth';
 import { COUNTRIES, defaultCountry } from '@/core/countries';
@@ -51,7 +51,7 @@ function NativeStep({ u, onPick }){
       <div className="font-bold text-ink">{u.chooseNative}</div>
       <div className="text-sm text-ink-2 mt-0.5">{u.chooseNativeD}</div>
       <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 gap-2.5">
-        {LANGS.map((l) => <button key={l} onClick={() => onPick(l)} data-native={l}
+        {activeLangs().map((l) => <button key={l} onClick={() => onPick(l)} data-native={l}
           className="group flex items-center gap-3 min-h-[56px] px-3 rounded-xl bg-mist border-[1.5px] border-[#E2E6EE] hover:border-brand-500 hover:bg-white transition text-start">
           <Flag lang={l} size="md"/><span className="font-semibold text-ink group-hover:text-brand-600" lang={l}>{SELF[l]}</span>
         </button>)}

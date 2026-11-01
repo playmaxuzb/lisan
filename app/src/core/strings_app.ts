@@ -1,4 +1,5 @@
 // @ts-nocheck
+import { SELF2, LNAME2, LEARN2, APP2, HERO12 } from './strings_app2';
 // App-level strings (onboarding, sign-in, profile, home) for the six interface languages.
 export const SELF = {ar:'العربية', ru:'Русский', en:'English', uz:'Oʻzbekcha', es:'Español', zh:'中文'};
 export const LNAME = {
@@ -76,4 +77,11 @@ zh:{welcomeSent:'欢迎邮件已发送到你的邮箱', welcomeFail:'欢迎邮�
 };
 // Pick an interface language from the browser
 export function detectLang(){ const ls=(navigator.languages||[navigator.language||'en']).map(x=>String(x).toLowerCase());
-  for (const l of ls){ const b=l.split('-')[0]; if (['ar','ru','en','uz','es','zh'].includes(b)) return b; } return 'en'; }
+  for (const l of ls){ const b=l.split('-')[0]; if (['ar','ru','en','uz','es','zh','de','fr','it','tr','ja','ko'].includes(b)) return b; } return 'en'; }
+
+// twelve-language extensions
+Object.assign(SELF, SELF2);
+for (const k in LNAME2){ LNAME[k]=Object.assign(LNAME[k]||{}, LNAME2[k]); }
+for (const k in LEARN2){ const f=LEARN2[k]; LEARN[k]=(t)=>f(t,LNAME[k]); }
+for (const k in APP2) APP[k]=APP2[k];
+for (const k in HERO12) if (APP[k]) APP[k].heroLead=HERO12[k];

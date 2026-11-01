@@ -2,7 +2,7 @@
 import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { AnimatedNumber } from '@/components/ui/animated-number';
-import { Store, LANGS, LEVELS, COURSES } from '@/core/engine';
+import { Store, activeLangs, LEVELS, COURSES } from '@/core/engine';
 import { SELF, LEARN } from '@/core/strings_app';
 import { signOutAll, sendWelcome, Auth } from '@/core/auth';
 import { Flag } from '@/core/flags';
@@ -81,7 +81,7 @@ export default function Profile(){
 
     <Sheet open={langOpen} onClose={() => setLangOpen(false)} dir={u.dir}>
       <h2 className="text-xl font-extrabold text-ink">{u.chooseNative}</h2><p className="text-sm text-ink-2 mt-1">{u.chooseNativeD}</p>
-      <div className="mt-4 grid grid-cols-2 gap-2.5">{LANGS.map((l) => <button key={l} data-native={l} onClick={() => { Store.updateProfile({ native: l }); setLangOpen(false); }}
+      <div className="mt-4 grid grid-cols-2 gap-2.5">{activeLangs().map((l) => <button key={l} data-native={l} onClick={() => { Store.updateProfile({ native: l }); setLangOpen(false); }}
         className={`flex items-center gap-3 min-h-[54px] px-3 rounded-xl border-[1.5px] transition text-start ${p.native === l ? 'bg-white border-brand-500 text-brand-600' : 'bg-mist border-[#E2E6EE] hover:border-brand-400 text-ink'}`}>
         <Flag lang={l} size="md"/><span className="font-semibold" lang={l}>{SELF[l]}</span></button>)}</div>
     </Sheet>

@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import WaveGridBackground from '@/ui/Wave';
 import { AnimatedNumber } from '@/components/ui/animated-number';
-import { Store, LEVELS, courseIds, COURSES } from '@/core/engine';
+import { Store, LEVELS, courseIds, COURSES, activeLangs } from '@/core/engine';
 import { SELF, LEARN, LNAME } from '@/core/strings_app';
 import { Flag } from '@/core/flags';
 import { avatarSrc } from '@/core/avatars';
@@ -31,7 +31,7 @@ export default function Home(){
   useStore(); const { u, lang, go } = useApp(); const p = Store.profile(); const n = p.native;
   const ids = courseIds(n);
   const passedOf = (tr) => LEVELS.filter((L) => Store.passed(tr, L)).length;
-  const stats = [[6, u.languages], [30, u.courses], [6, u.levels], [1200, u.picWords, '+']];
+  const stats = [[activeLangs().length, u.languages], [Object.keys(COURSES).length, u.courses], [6, u.levels], [1200, u.picWords, '+']];
   const featIcon = { listen: I.listen, tap: I.tap, pen: I.pen, check: I.exam };
   return <div>
     <TopBar/>

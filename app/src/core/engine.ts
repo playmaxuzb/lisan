@@ -1,11 +1,13 @@
 // @ts-nocheck
 // Course engine: data loading, parsing, audio, progress, exams. Ported from the original Lisan app.
-import { ruToAr, arToRu, ruToLat, arToLat, uzToAr, uzToCyr, esToAr, esToCyr } from './translit';
+import { ruToAr, arToRu, ruToLat, arToLat, uzToAr, uzToCyr, esToAr, esToCyr, koToLat } from './translit';
 
 export const LEVELS = ['A1','A2','B1','B2','C1','C2'];
-export const LANGS = ['ar','ru','en','uz','es','zh'];
+export const LANGS = ['ar','ru','en','uz','es','zh','de','fr','it','tr','ja','ko'];
+export const CJK_T = l => l==='zh'||l==='ja';
+export const SEG = l => l==='zh'||l==='ja';
 export const PASS = 80, EXAM_N = 20;
-export const SPEECH_LANG = {ru:'ru-RU', en:'en-US', ar:'ar-SA', uz:'uz-UZ', es:'es-ES', zh:'zh-CN'};
+export const SPEECH_LANG = {ru:'ru-RU', en:'en-US', ar:'ar-SA', uz:'uz-UZ', es:'es-ES', zh:'zh-CN', de:'de-DE', fr:'fr-FR', it:'it-IT', tr:'tr-TR', ja:'ja-JP', ko:'ko-KR'};
 export const AUTO_LANGS = ['ar','uz'];
 export const RTL = l => l === 'ar';
 
@@ -26,7 +28,7 @@ export function norm(s, tl){
   if (tl==='ru') s = s.replace(/ё/g,'е');
   return s.replace(/[.,!?;:«»"“”()—\-–؟،؛…¿¡。，？！：；、]/g,' ').replace(/[’'ʻʼ‘`]/g,"'").replace(/\s+/g,' ').trim();
 }
-export const tokens = (src, tl) => tl==='zh' ? String(src).split(/\s+/).filter(t=>/[\p{L}\p{N}]/u.test(t)) : sayOf(src).replace(/[.,!?;:«»"—؟،؛…¿¡]/g,' ').split(/\s+/).filter(Boolean);
+export const tokens = (src, tl) => SEG(tl) ? String(src).split(/\s+/).filter(t=>/[\p{L}\p{N}]/u.test(t)) : sayOf(src).replace(/[.,!?;:«»"—؟،؛…¿¡]/g,' ').split(/\s+/).filter(Boolean);
 
 /* ---------- reference data (gloss, english pronunciation) ---------- */
 let REF = { GL:{}, ENPR:{} };
@@ -36,9 +38,11 @@ export async function loadRef(){ try { const r = await fetch('data/gloss.json');
 export let COURSES = {};
 const BANKS = {}; const BANKP = {};
 export async function loadCourses(){ const r = await fetch('data/courses.json'); COURSES = await r.json(); return COURSES; }
+export function activeLangs(){ const s=new Set(Object.values(COURSES).map(c=>c.n)); return LANGS.filter(l=>s.has(l)); }
 export function courseIds(n){ return Object.keys(COURSES).filter(id=>COURSES[id].n===n); }
 export function loadBank(id){ if (BANKS[id]) return Promise.resolve(BANKS[id]); if (BANKP[id]) return BANKP[id];
-  BANKP[id] = fetch('data/'+id+'.json').then(r=>r.json()).then(b=>{ BANKS[id]=b; return b; }); return BANKP[id]; }
+  BANKP[id] = fetch('data/'+id+'.json').then(r=>r.json()).then(b=>{ BANKS[id]=b; if(b.py) Object.assign(PY,b.py); if(b.rj) Object.assign(RJ,b.rj); if(b.pr){ const m=PR[b.lang+':'+b.nat[0]]||(PR[b.lang+':'+b.nat[0]]={}); Object.assign(m,b.pr); } return b; }); return BANKP[id]; }
+const PY={}, RJ={}, PR={};
 export function track(tr){ const c=COURSES[tr]; if(!c) return null; const bank=BANKS[c.bank]; const mi=bank?Math.max(0,bank.nat.indexOf(c.n)):0; return {id:tr, n:c.n, t:c.t, bankId:c.bank, bank, mi}; }
 export async function ensureTrack(tr){ const c=COURSES[tr]; if(!c) return null; await loadBank(c.bank); return track(tr); }
 
@@ -50,10 +54,16 @@ export function pronOf(src, tl, n){
   if (tl==='es') return n==='ar' ? esToAr(src) : n==='ru' ? esToCyr(src) : '';
   if (tl==='zh') return pinyin(src);
   if (tl==='en'){ if (n!=='ar' && n!=='ru') return ''; const i=n==='ar'?0:1; return String(src).replace(/\([^)]*\)/g,' ').split(/([A-Za-z]+(?:'[A-Za-z]+)?)/).map((t,k)=>{ if(k%2===0) return t.replace(/[.,!?;:"()]/g,'').replace(/\s+/g,' '); const e=REF.ENPR[t.toLowerCase()]; return e?e[i]:t; }).join('').replace(/\s+/g,' ').trim(); }
+  // new languages: pronunciation prepared at build time (Arabic / Cyrillic script), romaji, Korean romanization
+  const M=PR[tl+':'+n]; if (M){ const k=sayOf(src).replace(/\s+/g,' ').trim().toLowerCase(); if (M[k]) return M[k]; const kk=k.replace(/[.,!?;:«»"“”。、！？，]/g,'').trim(); if (M[kk]) return M[kk]; }
+  if (tl==='ja') return romaji(src);
+  if (tl==='ko') return koToLat(sayOf(src));
   return '';
 }
-export function pinyin(src){ const B=BANKS['M_zh']; const P=(B&&B.py)||{}; const k=sayOf(src).replace(/\s/g,''); if (P[k]) return P[k];
-  return String(src).split(/\s+/).map(t=>P[t]||'').filter(Boolean).join(' '); }
+export function pinyin(src){ const k=sayOf(src).replace(/\s/g,''); if (PY[k]) return PY[k];
+  return String(src).split(/\s+/).map(t=>PY[t]||'').filter(Boolean).join(' '); }
+export function romaji(src){ const k=sayOf(src).replace(/\s/g,''); if (RJ[k]) return RJ[k];
+  return String(src).split(/\s+/).map(t=>RJ[t]||'').filter(Boolean).join(' '); }
 
 /* ---------- parsed levels ---------- */
 const cache = {};
@@ -72,7 +82,7 @@ export function level(tr, L){
   const dialogues = (D.dialogues||[]).map(d=>({title:pick(d.title,n), lines:lines(d.lines).map(l=>{ const f=l.split('|'); const s=parseSent(f.slice(1).join('|'),t,n,mi); s.who=f[0]; return s; })}));
   let alphabet=null;
   if (L==='A1' && Array.isArray(bank.alphabet)){ alphabet = bank.alphabet.map((x,i)=>{ const a={letter:x.letter, name:pick(x.name,n), nameSay:x.nameSay||x.letter.split(' ')[0].toLowerCase(), sound:pick(x.sound,n), forms:x.forms, ex:x.ex, e:x.e, m:pick(x.m,n)};
-      a.exT=disp(a.ex); a.exSay=sayOf(a.ex); a.expr=pronOf(a.ex,t,n); a.id='A1:l:'+i; a.kind='l'; if(n==='zh'){ a.sound=zhc(a.sound||''); a.m=zhc(a.m||''); a.name=zhc(a.name||''); } return a; }); }
+      a.exT=disp(a.ex); a.exSay=sayOf(a.ex); a.expr=pronOf(a.ex,t,n); a.id='A1:l:'+i; a.kind='l'; if(n==='zh'||n==='ja'){ a.sound=zhc(a.sound||''); a.m=zhc(a.m||''); a.name=zhc(a.name||''); } return a; }); }
   else if (L==='A1' && bank.alphabet){ alphabet = lines(bank.alphabet).map((l,i)=>{ const f=l.split('|'); let a;
       if (t==='ru') a={letter:f[0], name:f[1], nameSay:f[1], sound:f[2], ex:f[3], e:f[4], m:f[5]};
       else if (t==='en') a={letter:f[0], name:pick(f[1],n), nameSay:f[0].split(' ')[0]+'.', sound:pick(f[2],n), ex:f[3], e:f[4], m:n==='ar'?f[5]:f[6]};
@@ -81,12 +91,17 @@ export function level(tr, L){
   return cache[key]={tr,L,n,t,themes,vocab,sentences,grammar,readings,dialogues,alphabet};
 }
 export function dict(tr){ const key='d:'+tr; if(cache[key]) return cache[key]; const m={}; const {t}=track(tr);
-  LEVELS.forEach(L=>{ const lv=level(tr,L); lv.vocab.forEach(v=>{ const k=norm(v.src,t); if(!m[k]) m[k]=v; if (t==='es'){ const k2=k.replace(/^(el|la|los|las|un|una) /,''); if(!m[k2]) m[k2]=v; } if (t==='en'){ const k2=k.replace(/^(to|the|a|an) /,''); if(!m[k2]) m[k2]=v; } k.split(' / ').forEach(x=>{ if(!m[x]) m[x]=v; }); }); }); return cache[key]=m; }
+  LEVELS.forEach(L=>{ const lv=level(tr,L); lv.vocab.forEach(v=>{ const k=norm(v.src,t); if(!m[k]) m[k]=v; if (t==='es'){ const k2=k.replace(/^(el|la|los|las|un|una) /,''); if(!m[k2]) m[k2]=v; } if (t==='en'){ const k2=k.replace(/^(to|the|a|an) /,''); if(!m[k2]) m[k2]=v; } const AR2=ART_NEW[t]; if (AR2){ const k2=k.replace(AR2,''); if(k2&&!m[k2]) m[k2]=v; } k.split(' / ').forEach(x=>{ if(!m[x]) m[x]=v; }); }); }); return cache[key]=m; }
 export function common(tr){ const key='c:'+tr; if(cache[key]) return cache[key]; const {t,bank,mi}=track(tr); const m={};
   lines(bank.common).forEach(l=>{ const f=l.split('|'); const w=norm(f[0],t); if(!(w in m) && f[1+mi]) m[w] = f[1+mi]; });
   return cache[key]=m; }
 
 /* light stemmers for word lookup */
+const ART_NEW={de:/^(der|die|das|ein|eine|sich) /, fr:/^(le|la|les|un|une|l'|l’|se |s')\s*/, it:/^(il|lo|la|i|gli|le|un|uno|una|l'|l’|un')\s*/};
+const DE_SUF=['ungen','heiten','keiten','test','tet','ten','tem','ter','tes','est','ern','em','en','er','es','st','te','et','e','n','s','t'];
+const FR_SUF=['issons','issez','issent','aient','erons','eront','ions','iez','ais','ait','ant','ons','ez','ent','ée','ées','és','ai','as','es','e','s','x','é'];
+const IT_SUF=['iamo','ate','ete','ite','ano','ono','ato','ita','ito','uto','uta','ava','eva','iva','avo','evo','ivo','erò','irò','arò','i','e','a','o'];
+const TR_SUF=['lerimiz','larımız','leri','ları','ler','lar','imiz','ımız','iniz','ınız','dan','den','tan','ten','nın','nin','nun','nün','ım','im','um','üm','ın','in','un','ün','da','de','ta','te','ya','ye','yı','yi','yu','yü','a','e','ı','i','u','ü','m','n','sı','si','su','sü','yor','iyor','ıyor','uyor','üyor','yorum','yorsun','dı','di','du','dü','tı','ti','tu','tü','mak','mek','dım','dim','acak','ecek','mış','miş'];
 const UZ_SUF=['larimizdan','larimizga','larimizni','larimiz','laringiz','larining','laridan','larida','lariga','larini','lardan','larda','larga','larni','lari','lar','imizdan','imizga','imizni','imiz','ingizga','ingiz','ning','dagi','dan','da','ga','ka','qa','ni','im','ing','si','i','m','ng','miz','siz','man','san','mi','chi','ku','dir','moqchiman','moqchimiz','moqchi','yapman','yapsan','yapti','yapmiz','yapsiz','ayapti','aman','ayman','yman','asan','aysan','ysan','adi','aydi','ydi','amiz','aymiz','ymiz','asiz','aysiz','ysiz','ishadi','dim','ding','di','dik','dingiz','ishdi','gan','ganman','ib','b','sa','sam','sang','sak','ish','ishi','ishim','ma','may','mayman','madim','madi'];
 const RU_SUF=['ями','ами','ого','его','ому','ему','ыми','ими','ешь','ете','ишь','ите','ают','яют','ует','уют','ала','ила','ыла','али','или','ыли','ая','яя','ое','ее','ые','ие','ой','ей','ую','юю','ом','ем','ам','ям','ах','ях','ов','ев','ть','ла','ло','ли','ут','ют','ат','ят','ет','ит','ем','им','у','ю','а','я','ы','и','е','о','ь'];
 export function stemLookup(k, tl, D, C){
@@ -100,6 +115,10 @@ export function stemLookup(k, tl, D, C){
     for (const t of tries){ const h=get(t); if(h) return h; } return null; }
   if (tl==='ru'){ for (const s of RU_SUF){ if (k.length>s.length+2 && k.endsWith(s)){ const st=k.slice(0,-s.length); for (const e of ['','а','я','о','е','ь','ть','ить','ать','ый','ий','ой']){ const h=get(st+e); if(h) return h; } } } return null; }
   if (tl==='en'){ for (const [s,r] of [['ies','y'],['es',''],['s',''],['ed',''],['ed','e'],['ing',''],['ing','e'],['er',''],['est','']]){ if (k.endsWith(s)){ const h=get(k.slice(0,-s.length)+r); if (h) return h; } } return null; }
+  if (tl==='de'||tl==='fr'||tl==='it'||tl==='tr'){ const SUF={de:DE_SUF,fr:FR_SUF,it:IT_SUF,tr:TR_SUF}[tl]; const INF={de:['en','n','e',''],fr:['er','ir','re','e',''],it:['are','ere','ire','o','a','e',''],tr:['mak','mek','']}[tl];
+    let cands=[k]; for (let round=0; round<(tl==='tr'?3:1); round++){ const next=[]; for (const w of cands) for (const s of SUF) if (w.length>s.length+1 && w.endsWith(s)) next.push(w.slice(0,-s.length));
+      for (const w of next) for (const e of INF){ const h=get(w+e)||(tl==='de'?get(w.replace(/ä/g,'a').replace(/ö/g,'o').replace(/ü/g,'u')+e):null); if (h) return h; }
+      cands=[...new Set(next)].slice(0,60); if(!cands.length) break; } return null; }
   if (tl==='ar'){ for (const p of ['و','ف','ب','ل','ال','وال','بال','لل','فال']){ if (k.startsWith(p)){ const h=get(k.slice(p.length)); if (h) return h; } } return null; }
   return null;
 }
@@ -206,7 +225,7 @@ export function buildExam(lv){
   for(let i=0;i<plan.mean;i++){ const it=takeV(); if(!it) break; Q.push({type:'mcq',kind:'kMean',item:it, prompt:{word:it.t,say:it.say}, opts:shuffle([it,...distract(lv,P.v,it,x=>x.m)]).map(x=>({label:x.m,ok:x===it}))}); }
   for(let i=0;i<plan.rev;i++){ const it=takeV(); if(!it) break; Q.push({type:'mcq',kind:'kRev',item:it, prompt:{text:it.m,emo:it.e}, opts:shuffle([it,...distract(lv,P.v,it,x=>x.say)]).map(x=>({label:x.t,ok:x===it,tgt:1}))}); }
   for(let i=0;i<plan.listen;i++){ const it=takeV(); if(!it) break; Q.push({type:'mcq',kind:'kListen',item:it, prompt:{listen:it.say}, opts:shuffle([it,...distract(lv,P.v,it,x=>x.say)]).map(x=>({label:x.t,ok:x===it,tgt:1}))}); }
-  const sp = P.v.filter(x=>tl==='zh' ? x.say.length<=4 : (!/\s/.test(x.say) && x.say.length<=12)); prioritized(sp.length?sp:P.v,key,plan.spell).forEach(it=>Q.push({type:'spell',kind:'kSpell',item:it,prompt:{listen:it.say,emo:it.e}}));
+  const sp = P.v.filter(x=>(tl==='zh'||tl==='ja') ? x.say.length<=4 : tl==='ko' ? x.say.length<=5 : (!/\s/.test(x.say) && x.say.length<=12)); prioritized(sp.length?sp:P.v,key,plan.spell).forEach(it=>Q.push({type:'spell',kind:'kSpell',item:it,prompt:{listen:it.say,emo:it.e}}));
   if (plan.letter && P.l.length){ prioritized(P.l,key,plan.letter).forEach(it=>Q.push({type:'mcq',kind:'kLetter',item:it,prompt:{listen:it.nameSay},opts:shuffle([it,...distract(lv,P.l,it,x=>x.letter)]).map(x=>({label:x.letter,ok:x===it,tgt:1}))})); }
   prioritized(P.s,key,plan.sent).forEach(it=>Q.push({type:'mcq',kind:'kSent',item:it,prompt:{word:it.t,say:it.say,small:1},opts:shuffle([it,...distract(lv,P.s,it,x=>x.m)]).map(x=>({label:x.m,ok:x===it}))}));
   const ord = P.s.filter(x=>{ const tk=tokens(x.src,tl); return tk.length>=3&&tk.length<=6 && new Set(tk.map(w=>w.toLowerCase())).size===tk.length; });
@@ -222,7 +241,9 @@ export function finishExam(lv, ex){ ex.done=true; const key=lv.tr+':'+lv.L; cons
   Store.d.best[key]=Math.max(Store.d.best[key]||0,pct); if (pct>=PASS){ (Store.d.passed[lv.tr]||(Store.d.passed[lv.tr]={}))[lv.L]=true; } Store.save(); return pct; }
 export function checkTyped(given, item, tl){ let a=norm(given,tl), b=norm(item.say,tl);
   if (tl==='ar'){ a=a.replace(/ة/g,'ه'); b=b.replace(/ة/g,'ه'); }
-  if (tl==='es'||tl==='zh'){ const f=x=>x.normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/\s/g,'').trim(); a=f(a); b=f(b); }
+  if (tl==='es'||tl==='zh'||tl==='ja'||tl==='fr'||tl==='it'||tl==='tr'||tl==='de'||tl==='ko'){ const f=x=>x.normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/\s/g,'').trim(); a=f(a); b=f(b); }
   if (tl==='zh'){ if (a===b) return true; const py=f2(pinyin(item.src||item.say)); return a===py; }
+  if (tl==='ja'){ if (a===b) return true; return f2(a)!=='' && f2(a)===f2(romaji(item.src||item.say)); }
+  if (tl==='ko'){ if (a===b) return true; return f2(a)!=='' && f2(a)===f2(koToLat(item.say)); }
   return a===b; }
 const f2 = s => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-zü]/g,'').replace(/ü/g,'v');

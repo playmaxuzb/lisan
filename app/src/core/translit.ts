@@ -216,3 +216,29 @@ function esWord(w, map){
 function esToAr(src){ return String(src).split(/([A-Za-zÀ-ÿñÑ]+)/).map((t,k)=>k%2?esWord(t,'ar'):t.replace(/,/g,'،').replace(/[¿?]/g,m=>m==='?'?'؟':'').replace(/¡/g,'').replace(/[«»"]/g,'')).join(''); }
 function esToCyr(src){ return String(src).split(/([A-Za-zÀ-ÿñÑ]+)/).map((t,k)=>k%2?esWord(t,'cy'):t.replace(/[¿¡]/g,'')).join(''); }
 export {ruToAr,arToRu,ruToLat,arToLat,uzToAr,uzToCyr,esToAr,esToCyr};
+
+/* Korean (Hangul) → Revised Romanization, with the common sound changes at syllable joins */
+const KO_I = ['g','kk','n','d','tt','r','m','b','pp','s','ss','','j','jj','ch','k','t','p','h'];
+const KO_V = ['a','ae','ya','yae','eo','e','yeo','ye','o','wa','wae','oe','yo','u','wo','we','wi','yu','eu','ui','i'];
+const KO_F = ['','k','k','k','n','n','n','t','l','k','m','l','l','l','p','l','m','p','p','t','t','ng','t','t','k','t','p','t'];
+export function koToLat(src){
+  return String(src).split(/([가-힣]+)/).map((w,k)=>{ if (k%2===0) return w;
+    const syl=[...w].map(ch=>{ const c=ch.charCodeAt(0)-0xAC00; return {i:Math.floor(c/588), v:Math.floor((c%588)/28), f:c%28}; });
+    let out='';
+    syl.forEach((s,j)=>{ let ini=KO_I[s.i]; const prev=syl[j-1];
+      if (j===0 && s.i===5) ini='r';
+      if (prev){ const pf=prev.f;
+        if (s.i===11 && pf){ // final consonant moves to the next empty initial
+          const DBL={3:['k','s'],5:['n','j'],6:['n',''],9:['l','g'],10:['l','m'],11:['l','b'],12:['l','s'],13:['l','t'],14:['l','p'],15:['l',''],18:['p','s']};
+          const carry={1:'g',2:'kk',4:'n',7:'d',8:'r',16:'m',17:'b',19:'s',20:'ss',22:'j',23:'ch',24:'k',25:'t',26:'p',27:'h'}[pf];
+          if (DBL[pf]){ out=out.slice(0,out.length-KO_F[pf].length)+DBL[pf][0]; ini=DBL[pf][1]; }
+          else if (carry!=null && pf!==21){ out=out.slice(0,out.length-KO_F[pf].length); ini=carry==='h'?'':carry; } }
+        else if ((s.i===2||s.i===6) && pf && pf!==8 && pf!==21 && pf!==4 && pf!==16){ // nasalisation before n / m
+          const nas={k:'ng',t:'n',p:'m'}[KO_F[pf]]; if (nas){ out=out.slice(0,out.length-KO_F[pf].length)+nas; } }
+        else if (s.i===2 && pf===8){ out=out.slice(0,-1)+'l'; ini='l'; }
+        else if (s.i===5 && pf===4){ out=out.slice(0,-1)+'l'; ini='l'; }
+        else if (s.i===5 && pf && pf!==8){ ini='n'; }
+        else if (s.i===5 && pf===8){ ini='l'; } }
+      out+=ini+KO_V[s.v]+KO_F[s.f]; });
+    return out; }).join('');
+}

@@ -59,14 +59,14 @@ export function PlayBtn({ say, tl, slow = false, alt = false, label = '', classN
 export function PlayPair({ say, tl, u }){ return <span className="inline-flex gap-1.5"><PlayBtn say={say} tl={tl} label={u.play}/><PlayBtn say={say} tl={tl} slow label={u.speed}/></span>; }
 
 /* ---------- target-language text ---------- */
-export const tcls = (tl) => tl === 'ar' ? 'tgt tgt-ar' : tl === 'zh' ? 'tgt tgt-zh' : 'tgt';
+export const tcls = (tl) => tl === 'ar' ? 'tgt tgt-ar' : tl === 'zh' ? 'tgt tgt-zh' : tl === 'ja' ? 'tgt tgt-ja' : tl === 'ko' ? 'tgt tgt-ko' : 'tgt';
 export const tdir = (tl) => tl === 'ar' ? 'rtl' : 'ltr';
 export function Tgt({ tl, children, className = '', as: As = 'span', ...r }){ return <As className={`${tcls(tl)} ${className}`} dir={tdir(tl)} lang={tl} {...r}>{children}</As>; }
 
 /* clickable words */
 const WRE = /([\p{L}\p{M}+'’́ʻʼ]+(?:-[\p{L}\p{M}+́ʻʼ]+)*)/gu;
 export function Words({ src, tl, ctx, onWord }){
-  if (tl === 'zh'){
+  if (tl === 'zh' || tl === 'ja'){
     const parts = String(src).split(/(\s+)/);
     return <>{parts.map((p, i) => /^\s+$/.test(p) ? null : /[\p{L}\p{N}]/u.test(p)
       ? <span key={i} className="w" onClick={(e) => { e.stopPropagation(); onWord(p, ctx); }}>{p}</span> : <span key={i}>{p}</span>)}</>;
@@ -114,4 +114,4 @@ export function Seg({ value, options, onChange, className = '' }){
 export function Progress({ value, className = '' }){
   return <div className={`h-2 rounded-full bg-brand-50 overflow-hidden ${className}`}><div className="h-full rounded-full bg-brand-500 transition-all" style={{ width: Math.max(0, Math.min(100, value)) + '%' }}/></div>;
 }
-export const nt = (s, n) => n === 'zh' ? zhc(s || '') : (s || '');
+export const nt = (s, n) => (n === 'zh' || n === 'ja') ? zhc(s || '') : (s || '');
