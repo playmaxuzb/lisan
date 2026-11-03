@@ -1,0 +1,361 @@
+TH|Les nuances fines
+V|hypocrite
+V|arrogant
+V|imperturbable
+V|vague
+V|raffiné
+V|perspicace
+V|taciturne
+V|vaniteux
+V|magnanime
+V|perfide
+V|intègre
+V|impulsif
+V|inflexible
+V|suffisant
+V|servile
+V|indomptable
+V|mélancolique
+V|gracieux
+V|inébranlable
+V|prévoyant
+V|prometteur
+V|embrouillé
+V|tumultueux
+V|impartial
+V|indifférent
+TH|Les verbes littéraires
+V|empiéter
+V|s'entrelacer
+V|éclairer
+V|s'estomper
+V|s'emporter
+V|tenir compte
+V|condescendre
+V|feindre
+V|saisir
+V|attiser
+V|submerger
+V|se résigner
+V|reprocher
+V|perdre ses illusions
+V|se fier à
+V|soupçonner
+V|retarder
+V|défendre
+V|récolter
+V|approfondir
+V|aspirer
+V|réconcilier
+V|éclipser
+V|esquiver
+V|démêler
+TH|Les nuances des sentiments
+V|la sérénité
+V|la nostalgie du pays
+V|la tendresse
+V|le désespoir
+V|la gêne
+V|l'indignation
+V|l'humilité
+V|le mépris
+V|l'admiration
+V|l'appréhension
+V|l'aliénation
+V|la joie maligne
+V|le repentir
+V|la nostalgie
+V|l'inspiration
+V|l'épuisement
+V|le désarroi
+V|la rancune
+V|l'attachement
+V|l'apathie
+TH|La rhétorique et le style
+V|l'ironie
+V|la rhétorique
+V|le sous-texte
+V|la stylistique
+V|la répétition
+V|l'allégorie
+V|le sarcasme
+V|l'hyperbole
+V|l'aphorisme
+V|l'allusion
+V|le rythme
+V|la syllabe
+V|l'éloquence
+V|le narrateur
+V|le point culminant
+V|le dénouement
+V|la personnification
+TH|L'administration et le droit
+V|l'organisme public
+V|le règlement
+V|l'acte réglementaire
+V|les pouvoirs
+V|la compétence juridique
+V|l'infraction
+V|l'appel
+V|l'arbitrage
+V|le précédent
+V|la ratification
+V|la légitimité
+V|l'inviolabilité
+V|déléguer
+V|la bureaucratie
+V|la transparence
+TH|La science
+V|l'évolution
+V|le quantum
+V|l'univers
+V|le catalyseur
+V|l'observation
+V|l'organisme
+V|l'anomalie
+V|la régularité
+V|l'algorithme
+V|le neurone
+V|l'écosystème
+V|la molécule
+V|l'orbite
+V|la gravité
+V|l'immunité
+TH|Les notions abstraites
+V|la dualité
+V|le repère
+V|le dilemme
+V|le paradoxe
+V|l'incertitude
+V|la hiérarchie
+V|l'intégrité
+V|la vocation
+V|la diversité
+V|la condition préalable
+V|la relativité
+V|l'illusion
+V|le bouleversement
+V|la prédestination
+V|l'authenticité
+V|la continuité
+V|l'intuition
+V|l'ambiguïté
+TH|Les adverbes
+V|nullement
+V|en partie
+V|soudain
+V|progressivement
+V|invariablement
+V|à peine
+V|minutieusement
+V|par inadvertance
+V|en passant
+V|depuis toujours
+V|rapidement
+V|délibérément
+V|véritablement
+V|conformément à
+V|insensiblement
+V|au bout du compte
+TH|La critique d'art
+V|la toile
+V|le coloris
+V|le chef-d'œuvre
+V|le coup de pinceau
+V|l'avant-garde
+V|l'Antiquité
+V|le manuscrit
+V|la symphonie
+V|la chorégraphie
+V|l'angle de vue
+V|l'imitation
+V|l'originalité
+V|la statue
+V|l'anthologie
+TH|Le style soutenu
+V|la vénération
+V|le ravissement
+V|l'illumination
+V|insaisissable
+V|inébranlable
+V|l'identité
+V|l'entrelacement
+V|le zèle
+V|l'abîme
+V|passager
+V|fugace
+V|le chemin de vie
+V|exquis
+V|intime
+V|le crépuscule
+V|se tarir
+V|reposer sur
+V|s'incliner devant
+V|percer à jour
+V|peser
+V|chaotique
+V|le silence
+V|d'avant l'aube
+V|la chronique
+V|le devoir
+V|illusoire
+V|flétri
+V|capricieux
+V|la comédie
+V|le pressentiment
+V|la prise de conscience
+V|vain
+V|l'existence
+V|l'infini
+V|la compassion
+S|Son ironie n'a pas été comprise par tout le monde.
+S|L'auteur manie le sous-texte avec maestria.
+S|Quoi qu'on dise, il a raison.
+S|Il n'est nullement aussi simple qu'il en a l'air.
+S|Sa générosité a étonné tout le monde.
+S|Ses paroles ont sonné comme un reproche.
+S|Elle a fait semblant de n'avoir rien remarqué.
+S|Avec le temps, la douleur s'est estompée.
+S|Il n'a jamais pu se résigner à cette perte.
+S|On ne peut pas tout saisir d'un coup.
+S|On sentait de l'indignation dans sa voix.
+S|La nostalgie de mon pays m'a envahi.
+S|Son discours se distinguait par son élégance.
+S|Nous sommes face à un dilemme difficile.
+S|C'est là que réside le paradoxe.
+S|Les changements se sont produits insensiblement.
+S|Il ne l'a mentionné qu'en passant.
+S|Ils auront du mal à tenir le délai.
+S|Il a étudié la question minutieusement.
+S|Depuis toujours, les hommes aspirent à la liberté.
+S|Le tableau frappe par ses couleurs.
+S|Cette toile est considérée comme un chef-d'œuvre.
+S|Le point culminant du roman arrive au dernier chapitre.
+S|Le dénouement s'est révélé inattendu.
+S|Le narrateur n'inspire pas confiance.
+S|On peut faire appel de la décision du tribunal.
+S|Les pouvoirs ont été délégués à l'adjoint.
+S|La transparence est la base de la confiance.
+S|La bureaucratie freine toutes les réformes.
+S|Ce précédent a changé la jurisprudence.
+S|L'univers garde encore de nombreux secrets.
+S|Les scientifiques ont relevé une étrange anomalie.
+S|L'évolution est un processus lent mais implacable.
+S|L'authenticité du manuscrit est mise en doute.
+S|Aussitôt dit, aussitôt fait.
+S|La nuit porte conseil.
+S|Tout ce qui brille n'est pas or.
+S|Qui va lentement va sûrement.
+S|On n'a rien sans rien.
+S|Patience et longueur de temps font plus que force ni que rage.
+S|Il s'est tu délibérément.
+S|Par inadvertance, elle a abordé un sujet sensible.
+S|Il ne nous reste plus qu'à espérer le meilleur.
+S|Nous récoltons les fruits de nos décisions.
+S|Il a défendu son point de vue jusqu'au bout.
+S|Il faut du temps pour comprendre le passé.
+S|Son succès a éclipsé tous ses concurrents.
+S|Son comportement frise l'impolitesse.
+S|On a beau faire, on ne peut pas plaire à tout le monde.
+S|Et en plus, il était en retard.
+S|Pourvu que tout se passe bien.
+S|Ce n'est pas que je sois contre, mais j'ai des doutes.
+S|À peine était-il entré que tout le monde s'est tu.
+S|Quoi qu'il arrive, je serai là.
+S|Elle parlait comme si de rien n'était.
+S|Autant que je sache, la question est déjà réglée.
+S|Au bout du compte, tout s'est arrangé.
+S|Néanmoins, des questions restaient sans réponse.
+S|On ne saurait surestimer sa contribution.
+S|Véritablement, la sagesse n'a pas de limites.
+S|Elle est restée fidèle à ses convictions.
+S|La vanité l'a perdu.
+S|Sa suffisance agaçait ses collègues.
+S|Dans ce choix, il n'y a ni bonne ni mauvaise réponse.
+S|L'avenir est plongé dans l'incertitude.
+S|La diversité des opinions est une richesse.
+S|Ce livre est le fruit de longues années de travail.
+S|Les mots du poète sonnent de manière nouvelle.
+S|Une pensée ne me laisse pas en paix.
+S|La gloire ne l'a pas gâté.
+S|Nous avons longtemps correspondu.
+S|La volonté de vivre est plus forte que la peur.
+S|Par miracle, ils ont évité la catastrophe.
+S|Son discours abondait en citations.
+S|C'était peut-être pour le mieux.
+S|L'avenir nous le dira.
+S|Son zèle ne connaissait pas de limites.
+S|Tout est passager en ce monde.
+S|Sa patience était à bout.
+S|Elle a percé à jour son plan.
+S|Après avoir pesé le pour et le contre, il a refusé.
+S|Un étrange pressentiment m'a saisi.
+S|Au crépuscule, la ville semblait fantomatique.
+S|Le bonheur est fugace, comme une pluie de printemps.
+S|Son goût se distinguait par son raffinement.
+S|La compassion n'est pas une faiblesse.
+S|Elle lui a confié ses pensées les plus intimes.
+S|Tous ses efforts ont été vains.
+S|Nous nous inclinons devant son talent.
+S|Le silence d'avant l'aube est tombé.
+S|Il a choisi sa voie dès sa jeunesse.
+S|La chronique garde la mémoire de ces événements.
+S|Nous ne faisons que notre devoir.
+S|Ce livre est un entrelacement complexe de destins.
+S|Son discours était chaotique.
+S|Il a eu une illumination.
+S|La beauté sauvera le monde.
+S|La vie n'est pas un long fleuve tranquille.
+S|Mieux vaut tard que jamais.
+S|Un homme qui se noie s'accroche à un brin de paille.
+S|Il n'y a pas de fumée sans feu.
+S|Le travail d'abord, le plaisir ensuite.
+S|C'est dans le besoin qu'on reconnaît ses vrais amis.
+S|La force est dans la vérité.
+RT|L'art du silence
+RL|On dit que la parole est d'argent, mais le silence est d'or.
+RL|À l'ère des messages sans fin, ce proverbe sonne presque comme un défi.
+RL|Nous nous dépêchons de répondre, de commenter, de donner notre avis.
+RL|Et nous nous demandons rarement si cela en valait la peine.
+RL|Pourtant, savoir se taire au bon moment est un signe non pas de faiblesse, mais de maturité.
+RL|Le silence donne le temps de réfléchir à ce qu'on a entendu.
+RL|Il s'avère qu'écouter n'est pas moins important que parler.
+RL|Ce n'est pas un hasard si les sages de toutes les époques appréciaient la réserve.
+RT|À propos de la traduction
+RL|Traduire, ce n'est pas simplement remplacer des mots.
+RL|Chaque langue porte en elle une vision particulière du monde.
+RL|Les expressions idiomatiques, les jeux de mots, le sous-texte : tout cela est difficile à traduire.
+RL|Le traducteur doit choisir entre la précision et la beauté.
+RL|Ce n'est pas pour rien qu'on dit que le traducteur est un coauteur.
+RL|Une bonne traduction préserve non seulement le sens, mais aussi l'esprit de l'original.
+RL|C'est précisément pour cela que les grands livres sont traduits encore et encore.
+RT|La mémoire d'un lieu
+RL|Il y a des villes qui vivent en nous longtemps après que nous les avons quittées.
+RL|L'odeur de la pluie dans une vieille rue, le son des cloches, la voix d'un marchand au marché.
+RL|Tout cela resurgit soudain dans la mémoire.
+RL|La nostalgie, ce n'est pas seulement le regret du passé.
+RL|C'est une tentative de retrouver une part de soi-même restée là-bas.
+RL|En y revenant des années plus tard, nous ne reconnaissons souvent ni la ville ni nous-mêmes.
+RL|Et pourtant, cette rencontre apporte une étrange sérénité.
+DT|Une conversation sur un roman
+DL|A|Alors, tu as fini le roman ?
+DL|B|Oui. Honnêtement, la fin m'a laissé perplexe.
+DL|A|Oui, l'auteur aime laisser beaucoup de non-dits.
+DL|B|Exactement. Tout repose sur le sous-texte.
+DL|A|Mais quelle langue ! Je n'arrivais pas à m'arrêter.
+DL|B|C'est vrai, on ne peut pas dire le contraire.
+DT|Une brouille
+DL|A|Tu m'en veux encore ?
+DL|B|Je ne suis pas tant vexé que déçu.
+DL|A|Je comprends. Je me suis emporté et j'en ai trop dit.
+DL|B|Les paroles s'envolent, mais elles blessent quand même.
+DL|A|Je sais. Pardonne-moi, s'il te plaît.
+DL|B|Bon, tournons la page.
+DL|A|Merci. Tu es un vrai ami.
+DT|À l'exposition
+DL|A|Qu'est-ce que tu dis de cette toile ?
+DL|B|Les couleurs sont saisissantes, mais la composition est trop chargée, à mon avis.
+DL|A|Et moi, je pense que c'est justement l'intention de l'artiste.
+DL|B|Possible. Le chaos comme reflet de l'époque ?
+DL|A|Exactement. Regarde les coups de pinceau : que d'inquiétude dans ces traits.
+DL|B|Tu m'as presque convaincu.

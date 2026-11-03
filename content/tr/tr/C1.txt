@@ -1,0 +1,381 @@
+TH|Akademik söz varlığı
+V|eğilim
+V|sonuç (netice)
+V|varsayım
+V|kanıt
+V|çelişki
+V|öz
+V|vargı
+V|yaklaşım
+V|bakış açısı
+V|değer
+V|kanaat
+V|şüphe
+V|olgu
+V|hipotez
+V|yöntem bilim
+V|argüman
+V|süreç
+V|yapı
+V|kavram
+V|karşılıklı ilişki
+V|ölçüt
+V|sınıflandırma
+V|boyut
+V|bağlam
+V|uzlaşma
+TH|Resmî fiiller
+V|vurgulamak
+V|ele almak
+V|yürütmek
+V|sağlamak
+V|güvence altına almak
+V|katkıda bulunmak
+V|engellemek
+V|değerlendirmek
+V|öngörmek
+V|uygulamak
+V|ifade etmek (formüle etmek)
+V|araştırmak
+V|gözden geçirmek
+V|çürütmek
+V|doğrulamak
+V|düzenlemek
+V|tespit etmek
+V|değinmek
+V|belirlemek
+V|dile getirmek
+V|göz önünde bulundurmak
+V|birleştirmek
+V|ortaya çıkarmak
+V|düşürmek
+V|ortaya çıkmak
+TH|Finans ve iş dünyası
+V|aktifler
+V|pasifler
+V|borsa
+V|hisse
+V|sermaye
+V|birleşme
+V|raporlama
+V|kârlılık
+V|ortaklık
+V|kriz
+V|denetim
+V|maliyetler
+V|hizmet
+V|sektör
+V|küreselleşme
+V|tedarikçi
+V|strateji
+V|yenilik
+V|yönetim
+V|mutabakat
+TH|Hukuk
+V|adalet sistemi
+V|karar
+V|avukat (savunma)
+V|davacı
+V|savunma
+V|hüküm
+V|kişisel veriler
+V|telif hakkı
+V|lisans
+V|yasa tasarısı
+V|meclis
+V|referandum
+V|gizlilik
+V|yükümlülük
+TH|Tıp
+V|teşhis
+V|belirti
+V|aşılama
+V|laboratuvar
+V|enfeksiyon
+V|psikoterapi
+V|röntgen
+V|antibiyotik
+V|rehabilitasyon
+V|iyileşme
+V|kronik
+V|cerrah
+V|önleme
+TH|Dil ve edebiyat
+V|anlatı
+V|karakter
+V|üslup
+V|olay örgüsü
+V|eğretileme
+V|lehçe
+V|tür
+V|deneme yazarlığı
+V|deneme
+V|dilbilim
+V|terim
+V|alıntı
+V|paragraf
+TH|Felsefe ve etik
+V|felsefe
+V|ahlak
+V|vicdan
+V|irade
+V|hayatın anlamı
+V|hakikat
+V|inanç
+V|hümanizm
+V|kendini tanıma
+V|bilinç
+V|dünya görüşü
+V|toplumsal adalet
+V|bilgelik
+TH|Edebî sıfatlar
+V|kaçınılmaz
+V|kayda değer
+V|apaçık
+V|çok yönlü
+V|bilimsel
+V|yerinde
+V|sürdürülebilir
+V|belirsiz
+V|temel
+V|tartışmalı (kuşkulu)
+V|öncelikli
+V|önemsiz
+V|geçici
+V|kalıcı
+V|kapsamlı
+V|evrensel
+V|öznel
+V|nesnel
+V|hızlı (baş döndürücü)
+V|titiz
+V|olağanüstü
+V|tartışmalı
+V|ağırbaşlı
+V|tutkulu
+V|savunmasız
+TH|Bağlaçlar ve zarflar
+V|ancak
+V|yine de
+V|dolayısıyla
+V|ayrıca
+V|aynı zamanda
+V|sayesinde
+V|rağmen
+V|aksine (-in)
+V|böylece
+V|genel olarak
+V|özellikle
+V|her şeyden önce
+V|tam tersine
+V|bu şekilde
+V|nihayetinde
+V|esasen
+V|ile bağlantılı olarak
+V|sonucunda
+V|bu sayede
+V|kuşkusuz
+TH|Araştırma
+V|araştırmacı
+V|örneklem
+V|gösterge
+V|analiz
+V|yayın (bilimsel)
+V|keşif
+V|doktora tezi
+V|kaynak (literatür)
+V|hata payı
+V|burs
+V|doktoralı
+TH|Diplomasi
+V|müzakereler
+V|büyükelçilik
+V|büyükelçi
+V|antlaşma (devletler arası)
+V|iş birliği
+V|yaptırımlar
+V|ateşkes
+V|açıklama
+V|tarafsızlık
+V|insani yardım
+TH|Modern toplum
+V|kentleşme
+V|demografi
+V|nüfusun yaşlanması
+V|işgücü göçü
+V|hoşgörü
+V|sivil toplum
+V|dijitalleşme
+V|siber güvenlik
+V|bilişsel
+V|dengesiz
+V|endüstriyel
+V|çevre bilimi
+V|okuryazarlık
+V|kimlik
+V|propaganda
+V|ayrımcılık
+V|dayanışma
+V|yolsuzluk
+V|reform
+V|memur
+V|entegrasyon
+V|bilirkişi incelemesi
+V|durgunluk
+V|altyapı
+V|etkileşim
+S|Zorluklara rağmen proje zamanında tamamlandı.
+S|Makaleyi okuduktan sonra fikrini değiştirdi.
+S|Bu konu titiz bir analiz gerektiriyor.
+S|Sonuçların ön sonuçlar olduğu vurgulanmalıdır.
+S|İş arkadaşlarımızın desteği sayesinde hedefimize ulaştık.
+S|Araştırma kayda değer bir artış gösterdi.
+S|Eve dönerken eski bir arkadaşımla karşılaştım.
+S|Bilindiği gibi dil sürekli değişir.
+S|Böylece hipotezin doğrulandığı sonucuna varılabilir.
+S|Sözleri şüphe uyandırdı.
+S|Soru hâlâ cevapsız.
+S|Veriler bu kuramı doğrulamıyor.
+S|Bütün etkenleri göz önünde bulundurmak gerekir.
+S|Yazar ikna edici argümanlar sunuyor.
+S|Ekonomik açıdan bu riskli.
+S|Şirket sürdürülebilir kalkınmayı hedefliyor.
+S|Karar oy birliğiyle alındı.
+S|Taraflar uzlaşmaya vardı.
+S|Müzakereler bütün gece sürdü.
+S|Ne kadar çok bilirsek o kadar çok soru ortaya çıkar.
+S|Kriz sonucunda birçok kişi işini kaybetti.
+S|Konuşması alkışlarla karşılandı.
+S|Bu görüşe katılmamak mümkün değil.
+S|Olağanüstü yetenekleri var.
+S|Yağmur olmasaydı şehir dışına giderdik.
+S|Bir dizi karmaşık sorunu çözmemiz gerekiyor.
+S|Bunu hafif bir ironiyle söyledi.
+S|Tutumu saygıyı hak ediyor.
+S|Elde edilen verilerin doğrulanması gerekiyor.
+S|Bu, olası yorumlardan yalnızca biri.
+S|Yazar önemli toplumsal sorunlara değiniyor.
+S|Kitap yirmi dile çevrildi.
+S|Doktorlar teşhisi hemen koymadı.
+S|Önlemek tedavi etmekten daha ucuzdur.
+S|Kronik hastalıklar sürekli takip gerektirir.
+S|Yasa bir ocakta yürürlüğe giriyor.
+S|Mahkeme beraat kararı verdi.
+S|Müşterilerin kişisel verileri korunuyor.
+S|Her vatandaşın eğitim hakkı vardır.
+S|Büyükelçi dışişleri bakanıyla görüştü.
+S|Taraflar bir iş birliği anlaşması imzaladı.
+S|Halk insani yardım aldı.
+S|Eğitime yapılan yatırımlar karşılığını verir.
+S|Şirket bir rakiple birleşeceğini açıkladı.
+S|Projenin kârlılığı soru işareti.
+S|Stratejimizi gözden geçirdik.
+S|Yenilik ekonominin itici gücüdür.
+S|Yönetim bize destek oldu.
+S|Maliyetleri düşürmemiz gerekiyor.
+S|Yılın sonuçları beklentileri aştı.
+S|Geniş bir dünya görüşü var.
+S|Konuşması açık ve mantıklıydı.
+S|Size katılmakta zorlanıyorum.
+S|Görüşümü belirtmeme izin verin.
+S|Bunu daha sonra konuşmayı tercih ederim.
+S|Tek bir örnekten sonuç çıkarılamaz.
+S|Soru bunun nasıl uygulanacağı.
+S|İşe büyük bir hevesle koyuldu.
+S|Toplantıyı ertelemek zorundayız.
+S|Bilime katkısı ne kadar övülse azdır.
+S|Teknoloji geliştikçe toplum da değişiyor.
+S|Ayrıca fiyatlar artmaya devam ediyor.
+S|Özellikle gençlerden söz ediyoruz.
+S|Tam tersine, çok memnundu.
+S|Nihayetinde her şey bize bağlı.
+S|Arapçayı aksansız konuşuyor.
+S|Düşüncelerimi açıkça ifade etmeye alışkınım.
+S|Değişime karşı direnci küçümsememek gerekir.
+S|Davranışı haklı gösterilemez.
+S|Beklenmedik zorluklarla karşılaştık.
+S|Böyle durumlar nadir değil.
+S|Görüşleri zamanla değişti.
+S|Her zaman espri anlayışı vardı.
+S|Görüşünüze çok değer veriyorum.
+S|Bu konu ayrı bir tartışmayı hak ediyor.
+S|Anketin sonuçları beklenmedik çıktı.
+S|Bütün katılımcıların hemfikir olduğu varsayımından yola çıkıyoruz.
+S|Bu iki olgu birbiriyle sıkı sıkıya bağlı.
+S|Bilim insanları bir düzenlilik tespit etti.
+S|Hayat sadece işten ibaret değil.
+S|Vicdanı yalan söylemesine izin vermedi.
+S|Bilgelik deneyimle gelir.
+S|Gerçek ikisinin ortasında bir yerdedir.
+S|Kentleşme şehirlerin büyümesine yol açıyor.
+S|Dijitalleşme hayatın bütün alanlarını etkiledi.
+S|Siber güvenlik giderek daha önemli hâle geliyor.
+S|Nüfusun yaşlanması ekonomi için bir sınav.
+S|Hoşgörü barış içinde bir arada yaşamanın temelidir.
+S|Gelişmiş bir altyapı olmadan büyüme imkânsızdır.
+S|Reform farklı tepkilerle karşılandı.
+S|Sivil toplum önemli bir rol oynuyor.
+S|Ayrımcılık kabul edilemez.
+S|Ekonomik durgunluk birçok sektörü etkiledi.
+S|Halkın okuryazarlık oranı sürekli artıyor.
+S|Uzmanların görüşleri farklı.
+S|Dayanışma krizin aşılmasına yardım etti.
+S|Propagandanın kurbanı oldu.
+S|Göçmenlerin entegrasyonu zaman alır.
+S|Müşterilerle etkileşim başarının anahtarıdır.
+S|Her şeyi ekonomiye indirgeyemeyiz.
+S|Bu sorun sistemsel nitelikte.
+S|Açıklık ilkesini esas alıyoruz.
+S|Sözlerimi bitirirken bütün katılımcılara teşekkür etmek istiyorum.
+RT|Dijital çağda okumak
+RL|Son zamanlarda birçok kişi insanların artık okumadığından yakınıyor.
+RL|Ancak araştırmalar daha karmaşık bir tablo ortaya koyuyor.
+RL|Eskisinden daha az okumuyoruz, ama farklı okuyoruz.
+RL|Metinler kısaldı, dikkat ise dağıldı.
+RL|Böylece zarar gören okumanın miktarı değil, derinliği.
+RL|Bilim insanları odaklanma yeteneğinin bir beceri olduğunu vurguluyor.
+RL|Her beceri gibi onun da geliştirilmesi gerekir.
+RL|Örneğin yanınızda telefon olmadan basılı kitap okumak faydalıdır.
+RL|Genel olarak dijital teknolojiler kendi başına zararlı değil.
+RL|Her şey onları nasıl kullandığımıza bağlı.
+RT|Sürdürülebilir kalkınma
+RL|Sürdürülebilir kalkınma kavramı yirminci yüzyılın sonunda ortaya çıktı.
+RL|Özü basit: gelecek kuşaklara zarar vermeden bugünün ihtiyaçlarını karşılamak.
+RL|Ancak uygulamada bunun çok daha zor olduğu ortaya çıktı.
+RL|Ekonomik büyüme çoğu zaman çevre korumayla çelişiyor.
+RL|Yine de birçok ülke «yeşil» teknolojileri uygulamaya koyuyor.
+RL|Şirketler de çevresel etkenleri göz önünde bulunduruyor.
+RL|Kuşkusuz her birimizin katılımı olmadan başarı olmayacak.
+RT|Tartışma sanatı
+RL|Tartışabilmek modern dünyanın en önemli becerilerinden biridir.
+RL|Tartışmanın amacı karşıdakini yenmek değil, gerçeğe yaklaşmaktır.
+RL|Her şeyden önce karşınızdakini dikkatle dinlemeniz gerekir.
+RL|Sonra duygular değil, argümanlar sunmalısınız.
+RL|Gerçekleri görüşlerden ayırmak önemlidir.
+RL|Yanılıyorsan bunu kabul et: bu bir zayıflık değil, güç göstergesidir.
+RL|Nihayetinde iyi bir tartışma iki tarafı da zenginleştirir.
+DT|Yapay zekâ üzerine bir tartışma
+DL|A|Yapay zekânın iş piyasasına etkisini nasıl değerlendiriyorsunuz?
+DL|B|Bir yandan sıradan işleri otomatikleştiriyor.
+DL|B|Öte yandan yeni meslekler ortaya çıkıyor.
+DL|A|Ama herkes yeni bir mesleğe geçemeyecek.
+DL|B|İşte bu yüzden devlet eğitime yatırım yapmalı.
+DL|A|Katılıyorum ama bu zaman alır.
+DL|B|Elbette. Bu yüzden bugünden başlamalıyız.
+DT|İş toplantısı
+DL|A|Asıl konuya geçmeyi öneriyorum.
+DL|B|Evet, sözleşmenin şartlarını konuşalım.
+DL|A|Teslim süreleri bize uymuyor.
+DL|B|Onları bir hafta kısaltabiliriz.
+DL|A|Peki ya fiyat?
+DL|B|Büyük bir sipariş için indirim yapmaya hazırız.
+DL|A|Bu durumda anlaşmayı imzalayabiliriz.
+DL|B|Mükemmel. Belgeleri yarına hazırlarım.
+DT|Edebiyat üzerine
+DL|A|Şu sıralar hangi kitabı okuyorsun?
+DL|B|«Suç ve Ceza»yı yeniden okuyorum.
+DL|A|Çok karamsar değil mi?
+DL|B|Karamsar ama derin. Her seferinde yeni bir şey keşfediyorum.
+DL|A|En çok neyi çekiyor seni?
+DL|B|Karakterlerin psikolojisi ve vicdanla ilgili ebedî sorular.
+DL|A|Belki ben de yeniden okumalıyım.

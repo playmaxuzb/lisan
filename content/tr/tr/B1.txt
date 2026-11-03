@@ -1,0 +1,387 @@
+TH|İş ve ofis
+V|iş
+V|ofis
+V|şirket
+V|patron
+V|iş arkadaşı
+V|maaş
+V|sözleşme
+V|toplantı
+V|iş görüşmesi
+V|özgeçmiş
+V|izin
+V|deneyim
+V|kariyer
+V|görev
+V|son tarih
+V|rapor
+V|müşteri (iş)
+V|başarı
+V|telefon görüşmesi
+V|yazıcı
+V|imza
+V|pozisyon
+V|ekip
+V|işten çıkarılma
+TH|Eğitim ve üniversite
+V|üniversite
+V|üniversite öğrencisi
+V|öğretim görevlisi
+V|ders (üniversite)
+V|sınav
+V|not
+V|ders (konu)
+V|ders kitabı
+V|ödev
+V|diploma
+V|fakülte
+V|yurt
+V|dönem
+V|bilgi
+V|bilim
+V|matematik
+V|tarih
+V|coğrafya
+V|kimya
+V|fizik
+V|yabancı dil
+V|çevirmen
+V|sözlük
+V|sınavı geçmek
+TH|Sağlık ve tıp
+V|sağlık
+V|hastalık
+V|ilaç
+V|reçete
+V|tahlil
+V|hastane odası
+V|hasta (kişi)
+V|virüs
+V|alerji
+V|tansiyon
+V|yaralanma
+V|kırık
+V|ameliyat
+V|uykusuzluk
+V|diyet
+V|sabah sporu
+V|sigara içmek
+V|tedavi etmek
+V|check-up
+V|mide bulantısı
+TH|Teknoloji
+V|internet
+V|mesaj
+V|şifre
+V|uygulama
+V|indirmek
+V|şarj aleti
+V|ekran
+V|web sitesi
+V|e-posta
+V|klavye
+V|fare (bilgisayar)
+V|dosya
+V|batarya
+V|ağ
+V|hesap
+V|arama yapmak
+V|kaydetmek
+V|silmek
+V|göndermek
+V|güncellemek
+V|sosyal medya
+TH|Karakter ve duygular
+V|sevinç
+V|üzüntü
+V|korku
+V|öfke
+V|şaşkınlık
+V|sakin
+V|sinirli
+V|iyi kalpli
+V|inatçı
+V|kibar
+V|kaba
+V|cesur
+V|utangaç
+V|tembel
+V|çalışkan
+V|dürüst
+V|cömert
+V|sabırlı
+V|kendine güvenen
+V|utanç
+V|yorgunluk
+V|hayal kırıklığı
+TH|İlişkiler ve olaylar
+V|düğün
+V|doğum günü
+V|bayram
+V|parti
+V|ilişki
+V|kavga
+V|arkadaşlık
+V|davet
+V|anne baba
+V|akrabalar
+V|damat
+V|gelin
+V|doğum
+V|destek
+V|özür
+V|tebrik etmek
+V|kabul etmek
+TH|Para ve banka
+V|banka
+V|kredi kartı
+V|nakit
+V|döviz kuru
+V|kredi
+V|birikim
+V|borç
+V|fatura
+V|harcamak
+V|para biriktirmek
+V|bütçe
+V|kira
+V|havale
+V|gelir
+TH|Konut
+V|semt
+V|kat
+V|asansör
+V|ev sahibi
+V|taşınmak
+V|tadilat
+V|kalorifer
+V|klima
+V|balkon
+V|apartman girişi
+V|mobilya
+V|banliyö
+V|elektrik
+V|su tesisatı
+TH|Önemli fiiller
+V|karar vermek
+V|açıklamak
+V|tekrarlamak
+V|hatırlamak
+V|unutmak
+V|ummak
+V|hayal etmek
+V|tamir etmek
+V|geliştirmek (iyileştirmek)
+V|inşa etmek
+V|almak (teslim almak)
+V|kazanmak
+V|kaybetmek
+V|değiştirmek (dönüştürmek)
+V|paylaşmak
+V|sorun çözmek
+V|teklif etmek
+V|reddetmek
+V|bildirmek
+V|itaat etmek
+V|geliştirmek
+V|affetmek
+V|devam etmek
+V|bırakmak
+TH|Önemli sıfatlar
+V|önemli
+V|tehlikeli
+V|güvenli
+V|rahat
+V|ünlü
+V|farklı
+V|aynı
+V|karmaşık
+V|ücretsiz
+V|gelecek
+V|son
+V|uluslararası
+V|modern
+V|eski (antik)
+V|tam
+V|mükemmel
+V|sıradan
+V|alçakgönüllü
+V|yorgun
+V|memnun (bir şeyden)
+TH|Yolculuk sorunları
+V|bagaj
+V|gümrük
+V|rötar
+V|aktarma
+V|rehber kitap
+V|çadır
+V|trafik sıkışıklığı
+V|adaptör
+V|sigorta
+V|hırsızlık
+V|adres
+V|yabancı
+V|aksan
+V|tatil yeri
+V|resepsiyon
+V|kaybolmak
+S|Üç yıldır bu şirkette çalışıyorum.
+S|Patronum sert ama adil.
+S|Saat onda toplantımız var.
+S|Raporu cumaya kadar bitirmem lazım.
+S|Özgeçmişimi beş şirkete gönderdim.
+S|Beni iş görüşmesine çağırdılar.
+S|İş deneyiminiz var mı?
+S|Bu pozisyonun maaşı ne kadar?
+S|Temmuzda izne çıkıyorum.
+S|İş arkadaşlarım çok cana yakın.
+S|İyi bir kariyer yaptı.
+S|Üniversitede üçüncü sınıftayım.
+S|Yarın tarih sınavım var.
+S|Sınavı pekiyi ile geçtim!
+S|Öğretim görevlisi çok anlaşılır anlatıyor.
+S|Yurtta kalıyorum.
+S|İyi bir sözlüğe ihtiyacım var.
+S|Çevirmen olmak istiyorum.
+S|En çok hangi dersi seviyorsun?
+S|Bilgi olmadan iş bulmak zor.
+S|Cevize alerjim var.
+S|Doktor bana ilaç yazdı.
+S|Bu ilacı yemekten sonra iç.
+S|Kan tahlili yaptırmam lazım.
+S|Dedemin tansiyonu yüksek.
+S|Kayak yaparken bacağını kırdı.
+S|Sigara içmek sağlığa zararlı.
+S|Her sabah spor yaparım.
+S|Diyetteyim, o yüzden tatlı yemiyorum.
+S|Kendine iyi bak!
+S|E-posta şifremi unuttum.
+S|Bu uygulamayı indir, çok faydalı.
+S|Telefonumun şarjı bitti.
+S|Telefonumu nerede şarj edebilirim?
+S|Dosyayı bana e-postayla gönder.
+S|Burada internet kötü çekiyor.
+S|Belgeyi kaydetmeyi unutma.
+S|Haberleri genellikle sosyal medyadan okurum.
+S|O çok sabırlı.
+S|Ağabeyim katır gibi inatçıdır.
+S|Bu kadar tembel olma!
+S|Gösteriden önce heyecanlıyım.
+S|Hediyeye çok sevindi.
+S|Davranışımdan utanıyorum.
+S|Sana kızgın değilim.
+S|Düğüne yüz kişi davet ettik.
+S|Doğum günün kutlu olsun!
+S|Önemsiz bir şey yüzünden kavga ettiler.
+S|Çocukluğumuzdan beri arkadaşız.
+S|Desteğin için teşekkürler.
+S|Özür dilerim, haksızdım.
+S|Banka hesabı açmak istiyorum.
+S|Bugün dolar kuru ne kadar?
+S|Her ay kira ödüyorum.
+S|Yeni bir araba için para biriktiriyoruz.
+S|Bütün parayı harcadım.
+S|Bana biraz borç verebilir misin?
+S|Bankamatik çalışmıyor.
+S|Merkezde bir daire kiralıyoruz.
+S|Beşinci katta oturuyoruz.
+S|Asansör yine bozuk.
+S|Dairede tadilat var.
+S|Yeni bir semte taşındık.
+S|Kışın evimiz iyi ısınıyor.
+S|Vaktim olursa seni ararım.
+S|Bence haklısın.
+S|Bence bu iyi bir fikir.
+S|Sana katılıyorum.
+S|Katılmıyorum.
+S|Bana öyle geliyor ki yağmur yağacak.
+S|Umarım her şey yolunda gider.
+S|Uzun zamandır Japonya'ya gitmeyi hayal ediyorum.
+S|Bir kez daha açıklar mısın, lütfen?
+S|Anahtarları nereye koyduğumu hatırlamıyorum.
+S|Bana yardım teklif etti.
+S|Daveti reddetti.
+S|Bir buluşma ayarlamamız lazım.
+S|Her gün işe yürüyerek giderim.
+S|Şimdi markete gidiyorum.
+S|Kazan'a arabayla gittik.
+S|Eve geç geldi.
+S|Bu kitabı zaten okudum.
+S|Bütün akşam kitap okudum.
+S|Bunu yarın yaparım.
+S|Uzun süre iş aradı ve sonunda buldu.
+S|Vaktim yok.
+S|Bizim şehirde deniz yok.
+S|Yeni işimi seviyorum.
+S|Daha fazla zamana ihtiyacım var.
+S|Akşam annemi arayacağım.
+S|Bana yardım et, lütfen.
+S|Tarihe ilgi duyuyorum.
+S|O dans yapıyor.
+S|Tükenmez kalemle yazıyorum.
+S|Limonlu çay içiyorum.
+S|Boş zamanlarında ne yaparsın?
+S|Eski şehirde yürümeyi severim.
+S|Bir dil öğrenmek için çok pratik yapmak gerekir.
+S|Hata yapıyorum ama konuşmaktan korkmuyorum.
+RT|İlk iş günü
+RL|İlk iş günü her zaman heyecan vericidir.
+RL|Ofise herkesten önce, saat sekizde geldim.
+RL|Patron beni karşıladı ve iş arkadaşlarımla tanıştırdı.
+RL|Herkes çok cana yakındı.
+RL|Bana masamı ve bilgisayarımı gösterdiler.
+RL|Önce belgeleri okudum ve projeleri inceledim.
+RL|Öğlen hep birlikte yemekhaneye gittik.
+RL|Öğle yemeğinden sonra toplantımız vardı.
+RL|Biraz heyecanlıydım ama her şey iyi geçti.
+RL|Akşam yorgun ama memnundum.
+RL|Sanırım burayı seveceğim.
+RT|Sağlıklı yaşam
+RL|Bugün birçok insan sağlığını düşünüyor.
+RL|Doktorlar daha fazla hareket etmeyi tavsiye ediyor.
+RL|Günde en az yarım saat yürümek faydalıdır.
+RL|Doğru beslenmek de önemlidir.
+RL|Daha fazla sebze ve meyve yemek gerekir.
+RL|Şekerli içecekler yerine su içmek daha iyidir.
+RL|Uyku da çok önemlidir.
+RL|Bir yetişkinin yedi sekiz saat uyuması gerekir.
+RL|Ve tabii ki sigara içmemek gerekir.
+RL|Sağlık her şeyden önemlidir.
+RT|*
+RL|*
+RL|Başta çok zordu.
+RL|Halleri anlamıyordum ve ekleri karıştırıyordum.
+RL|Sonra her gün podcast dinlemeye başladım.
+RL|Altyazılı filmler de izliyorum.
+RL|*
+RL|Hatalarımı düzeltiyorlar ve gülmüyorlar.
+RL|Artık markette ve işte konuşabiliyorum.
+RL|En önemlisi hata yapmaktan korkmamak.
+DT|İş görüşmesi
+DL|A|Lütfen kendinizden bahseder misiniz?
+DL|B|Adım Ömer. Beş yıllık deneyimi olan bir programcıyım.
+DL|A|Neden bizimle çalışmak istiyorsunuz?
+DL|B|Şirketiniz tanınmış ve projeleriniz ilgimi çekiyor.
+DL|A|Güçlü yanlarınız neler?
+DL|B|Sorumluluk sahibiyim ve çabuk öğrenirim.
+DL|A|Ne zaman başlayabilirsiniz?
+DL|B|Gelecek aydan itibaren.
+DL|A|Güzel. Sizi arayacağız.
+DT|Bankada
+DL|A|Merhaba! Bir hesap açmak istiyorum.
+DL|B|Tabii. Pasaportunuz, lütfen.
+DL|A|Buyurun. Kartı hemen alabilir miyim?
+DL|B|Hayır, kart bir hafta sonra hazır olacak.
+DL|A|Hizmet ücreti ne kadar?
+DL|B|İlk yıl ücretsiz.
+DL|A|Harika. Bir şey daha: dolar bozdurabilir miyim?
+DL|B|Evet, vezne solda.
+DT|Dairede bir sorun
+DL|A|Alo, ev sahibiyle mi görüşüyorum?
+DL|B|Evet, sizi dinliyorum.
+DL|A|Kalorifer çalışmıyor, dairede hava çok soğuk.
+DL|B|Anlıyorum. Ne zamandan beri?
+DL|A|Dün akşamdan beri.
+DL|B|Yarın sabah bir usta gönderirim.
+DL|A|Bugün olmaz mı?
+DL|B|Deneyeceğim. Bir saat sonra sizi tekrar ararım.

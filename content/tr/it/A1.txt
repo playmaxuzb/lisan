@@ -1,0 +1,435 @@
+TH|Gli animali
+V|il cane
+V|il gatto
+V|il cavallo
+V|la mucca
+V|la pecora
+V|la capra
+V|il gallo
+V|la gallina
+V|l'uccello
+V|il topo
+V|l'orso
+V|il lupo
+V|la volpe
+V|il coniglio
+V|l'elefante
+V|il leone
+V|la scimmia
+V|il serpente
+V|la tartaruga
+V|il cammello
+V|la farfalla
+V|l'ape
+TH|Frutta e verdura
+V|la mela
+V|l'arancia
+V|il limone
+V|l'uva
+V|la fragola
+V|la pesca
+V|la pera
+V|la ciliegia
+V|l'ananas
+V|la banana
+V|l'anguria
+V|la carota
+V|la cipolla
+V|l'aglio
+V|il cavolo
+V|la melanzana
+V|il peperone
+V|il pomodoro
+V|il cetriolo
+V|la patata
+V|il fungo
+V|le olive
+V|le noci
+TH|Cibo e bevande
+V|il burro
+V|il miele
+V|il porridge
+V|la pasta
+V|l'insalata
+V|il gelato
+V|il biscotto
+V|il succo
+V|il cioccolato
+V|il panino
+V|la pizza
+V|la zuppa
+V|le uova al tegamino
+V|la torta
+V|il latte
+V|il pane
+V|l'acqua
+V|il tè
+V|il caffè
+V|il riso
+V|la carne
+TH|La cucina e le stoviglie
+V|il piatto
+V|il cucchiaio
+V|la forchetta
+V|il coltello
+V|la tazza
+V|il bicchiere
+V|il bollitore
+V|la padella
+V|il frigorifero
+V|il fornello
+V|la pentola
+V|la bottiglia
+TH|La casa e i mobili
+V|la stanza
+V|la camera da letto
+V|il soggiorno
+V|il divano
+V|lo specchio
+V|l'armadio
+V|il muro
+V|il pavimento
+V|il soffitto
+V|le scale
+V|l'appartamento
+V|la doccia
+V|il tappeto
+V|la finestra
+V|il letto
+V|la sedia
+V|il tavolo
+V|la lampada
+TH|Il corpo
+V|i capelli
+V|il viso
+V|il dente
+V|la lingua
+V|il ginocchio
+V|la spalla
+V|il cuore
+V|il dito
+V|la pancia
+V|la schiena
+V|il collo
+V|l'occhio
+V|l'orecchio
+V|la mano
+V|la gamba
+V|la testa
+V|il naso
+V|la bocca
+TH|La scuola
+V|il quaderno
+V|la penna
+V|la matita
+V|lo zaino
+V|il righello
+V|la gomma
+V|l'alunno
+V|la lezione
+V|la parola
+V|la domanda
+V|la risposta
+V|la lettera
+V|la lavagna
+V|l'aula
+V|il libro
+V|la cartina
+TH|La natura
+V|l'albero
+V|il fiore
+V|l'erba
+V|il mare
+V|il fiume
+V|la montagna
+V|il bosco
+V|il deserto
+V|l'isola
+V|la luna
+V|la stella
+V|il cielo
+V|la pietra
+V|la terra
+V|il fuoco
+V|il sole
+TH|I trasporti
+V|la bicicletta
+V|il treno
+V|la nave
+V|la metropolitana
+V|il taxi
+V|l'autobus
+V|l'aereo
+V|la macchina
+V|la moto
+V|la fermata
+TH|Verbi di tutti i giorni
+V|stare in piedi
+V|stare seduto
+V|correre
+V|camminare
+V|cercare
+V|dare
+V|prendere
+V|aprire
+V|chiudere
+V|comprare
+V|cucinare
+V|lavare
+V|giocare
+V|cantare
+V|ballare
+V|aspettare
+V|chiamare
+V|pensare
+V|capire
+V|aiutare
+V|venire
+V|sorridere
+V|ridere
+V|piangere
+V|disegnare
+V|nuotare
+V|riposarsi
+V|chiedere
+V|rispondere
+V|vedere
+V|sentire
+V|cominciare
+TH|Gli aggettivi
+V|lungo
+V|corto
+V|veloce
+V|lento
+V|facile
+V|pesante
+V|difficile
+V|caro
+V|economico
+V|allegro
+V|triste
+V|intelligente
+V|pulito
+V|sporco
+V|buono
+V|giovane
+V|interessante
+V|noioso
+V|malato
+V|forte
+V|debole
+V|luminoso
+V|buio
+V|silenzioso
+V|giusto
+V|occupato
+V|affamato
+V|felice
+TH|Domande e tempo
+V|che cosa
+V|chi
+V|dove
+V|quando
+V|come
+V|perché
+V|quanto
+V|verso dove
+V|da dove
+V|quale
+V|la mattina
+V|il giorno
+V|la sera
+V|la notte
+V|l'anno
+V|il mese
+V|adesso
+V|presto
+V|sempre
+V|mai
+V|spesso
+V|a volte
+V|più tardi
+TH|I numeri grandi
+V|tredici
+V|quindici
+V|trenta
+V|quaranta
+V|cinquanta
+V|sessanta
+V|settanta
+V|ottanta
+V|novanta
+V|mille
+TH|Le persone
+V|l'uomo
+V|la donna
+V|il ragazzo
+V|la ragazza
+V|il bambino
+V|la persona
+V|la gente
+V|il vicino
+V|l'ospite
+V|il nome
+S|Questo è il mio gatto.
+S|Ho un cane.
+S|Il cane è grande.
+S|Il gatto è piccolo.
+S|Amo gli animali.
+S|Dov'è la mia penna?
+S|La penna è sul tavolo.
+S|Il libro è nello zaino.
+S|Questa è la mia casa.
+S|La mia casa è nuova.
+S|Abbiamo tre stanze.
+S|La cucina è piccola ma comoda.
+S|Abito in un appartamento.
+S|Mi alzo alle sette.
+S|La mattina bevo il caffè.
+S|A colazione mangio pane e formaggio.
+S|Non mangio carne.
+S|Adoro la frutta.
+S|La mela è rossa.
+S|La banana è gialla.
+S|L'erba è verde.
+S|Il cielo è azzurro.
+S|Oggi fa caldo e c'è il sole.
+S|L'acqua è fredda.
+S|Il tè è caldo.
+S|Vorrei una tazza di tè.
+S|Dammi un cucchiaio, per favore.
+S|Dove sono il coltello e la forchetta?
+S|Il latte è nel frigorifero.
+S|La mamma prepara la zuppa.
+S|Il papà legge il giornale.
+S|Mio fratello gioca a calcio.
+S|Mia sorella adora cantare.
+S|I bambini giocano nel parco.
+S|Il mio amico abita qui vicino.
+S|Vado a scuola.
+S|L'insegnante scrive alla lavagna.
+S|Scrivo sul mio quaderno.
+S|Ho una domanda.
+S|So la risposta.
+S|Che parola è questa?
+S|*
+S|Imparo parole nuove.
+S|Passeggiamo spesso nel parco.
+S|La sera guardiamo la televisione.
+S|Dormo otto ore.
+S|Di notte dormo.
+S|Lui lavora in ospedale.
+S|Lei lavora in una scuola.
+S|Andiamo in autobus.
+S|Vado al lavoro in metropolitana.
+S|Dov'è la fermata dell'autobus?
+S|Il negozio è vicino alla casa.
+S|La farmacia è di fronte alla banca.
+S|Compro il pane e il latte.
+S|Quanto costa il pane?
+S|È caro.
+S|È economico.
+S|Voglio questo.
+S|Mi piace questo colore.
+S|Il mio colore preferito è l'azzurro.
+S|Ho mal di testa.
+S|Sono stanco.
+S|Ho fame.
+S|Sono contento di vederti.
+S|Come ti chiami?
+S|Quanti anni hai?
+S|Ho trent'anni.
+S|Dove lavori?
+S|Che cosa fai?
+S|Leggo un libro.
+S|Che cos'è?
+S|Chi è?
+S|Questo è il mio vicino.
+S|Lei è molto gentile.
+S|Lui è alto e forte.
+S|Mio nonno è vecchio ma allegro.
+S|La nonna fa una torta buonissima.
+S|Non mi piace aspettare.
+S|Aspetta, per favore.
+S|Apri la finestra, per favore.
+S|Chiudi la porta.
+S|Siediti, per favore.
+S|Torno a casa.
+S|Sei a casa?
+S|Sì, sono a casa.
+S|No, sono al lavoro.
+S|Chiamo mia madre ogni giorno.
+S|Adoriamo nuotare nel mare.
+S|D'estate fa caldo.
+S|D'inverno fa freddo e nevica.
+S|Nel bosco ci sono molti alberi.
+S|Gli uccelli cantano.
+S|Vedo una montagna.
+S|Oggi è lunedì.
+S|Domani è sabato.
+S|Domenica sono libero.
+S|A domani!
+S|Buonanotte!
+S|Buon appetito!
+S|Buon compleanno!
+S|Va tutto bene.
+S|Non è grave.
+RT|Nel mio appartamento
+RL|Abito in un appartamento in centro.
+RL|L'appartamento non è grande, ma è luminoso.
+RL|Ci sono una camera da letto, un soggiorno, una cucina e un bagno.
+RL|In camera da letto ci sono un letto e un armadio.
+RL|In soggiorno ci sono un divano, un tavolo e una televisione.
+RL|La mia stanza preferita è la cucina.
+RL|Lì preparo la colazione e bevo il tè.
+RL|Dalla finestra vedo un parco e degli alberi.
+RL|I miei vicini sono tranquilli e gentili.
+RL|Il mio appartamento mi piace molto.
+RT|Al mercato
+RL|Il sabato vado al mercato.
+RL|Lì c'è tanta frutta e verdura.
+RL|Compro mele, pomodori e cetrioli.
+RL|Il venditore è molto gentile.
+RL|Dice: «Buongiorno! Che cosa desidera?»
+RL|Rispondo: «Un chilo d'uva, per favore.»
+RL|L'uva è dolce e non costa molto.
+RL|Compro anche pane, formaggio e miele.
+RL|Poi torno a casa e preparo un'insalata.
+RT|Il mio amico Ivan
+RL|Ho un amico. Si chiama Ivan.
+RL|Ha ventotto anni.
+RL|Ivan abita a Mosca.
+RL|Lavora in una banca.
+RL|Ivan è alto e ha i capelli scuri.
+RL|Ama molto lo sport.
+RL|Ogni mattina corre nel parco.
+RL|La sera legge o guarda un film.
+RL|Ivan ha un cane. Si chiama Bobik.
+RL|Facciamo spesso delle passeggiate insieme.
+DT|Al ristorante
+DL|A|Buonasera! Ecco il menù.
+DL|B|Grazie. Che cosa mi consiglia?
+DL|A|Oggi la zuppa è molto buona.
+DL|B|Bene. Una zuppa e un'insalata, per favore.
+DL|A|Che cosa beve?
+DL|B|Un bicchiere d'acqua e un tè.
+DL|A|Va bene. Altro?
+DL|B|No, grazie. Il conto più tardi, per favore.
+DT|Dov'è la farmacia?
+DL|A|Scusi, dov'è la farmacia?
+DL|B|La farmacia è lì, di fronte alla banca.
+DL|A|È lontano?
+DL|B|No, è vicino. Cinque minuti a piedi.
+DL|A|Devo andare dritto?
+DL|B|Sì, dritto e poi a destra.
+DL|A|Grazie mille!
+DL|B|Prego!
+DT|La famiglia
+DL|A|Hai una famiglia grande?
+DL|B|Sì. Ho due fratelli e una sorella.
+DL|A|Dove abitano?
+DL|B|I miei fratelli abitano ad Amman e mia sorella abita qui.
+DL|A|E i tuoi genitori?
+DL|B|Anche i miei genitori sono ad Amman.
+DL|A|Ti mancano?
+DL|B|Sì, molto. Li chiamo ogni giorno.

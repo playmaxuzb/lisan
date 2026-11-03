@@ -1,0 +1,361 @@
+TH|İnce anlam farkları
+V|ikiyüzlü
+V|kibirli
+V|soğukkanlı
+V|muğlak
+V|incelikli
+V|anlayışlı (sezgili)
+V|az konuşan
+V|kendini beğenmiş
+V|yüce gönüllü
+V|sinsi
+V|ilkeli
+V|fevri
+V|boyun eğmez
+V|kendinden hoşnut
+V|dalkavuk
+V|yılmaz
+V|hüzünlü
+V|zarif
+V|sarsılmaz
+V|ileri görüşlü
+V|umut vadeden
+V|karışık
+V|çalkantılı
+V|tarafsız
+V|ilgisiz
+TH|Edebî fiiller
+V|el uzatmak
+V|iç içe geçmek
+V|aydınlatmak
+V|solmak
+V|parlamak (öfkeyle)
+V|kulak vermek
+V|tenezzül etmek
+V|rol yapmak
+V|kavramak
+V|alevlendirmek
+V|bunaltmak
+V|kabullenmek
+V|sitem etmek
+V|hayal kırıklığına uğramak
+V|güvenmek
+V|şüphelenmek
+V|ertelemek
+V|savunmak
+V|meyvesini toplamak
+V|derinlemesine incelemek
+V|özlemini çekmek
+V|barıştırmak
+V|gölgede bırakmak
+V|kaçamak cevap vermek
+V|anlamlandırmak
+TH|Duyguların tonları
+V|dinginlik
+V|hasret
+V|şefkat (incelik)
+V|umutsuzluk
+V|mahcubiyet
+V|öfke (haklı)
+V|tevazu
+V|küçümseme
+V|hayranlık
+V|tedirginlik
+V|yabancılaşma
+V|başkasının acısına sevinme
+V|pişmanlık
+V|nostalji
+V|ilham
+V|bitkinlik
+V|şaşkınlık (kafa karışıklığı)
+V|kin
+V|bağlılık
+V|bıkkınlık
+TH|Retorik ve üslup
+V|ironi
+V|retorik
+V|alt metin
+V|üslup bilimi
+V|tekrar
+V|alegori
+V|alay
+V|abartı
+V|vecize
+V|ima
+V|ritim
+V|hece
+V|hitabet
+V|anlatıcı
+V|doruk noktası
+V|çözülme
+V|kişileştirme
+TH|Yönetim ve hukuk
+V|kurum
+V|yönetmelik
+V|düzenleyici işlem
+V|yetkiler
+V|yetki alanı
+V|kabahat
+V|itiraz
+V|tahkim
+V|emsal
+V|onay
+V|meşruiyet
+V|dokunulmazlık
+V|yetki devretmek
+V|bürokrasi
+V|şeffaflık
+TH|Bilim
+V|evrim
+V|kuantum
+V|evren
+V|katalizör
+V|gözlem
+V|organizma
+V|anomali
+V|düzenlilik
+V|algoritma
+V|nöron
+V|ekosistem
+V|molekül
+V|yörünge
+V|yer çekimi
+V|bağışıklık
+TH|Soyut kavramlar
+V|ikilik
+V|yol gösterici
+V|ikilem
+V|paradoks
+V|belirsizlik
+V|hiyerarşi
+V|bütünlük
+V|yazgı
+V|çeşitlilik
+V|ön koşul
+V|koşulluluk
+V|yanılsama
+V|altüst oluş
+V|kader
+V|sahicilik
+V|süreklilik
+V|sezgi
+V|çok anlamlılık
+TH|Zarflar
+V|asla (hiç de)
+V|kısmen
+V|birdenbire
+V|yavaş yavaş
+V|her zaman (istisnasız)
+V|ancak (güçlükle)
+V|ayrıntılı biçimde
+V|farkında olmadan
+V|laf arasında
+V|eskiden beri
+V|hızla
+V|kasten
+V|gerçekten
+V|-e uygun olarak
+V|fark ettirmeden
+V|sonunda
+TH|Sanat eleştirisi
+V|tuval
+V|renklendirme
+V|başyapıt
+V|fırça darbesi
+V|avangart
+V|Antik Çağ
+V|el yazması
+V|senfoni
+V|koreografi
+V|kamera açısı
+V|taklit
+V|özgünlük
+V|heykel (anıt)
+V|antoloji
+TH|Yüksek üslup
+V|huşu
+V|vecit
+V|aydınlanma
+V|elle tutulmaz
+V|sarsılmaz (sağlam)
+V|özdeşlik
+V|iç içelik
+V|şevk
+V|uçurum
+V|geçici (fani)
+V|uçucu
+V|hayat yolu
+V|zarif (seçkin)
+V|en derin
+V|alacakaranlık
+V|tükenmek
+V|-e dayanmak
+V|önünde eğilmek
+V|çözmek (sırrı)
+V|tartmak
+V|kaotik
+V|sessizlik
+V|şafak öncesi
+V|vakayiname
+V|görev
+V|aldatıcı
+V|solan
+V|dik başlı
+V|oyunculuk
+V|önsezi
+V|idrak
+V|beyhude
+V|varoluş
+V|sonsuzluk
+V|merhamet
+S|Onun ironisini herkes anlamadı.
+S|Yazar alt metni ustalıkla kullanıyor.
+S|Ne derseniz deyin, o haklı.
+S|Hiç de göründüğü kadar basit değil.
+S|Cömertliği herkesi şaşırttı.
+S|Sözleri bir sitem gibi geldi.
+S|Hiçbir şey fark etmemiş gibi yaptı.
+S|Zamanla acı soldu.
+S|Kaybı bir türlü kabullenemedi.
+S|Her şeyi bir anda kavramak imkânsız.
+S|Sesinde öfke vardı.
+S|Vatan hasreti içimi kapladı.
+S|Konuşması zarafetiyle dikkat çekiyordu.
+S|Zor bir ikilemle karşı karşıyayız.
+S|İşte paradoks da burada.
+S|Değişiklikler yavaş yavaş, fark ettirmeden oldu.
+S|Bundan sadece laf arasında bahsetti.
+S|Son tarihe ancak yetişirler.
+S|Konuyu ayrıntılı biçimde inceledi.
+S|İnsanlar eskiden beri özgürlüğe can atar.
+S|Tablo renkleriyle büyülüyor.
+S|Bu tuval bir başyapıt sayılıyor.
+S|Romanın doruk noktası son bölümde.
+S|Çözülme beklenmedik çıktı.
+S|Anlatıcı güven vermiyor.
+S|Mahkeme kararına itiraz edilebilir.
+S|Yetkiler yardımcıya devredildi.
+S|Şeffaflık güvenin temelidir.
+S|Bürokrasi her reformu yavaşlatıyor.
+S|Bu emsal yargı uygulamasını değiştirdi.
+S|Evren hâlâ birçok sır saklıyor.
+S|Bilim insanları garip bir anomali kaydetti.
+S|Evrim yavaş ama durdurulamaz bir süreçtir.
+S|El yazmasının sahiciliği şüpheli.
+S|Dediği an yaptı.
+S|Sabah ola hayrola.
+S|Her parlayan altın değildir.
+S|Yavaş giden yol alır.
+S|Emek olmadan yemek olmaz.
+S|Sabır ve çalışma her şeyin üstesinden gelir.
+S|Kasten sustu.
+S|Farkında olmadan hassas bir konuya değindi.
+S|Bize en iyisini ummaktan başka çare kalmıyor.
+S|Kararlarımızın meyvesini topluyoruz.
+S|Görüşünü sonuna kadar savundu.
+S|Geçmişi anlamlandırmak için zaman gerekir.
+S|Başarısı bütün rakiplerini gölgede bıraktı.
+S|Davranışı kabalık sınırında.
+S|Ne kadar uğraşırsan uğraş, herkesi memnun edemezsin.
+S|Üstüne üstlük bir de geç kaldı.
+S|Yeter ki her şey yolunda gitsin.
+S|Karşı olduğumdan değil ama şüphelerim var.
+S|O içeri girer girmez herkes sustu.
+S|Ne olursa olsun yanında olacağım.
+S|Sanki hiçbir şey olmamış gibi konuşuyordu.
+S|Bildiğim kadarıyla mesele çözüldü bile.
+S|Sonunda her şey yoluna girdi.
+S|Yine de çözülmemiş sorular kaldı.
+S|Katkısı ne kadar övülse azdır.
+S|Gerçekten de bilgeliğin sınırı yoktur.
+S|İnançlarına sadık kaldı.
+S|Kendini beğenmişliği onun sonu oldu.
+S|Kendinden hoşnut tavrı iş arkadaşlarını sinirlendiriyordu.
+S|Bu seçimde ne doğru ne yanlış var.
+S|Gelecek belirsizlik içinde.
+S|Görüş çeşitliliği bir zenginliktir.
+S|Bu kitap uzun yılların emeğinin ürünü.
+S|Şairin sözleri yepyeni geliyor.
+S|Bir düşünce bana rahat vermiyor.
+S|Şöhret onu bozmadı.
+S|Uzun süre yazıştık.
+S|Yaşama isteği korkudan güçlüdür.
+S|Mucize eseri felaketten kurtuldular.
+S|Konuşması alıntılarla doluydu.
+S|Belki de böylesi daha iyiydi.
+S|Zaman gösterecek.
+S|Şevkinin sınırı yoktu.
+S|Bu dünyada her şey fani.
+S|Sabrı tükendi.
+S|Onun planını çözdü.
+S|Bütün artıları ve eksileri tarttıktan sonra reddetti.
+S|İçimi garip bir önsezi kapladı.
+S|Alacakaranlıkta şehir hayalet gibi görünüyordu.
+S|Mutluluk bahar yağmuru gibi uçucudur.
+S|Zevki inceliğiyle göze çarpıyordu.
+S|Merhamet zayıflık değildir.
+S|En derin düşüncelerini ona açtı.
+S|Bütün çabaları beyhude çıktı.
+S|Onun yeteneği önünde eğiliyoruz.
+S|Şafak öncesi bir sessizlik çöktü.
+S|Yolunu daha gençken seçti.
+S|Vakayiname o olayların hatırasını saklıyor.
+S|Biz sadece görevimizi yapıyoruz.
+S|Bu kitap kaderlerin karmaşık bir örgüsü.
+S|Konuşması kaotikti.
+S|Bir aydınlanma yaşadı.
+S|Güzellik dünyayı kurtaracak.
+S|Hayat bir gezinti değil.
+S|Geç olsun da güç olmasın.
+S|Denize düşen yılana sarılır.
+S|Ateş olmayan yerden duman çıkmaz.
+S|Önce iş, sonra eğlence.
+S|Dost kara günde belli olur.
+S|Güç haktadır.
+RT|Susma sanatı
+RL|Söz gümüşse sükût altındır derler.
+RL|Bitmek bilmeyen mesajlar çağında bu atasözü neredeyse bir meydan okuma gibi geliyor.
+RL|Cevap vermeye, yorum yapmaya, fikrimizi söylemeye koşuyoruz.
+RL|Ve buna değip değmediğini nadiren sorguluyoruz.
+RL|Oysa doğru anda susabilmek zayıflığın değil, olgunluğun işaretidir.
+RL|Sessizlik duyduklarımızı anlamlandırmak için zaman tanır.
+RL|Dinlemenin konuşmaktan daha az önemli olmadığı ortaya çıkıyor.
+RL|Her çağın bilgelerinin az konuşmaya değer vermesi tesadüf değil.
+RT|Çeviri üzerine
+RL|Çeviri, kelimeleri basitçe değiştirmek değildir.
+RL|Her dil kendine özgü bir dünya görüşü taşır.
+RL|Deyimler, kelime oyunları, alt metin: bunların hepsini çevirmek zordur.
+RL|Çevirmen doğrulukla güzellik arasında seçim yapmak zorundadır.
+RL|Çevirmenin bir ortak yazar olduğu boşuna söylenmez.
+RL|İyi bir çeviri yalnızca anlamı değil, aslının ruhunu da korur.
+RL|İşte bu yüzden büyük kitaplar tekrar tekrar çevrilir.
+RT|Bir yerin hatırası
+RL|Bazı şehirler, onlardan ayrıldıktan çok sonra bile içimizde yaşar.
+RL|Eski bir sokakta yağmur kokusu, çan sesi, pazarda bir satıcının sesi.
+RL|Bütün bunlar birden hafızada canlanır.
+RL|Nostalji yalnızca geçmişe özlem değildir.
+RL|Orada kalan bir parçamızı geri getirme çabasıdır.
+RL|Yıllar sonra döndüğümüzde çoğu zaman ne şehri ne de kendimizi tanırız.
+RL|Yine de bu karşılaşma tuhaf bir dinginlik verir.
+DT|Bir roman üzerine sohbet
+DL|A|Eee, romanı bitirdin mi?
+DL|B|Bitirdim. Açıkçası sonu beni şaşırttı.
+DL|A|Evet, yazar pek çok şeyi söylemeden bırakmayı sever.
+DL|B|Kesinlikle. Her şey alt metin üzerine kurulu.
+DL|A|Ama ne dil! Elimden bırakamadım.
+DL|B|Orası doğru, itiraz edemem.
+DT|Bir dargınlık
+DL|A|Hâlâ bana kırgın mısın?
+DL|B|Kırgın değilim de hayal kırıklığına uğradım.
+DL|A|Anlıyorum. Kendimi kaybettim ve fazla konuştum.
+DL|B|Ağızdan çıkan söz geri dönmez.
+DL|A|Biliyorum. Lütfen beni affet.
+DL|B|Peki, olan oldu, unutalım.
+DL|A|Teşekkürler. Sen gerçek bir dostsun.
+DT|Sergide
+DL|A|Bu tuval hakkında ne dersin?
+DL|B|Renkler etkileyici ama bence kompozisyon fazla kalabalık.
+DL|A|Bence sanatçının amacı da tam olarak bu.
+DL|B|Olabilir. Dönemin yansıması olarak kaos mu?
+DL|A|Kesinlikle. Fırça darbelerine bak: içlerinde ne kadar tedirginlik var.
+DL|B|Neredeyse beni ikna ettin.

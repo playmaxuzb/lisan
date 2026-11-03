@@ -1,0 +1,361 @@
+TH|Sfumature sottili
+V|ipocrita
+V|arrogante
+V|imperturbabile
+V|vago
+V|raffinato
+V|perspicace
+V|taciturno
+V|vanitoso
+V|magnanimo
+V|subdolo
+V|integerrimo
+V|impulsivo
+V|inflessibile
+V|compiaciuto
+V|servile
+V|indomito
+V|malinconico
+V|aggraziato
+V|irremovibile
+V|previdente
+V|promettente
+V|ingarbugliato
+V|tumultuoso
+V|imparziale
+V|indifferente
+TH|Verbi letterari
+V|invadere
+V|intrecciarsi
+V|illuminare
+V|svanire
+V|infuriarsi
+V|dare ascolto
+V|degnarsi
+V|fingere
+V|cogliere
+V|accendere
+V|sopraffare
+V|rassegnarsi
+V|rimproverare
+V|disilludersi
+V|confidare in
+V|sospettare
+V|rimandare
+V|difendere
+V|raccogliere
+V|approfondire
+V|aspirare
+V|riconciliare
+V|offuscare
+V|eludere
+V|venire a capo
+TH|Sfumature dei sentimenti
+V|la serenità
+V|la nostalgia della patria
+V|la tenerezza
+V|la disperazione
+V|l'imbarazzo
+V|l'indignazione
+V|l'umiltà
+V|il disprezzo
+V|l'ammirazione
+V|l'apprensione
+V|l'alienazione
+V|la gioia maligna
+V|il pentimento
+V|la nostalgia
+V|l'ispirazione
+V|lo sfinimento
+V|lo smarrimento
+V|il rancore
+V|l'attaccamento
+V|l'apatia
+TH|Retorica e stile
+V|l'ironia
+V|la retorica
+V|il sottotesto
+V|la stilistica
+V|la ripetizione
+V|l'allegoria
+V|il sarcasmo
+V|l'iperbole
+V|l'aforisma
+V|l'allusione
+V|il ritmo
+V|la sillaba
+V|l'eloquenza
+V|il narratore
+V|il culmine
+V|l'epilogo
+V|la personificazione
+TH|Amministrazione e diritto
+V|l'ente
+V|il regolamento
+V|l'atto normativo
+V|i poteri
+V|la competenza
+V|il reato
+V|il ricorso in appello
+V|l'arbitrato
+V|il precedente
+V|la ratifica
+V|la legittimità
+V|l'inviolabilità
+V|delegare
+V|la burocrazia
+V|la trasparenza
+TH|La scienza
+V|l'evoluzione
+V|il quanto
+V|l'universo
+V|il catalizzatore
+V|l'osservazione
+V|l'organismo
+V|l'anomalia
+V|la regolarità
+V|l'algoritmo
+V|il neurone
+V|l'ecosistema
+V|la molecola
+V|l'orbita
+V|la gravità
+V|l'immunità
+TH|Concetti astratti
+V|la dualità
+V|il punto di riferimento
+V|il dilemma
+V|il paradosso
+V|l'incertezza
+V|la gerarchia
+V|l'integrità
+V|la vocazione
+V|la diversità
+V|il presupposto necessario
+V|la relatività
+V|l'illusione
+V|lo sconvolgimento
+V|la predestinazione
+V|l'autenticità
+V|la continuità
+V|l'intuizione
+V|l'ambiguità
+TH|Avverbi
+V|affatto
+V|in parte
+V|improvvisamente
+V|gradualmente
+V|immancabilmente
+V|a malapena
+V|minuziosamente
+V|inavvertitamente
+V|di sfuggita
+V|da sempre
+V|rapidamente
+V|deliberatamente
+V|veramente
+V|in conformità con
+V|impercettibilmente
+V|alla fine
+TH|La critica d'arte
+V|la tela
+V|il colorito
+V|il capolavoro
+V|la pennellata
+V|l'avanguardia
+V|l'antichità
+V|il manoscritto
+V|la sinfonia
+V|la coreografia
+V|l'inquadratura
+V|l'imitazione
+V|l'originalità
+V|la statua
+V|l'antologia
+TH|Lo stile elevato
+V|la venerazione
+V|l'estasi
+V|l'illuminazione
+V|sfuggente
+V|incrollabile
+V|l'identità
+V|l'intreccio
+V|lo zelo
+V|l'abisso
+V|passeggero
+V|fugace
+V|il cammino della vita
+V|squisito
+V|intimo
+V|il crepuscolo
+V|esaurirsi
+V|fondarsi su
+V|inchinarsi davanti a
+V|svelare
+V|soppesare
+V|caotico
+V|il silenzio
+V|che precede l'alba
+V|la cronaca
+V|il dovere
+V|illusorio
+V|appassito
+V|capriccioso
+V|la recita
+V|il presentimento
+V|la presa di coscienza
+V|vano
+V|l'esistenza
+V|l'infinito
+V|la compassione
+S|La sua ironia non è stata capita da tutti.
+S|L'autore usa il sottotesto in modo magistrale.
+S|Qualunque cosa si dica, ha ragione lui.
+S|Non è affatto così semplice come sembra.
+S|La sua generosità ha stupito tutti.
+S|Le sue parole suonavano come un rimprovero.
+S|Ha fatto finta di non aver notato niente.
+S|Con il tempo il dolore è svanito.
+S|Non è mai riuscito a rassegnarsi alla perdita.
+S|Non si può cogliere tutto in una volta.
+S|Nella sua voce si sentiva l'indignazione.
+S|Mi ha preso la nostalgia di casa.
+S|Il suo discorso si distingueva per eleganza.
+S|Ci troviamo davanti a un dilemma difficile.
+S|Proprio qui sta il paradosso.
+S|I cambiamenti sono avvenuti impercettibilmente.
+S|L'ha menzionato solo di sfuggita.
+S|Difficilmente faranno in tempo per la scadenza.
+S|Ha studiato la questione minuziosamente.
+S|Da sempre l'uomo aspira alla libertà.
+S|Il quadro colpisce per i suoi colori.
+S|Questa tela è considerata un capolavoro.
+S|Il culmine del romanzo arriva nell'ultimo capitolo.
+S|L'epilogo si è rivelato inaspettato.
+S|Il narratore non ispira fiducia.
+S|Contro la sentenza del tribunale si può fare ricorso.
+S|I poteri sono stati delegati al vice.
+S|La trasparenza è la base della fiducia.
+S|La burocrazia rallenta qualsiasi riforma.
+S|Questo precedente ha cambiato la giurisprudenza.
+S|L'universo nasconde ancora molti segreti.
+S|Gli scienziati hanno registrato una strana anomalia.
+S|L'evoluzione è un processo lento ma inarrestabile.
+S|L'autenticità del manoscritto è messa in dubbio.
+S|Detto fatto.
+S|La notte porta consiglio.
+S|Non è tutto oro quel che luccica.
+S|Chi va piano va sano e va lontano.
+S|Chi non risica non rosica.
+S|Con la pazienza e il lavoro si supera tutto.
+S|Ha taciuto deliberatamente.
+S|Inavvertitamente ha toccato un tasto dolente.
+S|Non ci resta che sperare per il meglio.
+S|Raccogliamo i frutti delle nostre decisioni.
+S|Ha difeso il suo punto di vista fino in fondo.
+S|Per capire il passato ci vuole tempo.
+S|Il suo successo ha offuscato tutti i concorrenti.
+S|Il suo comportamento rasenta la maleducazione.
+S|Per quanto ci si sforzi, non si può accontentare tutti.
+S|Per giunta, è anche arrivato in ritardo.
+S|Purché vada tutto liscio.
+S|Non che io sia contrario, ma ho dei dubbi.
+S|Appena è entrato, tutti hanno taciuto.
+S|Qualunque cosa succeda, io ci sarò.
+S|Parlava come se niente fosse.
+S|Per quanto ne so, la questione è già risolta.
+S|Alla fine tutto è andato a posto.
+S|Ciononostante, sono rimaste questioni irrisolte.
+S|Il suo contributo è difficile da sopravvalutare.
+S|Veramente, la saggezza non ha confini.
+S|È rimasta fedele alle sue convinzioni.
+S|La vanità è stata la sua rovina.
+S|Il suo compiacimento irritava i colleghi.
+S|In questa scelta non c'è né giusto né sbagliato.
+S|Il futuro è avvolto nell'incertezza.
+S|La diversità delle opinioni è una ricchezza.
+S|Questo libro è il frutto di molti anni di lavoro.
+S|Le parole del poeta suonano nuove.
+S|Un pensiero non mi dà pace.
+S|La fama non l'ha cambiato.
+S|Ci siamo scritti a lungo.
+S|La voglia di vivere è più forte della paura.
+S|Per miracolo hanno evitato la catastrofe.
+S|Il suo discorso era pieno di citazioni.
+S|Forse è stato meglio così.
+S|Il tempo lo dirà.
+S|Il suo zelo non conosceva limiti.
+S|Tutto a questo mondo è passeggero.
+S|La sua pazienza era finita.
+S|Ha svelato il suo piano.
+S|Dopo aver soppesato pro e contro, ha rifiutato.
+S|Mi ha preso uno strano presentimento.
+S|Al crepuscolo la città sembrava spettrale.
+S|La felicità è fugace come una pioggia di primavera.
+S|Il suo gusto si distingueva per raffinatezza.
+S|La compassione non è debolezza.
+S|Gli ha confidato i suoi pensieri più intimi.
+S|Tutti i suoi sforzi si sono rivelati vani.
+S|Ci inchiniamo davanti al suo talento.
+S|È calato il silenzio che precede l'alba.
+S|Ha scelto la sua strada già da giovane.
+S|La cronaca conserva la memoria di quegli eventi.
+S|Facciamo solo il nostro dovere.
+S|Questo libro è un complesso intreccio di destini.
+S|Il suo discorso era caotico.
+S|Ha avuto un'illuminazione.
+S|La bellezza salverà il mondo.
+S|La vita non è una passeggiata.
+S|Meglio tardi che mai.
+S|Chi annega si aggrappa a un filo di paglia.
+S|Non c'è fumo senza arrosto.
+S|Prima il dovere, poi il piacere.
+S|Gli amici si vedono nel momento del bisogno.
+S|La forza sta nella verità.
+RT|L'arte del silenzio
+RL|Si dice che la parola è d'argento e il silenzio è d'oro.
+RL|Nell'era dei messaggi infiniti, questo proverbio suona quasi come una sfida.
+RL|Ci affrettiamo a rispondere, commentare, dire la nostra.
+RL|E raramente ci chiediamo se ne valeva la pena.
+RL|Eppure saper tacere al momento giusto non è un segno di debolezza, ma di maturità.
+RL|Il silenzio dà il tempo di riflettere su ciò che si è sentito.
+RL|Si scopre che ascoltare non è meno importante che parlare.
+RL|Non a caso i saggi di tutte le epoche apprezzavano la discrezione.
+RT|Sulla traduzione
+RL|Tradurre non significa semplicemente sostituire le parole.
+RL|Ogni lingua porta in sé una visione particolare del mondo.
+RL|Modi di dire, giochi di parole, sottotesto: tutto questo è difficile da tradurre.
+RL|Il traduttore deve scegliere tra precisione e bellezza.
+RL|Non per niente si dice che il traduttore è un coautore.
+RL|Una buona traduzione conserva non solo il senso, ma anche lo spirito dell'originale.
+RL|Proprio per questo i grandi libri vengono tradotti ancora e ancora.
+RT|La memoria di un luogo
+RL|Ci sono città che vivono in noi molto tempo dopo che le abbiamo lasciate.
+RL|L'odore della pioggia in una vecchia strada, il suono delle campane, la voce di un venditore al mercato.
+RL|Tutto questo riaffiora all'improvviso nella memoria.
+RL|La nostalgia non è solo rimpianto del passato.
+RL|È il tentativo di riprendersi una parte di sé rimasta là.
+RL|Tornando anni dopo, spesso non riconosciamo né la città né noi stessi.
+RL|Eppure questo incontro dona una strana serenità.
+DT|Una conversazione su un romanzo
+DL|A|Allora, hai finito il romanzo?
+DL|B|Sì. Sinceramente, il finale mi ha lasciato perplesso.
+DL|A|Sì, all'autore piace lasciare molte cose non dette.
+DL|B|Esatto. Tutto si regge sul sottotesto.
+DL|A|Ma che lingua! Non riuscivo a smettere di leggere.
+DL|B|Questo è vero, non si discute.
+DT|Un litigio
+DL|A|Sei ancora offeso con me?
+DL|B|Non tanto offeso, quanto deluso.
+DL|A|Capisco. Mi sono lasciato andare e ho detto troppo.
+DL|B|Le parole volano, ma fanno male lo stesso.
+DL|A|Lo so. Perdonami, per favore.
+DL|B|Va bene, mettiamoci una pietra sopra.
+DL|A|Grazie. Sei un vero amico.
+DT|Alla mostra
+DL|A|Che ne dici di questa tela?
+DL|B|I colori sono impressionanti, ma secondo me la composizione è troppo carica.
+DL|A|E io penso che sia proprio l'intenzione dell'artista.
+DL|B|Può darsi. Il caos come specchio dell'epoca?
+DL|A|Esatto. Guarda le pennellate: quanta inquietudine c'è.
+DL|B|Mi hai quasi convinto.

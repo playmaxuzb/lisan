@@ -131,6 +131,8 @@ export function lookupWord(tr, raw, readingGloss){
   const C=common(tr);
   if (!m && C[k]) m=C[k];
   if (!m){ const h=stemLookup(k,tl,D,C); if (h){ m=h.m; v=v||h.v||null; } }
+  if (!m && (tl==='fr'||tl==='it')){ const mm=k.match(/^([a-zà-ÿ]+)['’](.+)$/); if (mm){ const pre=C[mm[1]+"'"]||''; const w=mm[2]; let r=D[w]?D[w].m:(C[w]||null); if(!r){ const h=stemLookup(w,tl,D,C); if(h){ r=h.m; v=v||h.v||null; } } else if (D[w]) v=v||D[w];
+      if (r) m = pre ? pre+' + '+r : r; } }
   return {m, v, pr: pronOf(raw,tl,T.n), say: sayOf(raw)};
 }
 

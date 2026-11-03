@@ -1,0 +1,383 @@
+TH|Giysiler
+V|ceket
+V|palto
+V|gömlek
+V|tişört
+V|elbise
+V|kot pantolon
+V|pantolon
+V|şort
+V|etek
+V|kazak
+V|atkı
+V|bere
+V|eldiven
+V|çorap
+V|spor ayakkabı
+V|çizme
+V|ayakkabı
+V|çanta
+V|kol saati
+V|gözlük
+V|yüzük
+V|takım elbise
+TH|Alışveriş
+V|dükkân
+V|pazar
+V|fiyat
+V|indirim
+V|beden
+V|fiş
+V|para
+V|kart
+V|para üstü
+V|bankamatik
+V|satıcı
+V|müşteri
+V|hediye
+V|ödemek
+V|denemek
+V|değiştirmek
+TH|Hava durumu ve mevsimler
+V|hava
+V|yağmur
+V|kar
+V|rüzgâr
+V|sis
+V|fırtına
+V|sıcaklık
+V|şemsiye
+V|gökkuşağı
+V|kış
+V|ilkbahar
+V|yaz
+V|sonbahar
+V|güneşli
+V|bulutlu
+V|sıcak
+V|soğuk
+V|ılık
+V|serin
+TH|Aylar
+V|ocak
+V|şubat
+V|mart
+V|nisan
+V|mayıs
+V|haziran
+V|temmuz
+V|ağustos
+V|eylül
+V|ekim
+V|kasım
+V|aralık
+TH|Seyahat
+V|yolculuk
+V|bilet
+V|pasaport
+V|vize
+V|bavul
+V|havalimanı
+V|tren istasyonu
+V|otel
+V|otel odası
+V|fotoğraf
+V|tur
+V|turist
+V|müze
+V|kale
+V|plaj
+V|tarife
+V|varmak
+V|uçakla gitmek
+V|rezervasyon yapmak
+TH|Meslekler
+V|doktor
+V|öğretmen
+V|mühendis
+V|aşçı
+V|şoför
+V|programcı
+V|hemşire
+V|avukat
+V|muhasebeci
+V|sanatçı
+V|müzisyen
+V|polis
+V|itfaiyeci
+V|çiftçi
+V|kuaför
+V|pilot
+V|gazeteci
+V|inşaat işçisi
+V|tamirci
+V|diş hekimi
+TH|Hobiler ve spor
+V|futbol
+V|basketbol
+V|tenis
+V|yüzme
+V|koşu
+V|bisiklet sporu
+V|spor salonu
+V|satranç
+V|gitar
+V|piyano
+V|film
+V|dizi
+V|oyun
+V|fotoğraf çekmek
+V|örgü örmek
+V|balık tutma
+V|doğa yürüyüşü
+V|takım
+V|maç
+V|zafer
+TH|Sağlık
+V|ateş (hastalık)
+V|burun akıntısı
+V|öksürük
+V|ağrı
+V|hap
+V|iğne
+V|klinik
+V|ambulans
+V|yara bandı
+V|kendini kötü hissetmek
+V|hasta olmak
+V|sağlıklı
+TH|Şehir ve yönler
+V|sağa
+V|sola
+V|düz
+V|geri
+V|yakınlarda
+V|uzak
+V|yakın
+V|trafik ışığı
+V|yaya geçidi
+V|dönmek
+V|merkez
+V|köprü
+V|meydan
+V|süpermarket
+V|kilise
+V|postane
+V|otopark
+V|stadyum
+V|tiyatro
+V|kütüphane
+TH|Ev işleri
+V|toplamak
+V|çamaşır yıkamak
+V|ütü yapmak
+V|bulaşık yıkamak
+V|çöpü çıkarmak
+V|çiçekleri sulamak
+V|alışverişe gitmek
+V|elektrik süpürgesi
+V|sabun
+V|havlu
+TH|Yemek yapmak
+V|kesmek
+V|kızartmak
+V|haşlamak
+V|karıştırmak
+V|tuzlamak
+V|fırında pişirmek
+V|tarif
+V|tatlı
+V|ekşi
+V|tuzlu
+V|acı
+V|sığır eti
+V|kuzu eti
+V|tatlı (yemek)
+V|akşam yemeği
+V|kahvaltı
+V|öğle yemeği
+TH|Günlük program
+V|uyanmak
+V|kalkmak
+V|duş almak
+V|dişlerini fırçalamak
+V|giyinmek
+V|kahvaltı yapmak
+V|öğle yemeği yemek
+V|akşam yemeği yemek
+V|çıkmak
+V|dönmek (geri gelmek)
+V|yatmak
+V|geç kalmak
+V|iş günü
+V|hafta sonu
+TH|Duygular
+V|memnun
+V|endişelenmek
+V|korkmak
+V|kızmak
+V|âşık
+V|utangaç olmak
+V|şaşırmak
+V|teşekkür etmek
+V|sarılmak
+V|özlemek
+S|Dün mağazadaydım.
+S|Yeni bir ceket aldım.
+S|O kırmızı bir elbise aldı.
+S|Bu ayakkabılar ne kadar?
+S|Bu gömlek bana çok küçük.
+S|Bu kazağın başka rengi var mı?
+S|Kartla ödeyebilir miyim?
+S|Bugün büyük indirimler var.
+S|Annem için bir hediye arıyorum.
+S|Bir büyük bedene ihtiyacım var.
+S|Bugün hava nasıl?
+S|Bugün yağmur yağıyor.
+S|Şemsiye al.
+S|Yarın hava güneşli olacak.
+S|Dün kuvvetli bir rüzgâr vardı.
+S|Kışın Moskova'da hava çok soğuk olur.
+S|Yazın Taşkent'te hava sıcak olur.
+S|En sevdiğim mevsim ilkbahar.
+S|Doğum günüm mayısta.
+S|Ağustosta denize gideceğiz.
+S|Otelde bir oda ayırttım.
+S|Pasaportum nerede?
+S|Semerkant'a bir bilet istiyorum.
+S|Tren saat dokuzda kalkıyor.
+S|Uçak bir saat rötarlı.
+S|Müzeye ve tiyatroya gittik.
+S|Çok fotoğraf çektim.
+S|Deniz kenarında bir otelde kaldık.
+S|Rusya'ya gitmek istiyorum.
+S|Tren istasyonuna nasıl gidebilirim?
+S|Düz git, sonra sola dön.
+S|Kütüphane köşede.
+S|Postane meydanın yanında.
+S|Karşıya trafik ışığından geç.
+S|Buradan uzak mı?
+S|Ağabeyim şoför olarak çalışıyor.
+S|Arkadaşım hemşire.
+S|Programcı olmak istiyorum.
+S|Ne iş yapıyorsun?
+S|Babam mühendis olarak çalışıyordu.
+S|Hafta sonları tenis oynarım.
+S|Haftada üç kez spor salonuna giderim.
+S|Gitar çalabilir misin?
+S|Dün ilginç bir film izledik.
+S|Takımımız maçı kazandı.
+S|Polisiye roman okumaya bayılırım.
+S|Babam balık tutmayı çok sever.
+S|Ateşim var.
+S|Boğazım ağrıyor.
+S|Doktora gitmem lazım.
+S|Bir hap al ve dinlen.
+S|Ambulans çağırın!
+S|Artık iyiyim.
+S|Saat altıda uyanırım.
+S|Sonra duş alıp kahvaltı yaparım.
+S|Saat sekizde evden çıkarım.
+S|Akşam eve dönerim.
+S|Saat on birde yatarım.
+S|Kusura bakma, geç kaldım.
+S|Cumartesi günleri evi toplarım.
+S|Bulaşıkları kim yıkayacak?
+S|Her akşam çöpü çıkarırım.
+S|Annem gömlek ütülüyor.
+S|Bütün aile için akşam yemeği hazırlıyorum.
+S|Soğanı ve domatesleri doğra.
+S|Çorba çok tuzlu.
+S|Bu limon çok ekşi.
+S|Senin tarifin ne?
+S|Genellikle bir kafede öğle yemeği yerim.
+S|Saat yedide akşam yemeği yeriz.
+S|Moskova Taşkent'ten daha büyük.
+S|Bu ceket daha sıcak.
+S|Ağabeyim benden büyük.
+S|Metro en hızlı ulaşım aracıdır.
+S|Köpeklerden korkarım.
+S|Endişelenme, her şey yoluna girecek.
+S|Evimi çok özledim.
+S|Hediye için teşekkürler!
+S|Çok şaşırdım.
+S|Geçen yıl tanıştık.
+S|Akşam ne yapacaksın?
+S|Bir dizi izleyeceğim.
+S|Merkezde buluşalım.
+S|Saat kaçta boşsun?
+S|Seni sonra ararım.
+S|Sık sık sinemaya gideriz.
+S|O hiç geç kalmaz.
+S|Bazen pilav yaparım.
+S|Dün bütün gün çalıştım.
+S|Hiç Sankt-Peterburg'a gitmedim.
+S|Yeni bir dairede oturacağız.
+S|Başka bir şehre taşındılar.
+S|Anahtarlarımı evde unuttum.
+S|Geçen yıl nerede olduğumuzu hatırlıyor musun?
+S|Bu gece kötü uyudum.
+S|Market alışverişi yapmamız lazım.
+S|Menüye bakabilir miyim?
+S|Taksi çağırmak istiyorum.
+S|Beni havalimanına götürün, lütfen.
+RT|Hafta sonum
+RL|Cumartesi geç uyandım, saat onda.
+RL|Kahvaltı yaptım ve bir arkadaşımı aradım.
+RL|Parka gitmeye karar verdik.
+RL|Hava harikaydı: sıcak ve güneşli.
+RL|Parkta yürüdük ve dondurma yedik.
+RL|Sonra sinemaya gittik.
+RL|Film komikti, çok güldük.
+RL|Pazar günü evi topladım ve öğle yemeği yaptım.
+RL|Akşam annemle babam bana geldi.
+RL|Çay içtik ve aile hakkında konuştuk.
+RL|Harika bir hafta sonuydu.
+RT|Havalimanında
+RL|Geçen hafta Moskova'ya uçtum.
+RL|Havalimanına uçuştan iki saat önce geldim.
+RL|Önce bavulumu teslim ettim.
+RL|Sonra pasaportumu ve biletimi gösterdim.
+RL|Uçak bir saat rötar yaptı.
+RL|Bir kafede oturdum, kahve içtim ve kitap okudum.
+RL|Uçuş üç saat sürdü.
+RL|Moskova'da hava soğuktu, kar yağıyordu.
+RL|İyi ki kalın bir ceket almışım!
+RT|Hayalimdeki meslek
+RL|Kız kardeşim Leyla doktor olarak çalışıyor.
+RL|Daha okuldayken insanlara yardım etmek istiyordu.
+RL|Üniversitede altı yıl okudu.
+RL|Şimdi büyük bir hastanede çalışıyor.
+RL|İş günü sabah saat yedide başlıyor.
+RL|Bazen geceleri de çalışıyor.
+RL|İş zor ama ilginç.
+RL|Leyla bunun kendi mesleği olduğunu söylüyor.
+DT|Otelde
+DL|A|Merhaba! Ahmet adına bir rezervasyonum var.
+DL|B|İyi günler! Pasaportunuz, lütfen.
+DL|A|Buyurun.
+DL|B|Odanız üçüncü katta. İşte anahtarınız.
+DL|A|Kahvaltı saat kaçta?
+DL|B|Yediden ona kadar, restoranda.
+DL|A|Odada internet var mı?
+DL|B|Evet, şifre kartın üzerinde.
+DL|A|Teşekkürler!
+DL|B|İyi konaklamalar!
+DT|Hafta sonu planları
+DL|A|Cumartesi ne yapıyorsun?
+DL|B|Henüz bilmiyorum. Neden?
+DL|A|Dağa gidelim!
+DL|B|İyi fikir. Peki hava nasıl olacak?
+DL|A|Güneşli olacakmış.
+DL|B|Harika! Saat kaçta buluşalım?
+DL|A|Sabah saat sekizde, metronun yanında.
+DL|B|Tamam. Ben su ve sandviç getiririm.
+DT|Doktorda
+DL|A|Şikâyetiniz nedir?
+DL|B|Öksürüğüm ve burun akıntım var.
+DL|A|Ateşiniz var mı?
+DL|B|Evet, dün otuz sekizdi.
+DL|A|Soğuk algınlığı. Bol bol sıcak çay için.
+DL|B|Hap almam gerekiyor mu?
+DL|A|Evet, işte reçeteniz. Günde üç kez.
+DL|B|Teşekkürler, doktor bey.

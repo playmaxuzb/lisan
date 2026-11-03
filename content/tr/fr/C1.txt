@@ -1,0 +1,381 @@
+TH|Le vocabulaire académique
+V|la tendance
+V|la conséquence
+V|l'hypothèse de départ
+V|la preuve
+V|la contradiction
+V|l'essence
+V|la conclusion
+V|l'approche
+V|le point de vue
+V|la valeur
+V|la conviction
+V|le doute
+V|le phénomène
+V|l'hypothèse
+V|la méthodologie
+V|l'argument
+V|le processus
+V|la structure
+V|le concept
+V|l'interdépendance
+V|le critère
+V|la classification
+V|l'aspect
+V|le contexte
+V|le compromis
+TH|Les verbes du registre soutenu
+V|souligner
+V|examiner
+V|effectuer
+V|fournir
+V|garantir
+V|contribuer à
+V|entraver
+V|évaluer
+V|prévoir
+V|mettre en œuvre
+V|formuler
+V|explorer
+V|réviser
+V|réfuter
+V|confirmer
+V|régler
+V|constater
+V|mentionner
+V|déterminer
+V|exprimer
+V|tenir compte de
+V|combiner
+V|révéler
+V|abaisser
+V|surgir
+TH|La finance et les affaires
+V|l'actif
+V|le passif
+V|la Bourse
+V|l'action
+V|le capital
+V|la fusion
+V|le rapport financier
+V|la rentabilité
+V|le partenariat
+V|la crise
+V|l'audit
+V|les coûts
+V|le service
+V|le secteur
+V|la mondialisation
+V|le fournisseur
+V|la stratégie
+V|l'innovation
+V|la direction
+V|l'arrangement
+TH|Le droit
+V|la justice
+V|la décision
+V|l'avocat
+V|le plaignant
+V|la défense
+V|le verdict
+V|les données personnelles
+V|le droit d'auteur
+V|la licence
+V|le projet de loi
+V|le parlement
+V|le référendum
+V|la confidentialité
+V|l'obligation
+TH|La médecine
+V|le diagnostic
+V|le symptôme
+V|la vaccination
+V|le laboratoire
+V|l'infection
+V|la psychothérapie
+V|la radiographie
+V|l'antibiotique
+V|la rééducation
+V|la guérison
+V|chronique
+V|le chirurgien
+V|la prévention
+TH|La langue et la littérature
+V|le récit
+V|le personnage
+V|le style
+V|l'intrigue
+V|la métaphore
+V|le dialecte
+V|le genre
+V|le journalisme d'opinion
+V|l'essai
+V|la linguistique
+V|le terme
+V|la citation
+V|le paragraphe
+TH|La philosophie et l'éthique
+V|la philosophie
+V|la morale
+V|la conscience morale
+V|la volonté
+V|le sens de la vie
+V|la vérité
+V|la foi
+V|l'humanisme
+V|la connaissance de soi
+V|la conscience
+V|la vision du monde
+V|la justice sociale
+V|la sagesse
+TH|Les adjectifs du registre littéraire
+V|inévitable
+V|considérable
+V|évident
+V|varié
+V|scientifique
+V|opportun
+V|durable
+V|ambigu
+V|fondamental
+V|discutable
+V|primordial
+V|insignifiant
+V|temporaire
+V|permanent
+V|complet
+V|universel
+V|subjectif
+V|objectif
+V|fulgurant
+V|approfondi
+V|remarquable
+V|controversé
+V|réservé
+V|passionné
+V|vulnérable
+TH|Les connecteurs et les adverbes
+V|cependant
+V|néanmoins
+V|par conséquent
+V|en outre
+V|en même temps
+V|grâce à
+V|malgré
+V|contrairement à
+V|ainsi
+V|dans l'ensemble
+V|en particulier
+V|avant tout
+V|au contraire
+V|de cette manière
+V|en fin de compte
+V|essentiellement
+V|en lien avec
+V|à la suite de
+V|de ce fait
+V|sans aucun doute
+TH|La recherche
+V|le chercheur
+V|l'échantillon
+V|l'indicateur
+V|l'analyse
+V|la publication
+V|la découverte
+V|la thèse
+V|la source
+V|la marge d'erreur
+V|la bourse de recherche
+V|le docteur
+TH|La diplomatie
+V|les négociations
+V|l'ambassade
+V|l'ambassadeur
+V|le traité
+V|la coopération
+V|les sanctions
+V|le cessez-le-feu
+V|la déclaration
+V|la neutralité
+V|l'aide humanitaire
+TH|La société moderne
+V|l'urbanisation
+V|la démographie
+V|le vieillissement de la population
+V|la migration de travail
+V|la tolérance
+V|la société civile
+V|la numérisation
+V|la cybersécurité
+V|cognitif
+V|inégal
+V|industriel
+V|l'écologie
+V|l'alphabétisation
+V|l'identité
+V|la propagande
+V|la discrimination
+V|la solidarité
+V|la corruption
+V|la réforme
+V|le fonctionnaire
+V|l'intégration
+V|l'expertise
+V|le ralentissement
+V|les infrastructures
+V|l'interaction
+S|Malgré les difficultés, le projet a été terminé à temps.
+S|Après avoir lu l'article, il a changé d'avis.
+S|Cette question exige une analyse approfondie.
+S|Il convient de souligner que les résultats sont provisoires.
+S|Grâce au soutien de nos collègues, nous avons atteint notre objectif.
+S|L'étude a montré une croissance considérable.
+S|En rentrant chez moi, j'ai rencontré un vieil ami.
+S|Comme on le sait, la langue change constamment.
+S|Ainsi, on peut conclure que l'hypothèse a été confirmée.
+S|Ses paroles ont suscité des doutes.
+S|La question reste ouverte.
+S|Les données ne confirment pas cette théorie.
+S|Il faut tenir compte de tous les facteurs.
+S|L'auteur avance des arguments convaincants.
+S|D'un point de vue économique, c'est risqué.
+S|L'entreprise vise un développement durable.
+S|La décision a été prise à l'unanimité.
+S|Les parties sont parvenues à un compromis.
+S|Les négociations ont duré toute la nuit.
+S|Plus nous en savons, plus les questions se multiplient.
+S|À la suite de la crise, beaucoup ont perdu leur emploi.
+S|Son discours a été accueilli par des applaudissements.
+S|On ne peut qu'être d'accord avec cette affirmation.
+S|Elle a des capacités remarquables.
+S|Sans la pluie, nous serions partis à la campagne.
+S|Nous devons résoudre un certain nombre de problèmes complexes.
+S|Elle l'a dit avec une légère ironie.
+S|Sa position mérite le respect.
+S|Les données obtenues doivent être vérifiées.
+S|Ce n'est qu'une des interprétations possibles.
+S|L'auteur aborde des problèmes sociaux importants.
+S|Le livre a été traduit en vingt langues.
+S|Les médecins n'ont pas posé le diagnostic tout de suite.
+S|La prévention coûte moins cher que le traitement.
+S|Les maladies chroniques exigent un suivi constant.
+S|La loi entre en vigueur le premier janvier.
+S|Le tribunal a prononcé un acquittement.
+S|Les données personnelles des clients sont protégées.
+S|Chaque citoyen a droit à l'éducation.
+S|L'ambassadeur a rencontré le ministre des Affaires étrangères.
+S|Les parties ont signé un accord de coopération.
+S|Les habitants ont reçu une aide humanitaire.
+S|Les investissements dans l'éducation sont rentables.
+S|L'entreprise a annoncé sa fusion avec un concurrent.
+S|La rentabilité du projet est remise en question.
+S|Nous avons révisé notre stratégie.
+S|L'innovation est le moteur de l'économie.
+S|La direction a fait un pas vers nous.
+S|Nous devons réduire les coûts.
+S|Les résultats de l'année ont dépassé les attentes.
+S|Il a une grande culture générale.
+S|Son discours était clair et logique.
+S|J'ai du mal à être d'accord avec vous.
+S|Permettez-moi d'exprimer mon point de vue.
+S|Je préférerais en discuter plus tard.
+S|On ne peut pas tirer de conclusions à partir d'un seul exemple.
+S|La question est de savoir comment le mettre en œuvre.
+S|Elle s'est mise au travail avec enthousiasme.
+S|Nous sommes obligés de reporter la réunion.
+S|On ne saurait surestimer sa contribution à la science.
+S|À mesure que la technologie se développe, la société change aussi.
+S|De plus, les prix continuent d'augmenter.
+S|Il s'agit en particulier des jeunes.
+S|Au contraire, il était très content.
+S|En fin de compte, tout dépend de nous.
+S|Elle parle arabe sans accent.
+S|J'ai l'habitude d'exprimer clairement mes idées.
+S|Il ne faut pas sous-estimer la résistance au changement.
+S|Son acte ne peut pas être justifié.
+S|Nous nous sommes heurtés à des difficultés imprévues.
+S|De tels cas ne sont pas rares.
+S|Ses opinions ont changé avec le temps.
+S|Elle a toujours eu le sens de l'humour.
+S|J'apprécie beaucoup votre avis.
+S|Ce sujet mérite une discussion à part.
+S|Les résultats du sondage se sont révélés inattendus.
+S|Nous partons du principe que tous les participants sont d'accord.
+S|Ces deux phénomènes sont étroitement liés.
+S|Les scientifiques ont mis en évidence une régularité.
+S|La vie, ce n'est pas seulement le travail.
+S|Sa conscience ne lui permettait pas de mentir.
+S|La sagesse vient avec l'expérience.
+S|La vérité se trouve quelque part entre les deux.
+S|L'urbanisation entraîne la croissance des villes.
+S|La numérisation a touché tous les domaines de la vie.
+S|La cybersécurité devient de plus en plus importante.
+S|Le vieillissement de la population est un défi pour l'économie.
+S|La tolérance est la base d'une coexistence pacifique.
+S|Sans infrastructures développées, la croissance est impossible.
+S|La réforme a été accueillie de manière mitigée.
+S|La société civile joue un rôle important.
+S|La discrimination est inacceptable.
+S|Le ralentissement économique a touché de nombreux secteurs.
+S|Le taux d'alphabétisation de la population augmente constamment.
+S|Les avis des experts divergent.
+S|La solidarité a permis de surmonter la crise.
+S|Il a été victime de la propagande.
+S|L'intégration des migrants demande du temps.
+S|L'interaction avec les clients est la clé du succès.
+S|On ne peut pas tout réduire à l'économie.
+S|Ce problème est de nature systémique.
+S|Nous nous guidons sur le principe de transparence.
+S|Pour conclure, je tiens à remercier tous les participants.
+RT|La lecture à l'ère numérique
+RL|Ces derniers temps, beaucoup se plaignent que les gens ne lisent plus.
+RL|Cependant, les recherches montrent une réalité plus complexe.
+RL|Nous ne lisons pas moins qu'avant, mais nous lisons autrement.
+RL|Les textes sont devenus plus courts, et l'attention plus dispersée.
+RL|Ainsi, ce n'est pas la quantité, mais la profondeur de la lecture qui en souffre.
+RL|Les scientifiques soulignent que la capacité de concentration est une compétence.
+RL|Comme toute compétence, elle doit s'entraîner.
+RL|Par exemple, il est utile de lire des livres papier sans téléphone à côté.
+RL|Dans l'ensemble, les technologies numériques ne sont pas nocives en soi.
+RL|Tout dépend de la manière dont nous les utilisons.
+RT|Le développement durable
+RL|La notion de développement durable est apparue à la fin du vingtième siècle.
+RL|Son principe est simple : répondre aux besoins d'aujourd'hui sans nuire aux générations futures.
+RL|Cependant, dans la pratique, cela s'est révélé beaucoup plus difficile.
+RL|La croissance économique contredit souvent la protection de l'environnement.
+RL|Néanmoins, de nombreux pays adoptent des technologies « vertes ».
+RL|Les entreprises tiennent également compte des facteurs environnementaux.
+RL|Sans aucun doute, sans la participation de chacun d'entre nous, il n'y aura pas de succès.
+RT|L'art de débattre
+RL|Savoir débattre est l'une des compétences les plus importantes du monde moderne.
+RL|Le but d'un débat n'est pas de vaincre l'autre, mais de se rapprocher de la vérité.
+RL|Avant tout, il faut écouter attentivement son interlocuteur.
+RL|Ensuite, il faut avancer des arguments, et non des émotions.
+RL|Il est important de distinguer les faits des opinions.
+RL|Si tu as tort, reconnais-le : c'est un signe de force, pas de faiblesse.
+RL|En fin de compte, un bon débat enrichit les deux parties.
+DT|Une discussion sur l'IA
+DL|A|Comment évaluez-vous l'impact de l'intelligence artificielle sur le marché du travail ?
+DL|B|D'un côté, elle automatise les tâches routinières.
+DL|B|De l'autre, de nouveaux métiers apparaissent.
+DL|A|Mais tout le monde ne pourra pas se reconvertir.
+DL|B|C'est justement pour cela que l'État doit investir dans l'éducation.
+DL|A|Je suis d'accord, mais cela demande du temps.
+DL|B|Bien sûr. C'est pourquoi il faut commencer dès aujourd'hui.
+DT|Une réunion d'affaires
+DL|A|Je propose de passer à la question principale.
+DL|B|Oui, discutons des conditions du contrat.
+DL|A|Les délais de livraison ne nous conviennent pas.
+DL|B|Nous pouvons les réduire d'une semaine.
+DL|A|Et qu'en est-il du prix ?
+DL|B|Pour une grosse commande, nous sommes prêts à accorder une remise.
+DL|A|Dans ce cas, nous pouvons signer l'accord.
+DL|B|Parfait. Je prépare les documents pour demain.
+DT|À propos de littérature
+DL|A|Quel livre lis-tu en ce moment ?
+DL|B|Je relis « Crime et Châtiment ».
+DL|A|Ce n'est pas trop sombre ?
+DL|B|Sombre, mais profond. À chaque fois, je découvre quelque chose de nouveau.
+DL|A|Qu'est-ce qui t'attire le plus dans ce livre ?
+DL|B|La psychologie des personnages et les éternelles questions de conscience.
+DL|A|Je devrais peut-être le relire, moi aussi.

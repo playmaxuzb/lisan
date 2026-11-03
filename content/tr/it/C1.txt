@@ -1,0 +1,381 @@
+TH|Il lessico accademico
+V|la tendenza
+V|la conseguenza
+V|il presupposto
+V|la prova
+V|la contraddizione
+V|l'essenza
+V|la conclusione
+V|l'approccio
+V|il punto di vista
+V|il valore
+V|la convinzione
+V|il dubbio
+V|il fenomeno
+V|l'ipotesi
+V|la metodologia
+V|l'argomento
+V|il processo
+V|la struttura
+V|il concetto
+V|l'interdipendenza
+V|il criterio
+V|la classificazione
+V|l'aspetto
+V|il contesto
+V|il compromesso
+TH|Verbi del registro formale
+V|sottolineare
+V|esaminare
+V|svolgere
+V|fornire
+V|garantire
+V|contribuire a
+V|ostacolare
+V|valutare
+V|prevedere
+V|attuare
+V|formulare
+V|indagare
+V|rivedere
+V|confutare
+V|confermare
+V|regolare
+V|constatare
+V|menzionare
+V|determinare
+V|esprimere
+V|tenere conto di
+V|combinare
+V|rivelare
+V|abbassare
+V|sorgere
+TH|Finanza e affari
+V|l'attivo
+V|il passivo
+V|la Borsa
+V|l'azione
+V|il capitale
+V|la fusione
+V|il rendiconto
+V|la redditività
+V|la partnership
+V|la crisi
+V|la revisione contabile
+V|i costi
+V|il servizio
+V|il settore
+V|la globalizzazione
+V|il fornitore
+V|la strategia
+V|l'innovazione
+V|la direzione
+V|l'intesa
+TH|Il diritto
+V|la giustizia
+V|la delibera
+V|l'avvocato difensore
+V|l'attore in giudizio
+V|la difesa
+V|la sentenza
+V|i dati personali
+V|il diritto d'autore
+V|la licenza
+V|il disegno di legge
+V|il parlamento
+V|il referendum
+V|la riservatezza
+V|l'obbligo
+TH|La medicina
+V|la diagnosi
+V|il sintomo
+V|la vaccinazione
+V|il laboratorio
+V|l'infezione
+V|la psicoterapia
+V|la radiografia
+V|l'antibiotico
+V|la riabilitazione
+V|la guarigione
+V|cronico
+V|il chirurgo
+V|la prevenzione
+TH|Lingua e letteratura
+V|il racconto
+V|il personaggio
+V|lo stile
+V|la trama
+V|la metafora
+V|il dialetto
+V|il genere
+V|la pubblicistica
+V|il saggio
+V|la linguistica
+V|il termine
+V|la citazione
+V|il paragrafo
+TH|Filosofia ed etica
+V|la filosofia
+V|la morale
+V|la coscienza morale
+V|la volontà
+V|il senso della vita
+V|la verità
+V|la fede
+V|l'umanesimo
+V|la conoscenza di sé
+V|la coscienza
+V|la visione del mondo
+V|la giustizia sociale
+V|la saggezza
+TH|Aggettivi del registro letterario
+V|inevitabile
+V|notevole
+V|evidente
+V|poliedrico
+V|scientifico
+V|opportuno
+V|sostenibile
+V|ambiguo
+V|fondamentale
+V|discutibile
+V|prioritario
+V|insignificante
+V|temporaneo
+V|permanente
+V|completo
+V|universale
+V|soggettivo
+V|oggettivo
+V|rapidissimo
+V|approfondito
+V|eccezionale
+V|controverso
+V|riservato
+V|appassionato
+V|vulnerabile
+TH|Connettivi e avverbi
+V|tuttavia
+V|ciononostante
+V|di conseguenza
+V|inoltre
+V|allo stesso tempo
+V|grazie a
+V|nonostante
+V|contrariamente a
+V|quindi
+V|nel complesso
+V|in particolare
+V|innanzitutto
+V|al contrario
+V|in questo modo
+V|in definitiva
+V|essenzialmente
+V|in relazione a
+V|in seguito a
+V|in tal modo
+V|senza dubbio
+TH|La ricerca
+V|il ricercatore
+V|il campione
+V|l'indicatore
+V|l'analisi
+V|la pubblicazione
+V|la scoperta
+V|la tesi di dottorato
+V|la fonte bibliografica
+V|il margine di errore
+V|la borsa di ricerca
+V|il dottore di ricerca
+TH|La diplomazia
+V|i negoziati
+V|l'ambasciata
+V|l'ambasciatore
+V|il trattato
+V|la cooperazione
+V|le sanzioni
+V|il cessate il fuoco
+V|la dichiarazione
+V|la neutralità
+V|gli aiuti umanitari
+TH|La società moderna
+V|l'urbanizzazione
+V|la demografia
+V|l'invecchiamento della popolazione
+V|la migrazione per lavoro
+V|la tolleranza
+V|la società civile
+V|la digitalizzazione
+V|la sicurezza informatica
+V|cognitivo
+V|disomogeneo
+V|industriale
+V|l'ecologia
+V|l'alfabetizzazione
+V|l'identità
+V|la propaganda
+V|la discriminazione
+V|la solidarietà
+V|la corruzione
+V|la riforma
+V|il funzionario pubblico
+V|l'integrazione
+V|la perizia
+V|il calo
+V|le infrastrutture
+V|l'interazione
+S|Nonostante le difficoltà, il progetto è stato completato in tempo.
+S|Dopo aver letto l'articolo, ha cambiato idea.
+S|Questa questione richiede un'analisi approfondita.
+S|Va sottolineato che i risultati sono preliminari.
+S|Grazie al sostegno dei colleghi, abbiamo raggiunto l'obiettivo.
+S|La ricerca ha mostrato una crescita notevole.
+S|Tornando a casa, ho incontrato un vecchio amico.
+S|Come è noto, la lingua cambia continuamente.
+S|Quindi si può concludere che l'ipotesi è stata confermata.
+S|Le sue parole hanno suscitato dei dubbi.
+S|La questione rimane aperta.
+S|I dati non confermano questa teoria.
+S|Bisogna tenere conto di tutti i fattori.
+S|L'autore porta argomenti convincenti.
+S|Dal punto di vista economico, è rischioso.
+S|L'azienda punta a uno sviluppo sostenibile.
+S|La decisione è stata presa all'unanimità.
+S|Le parti hanno raggiunto un compromesso.
+S|I negoziati sono durati tutta la notte.
+S|Più sappiamo, più domande nascono.
+S|In seguito alla crisi, molti hanno perso il lavoro.
+S|Il suo discorso è stato accolto da un applauso.
+S|Non si può non essere d'accordo con questa affermazione.
+S|Ha capacità eccezionali.
+S|Se non fosse stato per la pioggia, saremmo andati fuori città.
+S|Dobbiamo risolvere una serie di problemi complessi.
+S|L'ha detto con una leggera ironia.
+S|La sua posizione merita rispetto.
+S|I dati ottenuti devono essere verificati.
+S|È solo una delle interpretazioni possibili.
+S|L'autore affronta importanti problemi sociali.
+S|Il libro è stato tradotto in venti lingue.
+S|I medici non hanno fatto subito la diagnosi.
+S|La prevenzione costa meno della cura.
+S|Le malattie croniche richiedono un controllo costante.
+S|La legge entra in vigore il primo gennaio.
+S|Il tribunale ha emesso una sentenza di assoluzione.
+S|I dati personali dei clienti sono protetti.
+S|Ogni cittadino ha diritto all'istruzione.
+S|L'ambasciatore ha incontrato il ministro degli Esteri.
+S|Le parti hanno firmato un accordo di cooperazione.
+S|Gli abitanti hanno ricevuto aiuti umanitari.
+S|Gli investimenti nell'istruzione ripagano.
+S|L'azienda ha annunciato la fusione con un concorrente.
+S|La redditività del progetto è in dubbio.
+S|Abbiamo rivisto la nostra strategia.
+S|L'innovazione è il motore dell'economia.
+S|La direzione ci è venuta incontro.
+S|Dobbiamo ridurre i costi.
+S|I risultati dell'anno hanno superato le aspettative.
+S|Ha una vasta cultura.
+S|Il suo discorso era chiaro e logico.
+S|Mi è difficile essere d'accordo con lei.
+S|Mi permetta di esprimere il mio punto di vista.
+S|Preferirei discuterne più tardi.
+S|Non si possono trarre conclusioni da un solo esempio.
+S|La questione è come metterlo in pratica.
+S|Si è messa al lavoro con entusiasmo.
+S|Siamo costretti a rinviare la riunione.
+S|Il suo contributo alla scienza è difficile da sopravvalutare.
+S|Con lo sviluppo della tecnologia cambia anche la società.
+S|Inoltre, i prezzi continuano a salire.
+S|In particolare, si tratta dei giovani.
+S|Al contrario, era molto contento.
+S|In definitiva, tutto dipende da noi.
+S|Parla arabo senza accento.
+S|Sono abituato a esprimere chiaramente i miei pensieri.
+S|Non bisogna sottovalutare la resistenza al cambiamento.
+S|Il suo gesto non può essere giustificato.
+S|Ci siamo scontrati con difficoltà impreviste.
+S|Casi del genere non sono rari.
+S|Le sue opinioni sono cambiate con il tempo.
+S|Ha sempre avuto senso dell'umorismo.
+S|Apprezzo molto la sua opinione.
+S|Questo tema merita una discussione a parte.
+S|I risultati del sondaggio si sono rivelati inaspettati.
+S|Partiamo dal presupposto che tutti i partecipanti siano d'accordo.
+S|Questi due fenomeni sono strettamente legati.
+S|Gli scienziati hanno individuato una regolarità.
+S|La vita non è solo lavoro.
+S|La coscienza non gli permetteva di mentire.
+S|La saggezza viene con l'esperienza.
+S|La verità sta nel mezzo.
+S|L'urbanizzazione porta alla crescita delle città.
+S|La digitalizzazione ha toccato tutti gli ambiti della vita.
+S|La sicurezza informatica diventa sempre più importante.
+S|L'invecchiamento della popolazione è una sfida per l'economia.
+S|La tolleranza è la base della convivenza pacifica.
+S|Senza infrastrutture sviluppate la crescita è impossibile.
+S|La riforma è stata accolta in modo contrastante.
+S|La società civile svolge un ruolo importante.
+S|La discriminazione è inaccettabile.
+S|Il calo dell'economia ha colpito molti settori.
+S|L'alfabetizzazione della popolazione cresce costantemente.
+S|Le opinioni degli esperti divergono.
+S|La solidarietà ha aiutato a superare la crisi.
+S|È stato vittima della propaganda.
+S|L'integrazione dei migranti richiede tempo.
+S|L'interazione con i clienti è la chiave del successo.
+S|Non si può ridurre tutto all'economia.
+S|Questo problema è di natura sistemica.
+S|Ci ispiriamo al principio della trasparenza.
+S|In conclusione, voglio ringraziare tutti i partecipanti.
+RT|Leggere nell'era digitale
+RL|Ultimamente molti si lamentano che la gente non legge più.
+RL|Tuttavia, le ricerche mostrano un quadro più complesso.
+RL|Non leggiamo meno di prima, ma leggiamo in modo diverso.
+RL|I testi sono diventati più brevi e l'attenzione più dispersa.
+RL|Quindi non ne risente la quantità, ma la profondità della lettura.
+RL|Gli scienziati sottolineano che la capacità di concentrazione è un'abilità.
+RL|Come ogni abilità, va allenata.
+RL|Per esempio, è utile leggere libri di carta senza il telefono vicino.
+RL|Nel complesso, le tecnologie digitali non sono dannose di per sé.
+RL|Tutto dipende da come le usiamo.
+RT|Lo sviluppo sostenibile
+RL|Il concetto di sviluppo sostenibile è nato alla fine del Novecento.
+RL|La sua essenza è semplice: soddisfare i bisogni di oggi senza danneggiare le generazioni future.
+RL|Tuttavia, in pratica si è rivelato molto più difficile.
+RL|La crescita economica spesso è in contrasto con la tutela dell'ambiente.
+RL|Ciononostante, molti paesi stanno introducendo tecnologie «verdi».
+RL|Anche le aziende tengono conto dei fattori ambientali.
+RL|Senza dubbio, senza la partecipazione di ognuno di noi non ci sarà successo.
+RT|L'arte di discutere
+RL|Saper discutere è una delle capacità più importanti nel mondo moderno.
+RL|Lo scopo di una discussione non è vincere l'altro, ma avvicinarsi alla verità.
+RL|Innanzitutto bisogna ascoltare con attenzione l'interlocutore.
+RL|Poi bisogna portare argomenti, non emozioni.
+RL|È importante distinguere i fatti dalle opinioni.
+RL|Se sbagli, ammettilo: è un segno di forza, non di debolezza.
+RL|In definitiva, una buona discussione arricchisce entrambe le parti.
+DT|Una discussione sull'IA
+DL|A|Come valuta l'impatto dell'intelligenza artificiale sul mercato del lavoro?
+DL|B|Da un lato, automatizza i compiti ripetitivi.
+DL|B|Dall'altro, nascono nuove professioni.
+DL|A|Ma non tutti riusciranno a riqualificarsi.
+DL|B|Proprio per questo lo Stato deve investire nell'istruzione.
+DL|A|Sono d'accordo, ma ci vuole tempo.
+DL|B|Certo. Per questo bisogna cominciare oggi.
+DT|Una riunione d'affari
+DL|A|Propongo di passare alla questione principale.
+DL|B|Sì, discutiamo le condizioni del contratto.
+DL|A|I tempi di consegna non ci vanno bene.
+DL|B|Possiamo ridurli di una settimana.
+DL|A|E per quanto riguarda il prezzo?
+DL|B|Per un ordine grande siamo pronti a fare uno sconto.
+DL|A|In questo caso possiamo firmare l'accordo.
+DL|B|Ottimo. Preparo i documenti per domani.
+DT|Sulla letteratura
+DL|A|Che libro stai leggendo adesso?
+DL|B|Sto rileggendo «Delitto e castigo».
+DL|A|Non è troppo cupo?
+DL|B|Cupo, ma profondo. Ogni volta scopro qualcosa di nuovo.
+DL|A|Che cosa ti attira di più?
+DL|B|La psicologia dei personaggi e le eterne domande sulla coscienza.
+DL|A|Forse dovrei rileggerlo anch'io.

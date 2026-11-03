@@ -1,0 +1,397 @@
+TH|Toplum
+V|toplum
+V|nüfus
+V|kuşak
+V|eşitsizlik
+V|eşit haklar
+V|yoksulluk
+V|zenginlik
+V|işsizlik
+V|göç
+V|kent yaşamı
+V|eğitim
+V|güvenlik
+V|gönüllü
+V|hayırseverlik
+V|gelenek
+V|din
+V|kamuoyu
+V|aile değerleri
+V|sağlık sistemi
+V|emeklilik
+TH|Ekonomi ve iş dünyası
+V|ekonomi
+V|piyasa
+V|üretim
+V|mal
+V|talep
+V|arz
+V|kâr
+V|zarar
+V|enflasyon
+V|yatırımlar
+V|vergi
+V|anlaşma
+V|işletme
+V|girişimci
+V|ihracat
+V|ithalat
+V|rekabet
+V|reklam
+V|tüketici
+V|hissedar
+V|istatistik
+V|muhasebe
+TH|Ekoloji
+V|doğa
+V|kirlilik
+V|iklim
+V|küresel ısınma
+V|çöp
+V|geri dönüşüm
+V|enerji
+V|güneş enerjisi
+V|rüzgâr enerjisi
+V|petrol
+V|gaz
+V|kuraklık
+V|sel
+V|deprem
+V|nesli tükenmekte olan türler
+V|ormansızlaşma
+V|tatlı su
+V|duman kirliliği
+V|doğa koruma alanı
+V|çevre dostu
+TH|Medya
+V|haberler
+V|makale
+V|röportaj
+V|televizyon
+V|radyo
+V|gazete
+V|dergi
+V|haber programı
+V|yazar
+V|blog yazarı
+V|manşet
+V|soruşturma
+V|sahte haber
+V|yayın
+V|görüş
+V|anket
+V|kaynak
+V|belgesel
+TH|Devlet ve hukuk
+V|devlet
+V|hükümet
+V|yasa
+V|seçimler
+V|mahkeme
+V|anayasa
+V|vatandaşlık
+V|hâkim
+V|sınır
+V|başkent
+V|antlaşma
+V|diplomasi
+V|insan hakları
+V|barış
+V|çatışma
+V|belge
+TH|Bilim ve teknoloji
+V|araştırma
+V|deney
+V|bilim insanı
+V|icat
+V|uzay
+V|uydu
+V|robot
+V|yapay zekâ
+V|genetik
+V|aşı
+V|teleskop
+V|veri
+V|teknoloji
+V|cihaz
+V|mucit
+V|kuram
+TH|Kültür ve sanat
+V|sanat
+V|resim sanatı
+V|sergi
+V|gösteri
+V|konser
+V|edebiyat
+V|yazar (edebiyat)
+V|şiir
+V|şarkıcı
+V|bale
+V|yönetmen
+V|oyuncu
+V|miras
+V|heykel
+V|mimari
+V|melodi
+V|roman
+V|seyirci
+TH|Psikoloji
+V|kişilik
+V|stres
+V|kaygı
+V|özgüven
+V|motivasyon
+V|davranış
+V|şefkat
+V|kayıtsızlık
+V|yalnızlık
+V|güven
+V|kıskançlık
+V|minnettarlık
+V|yanlış anlama
+V|öz denetim
+TH|Soyut kavramlar
+V|sorun
+V|çözüm
+V|gelişme
+V|sorumluluk
+V|imkân
+V|avantaj
+V|dezavantaj
+V|etki
+V|kalite
+V|miktar
+V|koşul
+V|yardım
+V|amaç
+V|sonuç
+V|bağlantı
+V|neden (sebep)
+V|sonuç (etki)
+V|yön
+V|denge
+V|özgürlük
+TH|B2 fiilleri
+V|tartışmak
+V|inanmak
+V|analiz etmek
+V|karşılaştırmak
+V|korumak
+V|eleştirmek
+V|iddia etmek
+V|inkâr etmek
+V|desteklemek
+V|artırmak
+V|azaltmak
+V|iş birliği yapmak
+V|yaratmak
+V|etkilemek
+V|ulaşmak
+V|büyümek
+V|yasaklamak
+V|izin vermek
+V|incelemek
+V|ikna etmek
+TH|B2 sıfatları
+V|küresel
+V|yerel
+V|etkili
+V|sorumlu
+V|şüpheli
+V|güncel
+V|pratik
+V|siyasi
+V|ekonomik
+V|ekolojik
+V|sosyal
+V|zorunlu
+V|gönüllü (isteğe bağlı)
+V|adil
+V|çelişkili
+V|uzun vadeli
+TH|Eğitim ve iş hayatı
+V|nitelik
+V|akıl hocası
+V|mezun
+V|kendi kendine öğrenme
+V|kıdem
+V|uzaktan çalışma
+V|program
+V|tükenmişlik
+V|çalışan
+V|terfi
+V|öncelik
+V|beceri
+V|müzakereci
+V|sunum
+V|ücret tarifesi
+V|ast
+V|girişim şirketi
+V|başarı (kazanım)
+V|staj
+V|dilekçe
+S|Daha fazla vaktim olsaydı seyahat ederdim.
+S|İki kişilik bir masa ayırtmak istiyorum.
+S|Bilseydim sana söylerdim.
+S|Hava kirliliği sorunu giderek ciddileşiyor.
+S|Artık birçok insan evden çalışıyor.
+S|Uzmanlara göre ekonomi büyüyecek.
+S|Fiyatlar maaşlardan daha hızlı artıyor.
+S|Gençler arasında işsizlik ciddi bir sorun.
+S|Belediye yeni parklar için para ayırıyor.
+S|Bu soruna bir çözüm bulmamız gerekiyor.
+S|Bu yaklaşımın hem avantajları hem dezavantajları var.
+S|Eğitimin başarının anahtarı olduğuna inanıyorum.
+S|Bir yandan rahat, öte yandan pahalı.
+S|Dilini geliştirmek için çok konuşmak gerekir.
+S|Sınavı geçen öğrenci memnun.
+S|Okuduğum kitap çok ilginç.
+S|Burası doğduğum şehir.
+S|Köprü geçen yüzyılda inşa edildi.
+S|Mektup dün gönderildi.
+S|Dükkân tadilat nedeniyle kapalı.
+S|Burada sigara içilmez.
+S|Merkezde arkadaşlarla buluştuk.
+S|Siyaset ve ekonomiyle ilgileniyorum.
+S|Büyük bir gazetede gazeteci olarak çalışıyor.
+S|Seçimler gelecek yıl yapılacak.
+S|Herkes yaptıklarının sorumluluğunu almalı.
+S|Yasa herkes için aynı olmalı.
+S|Doğayı gelecek kuşaklar için korumalıyız.
+S|Giderek daha fazla insan çöplerini ayrıştırıyor.
+S|Güneş enerjisi ucuzladı.
+S|Kuraklık yüzünden hasat zarar gördü.
+S|Bilim insanları iklim değişikliği konusunda uyarıyor.
+S|Daha az plastik kullanmaya çalışıyorum.
+S|İnternette yazan her şeye inanma.
+S|Bilginin kaynağını her zaman kontrol et.
+S|Gazeteci bakanla röportaj yaptı.
+S|Bu haber hızla yayıldı.
+S|Şirket büyük kâr elde etti.
+S|Bu ülkede vergiler yüksek.
+S|Piyasada rekabet çok sert.
+S|Önemli bir sözleşme imzaladılar.
+S|Kendi işimi kurmak istiyorum.
+S|Bu ürüne olan talep artıyor.
+S|Yapay zekâ hayatımızı değiştiriyor.
+S|Bilim insanları yeni bir deney yapıyor.
+S|Bu icat dünyayı değiştirdi.
+S|İnsan uzaya ilk kez 1961'de gitti.
+S|Çağdaş sanat sergisine gittik.
+S|Gösteri üzerimde güçlü bir etki bıraktı.
+S|Tolstoy'un romanlarını severim.
+S|Bu filmi ünlü bir yönetmen çekti.
+S|Bu şehrin mimarisi çok çeşitli.
+S|Kültürel mirası korumalıyız.
+S|Stres sağlığı etkiler.
+S|Güven olmadan iyi ilişki olmaz.
+S|Büyük şehirde kendini yalnız hissediyor.
+S|Motivasyon öğrenmede en önemli şeydir.
+S|Yardımın için sana minnettarım.
+S|Projenin bütün ayrıntılarını konuştuk.
+S|Bu iki seçeneği karşılaştıralım.
+S|Suçunu inkâr ediyor.
+S|Bu fikri tamamen destekliyorum.
+S|Yeşil alanların sayısı artırılmalı.
+S|Harcamaları azaltmaya çalışıyoruz.
+S|Onu ikna etmek zor.
+S|Buraya park etmek yasak.
+S|Amacımıza ulaştık.
+S|Kalite miktardan daha önemlidir.
+S|Her şey koşullara bağlı.
+S|Açıkçası bu hoşuma gitmiyor.
+S|Bildiğim kadarıyla gitti.
+S|Arkadaşlarımın yardımı sayesinde başardım.
+S|Yağmura rağmen yürüyüşe çıktık.
+S|Ne kadar çok okursan o kadar çok bilirsin.
+S|Neden memnun değilsin?
+S|Bana abartıyormuşsun gibi geliyor.
+S|Bunun doğru olduğundan emin değilim.
+S|Mesele şu ki çok az vaktimiz var.
+S|Daha sonra geleceğini söyledi.
+S|Nerede çalıştığımı sordu.
+S|Ondan pencereyi kapatmasını istedim.
+S|Mutlu olmanı istiyorum.
+S|Herkesin zamanında gelmesi önemli.
+S|Eskiden bir köyde yaşıyordum.
+S|Soğuğa alıştı.
+S|Yeni işime bir türlü alışamıyorum.
+S|Hayır işleriyle uğraşıyor.
+S|Dedem emekli maaşı alıyor.
+S|Gelenekler kuşaktan kuşağa aktarılır.
+S|Şehrin nüfusu hızla artıyor.
+S|Eşit haklardan yanayım.
+S|Senin yerinde olsam kabul ederdim.
+S|Bana terfi teklif ettiler.
+S|Uzaktan çalışma herkese uygun değil.
+S|İzin günü olmadan çalışıyor ve şimdiden yorgun.
+S|Tükenmemek için dinlenmek gerekir.
+S|Müşteriler için bir sunum hazırladım.
+S|Akıl hocam bana faydalı bir tavsiye verdi.
+S|İzin dilekçesi yazıyorum.
+S|Girişim şirketimiz yatırım aldı.
+S|Bu benim en büyük başarım.
+S|Şimdi en önemli önceliğim ailem.
+S|Şirketten ayrıldığın doğru mu?
+S|Göründüğünden çok daha akıllı.
+S|Ne kadar erken başlarsan o kadar iyi.
+S|Planın değişmesi gerektiği sonucuna vardık.
+RT|Geleceğin şehri
+RL|Geleceğin şehri nasıl olacak?
+RL|Birçok uzman daha fazla yeşil alan ve daha az araba olacağını düşünüyor.
+RL|İnsanlar elektrikli arabalarla ve bisikletlerle dolaşacak.
+RL|Evler enerjiyi güneşten ve rüzgârdan alacak.
+RL|Akıllı sistemler ışığı ve ısıyı yönetecek.
+RL|Ancak bu fikrin eleştirmenleri de var.
+RL|Bu teknolojilerin çok pahalı olduğunu söylüyorlar.
+RL|Ayrıca herkes alışkanlıklarını değiştirmeye hazır değil.
+RL|Kimin haklı olduğunu söylemek zor.
+RL|Ama bir şey açık: şehir insanlar için rahat olmalı.
+RT|Sosyal medya
+RL|Sosyal medya hayatımızın bir parçası oldu.
+RL|Uzakta yaşayan arkadaşlarımızla iletişim kurmamıza yardım ediyor.
+RL|Haberleri eskisinden daha hızlı öğreniyoruz.
+RL|Ancak sosyal medyanın olumsuz bir yanı da var.
+RL|Birçok insan günde birkaç saatini telefonda geçiriyor.
+RL|Bu durum uykuyu, dersleri ve ruh halini etkiliyor.
+RL|Ayrıca internette çok sayıda sahte haber var.
+RL|Psikologlar ara vermeyi tavsiye ediyor.
+RL|Örneğin telefonu yatak odasına götürmeyebilirsiniz.
+RL|En önemlisi hayatın ekranda geçmediğini hatırlamak.
+RT|Gönüllüler
+RL|Arkadaşım Anya bir hayvan barınağında gönüllü çalışıyor.
+RL|Her cumartesi oraya gidiyor.
+RL|Anya köpekleri besliyor, onları gezdiriyor ve temizlik yapıyor.
+RL|Bunun için ona para ödenmiyor.
+RL|Ama çok daha fazlasını aldığını söylüyor: mutluluk.
+RL|Gönüllüler sayesinde birçok hayvan yeni bir yuva buluyor.
+RL|Geçen ay Anya beni de ikna etti.
+RL|Artık oraya birlikte gidiyoruz.
+RL|Başkalarına yardım etmenin mutluluk olduğunu anladım.
+DT|Tartışma: şehir mi, köy mü?
+DL|A|Köyde yaşamak isterdim. Orası sessiz ve havası temiz.
+DL|B|Ama şehirde daha çok imkân var.
+DL|A|Mesela?
+DL|B|İş, iyi okullar, hastaneler, tiyatrolar.
+DL|A|Katılıyorum ama şehirde çok stres ve trafik var.
+DL|B|Doğru. Belki en iyisi banliyöde yaşamaktır?
+DL|A|İyi fikir! Doğa yakın, şehir de uzak değil.
+DL|B|O zaman anlaştık.
+DT|Filmden sonra
+DL|A|Eee, film nasıldı?
+DL|B|Açıkçası daha fazlasını bekliyordum.
+DL|A|Gerçekten mi? Ben beğendim. Oyuncular harika oynadı.
+DL|B|Orada haklısın. Ama konu çok tahmin edilebilirdi.
+DL|A|Ama sonu beklenmedikti.
+DL|B|Olabilir. Müzik de güzeldi.
+DL|A|Bir dahaki sefere filmi sen seç.
+DL|B|Anlaştık!
+DT|Röportaj
+DL|A|Anlatın lütfen, işinize nasıl başladınız?
+DL|B|Her şey küçük bir fikir ve büyük bir istekle başladı.
+DL|A|Zor oldu mu?
+DL|B|Çok. İlk yıl zararına çalıştık.
+DL|A|Pes etmemenize ne yardımcı oldu?
+DL|B|Ailemin desteği ve ürünüme olan inancım.
+DL|A|Genç girişimcilere ne tavsiye edersiniz?
+DL|B|Hatalardan korkmamalarını ve onlardan ders çıkarmalarını.

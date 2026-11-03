@@ -1,0 +1,387 @@
+TH|Le travail et le bureau
+V|le travail
+V|le bureau
+V|l'entreprise
+V|le patron
+V|le collègue
+V|le salaire
+V|le contrat
+V|la réunion
+V|l'entretien d'embauche
+V|le CV
+V|les vacances
+V|l'expérience
+V|la carrière
+V|la tâche
+V|le délai
+V|le rapport
+V|le client
+V|le succès
+V|l'appel
+V|l'imprimante
+V|la signature
+V|le poste
+V|l'équipe
+V|le licenciement
+TH|Les études et l'université
+V|l'université
+V|l'étudiant
+V|l'enseignant
+V|le cours magistral
+V|l'examen
+V|la note
+V|la matière
+V|le manuel
+V|les devoirs
+V|le diplôme
+V|la faculté
+V|la résidence universitaire
+V|le semestre
+V|les connaissances
+V|la science
+V|les mathématiques
+V|l'histoire
+V|la géographie
+V|la chimie
+V|la physique
+V|la langue étrangère
+V|le traducteur
+V|le dictionnaire
+V|réussir un examen
+TH|La santé et la médecine
+V|la santé
+V|la maladie
+V|le médicament
+V|l'ordonnance
+V|l'analyse
+V|la chambre d'hôpital
+V|le patient
+V|le virus
+V|l'allergie
+V|la tension
+V|la blessure
+V|la fracture
+V|l'opération
+V|l'insomnie
+V|le régime
+V|la gymnastique du matin
+V|fumer
+V|soigner
+V|le bilan de santé
+V|la nausée
+TH|La technologie
+V|internet
+V|le message
+V|le mot de passe
+V|l'application
+V|télécharger
+V|le chargeur
+V|l'écran
+V|le site web
+V|l'e-mail
+V|le clavier
+V|la souris
+V|le fichier
+V|la batterie
+V|le réseau
+V|le compte
+V|rechercher
+V|enregistrer
+V|supprimer
+V|envoyer
+V|mettre à jour
+V|les réseaux sociaux
+TH|Le caractère et les émotions
+V|la joie
+V|la tristesse
+V|la peur
+V|la colère
+V|la surprise
+V|calme
+V|nerveux
+V|bon
+V|têtu
+V|poli
+V|impoli
+V|courageux
+V|timide
+V|paresseux
+V|travailleur
+V|honnête
+V|généreux
+V|patient
+V|sûr de soi
+V|la honte
+V|la fatigue
+V|la déception
+TH|Les relations et les événements
+V|le mariage
+V|l'anniversaire
+V|la fête
+V|la soirée
+V|la relation
+V|la dispute
+V|l'amitié
+V|l'invitation
+V|les parents
+V|la famille
+V|le marié
+V|la mariée
+V|la naissance
+V|le soutien
+V|les excuses
+V|féliciter
+V|être d'accord
+TH|L'argent et la banque
+V|la banque
+V|la carte de crédit
+V|les espèces
+V|le taux de change
+V|le crédit
+V|les économies
+V|la dette
+V|la facture
+V|dépenser
+V|économiser
+V|le budget
+V|le loyer
+V|le virement
+V|le revenu
+TH|Le logement
+V|le quartier
+V|l'étage
+V|l'ascenseur
+V|le propriétaire
+V|déménager
+V|les travaux
+V|le chauffage
+V|la climatisation
+V|le balcon
+V|l'entrée
+V|les meubles
+V|la banlieue
+V|l'électricité
+V|l'eau courante
+TH|Les verbes importants
+V|décider
+V|expliquer
+V|répéter
+V|se souvenir
+V|oublier
+V|espérer
+V|rêver
+V|réparer
+V|améliorer
+V|construire
+V|recevoir
+V|gagner
+V|perdre
+V|changer
+V|partager
+V|résoudre un problème
+V|proposer
+V|refuser
+V|informer
+V|obéir
+V|développer
+V|pardonner
+V|continuer
+V|arrêter
+TH|Les adjectifs importants
+V|important
+V|dangereux
+V|sûr
+V|confortable
+V|célèbre
+V|différent
+V|pareil
+V|compliqué
+V|gratuit
+V|prochain
+V|dernier
+V|international
+V|moderne
+V|ancien
+V|exact
+V|excellent
+V|ordinaire
+V|modeste
+V|fatigué
+V|satisfait
+TH|Les problèmes en voyage
+V|les bagages
+V|la douane
+V|le retard
+V|la correspondance
+V|le guide
+V|la tente
+V|l'embouteillage
+V|l'adaptateur
+V|l'assurance
+V|le vol
+V|l'adresse
+V|l'étranger
+V|l'accent
+V|la station balnéaire
+V|la réception
+V|se perdre
+S|Je travaille dans cette entreprise depuis trois ans.
+S|Mon patron est sévère mais juste.
+S|Nous avons une réunion à dix heures.
+S|Je dois finir le rapport avant vendredi.
+S|J'ai envoyé mon CV à cinq entreprises.
+S|On m'a invité à un entretien d'embauche.
+S|Vous avez de l'expérience professionnelle ?
+S|Quel est le salaire pour ce poste ?
+S|Je prends des vacances en juillet.
+S|Mes collègues sont très sympathiques.
+S|Elle a fait une belle carrière.
+S|Je suis en troisième année à l'université.
+S|Demain, j'ai un examen d'histoire.
+S|J'ai réussi l'examen avec une excellente note !
+S|L'enseignant explique très clairement.
+S|J'habite dans une résidence universitaire.
+S|J'ai besoin d'un bon dictionnaire.
+S|Je veux devenir traducteur.
+S|Quelle matière tu préfères ?
+S|Sans connaissances, c'est difficile de trouver un travail.
+S|Je suis allergique aux noix.
+S|Le médecin m'a prescrit un médicament.
+S|Prends ce médicament après le repas.
+S|Je dois faire une prise de sang.
+S|Grand-père a de la tension.
+S|Il s'est cassé la jambe en faisant du ski.
+S|Fumer est mauvais pour la santé.
+S|Je fais de la gymnastique tous les matins.
+S|Je suis au régime, alors je ne mange pas de sucreries.
+S|Prends soin de toi !
+S|J'ai oublié le mot de passe de ma messagerie.
+S|Télécharge cette application, elle est très utile.
+S|La batterie de mon téléphone est vide.
+S|Où est-ce que je peux recharger mon téléphone ?
+S|Envoie-moi le fichier par e-mail.
+S|Internet marche mal ici.
+S|N'oublie pas d'enregistrer le document.
+S|Je lis souvent les informations sur les réseaux sociaux.
+S|Elle est très patiente.
+S|Mon frère est têtu comme une mule.
+S|Ne sois pas si paresseux !
+S|Je suis nerveux avant le spectacle.
+S|Elle était ravie du cadeau.
+S|J'ai honte de mon comportement.
+S|Je ne suis pas fâché contre toi.
+S|Nous avons invité cent personnes au mariage.
+S|Joyeux anniversaire à toi !
+S|Ils se sont disputés pour un rien.
+S|Nous sommes amis depuis l'enfance.
+S|Merci pour ton soutien.
+S|Je m'excuse, j'avais tort.
+S|Je voudrais ouvrir un compte bancaire.
+S|Quel est le cours du dollar aujourd'hui ?
+S|Je paie le loyer tous les mois.
+S|Nous économisons pour une nouvelle voiture.
+S|J'ai dépensé tout l'argent.
+S|Tu peux me prêter un peu d'argent ?
+S|Le distributeur ne marche pas.
+S|Nous louons un appartement au centre.
+S|Nous habitons au cinquième étage.
+S|L'ascenseur est encore en panne.
+S|Il y a des travaux dans l'appartement.
+S|Nous avons déménagé dans un nouveau quartier.
+S|En hiver, le chauffage marche bien chez nous.
+S|Si j'ai le temps, je t'appellerai.
+S|Je pense que tu as raison.
+S|À mon avis, c'est une bonne idée.
+S|Je suis d'accord avec toi.
+S|Je ne suis pas d'accord.
+S|Il me semble qu'il va pleuvoir.
+S|J'espère que tout ira bien.
+S|Je rêve depuis longtemps d'aller au Japon.
+S|Explique encore une fois, s'il te plaît.
+S|Je ne me souviens plus où j'ai mis les clés.
+S|Il m'a proposé son aide.
+S|Elle a refusé l'invitation.
+S|Nous devons fixer un rendez-vous.
+S|Je vais au travail à pied tous les jours.
+S|Je vais au magasin maintenant.
+S|Nous sommes allés à Kazan en voiture.
+S|Il est rentré tard à la maison.
+S|J'ai déjà lu ce livre.
+S|J'ai lu toute la soirée.
+S|Je le ferai demain.
+S|Il a longtemps cherché du travail et il en a enfin trouvé.
+S|Je n'ai pas le temps.
+S|Il n'y a pas de mer dans notre ville.
+S|J'aime mon nouveau travail.
+S|J'ai besoin de plus de temps.
+S|J'appellerai ma mère ce soir.
+S|Aide-moi, s'il te plaît.
+S|Je m'intéresse à l'histoire.
+S|Elle fait de la danse.
+S|J'écris avec un stylo.
+S|Je bois du thé au citron.
+S|Qu'est-ce que tu fais pendant ton temps libre ?
+S|J'aime me promener dans la vieille ville.
+S|Pour apprendre une langue, il faut beaucoup pratiquer.
+S|Je fais des fautes, mais je n'ai pas peur de parler.
+RT|Le premier jour de travail
+RL|Le premier jour de travail, c'est toujours émouvant.
+RL|Je suis arrivé au bureau avant tout le monde, à huit heures.
+RL|Le patron m'a accueilli et m'a présenté à mes collègues.
+RL|Tout le monde était très sympathique.
+RL|On m'a montré mon poste de travail et mon ordinateur.
+RL|D'abord, j'ai lu des documents et j'ai étudié les projets.
+RL|À midi, nous sommes allés ensemble à la cantine.
+RL|Après le déjeuner, nous avons eu une réunion.
+RL|J'étais un peu nerveux, mais tout s'est bien passé.
+RL|Le soir, j'étais fatigué mais content.
+RL|Je crois que je vais me plaire ici.
+RT|Un mode de vie sain
+RL|Aujourd'hui, beaucoup de gens pensent à leur santé.
+RL|Les médecins conseillent de bouger davantage.
+RL|Il est utile de marcher au moins une demi-heure par jour.
+RL|Il est aussi important de bien manger.
+RL|Il faut manger plus de légumes et de fruits.
+RL|Il vaut mieux boire de l'eau que des boissons sucrées.
+RL|Le sommeil est aussi très important.
+RL|Un adulte doit dormir sept à huit heures.
+RL|Et, bien sûr, il ne faut pas fumer.
+RL|La santé, c'est le plus important.
+RT|*
+RL|*
+RL|Au début, c'était très difficile.
+RL|Je ne comprenais pas les cas et je confondais les terminaisons.
+RL|Ensuite, j'ai commencé à écouter des podcasts tous les jours.
+RL|Je regarde aussi des films avec des sous-titres.
+RL|*
+RL|Ils corrigent mes fautes et ne se moquent pas.
+RL|Maintenant, je peux parler au magasin et au travail.
+RL|Le plus important, c'est de ne pas avoir peur des fautes.
+DT|L'entretien d'embauche
+DL|A|Parlez-moi de vous, s'il vous plaît.
+DL|B|Je m'appelle Omar. Je suis programmeur, avec cinq ans d'expérience.
+DL|A|Pourquoi voulez-vous travailler chez nous ?
+DL|B|Votre entreprise est connue, et vos projets m'intéressent.
+DL|A|Quels sont vos points forts ?
+DL|B|Je suis responsable et j'apprends vite.
+DL|A|Quand pouvez-vous commencer ?
+DL|B|À partir du mois prochain.
+DL|A|Bien. Nous vous appellerons.
+DT|À la banque
+DL|A|Bonjour ! Je voudrais ouvrir un compte.
+DL|B|Très bien. Votre passeport, s'il vous plaît.
+DL|A|Voici. Je peux avoir la carte tout de suite ?
+DL|B|Non, la carte sera prête dans une semaine.
+DL|A|Combien coûte le service ?
+DL|B|La première année est gratuite.
+DL|A|Parfait. Autre chose : je peux changer des dollars ?
+DL|B|Oui, la caisse est à gauche.
+DT|Un problème dans l'appartement
+DL|A|Allô, c'est le propriétaire ?
+DL|B|Oui, je vous écoute.
+DL|A|Le chauffage ne marche pas, il fait très froid dans l'appartement.
+DL|B|Je vois. Depuis quand ?
+DL|A|Depuis hier soir.
+DL|B|J'envoie un réparateur demain matin.
+DL|A|Ce n'est pas possible aujourd'hui ?
+DL|B|Je vais essayer. Je vous rappelle dans une heure.

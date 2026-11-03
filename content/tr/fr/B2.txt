@@ -1,0 +1,397 @@
+TH|La société
+V|la société
+V|la population
+V|la génération
+V|l'inégalité
+V|l'égalité des droits
+V|la pauvreté
+V|la richesse
+V|le chômage
+V|la migration
+V|la vie urbaine
+V|l'éducation
+V|la sécurité
+V|le bénévole
+V|la charité
+V|la tradition
+V|la religion
+V|l'opinion publique
+V|les valeurs familiales
+V|le système de santé
+V|la retraite
+TH|L'économie et les affaires
+V|l'économie
+V|le marché
+V|la production
+V|la marchandise
+V|la demande
+V|l'offre
+V|le bénéfice
+V|la perte
+V|l'inflation
+V|les investissements
+V|l'impôt
+V|l'affaire
+V|l'entreprise
+V|l'entrepreneur
+V|l'exportation
+V|l'importation
+V|la concurrence
+V|la publicité
+V|le consommateur
+V|l'actionnaire
+V|les statistiques
+V|la comptabilité
+TH|L'écologie
+V|la nature
+V|la pollution
+V|le climat
+V|le réchauffement climatique
+V|les déchets
+V|le recyclage
+V|l'énergie
+V|l'énergie solaire
+V|l'énergie éolienne
+V|le pétrole
+V|le gaz
+V|la sécheresse
+V|l'inondation
+V|le tremblement de terre
+V|les espèces menacées
+V|la déforestation
+V|l'eau douce
+V|le smog
+V|la réserve naturelle
+V|écologique
+TH|Les médias
+V|les informations
+V|l'article
+V|l'interview
+V|la télévision
+V|la radio
+V|le journal
+V|le magazine
+V|le reportage
+V|l'auteur
+V|le blogueur
+V|le titre
+V|l'enquête
+V|la fausse information
+V|l'émission
+V|l'opinion
+V|le sondage
+V|la source
+V|le documentaire
+TH|L'État et le droit
+V|l'État
+V|le gouvernement
+V|la loi
+V|les élections
+V|le tribunal
+V|la constitution
+V|la nationalité
+V|le juge
+V|la frontière
+V|la capitale
+V|l'accord
+V|la diplomatie
+V|les droits de l'homme
+V|la paix
+V|le conflit
+V|le document
+TH|La science et la technologie
+V|la recherche
+V|l'expérience
+V|le scientifique
+V|l'invention
+V|l'espace
+V|le satellite
+V|le robot
+V|l'intelligence artificielle
+V|la génétique
+V|le vaccin
+V|le télescope
+V|les données
+V|la technologie
+V|l'appareil
+V|l'inventeur
+V|la théorie
+TH|La culture et l'art
+V|l'art
+V|la peinture
+V|l'exposition
+V|le spectacle
+V|le concert
+V|la littérature
+V|l'écrivain
+V|le poème
+V|le chanteur
+V|le ballet
+V|le réalisateur
+V|l'acteur
+V|le patrimoine
+V|la sculpture
+V|l'architecture
+V|la mélodie
+V|le roman
+V|le spectateur
+TH|La psychologie
+V|la personnalité
+V|le stress
+V|l'inquiétude
+V|l'assurance
+V|la motivation
+V|le comportement
+V|la compassion
+V|l'indifférence
+V|la solitude
+V|la confiance
+V|l'envie
+V|la gratitude
+V|le malentendu
+V|la maîtrise de soi
+TH|Les notions abstraites
+V|le problème
+V|la solution
+V|le développement
+V|la responsabilité
+V|la possibilité
+V|l'avantage
+V|l'inconvénient
+V|l'influence
+V|la qualité
+V|la quantité
+V|la condition
+V|l'aide
+V|le but
+V|le résultat
+V|le lien
+V|la cause
+V|la conséquence
+V|la direction
+V|l'équilibre
+V|la liberté
+TH|Les verbes du niveau B2
+V|discuter
+V|croire
+V|analyser
+V|comparer
+V|protéger
+V|critiquer
+V|affirmer
+V|nier
+V|soutenir
+V|augmenter
+V|réduire
+V|coopérer
+V|créer
+V|influencer
+V|atteindre
+V|grandir
+V|interdire
+V|permettre
+V|étudier
+V|convaincre
+TH|Les adjectifs du niveau B2
+V|mondial
+V|local
+V|efficace
+V|responsable
+V|douteux
+V|actuel
+V|pratique
+V|politique
+V|économique
+V|écologique
+V|social
+V|obligatoire
+V|volontaire
+V|juste
+V|contradictoire
+V|à long terme
+TH|La formation et le travail
+V|la qualification
+V|le mentor
+V|le diplômé
+V|l'autoformation
+V|l'ancienneté
+V|le télétravail
+V|l'emploi du temps
+V|l'épuisement professionnel
+V|l'employé
+V|la promotion
+V|la priorité
+V|la compétence
+V|le négociateur
+V|la présentation
+V|le tarif
+V|le subordonné
+V|la start-up
+V|la réussite
+V|le stage
+V|la demande
+S|Si j'avais plus de temps, je voyagerais.
+S|Je voudrais réserver une table pour deux.
+S|Si j'avais su, je te l'aurais dit.
+S|Le problème de la pollution de l'air devient de plus en plus grave.
+S|Beaucoup de gens travaillent maintenant de chez eux.
+S|Selon les experts, l'économie va croître.
+S|Les prix augmentent plus vite que les salaires.
+S|Le chômage des jeunes est un problème sérieux.
+S|La ville consacre de l'argent à de nouveaux parcs.
+S|Il faut trouver une solution à ce problème.
+S|Cette approche a des avantages et des inconvénients.
+S|Je suis convaincu que l'éducation est la clé du succès.
+S|D'un côté, c'est pratique ; de l'autre, c'est cher.
+S|Pour améliorer sa langue, il faut beaucoup parler.
+S|L'étudiant qui a réussi l'examen est content.
+S|Le livre que je lis est très intéressant.
+S|C'est la ville où je suis né.
+S|Le pont a été construit au siècle dernier.
+S|La lettre a été envoyée hier.
+S|Le magasin est fermé pour travaux.
+S|Ici, on ne fume pas.
+S|Nous avons retrouvé des amis au centre.
+S|Je m'intéresse à la politique et à l'économie.
+S|Il travaille comme journaliste dans un grand journal.
+S|Les élections auront lieu l'année prochaine.
+S|Chacun doit assumer la responsabilité de ses actes.
+S|La loi doit être la même pour tous.
+S|Nous devons protéger la nature pour les générations futures.
+S|De plus en plus de gens trient leurs déchets.
+S|L'énergie solaire est devenue moins chère.
+S|À cause de la sécheresse, la récolte a souffert.
+S|Les scientifiques mettent en garde contre le changement climatique.
+S|J'essaie d'utiliser moins de plastique.
+S|Ne crois pas tout ce qui est écrit sur internet.
+S|Vérifie toujours la source de l'information.
+S|Le journaliste a interviewé le ministre.
+S|Cette nouvelle s'est répandue rapidement.
+S|L'entreprise a fait un gros bénéfice.
+S|Les impôts sont élevés dans ce pays.
+S|La concurrence sur le marché est très rude.
+S|Ils ont signé un contrat important.
+S|Je veux créer ma propre entreprise.
+S|La demande pour ce produit augmente.
+S|L'intelligence artificielle change notre vie.
+S|Les scientifiques mènent une nouvelle expérience.
+S|Cette invention a changé le monde.
+S|L'homme est allé dans l'espace pour la première fois en 1961.
+S|Nous sommes allés à une exposition d'art contemporain.
+S|Le spectacle m'a fait une forte impression.
+S|J'aime les romans de Tolstoï.
+S|Ce film a été réalisé par un réalisateur célèbre.
+S|L'architecture de cette ville est très variée.
+S|Nous devons préserver le patrimoine culturel.
+S|Le stress a des effets sur la santé.
+S|Sans confiance, il n'y a pas de bonnes relations.
+S|Elle se sent seule dans la grande ville.
+S|La motivation, c'est l'essentiel dans les études.
+S|Je te suis reconnaissant pour ton aide.
+S|Nous avons discuté de tous les détails du projet.
+S|Comparons ces deux options.
+S|Il nie sa culpabilité.
+S|Je soutiens entièrement cette idée.
+S|Il faudrait augmenter le nombre d'espaces verts.
+S|Nous essayons de réduire les dépenses.
+S|Il est difficile de le convaincre.
+S|Il est interdit de se garer ici.
+S|Nous avons atteint notre but.
+S|La qualité est plus importante que la quantité.
+S|Tout dépend des circonstances.
+S|Pour être honnête, ça ne me plaît pas.
+S|Autant que je sache, il est parti.
+S|Grâce à l'aide de mes amis, j'y suis arrivé.
+S|Malgré la pluie, nous sommes allés nous promener.
+S|Plus on lit, plus on sait.
+S|De quoi es-tu mécontent ?
+S|Il me semble que tu exagères.
+S|Je ne suis pas sûr que ce soit vrai.
+S|Le problème, c'est que nous avons peu de temps.
+S|Il a dit qu'il viendrait plus tard.
+S|Elle m'a demandé où je travaille.
+S|Je lui ai demandé de fermer la fenêtre.
+S|Je veux que tu sois heureux.
+S|Il est important que tout le monde soit à l'heure.
+S|Avant, j'habitais dans un village.
+S|Elle s'est habituée au froid.
+S|Je n'arrive pas à m'habituer à mon nouveau travail.
+S|Elle fait du bénévolat.
+S|Mon grand-père touche une retraite.
+S|Les traditions se transmettent de génération en génération.
+S|La population de la ville augmente rapidement.
+S|Je suis pour l'égalité des droits.
+S|À ta place, j'accepterais.
+S|On m'a proposé une promotion.
+S|Le télétravail ne convient pas à tout le monde.
+S|Il travaille sans jours de repos et il est déjà fatigué.
+S|Pour éviter l'épuisement, il faut se reposer.
+S|J'ai préparé une présentation pour les clients.
+S|Mon mentor m'a donné un conseil utile.
+S|J'écris une demande de congé.
+S|Notre start-up a attiré des investissements.
+S|C'est ma plus grande réussite.
+S|Maintenant, ma priorité principale, c'est ma famille.
+S|C'est vrai que tu quittes l'entreprise ?
+S|Elle est beaucoup plus intelligente qu'elle n'en a l'air.
+S|Plus tu commences tôt, mieux c'est.
+S|Nous sommes arrivés à la conclusion qu'il faut changer le plan.
+RT|La ville du futur
+RL|À quoi ressemblera la ville du futur ?
+RL|Beaucoup d'experts pensent qu'il y aura plus de verdure et moins de voitures.
+RL|Les gens se déplaceront en voiture électrique et à vélo.
+RL|Les maisons tireront leur énergie du soleil et du vent.
+RL|Des systèmes intelligents géreront la lumière et le chauffage.
+RL|Cependant, cette idée a aussi des critiques.
+RL|Ils disent que ces technologies sont trop chères.
+RL|De plus, tout le monde n'est pas prêt à changer ses habitudes.
+RL|Il est difficile de dire qui a raison.
+RL|Mais une chose est claire : une ville doit être agréable pour les gens.
+RT|Les réseaux sociaux
+RL|Les réseaux sociaux font désormais partie de notre vie.
+RL|Ils nous aident à communiquer avec des amis qui habitent loin.
+RL|Nous apprenons les nouvelles plus vite qu'avant.
+RL|Cependant, les réseaux sociaux ont aussi un revers.
+RL|Beaucoup de gens passent plusieurs heures par jour sur leur téléphone.
+RL|Cela a des effets sur le sommeil, les études et l'humeur.
+RL|De plus, il y a beaucoup de fausses informations en ligne.
+RL|Les psychologues conseillent de faire des pauses.
+RL|Par exemple, on peut ne pas emporter son téléphone dans la chambre.
+RL|L'essentiel, c'est de se rappeler que la vie ne se passe pas sur un écran.
+RT|Les bénévoles
+RL|Mon amie Anya est bénévole dans un refuge pour animaux.
+RL|Elle y va tous les samedis.
+RL|Anya nourrit les chiens, les promène et fait le ménage.
+RL|On ne la paie pas pour ça.
+RL|Mais elle dit qu'elle reçoit beaucoup plus : de la joie.
+RL|Grâce aux bénévoles, beaucoup d'animaux trouvent un nouveau foyer.
+RL|Le mois dernier, Anya m'a convaincu, moi aussi.
+RL|Maintenant, nous y allons ensemble.
+RL|J'ai compris qu'aider les autres, c'est le bonheur.
+DT|Débat : la ville ou la campagne ?
+DL|A|J'aimerais vivre à la campagne. C'est calme et l'air est pur.
+DL|B|Mais en ville, il y a plus de possibilités.
+DL|A|Par exemple ?
+DL|B|Le travail, de bonnes écoles, des hôpitaux, des théâtres.
+DL|A|Je suis d'accord, mais en ville il y a beaucoup de stress et d'embouteillages.
+DL|B|C'est vrai. Peut-être que le mieux, c'est d'habiter en banlieue ?
+DL|A|Bonne idée ! La nature est proche et la ville n'est pas loin.
+DL|B|Alors, nous sommes d'accord.
+DT|Après le film
+DL|A|Alors, le film t'a plu ?
+DL|B|Pour être honnête, je m'attendais à mieux.
+DL|A|Vraiment ? Moi, il m'a plu. Les acteurs ont très bien joué.
+DL|B|Là, je suis d'accord. Mais l'intrigue était trop prévisible.
+DL|A|Par contre, la fin était inattendue.
+DL|B|Peut-être. La musique était bien aussi.
+DL|A|La prochaine fois, c'est toi qui choisis le film.
+DL|B|Marché conclu !
+DT|Interview
+DL|A|Racontez-nous comment vous avez créé votre entreprise.
+DL|B|Tout a commencé par une petite idée et une grande envie.
+DL|A|C'était difficile ?
+DL|B|Très. La première année, nous avons travaillé à perte.
+DL|A|Qu'est-ce qui vous a aidé à ne pas abandonner ?
+DL|B|Le soutien de ma famille et la foi en mon produit.
+DL|A|Que conseilleriez-vous aux jeunes entrepreneurs ?
+DL|B|De ne pas avoir peur des erreurs et d'en tirer des leçons.

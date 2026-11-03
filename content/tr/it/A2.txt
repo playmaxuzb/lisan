@@ -1,0 +1,383 @@
+TH|I vestiti
+V|la giacca
+V|il cappotto
+V|la camicia
+V|la maglietta
+V|il vestito
+V|i jeans
+V|i pantaloni
+V|i pantaloncini
+V|la gonna
+V|il maglione
+V|la sciarpa
+V|il berretto
+V|i guanti
+V|i calzini
+V|le scarpe da ginnastica
+V|gli stivali
+V|le scarpe
+V|la borsa
+V|l'orologio
+V|gli occhiali
+V|l'anello
+V|l'abito
+TH|Fare acquisti
+V|il negozio
+V|il mercato
+V|il prezzo
+V|lo sconto
+V|la taglia
+V|lo scontrino
+V|i soldi
+V|la carta
+V|il resto
+V|il bancomat
+V|il commesso
+V|il cliente
+V|il regalo
+V|pagare
+V|provare
+V|cambiare
+TH|Il tempo e le stagioni
+V|il tempo
+V|la pioggia
+V|la neve
+V|il vento
+V|la nebbia
+V|il temporale
+V|la temperatura
+V|l'ombrello
+V|l'arcobaleno
+V|l'inverno
+V|la primavera
+V|l'estate
+V|l'autunno
+V|soleggiato
+V|nuvoloso
+V|caldo
+V|freddo
+V|tiepido
+V|fresco
+TH|I mesi
+V|gennaio
+V|febbraio
+V|marzo
+V|aprile
+V|maggio
+V|giugno
+V|luglio
+V|agosto
+V|settembre
+V|ottobre
+V|novembre
+V|dicembre
+TH|I viaggi
+V|il viaggio
+V|il biglietto
+V|il passaporto
+V|il visto
+V|la valigia
+V|l'aeroporto
+V|la stazione
+V|l'albergo
+V|la camera d'albergo
+V|la foto
+V|il giro turistico
+V|il turista
+V|il museo
+V|il castello
+V|la spiaggia
+V|l'orario
+V|arrivare
+V|partire in aereo
+V|prenotare
+TH|Le professioni
+V|il medico
+V|l'insegnante
+V|l'ingegnere
+V|il cuoco
+V|l'autista
+V|il programmatore
+V|l'infermiera
+V|l'avvocato
+V|il contabile
+V|l'artista
+V|il musicista
+V|il poliziotto
+V|il pompiere
+V|il contadino
+V|il parrucchiere
+V|il pilota
+V|il giornalista
+V|il muratore
+V|il meccanico
+V|il dentista
+TH|Hobby e sport
+V|il calcio
+V|la pallacanestro
+V|il tennis
+V|il nuoto
+V|la corsa
+V|il ciclismo
+V|la palestra
+V|gli scacchi
+V|la chitarra
+V|il pianoforte
+V|il film
+V|la serie
+V|il gioco
+V|fare foto
+V|lavorare a maglia
+V|la pesca
+V|l'escursione
+V|la squadra
+V|la partita
+V|la vittoria
+TH|La salute
+V|la febbre
+V|il raffreddore
+V|la tosse
+V|il dolore
+V|la pastiglia
+V|l'iniezione
+V|la clinica
+V|l'ambulanza
+V|il cerotto
+V|sentirsi male
+V|essere malato
+V|sano
+TH|La città e le direzioni
+V|a destra
+V|a sinistra
+V|dritto
+V|indietro
+V|nei dintorni
+V|lontano
+V|vicino
+V|il semaforo
+V|le strisce pedonali
+V|girare
+V|il centro
+V|il ponte
+V|la piazza
+V|il supermercato
+V|la chiesa
+V|l'ufficio postale
+V|il parcheggio
+V|lo stadio
+V|il teatro
+V|la biblioteca
+TH|Le faccende di casa
+V|mettere in ordine
+V|fare il bucato
+V|stirare
+V|lavare i piatti
+V|portare fuori la spazzatura
+V|innaffiare i fiori
+V|fare la spesa
+V|l'aspirapolvere
+V|il sapone
+V|l'asciugamano
+TH|Cucinare
+V|tagliare
+V|friggere
+V|bollire
+V|mescolare
+V|salare
+V|cuocere al forno
+V|la ricetta
+V|dolce
+V|aspro
+V|salato
+V|piccante
+V|il manzo
+V|l'agnello
+V|il dolce
+V|la cena
+V|la colazione
+V|il pranzo
+TH|La giornata
+V|svegliarsi
+V|alzarsi
+V|fare la doccia
+V|lavarsi i denti
+V|vestirsi
+V|fare colazione
+V|pranzare
+V|cenare
+V|uscire
+V|tornare
+V|andare a letto
+V|essere in ritardo
+V|il giorno lavorativo
+V|il fine settimana
+TH|I sentimenti
+V|soddisfatto
+V|preoccuparsi
+V|avere paura
+V|arrabbiarsi
+V|innamorato
+V|essere timido
+V|meravigliarsi
+V|ringraziare
+V|abbracciare
+V|sentire la mancanza
+S|Ieri sono stato al negozio.
+S|Ho comprato una giacca nuova.
+S|Lei ha comprato un vestito rosso.
+S|Quanto costano queste scarpe?
+S|Questa camicia è troppo piccola per me.
+S|Avete questo maglione in un altro colore?
+S|Posso pagare con la carta?
+S|Oggi ci sono grandi sconti.
+S|Cerco un regalo per mia madre.
+S|Mi serve una taglia più grande.
+S|Che tempo fa oggi?
+S|Oggi piove.
+S|Prendi l'ombrello.
+S|Domani ci sarà il sole.
+S|Ieri c'era un vento forte.
+S|D'inverno a Mosca fa molto freddo.
+S|D'estate a Tashkent fa caldo.
+S|La mia stagione preferita è la primavera.
+S|Il mio compleanno è a maggio.
+S|Ad agosto andremo al mare.
+S|Ho prenotato una camera in albergo.
+S|Dov'è il mio passaporto?
+S|Mi serve un biglietto per Samarcanda.
+S|Il treno parte alle nove.
+S|L'aereo è in ritardo di un'ora.
+S|Siamo stati al museo e a teatro.
+S|Ho fatto tante foto.
+S|Abbiamo alloggiato in un albergo sul mare.
+S|Voglio andare in Russia.
+S|Come arrivo alla stazione?
+S|Vai dritto e poi a sinistra.
+S|La biblioteca è dietro l'angolo.
+S|L'ufficio postale è accanto alla piazza.
+S|Attraversa la strada al semaforo.
+S|È lontano da qui?
+S|Mio fratello fa l'autista.
+S|La mia amica è infermiera.
+S|Voglio diventare programmatore.
+S|Che lavoro fai?
+S|Mio padre faceva l'ingegnere.
+S|Il fine settimana gioco a tennis.
+S|Vado in palestra tre volte alla settimana.
+S|Sai suonare la chitarra?
+S|Ieri abbiamo visto un film interessante.
+S|La nostra squadra ha vinto la partita.
+S|Adoro leggere i gialli.
+S|Mio padre adora la pesca.
+S|Ho la febbre.
+S|Mi fa male la gola.
+S|Devo andare dal medico.
+S|Prendi una pastiglia e riposati.
+S|Chiamate un'ambulanza!
+S|Sto già bene.
+S|Mi sveglio alle sei.
+S|Poi faccio la doccia e faccio colazione.
+S|Esco di casa alle otto.
+S|La sera torno a casa.
+S|Vado a letto alle undici.
+S|Scusa, sono in ritardo.
+S|Il sabato metto in ordine l'appartamento.
+S|Chi lava i piatti?
+S|Porto fuori la spazzatura ogni sera.
+S|La mamma stira le camicie.
+S|Preparo la cena per tutta la famiglia.
+S|Taglia la cipolla e i pomodori.
+S|La zuppa è molto salata.
+S|Questo limone è molto aspro.
+S|Qual è la tua ricetta?
+S|Di solito pranzo in un bar.
+S|Ceniamo alle sette.
+S|Mosca è più grande di Tashkent.
+S|Questa giacca è più calda.
+S|Mio fratello è più grande di me.
+S|La metropolitana è il mezzo più veloce.
+S|Ho paura dei cani.
+S|Non preoccuparti, andrà tutto bene.
+S|Mi manca molto casa.
+S|Grazie del regalo!
+S|Sono rimasto molto sorpreso.
+S|Ci siamo conosciuti l'anno scorso.
+S|Che cosa fai stasera?
+S|Guarderò una serie.
+S|Vediamoci in centro.
+S|A che ora sei libero?
+S|Ti chiamo più tardi.
+S|Andiamo spesso al cinema.
+S|Lui non è mai in ritardo.
+S|A volte preparo il plov.
+S|Ieri ho lavorato tutto il giorno.
+S|Non sono mai stato a San Pietroburgo.
+S|Abiteremo in un appartamento nuovo.
+S|Si sono trasferiti in un'altra città.
+S|Ho dimenticato le chiavi a casa.
+S|Ti ricordi dove eravamo l'anno scorso?
+S|Stanotte ho dormito male.
+S|Dobbiamo fare la spesa.
+S|Posso vedere il menù?
+S|Vorrei prenotare un taxi.
+S|Mi porti all'aeroporto, per favore.
+RT|Il mio fine settimana
+RL|Sabato mi sono svegliato tardi, alle dieci.
+RL|Ho fatto colazione e ho chiamato un amico.
+RL|Abbiamo deciso di andare al parco.
+RL|Il tempo era bellissimo: caldo e soleggiato.
+RL|Al parco abbiamo passeggiato e mangiato un gelato.
+RL|Poi siamo andati al cinema.
+RL|Il film era divertente e abbiamo riso molto.
+RL|Domenica ho messo in ordine l'appartamento e ho preparato il pranzo.
+RL|La sera sono venuti a trovarmi i miei genitori.
+RL|Abbiamo bevuto il tè e abbiamo parlato della famiglia.
+RL|È stato un fine settimana fantastico.
+RT|All'aeroporto
+RL|La settimana scorsa sono andato a Mosca in aereo.
+RL|Sono arrivato in aeroporto due ore prima del volo.
+RL|Prima ho imbarcato la valigia.
+RL|Poi ho mostrato il passaporto e il biglietto.
+RL|L'aereo era in ritardo di un'ora.
+RL|Mi sono seduto in un bar, ho bevuto un caffè e ho letto un libro.
+RL|Il volo è durato tre ore.
+RL|A Mosca faceva freddo e nevicava.
+RL|Per fortuna avevo preso una giacca pesante!
+RT|Il lavoro dei sogni
+RL|Mia sorella Leila fa il medico.
+RL|Già a scuola voleva aiutare le persone.
+RL|Ha studiato all'università per sei anni.
+RL|Adesso lavora in un grande ospedale.
+RL|La sua giornata di lavoro comincia alle sette di mattina.
+RL|A volte lavora anche di notte.
+RL|Il lavoro è duro ma interessante.
+RL|Leila dice che è la sua vocazione.
+DT|In albergo
+DL|A|Buongiorno! Ho una prenotazione a nome Ahmad.
+DL|B|Buongiorno! Il passaporto, per favore.
+DL|A|Ecco a lei.
+DL|B|La sua camera è al terzo piano. Ecco la chiave.
+DL|A|A che ora è la colazione?
+DL|B|Dalle sette alle dieci, al ristorante.
+DL|A|In camera c'è internet?
+DL|B|Sì, la password è sulla tessera.
+DL|A|Grazie!
+DL|B|Buon soggiorno!
+DT|Programmi per il fine settimana
+DL|A|Che cosa fai sabato?
+DL|B|Non lo so ancora. Perché?
+DL|A|Andiamo in montagna!
+DL|B|Buona idea. E che tempo farà?
+DL|A|Dicono che ci sarà il sole.
+DL|B|Ottimo! A che ora ci vediamo?
+DL|A|Alle otto di mattina, vicino alla metropolitana.
+DL|B|D'accordo. Porto io l'acqua e i panini.
+DT|Dal medico
+DL|A|Che cosa si sente?
+DL|B|Ho la tosse e il raffreddore.
+DL|A|Ha la febbre?
+DL|B|Sì, ieri avevo trentotto.
+DL|A|È un'influenza leggera. Beva molto tè caldo.
+DL|B|Mi servono delle pastiglie?
+DL|A|Sì, ecco la ricetta. Tre volte al giorno.
+DL|B|Grazie, dottore.

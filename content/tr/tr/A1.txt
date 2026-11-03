@@ -1,0 +1,435 @@
+TH|Hayvanlar
+V|köpek
+V|kedi
+V|at
+V|inek
+V|koyun
+V|keçi
+V|horoz
+V|tavuk
+V|kuş
+V|fare
+V|ayı
+V|kurt
+V|tilki
+V|tavşan
+V|fil
+V|aslan
+V|maymun
+V|yılan
+V|kaplumbağa
+V|deve
+V|kelebek
+V|arı
+TH|Meyveler ve sebzeler
+V|elma
+V|portakal
+V|limon
+V|üzüm
+V|çilek
+V|şeftali
+V|armut
+V|kiraz
+V|ananas
+V|muz
+V|karpuz
+V|havuç
+V|soğan
+V|sarımsak
+V|lahana
+V|patlıcan
+V|biber
+V|domates
+V|salatalık
+V|patates
+V|mantar
+V|zeytin
+V|ceviz
+TH|Yiyecekler ve içecekler
+V|tereyağı
+V|bal
+V|lapa
+V|makarna
+V|salata
+V|dondurma
+V|bisküvi
+V|meyve suyu
+V|çikolata
+V|sandviç
+V|pizza
+V|çorba
+V|sahanda yumurta
+V|pasta
+V|süt
+V|ekmek
+V|su
+V|çay
+V|kahve
+V|pirinç
+V|et
+TH|Mutfak ve mutfak eşyaları
+V|tabak
+V|kaşık
+V|çatal
+V|bıçak
+V|fincan
+V|bardak
+V|su ısıtıcısı
+V|tava
+V|buzdolabı
+V|ocak
+V|tencere
+V|şişe
+TH|Ev ve mobilyalar
+V|oda
+V|yatak odası
+V|oturma odası
+V|kanepe
+V|ayna
+V|gardırop
+V|duvar
+V|zemin
+V|tavan
+V|merdiven
+V|daire
+V|duş
+V|halı
+V|pencere
+V|yatak
+V|sandalye
+V|masa
+V|lamba
+TH|Vücut
+V|saç
+V|yüz
+V|diş
+V|dil
+V|diz
+V|omuz
+V|kalp
+V|parmak
+V|karın
+V|sırt
+V|boyun
+V|göz
+V|kulak
+V|el
+V|bacak
+V|baş
+V|burun
+V|ağız
+TH|Okul
+V|defter
+V|tükenmez kalem
+V|kurşun kalem
+V|sırt çantası
+V|cetvel
+V|silgi
+V|öğrenci
+V|ders
+V|kelime
+V|soru
+V|cevap
+V|harf
+V|tahta
+V|sınıf
+V|kitap
+V|harita
+TH|Doğa
+V|ağaç
+V|çiçek
+V|çimen
+V|deniz
+V|nehir
+V|dağ
+V|orman
+V|çöl
+V|ada
+V|ay
+V|yıldız
+V|gökyüzü
+V|taş
+V|toprak
+V|ateş
+V|güneş
+TH|Ulaşım
+V|bisiklet
+V|tren
+V|gemi
+V|metro
+V|taksi
+V|otobüs
+V|uçak
+V|araba
+V|motosiklet
+V|durak
+TH|Günlük fiiller
+V|ayakta durmak
+V|oturmak
+V|koşmak
+V|yürümek
+V|aramak
+V|vermek
+V|almak
+V|açmak
+V|kapatmak
+V|satın almak
+V|yemek pişirmek
+V|yıkamak
+V|oynamak
+V|şarkı söylemek
+V|dans etmek
+V|beklemek
+V|telefon etmek
+V|düşünmek
+V|anlamak
+V|yardım etmek
+V|gelmek
+V|gülümsemek
+V|gülmek
+V|ağlamak
+V|resim çizmek
+V|yüzmek
+V|dinlenmek
+V|sormak
+V|cevap vermek
+V|görmek
+V|duymak
+V|başlamak
+TH|Sıfatlar
+V|uzun
+V|kısa
+V|hızlı
+V|yavaş
+V|kolay
+V|ağır
+V|zor
+V|pahalı
+V|ucuz
+V|neşeli
+V|üzgün
+V|akıllı
+V|temiz
+V|kirli
+V|lezzetli
+V|genç
+V|ilginç
+V|sıkıcı
+V|hasta
+V|güçlü
+V|zayıf
+V|aydınlık
+V|karanlık
+V|sessiz
+V|doğru
+V|meşgul
+V|aç
+V|mutlu
+TH|Sorular ve zaman
+V|ne
+V|kim
+V|nerede
+V|ne zaman
+V|nasıl
+V|neden
+V|ne kadar
+V|nereye
+V|nereden
+V|hangi
+V|sabah
+V|gün
+V|akşam
+V|gece
+V|yıl
+V|ay (takvim)
+V|şimdi
+V|yakında
+V|her zaman
+V|asla
+V|sık sık
+V|bazen
+V|sonra
+TH|Büyük sayılar
+V|on üç
+V|on beş
+V|otuz
+V|kırk
+V|elli
+V|altmış
+V|yetmiş
+V|seksen
+V|doksan
+V|bin
+TH|İnsanlar
+V|adam
+V|kadın
+V|erkek çocuk
+V|kız çocuk
+V|bebek
+V|insan
+V|insanlar
+V|komşu
+V|misafir
+V|isim
+S|Bu benim kedim.
+S|Bir köpeğim var.
+S|Köpek büyük.
+S|Kedi küçük.
+S|Hayvanları severim.
+S|Kalemim nerede?
+S|Kalem masanın üstünde.
+S|Kitap sırt çantasında.
+S|Bu benim evim.
+S|Evim yeni.
+S|Üç odamız var.
+S|Mutfak küçük ama rahat.
+S|Bir dairede oturuyorum.
+S|Saat yedide kalkarım.
+S|Sabahları kahve içerim.
+S|Kahvaltıda ekmek ve peynir yerim.
+S|Et yemem.
+S|Meyveye bayılırım.
+S|Elma kırmızı.
+S|Muz sarı.
+S|Çimen yeşil.
+S|Gökyüzü mavi.
+S|Bugün hava sıcak ve güneşli.
+S|Su soğuk.
+S|Çay sıcak.
+S|Bir fincan çay istiyorum.
+S|Bana bir kaşık ver, lütfen.
+S|Bıçak ve çatal nerede?
+S|Süt buzdolabında.
+S|Annem çorba yapıyor.
+S|Babam gazete okuyor.
+S|Ağabeyim futbol oynuyor.
+S|Kız kardeşim şarkı söylemeyi çok sever.
+S|Çocuklar parkta oynuyor.
+S|Arkadaşım yakında oturuyor.
+S|Okula gidiyorum.
+S|Öğretmen tahtaya yazıyor.
+S|Defterime yazıyorum.
+S|Bir sorum var.
+S|Cevabı biliyorum.
+S|Bu hangi kelime?
+S|*
+S|Yeni kelimeler öğreniyorum.
+S|Sık sık parkta yürüyüş yaparız.
+S|Akşamları televizyon izleriz.
+S|Sekiz saat uyurum.
+S|Geceleri uyurum.
+S|O bir hastanede çalışıyor.
+S|O bir okulda çalışıyor.
+S|Otobüsle gidiyoruz.
+S|İşe metroyla gidiyorum.
+S|Otobüs durağı nerede?
+S|Market evin yanında.
+S|Eczane bankanın karşısında.
+S|Ekmek ve süt alıyorum.
+S|Ekmek ne kadar?
+S|Bu pahalı.
+S|Bu ucuz.
+S|Bunu istiyorum.
+S|Bu rengi seviyorum.
+S|En sevdiğim renk mavi.
+S|Başım ağrıyor.
+S|Yorgunum.
+S|Açım.
+S|Seni gördüğüme sevindim.
+S|Adın ne?
+S|Kaç yaşındasın?
+S|Otuz yaşındayım.
+S|Nerede çalışıyorsun?
+S|Ne yapıyorsun?
+S|Kitap okuyorum.
+S|Bu ne?
+S|Bu kim?
+S|Bu benim komşum.
+S|O çok nazik.
+S|O uzun boylu ve güçlü.
+S|Dedem yaşlı ama neşeli.
+S|Ninem lezzetli bir pasta yapar.
+S|Beklemeyi sevmem.
+S|Bekle, lütfen.
+S|Pencereyi aç, lütfen.
+S|Kapıyı kapat.
+S|Otur, lütfen.
+S|Eve gidiyorum.
+S|Evde misin?
+S|Evet, evdeyim.
+S|Hayır, işteyim.
+S|Annemi her gün ararım.
+S|Denizde yüzmeyi çok severiz.
+S|Yazın hava sıcak olur.
+S|Kışın hava soğuk olur ve kar yağar.
+S|Ormanda çok ağaç var.
+S|Kuşlar ötüyor.
+S|Bir dağ görüyorum.
+S|Bugün pazartesi.
+S|Yarın cumartesi.
+S|Pazar günü boşum.
+S|Yarın görüşürüz!
+S|İyi geceler!
+S|Afiyet olsun!
+S|Doğum günün kutlu olsun!
+S|Her şey yolunda.
+S|Önemli değil.
+RT|Dairemde
+RL|Şehir merkezinde bir dairede oturuyorum.
+RL|Daire büyük değil ama aydınlık.
+RL|Bir yatak odası, bir oturma odası, bir mutfak ve bir banyo var.
+RL|Yatak odasında bir yatak ve bir gardırop var.
+RL|Oturma odasında bir kanepe, bir masa ve bir televizyon var.
+RL|En sevdiğim oda mutfak.
+RL|Orada kahvaltı hazırlıyorum ve çay içiyorum.
+RL|Pencereden bir park ve ağaçlar görüyorum.
+RL|Komşularım sessiz ve nazik.
+RL|Dairemi çok seviyorum.
+RT|Pazarda
+RL|Cumartesi günleri pazara giderim.
+RL|Orada bir sürü meyve ve sebze var.
+RL|Elma, domates ve salatalık alırım.
+RL|Satıcı çok nazik.
+RL|«Merhaba! Ne istersiniz?» diyor.
+RL|«Bir kilo üzüm, lütfen» diye cevap veriyorum.
+RL|Üzüm tatlı ve pahalı değil.
+RL|Ekmek, peynir ve bal da alırım.
+RL|Sonra eve dönüp salata yaparım.
+RT|Arkadaşım İvan
+RL|Bir arkadaşım var. Adı İvan.
+RL|Yirmi sekiz yaşında.
+RL|İvan Moskova'da oturuyor.
+RL|Bir bankada çalışıyor.
+RL|İvan uzun boylu, saçları koyu renkli.
+RL|Sporu çok seviyor.
+RL|Her sabah parkta koşuyor.
+RL|Akşamları kitap okuyor ya da film izliyor.
+RL|İvan'ın bir köpeği var. Adı Bobik.
+RL|Sık sık birlikte yürüyüşe çıkarız.
+DT|Restoranda
+DL|A|İyi akşamlar! Buyurun menü.
+DL|B|Teşekkürler. Ne tavsiye edersiniz?
+DL|A|Bugün çorba çok lezzetli.
+DL|B|Güzel. Bir çorba ve bir salata, lütfen.
+DL|A|Ne içersiniz?
+DL|B|Bir bardak su ve bir çay.
+DL|A|Tamam. Başka bir şey?
+DL|B|Hayır, teşekkürler. Hesabı sonra alayım.
+DT|Eczane nerede?
+DL|A|Affedersiniz, eczane nerede?
+DL|B|Eczane şurada, bankanın karşısında.
+DL|A|Uzak mı?
+DL|B|Hayır, yakın. Yürüyerek beş dakika.
+DL|A|Düz mü gideyim?
+DL|B|Evet, düz gidin, sonra sağa dönün.
+DL|A|Çok teşekkür ederim!
+DL|B|Rica ederim!
+DT|Aile hakkında
+DL|A|Ailen kalabalık mı?
+DL|B|Evet. İki erkek kardeşim ve bir kız kardeşim var.
+DL|A|Nerede oturuyorlar?
+DL|B|Erkek kardeşlerim Amman'da, kız kardeşim burada oturuyor.
+DL|A|Peki ya annenle baban?
+DL|B|Annemle babam da Amman'da.
+DL|A|Onları özlüyor musun?
+DL|B|Evet, çok. Onları her gün arıyorum.

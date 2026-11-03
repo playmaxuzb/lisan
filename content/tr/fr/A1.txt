@@ -1,0 +1,435 @@
+TH|Les animaux
+V|le chien
+V|le chat
+V|le cheval
+V|la vache
+V|le mouton
+V|la chèvre
+V|le coq
+V|la poule
+V|l'oiseau
+V|la souris
+V|l'ours
+V|le loup
+V|le renard
+V|le lapin
+V|l'éléphant
+V|le lion
+V|le singe
+V|le serpent
+V|la tortue
+V|le chameau
+V|le papillon
+V|l'abeille
+TH|Les fruits et légumes
+V|la pomme
+V|l'orange
+V|le citron
+V|le raisin
+V|la fraise
+V|la pêche
+V|la poire
+V|la cerise
+V|l'ananas
+V|la banane
+V|la pastèque
+V|la carotte
+V|l'oignon
+V|l'ail
+V|le chou
+V|l'aubergine
+V|le poivron
+V|la tomate
+V|le concombre
+V|la pomme de terre
+V|le champignon
+V|les olives
+V|les noix
+TH|La nourriture et les boissons
+V|le beurre
+V|le miel
+V|la bouillie
+V|les pâtes
+V|la salade
+V|la glace
+V|le biscuit
+V|le jus
+V|le chocolat
+V|le sandwich
+V|la pizza
+V|la soupe
+V|les œufs au plat
+V|le gâteau
+V|le lait
+V|le pain
+V|l'eau
+V|le thé
+V|le café
+V|le riz
+V|la viande
+TH|La cuisine et la vaisselle
+V|l'assiette
+V|la cuillère
+V|la fourchette
+V|le couteau
+V|la tasse
+V|le verre
+V|la bouilloire
+V|la poêle
+V|le réfrigérateur
+V|la cuisinière
+V|la casserole
+V|la bouteille
+TH|La maison et les meubles
+V|la pièce
+V|la chambre
+V|le salon
+V|le canapé
+V|le miroir
+V|l'armoire
+V|le mur
+V|le sol
+V|le plafond
+V|l'escalier
+V|l'appartement
+V|la douche
+V|le tapis
+V|la fenêtre
+V|le lit
+V|la chaise
+V|la table
+V|la lampe
+TH|Le corps
+V|les cheveux
+V|le visage
+V|la dent
+V|la langue
+V|le genou
+V|l'épaule
+V|le cœur
+V|le doigt
+V|le ventre
+V|le dos
+V|le cou
+V|l'œil
+V|l'oreille
+V|la main
+V|la jambe
+V|la tête
+V|le nez
+V|la bouche
+TH|L'école
+V|le cahier
+V|le stylo
+V|le crayon
+V|le sac à dos
+V|la règle
+V|la gomme
+V|l'élève
+V|la leçon
+V|le mot
+V|la question
+V|la réponse
+V|la lettre
+V|le tableau
+V|la salle de classe
+V|le livre
+V|la carte
+TH|La nature
+V|l'arbre
+V|la fleur
+V|l'herbe
+V|la mer
+V|la rivière
+V|la montagne
+V|la forêt
+V|le désert
+V|l'île
+V|la lune
+V|l'étoile
+V|le ciel
+V|la pierre
+V|la terre
+V|le feu
+V|le soleil
+TH|Les transports
+V|le vélo
+V|le train
+V|le bateau
+V|le métro
+V|le taxi
+V|le bus
+V|l'avion
+V|la voiture
+V|la moto
+V|l'arrêt
+TH|Les verbes du quotidien
+V|être debout
+V|être assis
+V|courir
+V|marcher
+V|chercher
+V|donner
+V|prendre
+V|ouvrir
+V|fermer
+V|acheter
+V|cuisiner
+V|laver
+V|jouer
+V|chanter
+V|danser
+V|attendre
+V|appeler
+V|penser
+V|comprendre
+V|aider
+V|venir
+V|sourire
+V|rire
+V|pleurer
+V|dessiner
+V|nager
+V|se reposer
+V|demander
+V|répondre
+V|voir
+V|entendre
+V|commencer
+TH|Les adjectifs
+V|long
+V|court
+V|rapide
+V|lent
+V|facile
+V|lourd
+V|difficile
+V|cher
+V|bon marché
+V|joyeux
+V|triste
+V|intelligent
+V|propre
+V|sale
+V|délicieux
+V|jeune
+V|intéressant
+V|ennuyeux
+V|malade
+V|fort
+V|faible
+V|clair
+V|sombre
+V|calme
+V|correct
+V|occupé
+V|affamé
+V|heureux
+TH|Les questions et le temps
+V|quoi
+V|qui
+V|où
+V|quand
+V|comment
+V|pourquoi
+V|combien
+V|vers où
+V|d'où
+V|quel
+V|le matin
+V|le jour
+V|le soir
+V|la nuit
+V|l'année
+V|le mois
+V|maintenant
+V|bientôt
+V|toujours
+V|jamais
+V|souvent
+V|parfois
+V|plus tard
+TH|Les grands nombres
+V|treize
+V|quinze
+V|trente
+V|quarante
+V|cinquante
+V|soixante
+V|soixante-dix
+V|quatre-vingts
+V|quatre-vingt-dix
+V|mille
+TH|Les gens
+V|l'homme
+V|la femme
+V|le garçon
+V|la fille
+V|le bébé
+V|la personne
+V|les gens
+V|le voisin
+V|l'invité
+V|le nom
+S|C'est mon chat.
+S|J'ai un chien.
+S|Le chien est grand.
+S|Le chat est petit.
+S|J'aime les animaux.
+S|Où est mon stylo ?
+S|Le stylo est sur la table.
+S|Le livre est dans le sac à dos.
+S|C'est ma maison.
+S|Ma maison est neuve.
+S|Nous avons trois pièces.
+S|La cuisine est petite mais confortable.
+S|J'habite dans un appartement.
+S|Je me lève à sept heures.
+S|Je bois du café le matin.
+S|Au petit-déjeuner, je mange du pain et du fromage.
+S|Je ne mange pas de viande.
+S|J'adore les fruits.
+S|La pomme est rouge.
+S|La banane est jaune.
+S|L'herbe est verte.
+S|Le ciel est bleu.
+S|Aujourd'hui, il fait chaud et ensoleillé.
+S|L'eau est froide.
+S|Le thé est chaud.
+S|Je voudrais une tasse de thé.
+S|Donne-moi une cuillère, s'il te plaît.
+S|Où sont le couteau et la fourchette ?
+S|Le lait est dans le réfrigérateur.
+S|Maman prépare une soupe.
+S|Papa lit le journal.
+S|Mon frère joue au football.
+S|Ma sœur adore chanter.
+S|Les enfants jouent dans le parc.
+S|Mon ami habite tout près.
+S|Je vais à l'école.
+S|Le professeur écrit au tableau.
+S|J'écris dans mon cahier.
+S|J'ai une question.
+S|Je connais la réponse.
+S|C'est quel mot ?
+S|*
+S|J'apprends de nouveaux mots.
+S|Nous nous promenons souvent dans le parc.
+S|Le soir, nous regardons la télévision.
+S|Je dors huit heures.
+S|La nuit, je dors.
+S|Il travaille dans un hôpital.
+S|Elle travaille dans une école.
+S|Nous y allons en bus.
+S|Je vais au travail en métro.
+S|Où est l'arrêt de bus ?
+S|Le magasin est à côté de la maison.
+S|La pharmacie est en face de la banque.
+S|J'achète du pain et du lait.
+S|Combien coûte le pain ?
+S|C'est cher.
+S|C'est bon marché.
+S|Je veux ça.
+S|J'aime cette couleur.
+S|Ma couleur préférée est le bleu.
+S|J'ai mal à la tête.
+S|Je suis fatigué.
+S|J'ai faim.
+S|Je suis content de te voir.
+S|Comment tu t'appelles ?
+S|Quel âge as-tu ?
+S|J'ai trente ans.
+S|Où est-ce que tu travailles ?
+S|Qu'est-ce que tu fais ?
+S|Je lis un livre.
+S|Qu'est-ce que c'est ?
+S|Qui est-ce ?
+S|C'est mon voisin.
+S|Elle est très gentille.
+S|Il est grand et fort.
+S|Mon grand-père est vieux mais joyeux.
+S|Grand-mère fait un gâteau délicieux.
+S|Je n'aime pas attendre.
+S|Attends, s'il te plaît.
+S|Ouvre la fenêtre, s'il te plaît.
+S|Ferme la porte.
+S|Assieds-toi, s'il te plaît.
+S|Je rentre à la maison.
+S|Tu es à la maison ?
+S|Oui, je suis à la maison.
+S|Non, je suis au travail.
+S|J'appelle ma mère tous les jours.
+S|Nous adorons nager dans la mer.
+S|En été, il fait chaud.
+S|En hiver, il fait froid et il neige.
+S|Il y a beaucoup d'arbres dans la forêt.
+S|Les oiseaux chantent.
+S|Je vois une montagne.
+S|Aujourd'hui, c'est lundi.
+S|Demain, c'est samedi.
+S|Je suis libre dimanche.
+S|À demain !
+S|Bonne nuit !
+S|Bon appétit !
+S|Joyeux anniversaire !
+S|Tout va bien.
+S|Ce n'est pas grave.
+RT|Dans mon appartement
+RL|J'habite dans un appartement au centre-ville.
+RL|L'appartement n'est pas grand, mais il est lumineux.
+RL|Il y a une chambre, un salon, une cuisine et une salle de bains.
+RL|Dans la chambre, il y a un lit et une armoire.
+RL|Dans le salon, il y a un canapé, une table et une télévision.
+RL|Ma pièce préférée, c'est la cuisine.
+RL|Là, je prépare le petit-déjeuner et je bois du thé.
+RL|De la fenêtre, je vois un parc et des arbres.
+RL|Mes voisins sont calmes et gentils.
+RL|J'aime beaucoup mon appartement.
+RT|Au marché
+RL|Le samedi, je vais au marché.
+RL|Il y a beaucoup de fruits et de légumes.
+RL|J'achète des pommes, des tomates et des concombres.
+RL|Le vendeur est très gentil.
+RL|Il dit : « Bonjour ! Qu'est-ce que vous désirez ? »
+RL|Je réponds : « Un kilo de raisin, s'il vous plaît. »
+RL|Le raisin est sucré et pas cher.
+RL|J'achète aussi du pain, du fromage et du miel.
+RL|Ensuite, je rentre à la maison et je fais une salade.
+RT|Mon ami Ivan
+RL|J'ai un ami. Il s'appelle Ivan.
+RL|Il a vingt-huit ans.
+RL|Ivan habite à Moscou.
+RL|Il travaille dans une banque.
+RL|Ivan est grand, il a les cheveux bruns.
+RL|Il aime beaucoup le sport.
+RL|Chaque matin, il court dans le parc.
+RL|Le soir, il lit ou il regarde un film.
+RL|Ivan a un chien. Il s'appelle Bobik.
+RL|Nous nous promenons souvent ensemble.
+DT|Au restaurant
+DL|A|Bonsoir ! Voici la carte.
+DL|B|Merci. Qu'est-ce que vous me conseillez ?
+DL|A|Aujourd'hui, la soupe est très bonne.
+DL|B|Bien. Une soupe et une salade, s'il vous plaît.
+DL|A|Qu'est-ce que vous allez boire ?
+DL|B|Un verre d'eau et un thé.
+DL|A|Très bien. Autre chose ?
+DL|B|Non, merci. L'addition plus tard, s'il vous plaît.
+DT|Où est la pharmacie ?
+DL|A|Excusez-moi, où est la pharmacie ?
+DL|B|La pharmacie est là-bas, en face de la banque.
+DL|A|C'est loin ?
+DL|B|Non, c'est tout près. Cinq minutes à pied.
+DL|A|Je vais tout droit ?
+DL|B|Oui, tout droit, puis à droite.
+DL|A|Merci beaucoup !
+DL|B|De rien !
+DT|À propos de la famille
+DL|A|Tu as une grande famille ?
+DL|B|Oui. J'ai deux frères et une sœur.
+DL|A|Où est-ce qu'ils habitent ?
+DL|B|Mes frères habitent à Amman, et ma sœur habite ici.
+DL|A|Et tes parents ?
+DL|B|Mes parents sont aussi à Amman.
+DL|A|Ils te manquent ?
+DL|B|Oui, beaucoup. Je les appelle tous les jours.

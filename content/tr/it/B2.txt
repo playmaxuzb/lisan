@@ -1,0 +1,397 @@
+TH|La società
+V|la società
+V|la popolazione
+V|la generazione
+V|la disuguaglianza
+V|la parità dei diritti
+V|la povertà
+V|la ricchezza
+V|la disoccupazione
+V|la migrazione
+V|la vita urbana
+V|l'istruzione
+V|la sicurezza
+V|il volontario
+V|la beneficenza
+V|la tradizione
+V|la religione
+V|l'opinione pubblica
+V|i valori familiari
+V|la sanità
+V|la pensione
+TH|Economia e affari
+V|l'economia
+V|il mercato
+V|la produzione
+V|la merce
+V|la domanda
+V|l'offerta
+V|il profitto
+V|la perdita
+V|l'inflazione
+V|gli investimenti
+V|la tassa
+V|l'affare
+V|l'impresa
+V|l'imprenditore
+V|l'esportazione
+V|l'importazione
+V|la concorrenza
+V|la pubblicità
+V|il consumatore
+V|l'azionista
+V|la statistica
+V|la contabilità
+TH|L'ecologia
+V|la natura
+V|l'inquinamento
+V|il clima
+V|il riscaldamento globale
+V|i rifiuti
+V|il riciclaggio
+V|l'energia
+V|l'energia solare
+V|l'energia eolica
+V|il petrolio
+V|il gas
+V|la siccità
+V|l'alluvione
+V|il terremoto
+V|le specie in via di estinzione
+V|la deforestazione
+V|l'acqua dolce
+V|lo smog
+V|la riserva naturale
+V|ecologico
+TH|I media
+V|le notizie
+V|l'articolo
+V|l'intervista
+V|la televisione
+V|la radio
+V|il giornale
+V|la rivista
+V|il servizio giornalistico
+V|l'autore
+V|il blogger
+V|il titolo
+V|l'inchiesta
+V|la notizia falsa
+V|la trasmissione
+V|l'opinione
+V|il sondaggio
+V|la fonte
+V|il documentario
+TH|Stato e diritto
+V|lo Stato
+V|il governo
+V|la legge
+V|le elezioni
+V|il tribunale
+V|la costituzione
+V|la cittadinanza
+V|il giudice
+V|il confine
+V|la capitale
+V|l'accordo
+V|la diplomazia
+V|i diritti umani
+V|la pace
+V|il conflitto
+V|il documento
+TH|Scienza e tecnologia
+V|la ricerca
+V|l'esperimento
+V|lo scienziato
+V|l'invenzione
+V|lo spazio
+V|il satellite
+V|il robot
+V|l'intelligenza artificiale
+V|la genetica
+V|il vaccino
+V|il telescopio
+V|i dati
+V|la tecnologia
+V|il dispositivo
+V|l'inventore
+V|la teoria
+TH|Cultura e arte
+V|l'arte
+V|la pittura
+V|la mostra
+V|lo spettacolo
+V|il concerto
+V|la letteratura
+V|lo scrittore
+V|la poesia
+V|il cantante
+V|il balletto
+V|il regista
+V|l'attore
+V|il patrimonio
+V|la scultura
+V|l'architettura
+V|la melodia
+V|il romanzo
+V|lo spettatore
+TH|La psicologia
+V|la personalità
+V|lo stress
+V|l'ansia
+V|la fiducia in sé
+V|la motivazione
+V|il comportamento
+V|la compassione
+V|l'indifferenza
+V|la solitudine
+V|la fiducia
+V|l'invidia
+V|la gratitudine
+V|il malinteso
+V|l'autocontrollo
+TH|Concetti astratti
+V|il problema
+V|la soluzione
+V|lo sviluppo
+V|la responsabilità
+V|la possibilità
+V|il vantaggio
+V|lo svantaggio
+V|l'influenza
+V|la qualità
+V|la quantità
+V|la condizione
+V|l'aiuto
+V|l'obiettivo
+V|il risultato
+V|il legame
+V|la causa
+V|la conseguenza
+V|la direzione
+V|l'equilibrio
+V|la libertà
+TH|Verbi del livello B2
+V|discutere
+V|credere
+V|analizzare
+V|confrontare
+V|proteggere
+V|criticare
+V|affermare
+V|negare
+V|sostenere
+V|aumentare
+V|ridurre
+V|collaborare
+V|creare
+V|influenzare
+V|raggiungere
+V|crescere
+V|vietare
+V|permettere
+V|studiare
+V|convincere
+TH|Aggettivi del livello B2
+V|globale
+V|locale
+V|efficace
+V|responsabile
+V|dubbio
+V|attuale
+V|pratico
+V|politico
+V|economico
+V|ecologico
+V|sociale
+V|obbligatorio
+V|volontario
+V|giusto
+V|contraddittorio
+V|a lungo termine
+TH|Formazione e lavoro
+V|la qualifica
+V|il mentore
+V|il laureato
+V|l'autoformazione
+V|l'anzianità di servizio
+V|il lavoro da remoto
+V|l'orario
+V|il burnout
+V|il dipendente
+V|la promozione
+V|la priorità
+V|la competenza
+V|il negoziatore
+V|la presentazione
+V|la tariffa
+V|il subordinato
+V|la start-up
+V|il risultato raggiunto
+V|il tirocinio
+V|la domanda
+S|Se avessi più tempo, viaggerei.
+S|Vorrei prenotare un tavolo per due.
+S|Se l'avessi saputo, te l'avrei detto.
+S|Il problema dell'inquinamento dell'aria è sempre più grave.
+S|Adesso molte persone lavorano da casa.
+S|Secondo gli esperti, l'economia crescerà.
+S|I prezzi salgono più in fretta degli stipendi.
+S|La disoccupazione giovanile è un problema serio.
+S|La città stanzia fondi per nuovi parchi.
+S|Bisogna trovare una soluzione a questo problema.
+S|Questo approccio ha sia vantaggi sia svantaggi.
+S|Sono convinto che l'istruzione sia la chiave del successo.
+S|Da un lato è comodo, dall'altro è caro.
+S|Per migliorare la lingua bisogna parlare molto.
+S|Lo studente che ha superato l'esame è contento.
+S|Il libro che sto leggendo è molto interessante.
+S|Questa è la città in cui sono nato.
+S|Il ponte è stato costruito nel secolo scorso.
+S|La lettera è stata spedita ieri.
+S|Il negozio è chiuso per lavori.
+S|Qui non si fuma.
+S|Ci siamo visti con gli amici in centro.
+S|Mi interesso di politica e di economia.
+S|Fa il giornalista in un grande giornale.
+S|Le elezioni si terranno l'anno prossimo.
+S|Ognuno deve assumersi la responsabilità delle proprie azioni.
+S|La legge deve essere uguale per tutti.
+S|Dobbiamo proteggere la natura per le generazioni future.
+S|Sempre più persone fanno la raccolta differenziata.
+S|L'energia solare è diventata più economica.
+S|A causa della siccità, il raccolto ne ha risentito.
+S|Gli scienziati mettono in guardia sul cambiamento climatico.
+S|Cerco di usare meno plastica.
+S|Non credere a tutto quello che c'è scritto su internet.
+S|Controlla sempre la fonte delle informazioni.
+S|Il giornalista ha intervistato il ministro.
+S|Questa notizia si è diffusa velocemente.
+S|L'azienda ha fatto un grande profitto.
+S|In questo paese le tasse sono alte.
+S|La concorrenza sul mercato è molto dura.
+S|Hanno firmato un contratto importante.
+S|Voglio aprire un'attività tutta mia.
+S|La domanda di questo prodotto è in crescita.
+S|L'intelligenza artificiale sta cambiando la nostra vita.
+S|Gli scienziati stanno facendo un nuovo esperimento.
+S|Questa invenzione ha cambiato il mondo.
+S|L'uomo è andato nello spazio per la prima volta nel 1961.
+S|Siamo stati a una mostra di arte contemporanea.
+S|Lo spettacolo mi ha fatto una forte impressione.
+S|Mi piacciono i romanzi di Tolstoj.
+S|Questo film è stato girato da un regista famoso.
+S|L'architettura di questa città è molto varia.
+S|Dobbiamo conservare il patrimonio culturale.
+S|Lo stress influisce sulla salute.
+S|Senza fiducia non ci sono buoni rapporti.
+S|Si sente sola nella grande città.
+S|La motivazione è la cosa più importante nello studio.
+S|Ti sono grato per il tuo aiuto.
+S|Abbiamo discusso tutti i dettagli del progetto.
+S|Confrontiamo queste due opzioni.
+S|Lui nega la sua colpa.
+S|Sostengo pienamente questa idea.
+S|Bisognerebbe aumentare il numero di aree verdi.
+S|Cerchiamo di ridurre le spese.
+S|Convincerlo è difficile.
+S|Qui è vietato parcheggiare.
+S|Abbiamo raggiunto il nostro obiettivo.
+S|La qualità è più importante della quantità.
+S|Tutto dipende dalle circostanze.
+S|A dire il vero, non mi piace.
+S|Per quanto ne so, è partito.
+S|Grazie all'aiuto degli amici, ce l'ho fatta.
+S|Nonostante la pioggia, siamo andati a fare una passeggiata.
+S|Più si legge, più si sa.
+S|Di che cosa sei scontento?
+S|Mi sembra che tu stia esagerando.
+S|Non sono sicuro che sia vero.
+S|Il fatto è che abbiamo poco tempo.
+S|Ha detto che sarebbe venuto più tardi.
+S|Mi ha chiesto dove lavoro.
+S|Gli ho chiesto di chiudere la finestra.
+S|Voglio che tu sia felice.
+S|È importante che tutti arrivino in orario.
+S|Prima abitavo in un paese.
+S|Si è abituata al freddo.
+S|Non riesco ad abituarmi al nuovo lavoro.
+S|Fa volontariato.
+S|Mio nonno prende la pensione.
+S|Le tradizioni si tramandano di generazione in generazione.
+S|La popolazione della città cresce rapidamente.
+S|Sono a favore della parità dei diritti.
+S|Al posto tuo, accetterei.
+S|Mi hanno offerto una promozione.
+S|Il lavoro da remoto non va bene per tutti.
+S|Lavora senza giorni di riposo ed è già stanco.
+S|Per non andare in burnout, bisogna riposarsi.
+S|Ho preparato una presentazione per i clienti.
+S|Il mio mentore mi ha dato un consiglio utile.
+S|Sto scrivendo una domanda di ferie.
+S|La nostra start-up ha attirato investimenti.
+S|È il mio risultato più grande.
+S|Adesso la mia priorità principale è la famiglia.
+S|È vero che lasci l'azienda?
+S|È molto più intelligente di quanto sembri.
+S|Prima cominci, meglio è.
+S|Siamo giunti alla conclusione che il piano va cambiato.
+RT|La città del futuro
+RL|Come sarà la città del futuro?
+RL|Molti esperti pensano che ci sarà più verde e meno macchine.
+RL|La gente si sposterà con auto elettriche e biciclette.
+RL|Le case prenderanno l'energia dal sole e dal vento.
+RL|Sistemi intelligenti gestiranno la luce e il riscaldamento.
+RL|Tuttavia, questa idea ha anche dei critici.
+RL|Dicono che queste tecnologie siano troppo care.
+RL|Inoltre, non tutti sono pronti a cambiare le proprie abitudini.
+RL|È difficile dire chi abbia ragione.
+RL|Ma una cosa è chiara: la città deve essere a misura d'uomo.
+RT|I social network
+RL|I social network sono diventati parte della nostra vita.
+RL|Ci aiutano a comunicare con gli amici che abitano lontano.
+RL|Veniamo a sapere le notizie più in fretta di prima.
+RL|Tuttavia, i social network hanno anche un lato negativo.
+RL|Molte persone passano diverse ore al giorno al telefono.
+RL|Questo influisce sul sonno, sullo studio e sull'umore.
+RL|Inoltre, in rete ci sono molte notizie false.
+RL|Gli psicologi consigliano di fare delle pause.
+RL|Per esempio, si può non portare il telefono in camera da letto.
+RL|L'importante è ricordare che la vita non si svolge su uno schermo.
+RT|I volontari
+RL|La mia amica Anja fa volontariato in un rifugio per animali.
+RL|Ci va ogni sabato.
+RL|Anja dà da mangiare ai cani, li porta a passeggio e fa le pulizie.
+RL|Per questo non la pagano.
+RL|Ma lei dice che riceve molto di più: la gioia.
+RL|Grazie ai volontari, molti animali trovano una nuova casa.
+RL|Il mese scorso Anja ha convinto anche me.
+RL|Adesso ci andiamo insieme.
+RL|Ho capito che aiutare gli altri è la felicità.
+DT|Dibattito: città o campagna?
+DL|A|Mi piacerebbe vivere in campagna. È tranquillo e l'aria è pulita.
+DL|B|Ma in città ci sono più possibilità.
+DL|A|Per esempio?
+DL|B|Il lavoro, buone scuole, ospedali, teatri.
+DL|A|Sono d'accordo, ma in città c'è tanto stress e traffico.
+DL|B|È vero. Forse la cosa migliore è vivere in periferia?
+DL|A|Buona idea! La natura è vicina e la città non è lontana.
+DL|B|Allora siamo d'accordo.
+DT|Dopo il film
+DL|A|Allora, ti è piaciuto il film?
+DL|B|A dire il vero, mi aspettavo di più.
+DL|A|Davvero? A me è piaciuto. Gli attori hanno recitato benissimo.
+DL|B|Su questo sono d'accordo. Ma la trama era troppo prevedibile.
+DL|A|In compenso, il finale era inaspettato.
+DL|B|Forse. Anche la musica era bella.
+DL|A|La prossima volta il film lo scegli tu.
+DL|B|Affare fatto!
+DT|L'intervista
+DL|A|Ci racconti, come ha avviato la sua attività?
+DL|B|Tutto è cominciato con una piccola idea e una grande voglia.
+DL|A|È stato difficile?
+DL|B|Molto. Il primo anno abbiamo lavorato in perdita.
+DL|A|Che cosa l'ha aiutata a non arrendersi?
+DL|B|Il sostegno della famiglia e la fiducia nel mio prodotto.
+DL|A|Che cosa consiglierebbe ai giovani imprenditori?
+DL|B|Di non avere paura degli errori e di imparare da essi.
