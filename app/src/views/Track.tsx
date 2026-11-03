@@ -6,15 +6,35 @@ import { LEARN, SELF } from '@/core/strings_app';
 import { Flag } from '@/core/flags';
 import { useApp, useStore, I } from '@/ui/kit';
 import { TopBar } from '@/views/Home';
+import { hasAccess, paywallOn, money, prices, ownsLang } from '@/core/pro';
+import { dueCount, size } from '@/core/srs';
+import { offlineSupported, isOffline, download, remove, sizeOf } from '@/core/offline';
+import { useVideos, videoFits, VideoGrid } from '@/views/Videos';
+
+function Tools({ tr }){ const { u, toast } = useApp(); const p = u.p; const c = COURSES[tr]; const [dl, setDl] = useState(-1);
+  const due = dueCount(tr); const pl = Store.d.placement && Store.d.placement[tr];
+  const off = isOffline(tr); const mb = (b) => (b / 1048576).toFixed(0) + ' MB';
+  const doDl = async () => { if (off){ await remove(tr); toast(p.dlRemoved); return; } setDl(0); try { const b = await download(tr, (x) => setDl(x)); toast(p.dlDone + ' · ' + mb(b)); } catch (e){ toast(p.err); } setDl(-1); };
+  const T = ({ href = null, onClick = null, icon, title, sub, hot = false, data }) => { const cls = `card card-hover p-4 flex items-center gap-3 text-start ${hot ? '!border-brand-500' : ''}`;
+    const inner = <><span className={`grid place-items-center w-11 h-11 rounded-xl text-lg font-bold flex-none ${hot ? 'bg-brand-500 text-white' : 'bg-brand-50 text-brand-600 ring-1 ring-brand-200'}`}>{icon}</span><div className="min-w-0"><div className="font-bold text-ink">{title}</div><div className="text-xs text-ink-2">{sub}</div></div></>;
+    return href ? <a href={href} className={cls} data-tool={data}>{inner}</a> : <button onClick={onClick} className={cls} data-tool={data}>{inner}</button>; };
+  return <div className="mt-6 grid gap-3 grid-cols-1 sm:grid-cols-3">
+    <T href={'#/placement/' + tr} icon="◎" title={p.placement} sub={pl ? p.lastResult + ': ' + pl.L : p.placementSub} data="placement"/>
+    <T href={'#/review/' + tr} icon="↻" hot={due > 0} title={p.review} sub={due ? due + ' ' + p.dueN : size(tr) ? size(tr) + ' ' + p.inReview : p.reviewSub} data="review"/>
+    {offlineSupported() && <T onClick={dl >= 0 ? null : doDl} icon={off ? '✓' : '⤓'} title={off ? p.dlDone : p.offlineT} sub={dl >= 0 ? Math.round(dl * 100) + '%' : off ? mb(sizeOf(tr)) + ' · ' + p.dlRemove : p.offlineD} data="offline"/>}
+  </div>; }
 
 export function useTrack(tr){ const [T, setT] = useState(null); useEffect(() => { let on = true; ensureTrack(tr).then((x) => on && setT(x)); return () => { on = false; }; }, [tr]); return T; }
 export function Spinner(){ return <div className="py-24 grid place-items-center"><div className="w-9 h-9 rounded-full border-4 border-brand-100 border-t-brand-500 animate-spin"/></div>; }
 export function AudioBtn(){ const { u, openAudio } = useApp(); return <button className="iconbtn" onClick={openAudio} aria-label={u.audio} title={u.audio}><I.vol/></button>; }
 
+function TrackVideos({ tr }){ const { u } = useApp(); const c = COURSES[tr]; const all = useVideos(); const list = (all || []).filter((v) => v.t === c.t && videoFits(v, c.n, c.t, ''));
+  if (!list.length) return null; return <section className="mt-10"><h2 className="text-xl font-extrabold text-ink mb-4">{u.p.videos}</h2><VideoGrid list={list} n={c.n} tr={tr}/></section>; }
+
 export default function Track({ tr }){
   useStore(); const { u } = useApp(); const T = useTrack(tr); const c = COURSES[tr];
   const [confirm, setConfirm] = useState(false);
-  const reset = () => { if (!confirm){ setConfirm(true); return; } delete Store.d.passed[tr]; LEVELS.forEach((L) => { const k = tr + ':' + L; delete Store.d.best[k]; delete Store.d.weak[k]; delete Store.d.last[k]; }); Store.save(); setConfirm(false); };
+  const reset = () => { if (!confirm){ setConfirm(true); return; } delete Store.d.passed[tr]; if (Store.d.placed) delete Store.d.placed[tr]; if (Store.d.placement) delete Store.d.placement[tr]; LEVELS.forEach((L) => { const k = tr + ':' + L; delete Store.d.best[k]; delete Store.d.weak[k]; delete Store.d.last[k]; }); Store.save(); setConfirm(false); };
   return <div>
     <TopBar><AudioBtn/></TopBar>
     <main className="mx-auto max-w-6xl px-4 sm:px-6 py-6 sm:py-8">
@@ -23,6 +43,7 @@ export default function Track({ tr }){
         <Flag lang={c.t} size="xl"/>
         <div><h1 className="text-2xl sm:text-3xl font-extrabold text-ink">{LEARN[c.n](c.t)}</h1><div className="text-ink-2">{u.levelsTitle}</div></div>
       </div>
+      <Tools tr={tr}/>
       {!T ? <Spinner/> : <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {LEVELS.map((L, i) => { const lv = level(tr, L); const open = Store.unlocked(tr, i), passed = Store.passed(tr, L); const best = Store.d.best[tr + ':' + L];
           return <motion.a key={L} href={`#/learn/${tr}/${L.toLowerCase()}`} data-level={L} initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .04 * i }}
@@ -30,7 +51,7 @@ export default function Track({ tr }){
             <div className="flex items-center gap-3">
               <span className={`grid place-items-center w-14 h-14 rounded-2xl text-lg font-extrabold ${passed ? 'bg-brand-500 text-white' : open ? 'bg-brand-50 text-brand-700 ring-1 ring-brand-200' : 'bg-mist text-ink-3'}`}>{L}</span>
               <div className="flex-1 min-w-0"><div className="font-bold text-ink text-lg">{u.lv[L]}</div>
-                <div className={`text-xs font-semibold inline-flex items-center gap-1 ${passed ? 'text-[#14935B]' : open ? 'text-brand-600' : 'text-ink-3'}`}>{passed ? <><I.check className="w-3.5 h-3.5"/>{u.passed}</> : open ? u.open : <><I.lock className="w-3.5 h-3.5"/>{u.locked}</>}{best != null && <span className="text-ink-3 font-medium ms-1">· {u.best}: {best}%</span>}</div></div>
+                <div className={`text-xs font-semibold inline-flex items-center gap-1 ${passed ? 'text-[#14935B]' : open ? 'text-brand-600' : 'text-ink-3'}`}>{passed ? <><I.check className="w-3.5 h-3.5"/>{u.passed}</> : !hasAccess(tr, L) ? <span className="text-[#B07A10] inline-flex items-center gap-1"><I.star className="w-3.5 h-3.5"/>{u.p.proBadge}</span> : open ? u.open : <><I.lock className="w-3.5 h-3.5"/>{u.locked}</>}{best != null && <span className="text-ink-3 font-medium ms-1">· {u.best}: {best}%</span>}</div></div>
             </div>
             <p className="text-sm text-ink-2 leading-relaxed">{u.lvd[L]}</p>
             <div className="mt-auto flex flex-wrap gap-1.5 text-xs">
@@ -41,6 +62,7 @@ export default function Track({ tr }){
             </div>
           </motion.a>; })}
       </div>}
+      <TrackVideos tr={tr}/>
       <div className="mt-8"><button onClick={reset} className={`btn sm ${confirm ? '' : 'ghost'}`}>{u.reset}{confirm ? ' ?' : ''}</button></div>
     </main>
   </div>;

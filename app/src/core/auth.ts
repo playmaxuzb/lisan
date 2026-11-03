@@ -4,6 +4,9 @@
 // without them, accounts and progress stay on the device.
 import { Store, setSaveHook } from './engine';
 let fb = null;
+export let CFG: any = {};
+export const FB = () => fb;
+let authCb = null; export function onAuthUser(f){ authCb = f; if (Auth.ready) f(Auth.user); }
 export const Auth = { ready: false, enabled: false, user: null, email: null, pendingRedirect: false };
 
 async function loadConfig(){
@@ -15,7 +18,7 @@ async function loadConfig(){
 }
 
 export async function initAuth(){
-  const cfg = await loadConfig();
+  const cfg = await loadConfig(); CFG = cfg;
   if (cfg.emailjs && cfg.emailjs.publicKey && cfg.emailjs.serviceId && cfg.emailjs.templateId) Auth.email = cfg.emailjs;
   if (cfg.firebase && cfg.firebase.apiKey){
     try {
@@ -30,7 +33,7 @@ export async function initAuth(){
         const email = localStorage.getItem('lisan.emailForSignIn') || prompt('Email');
         if (email){ const cred = await A.signInWithEmailLink(auth, email, location.href); localStorage.removeItem('lisan.emailForSignIn'); await afterLogin(cred.user, 'email'); history.replaceState(null, '', location.pathname); }
       }
-      A.onAuthStateChanged(auth, async (u) => { Auth.user = u; const cur = Store.profile(); if (u && (!cur || cur.uid !== u.uid) && !Store.meta.signedOutUid){ await afterLogin(u, u.providerData && u.providerData[0] && u.providerData[0].providerId === 'phone' ? 'phone' : 'google'); Store.emit(); } });
+      A.onAuthStateChanged(auth, async (u) => { Auth.user = u; authCb && authCb(u); const cur = Store.profile(); if (u && (!cur || cur.uid !== u.uid) && !Store.meta.signedOutUid){ await afterLogin(u, u.providerData && u.providerData[0] && u.providerData[0].providerId === 'phone' ? 'phone' : 'google'); Store.emit(); } });
     } catch (e){ Auth.enabled = false; }
   }
   Auth.ready = true;

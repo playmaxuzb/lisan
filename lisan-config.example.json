@@ -11,5 +11,19 @@
     "publicKey": "PASTE_FROM_EMAILJS",
     "serviceId": "service_xxxxxxx",
     "templateId": "template_xxxxxxx"
+  },
+  "commerce": {
+    "enabled": false,
+    "prices": {
+      "currency": "USD",
+      "course": 19,
+      "monthly": 7.99,
+      "yearly": 49.99
+    },
+    "links": {
+      "course": "",
+      "monthly": "",
+      "yearly": ""
+    }
   }
 }

@@ -1,0 +1,3 @@
+{ "name": "Lisan — Languages A1–C2", "short_name": "Lisan", "start_url": "./", "scope": "./", "display": "standalone",
+  "background_color": "#EEF4FF", "theme_color": "#2A5EEB",
+  "icons": [ { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" } ] }

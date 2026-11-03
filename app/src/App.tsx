@@ -9,9 +9,16 @@ import Home from '@/views/Home';
 import Track from '@/views/Track';
 import LevelView from '@/views/Level';
 import Profile from '@/views/Profile';
+import { Pricing, CertPage, CertList, Verify } from '@/views/Pro';
+import Review from '@/views/Review';
+import Placement from '@/views/Placement';
+import Videos from '@/views/Videos';
+import Admin from '@/views/Admin';
+import { initPro } from '@/core/pro';
+import { initSrs } from '@/core/srs';
 import { WordSheet, AudioSheet } from '@/views/Sheets';
 
-function parseHash(){ const h = decodeURIComponent(location.hash.replace(/^#\/?/, '')); const p = h.split('/').filter(Boolean); return p; }
+function parseHash(){ const h = decodeURIComponent(location.hash.replace(/^#\/?/, '').replace(/\?.*$/, '')); const p = h.split('/').filter(Boolean); return p; }
 
 export default function App(){
   const store = useStore();
@@ -22,7 +29,7 @@ export default function App(){
   const [audioOpen, setAudioOpen] = useState(false);
   const tid = useRef(0);
 
-  useEffect(() => { Store.load(); Promise.all([loadCourses(), loadRef(), initAuth()]).then(() => setReady(true)); Speech.init();
+  useEffect(() => { Store.load(); initSrs(); Promise.all([loadCourses(), loadRef(), initAuth()]).then(() => { initPro(); setReady(true); }); Speech.init();
     const f = () => { setRoute(parseHash()); Speech.stop(); window.scrollTo({ top: 0 }); }; addEventListener('hashchange', f);
     const prime = () => { primeAudio(); removeEventListener('pointerdown', prime); }; addEventListener('pointerdown', prime);
     return () => removeEventListener('hashchange', f); }, []);
@@ -40,8 +47,18 @@ export default function App(){
 
   let view;
   const needsOnboarding = !profile || !profile.username || !profile.native;
-  if (needsOnboarding) view = <Onboarding/>;
+  const own = (tr) => tr && COURSES[tr] && COURSES[tr].n === (profile && profile.native);
+  if (route[0] === 'verify') view = <Verify id={route[1]}/>;
+  else if (needsOnboarding) view = <Onboarding/>;
   else if (route[0] === 'profile') view = <Profile/>;
+  else if (route[0] === 'pricing') view = <Pricing key={route[1] || ''}/>;
+  else if (route[0] === 'certs') view = <CertList/>;
+  else if (route[0] === 'cert' && route[1] === 'new' && own(route[2])) view = <CertPage tr={route[2]} L={(route[3] || '').toUpperCase()}/>;
+  else if (route[0] === 'cert' && route[1]) view = <CertPage id={route[1]}/>;
+  else if (route[0] === 'videos') view = <Videos/>;
+  else if (route[0] === 'admin') view = <Admin tab={route[1]}/>;
+  else if (route[0] === 'review' && own(route[1])) view = <Review key={route[1]} tr={route[1]}/>;
+  else if (route[0] === 'placement' && own(route[1])) view = <Placement key={route[1]} tr={route[1]}/>;
   else if (route[0] === 'learn' && route[1] && COURSES[route[1]] && COURSES[route[1]].n === profile.native){
     view = route[2] ? <LevelView key={route[1] + route[2]} tr={route[1]} L={route[2].toUpperCase()} tab={route[3]}/> : <Track key={route[1]} tr={route[1]}/>;
   } else view = <Home/>;

@@ -153,7 +153,7 @@ export const Store = {
   updateProfile(patch){ const p=this.profile(); if(!p) return; Object.assign(p,patch); this.saveMeta(); onSaveHook && onSaveHook(this); },
   signOut(){ this.meta.current=null; this.saveMeta(); },
   passed(tr,L){ return !!(this.d.passed[tr]&&this.d.passed[tr][L]); },
-  unlocked(tr,i){ if(i===0) return true; for(let k=i-1;k<LEVELS.length;k++) if(this.passed(tr,LEVELS[k])) return true; return false; },
+  unlocked(tr,i){ if(i===0) return true; const pl=this.d.placed&&this.d.placed[tr]; if(pl!=null && i<=pl) return true; for(let k=i-1;k<LEVELS.length;k++) if(this.passed(tr,LEVELS[k])) return true; return false; },
   weak(key){ return this.d.weak[key]||(this.d.weak[key]={}); },
   emit(){ this.listeners.forEach(f=>f()); }
 };
@@ -237,7 +237,8 @@ export function buildExam(lv){
   const out = shuffle(Q.slice(0,EXAM_N)); Store.d.last[key]=out.map(q=>q.item.id); Store.save();
   return {qs:out, i:0, done:false};
 }
-export function markAnswer(lv, q, ok){ const key=lv.tr+':'+lv.L; const weak=Store.weak(key); q.correct=ok; const id=q.item.id;
+let answerHook=null; export function setAnswerHook(f){ answerHook=f; }
+export function markAnswer(lv, q, ok){ const key=lv.tr+':'+lv.L; const weak=Store.weak(key); q.correct=ok; const id=q.item.id; if (answerHook) try{ answerHook(lv.tr, q.item, ok); }catch(e){}
   if (ok){ if (weak[id]){ weak[id]--; if(weak[id]<=0) delete weak[id]; } } else weak[id]=(weak[id]||0)+2; Store.save(); }
 export function finishExam(lv, ex){ ex.done=true; const key=lv.tr+':'+lv.L; const right=ex.qs.filter(q=>q.correct).length; const pct=Math.round(right/ex.qs.length*100);
   Store.d.best[key]=Math.max(Store.d.best[key]||0,pct); if (pct>=PASS){ (Store.d.passed[lv.tr]||(Store.d.passed[lv.tr]={}))[lv.L]=true; } Store.save(); return pct; }

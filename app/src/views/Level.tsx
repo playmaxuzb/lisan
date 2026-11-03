@@ -8,16 +8,22 @@ import { useApp, useStore, useForce, I, PlayBtn, PlayPair, Tgt, Words, bodyHTML,
 import { TopBar } from '@/views/Home';
 import { useTrack, Spinner, AudioBtn } from '@/views/Track';
 import { WriteTab } from '@/views/Write';
+import { Paywall } from '@/views/Pro';
+import { hasAccess, certFor } from '@/core/pro';
+import { useVideos, videoFits, VideoGrid } from '@/views/Videos';
 
-const TAB_ICON = { letters: 'Aa', words: '🖼', phrases: '💬', grammar: '§', read: '📖', talk: '🗣', write: '✍︎', exam: '✓' };
+const TAB_ICON = { video: '▶', letters: 'Aa', words: '🖼', phrases: '💬', grammar: '§', read: '📖', talk: '🗣', write: '✍︎', exam: '✓' };
 
 export default function LevelView({ tr, L, tab }){
   useStore(); const { u } = useApp(); const T = useTrack(tr); const c = COURSES[tr]; const i = LEVELS.indexOf(L);
   useEffect(() => { Packs.load(c.t, L); }, [tr, L]);
+  const allV = useVideos();
   if (i < 0){ location.hash = '#/learn/' + tr; return null; }
   if (!T) return <div><TopBar><AudioBtn/></TopBar><Spinner/></div>;
   const lv = level(tr, L);
-  const tabs = [...(lv.alphabet ? ['letters'] : []), 'words', 'phrases', 'grammar', 'read', 'talk', 'write', 'exam'];
+  const vids = (allV || []).filter((v) => v.t === c.t && v.L === L && videoFits(v, c.n, c.t, L));
+  const tabs = [...(lv.alphabet ? ['letters'] : []), 'words', 'phrases', 'grammar', 'read', 'talk', 'write', ...(vids.length ? ['video'] : []), 'exam'];
+  const paid = hasAccess(tr, L);
   const cur = tabs.includes(tab) ? tab : tabs[0];
   const unlocked = Store.unlocked(tr, i);
   const go = (t) => { location.hash = `#/learn/${tr}/${L.toLowerCase()}/${t}`; };
@@ -30,12 +36,12 @@ export default function LevelView({ tr, L, tab }){
         <h1 className="text-xl sm:text-2xl font-extrabold text-ink">{LEARN[c.n](c.t)} · <span className="text-brand-600">{L}</span> <span className="text-ink-2 font-semibold text-lg">{u.lv[L]}</span></h1>
       </div>
       <nav className="mt-4 -mx-4 px-4 flex gap-2 overflow-x-auto no-scrollbar pb-1" aria-label="tabs">
-        {tabs.map((t) => <button key={t} onClick={() => go(t)} data-tab={t} className={`chip ${cur === t ? 'on' : ''}`}><span aria-hidden="true" className="text-xs opacity-80">{TAB_ICON[t]}</span>{u.tabs[t]}{!unlocked && t !== 'exam' && <I.lock className="w-3.5 h-3.5"/>}</button>)}
+        {tabs.map((t) => <button key={t} onClick={() => go(t)} data-tab={t} className={`chip ${cur === t ? 'on' : ''}`}><span aria-hidden="true" className="text-xs opacity-80">{TAB_ICON[t]}</span>{t === 'video' ? u.p.videos : u.tabs[t]}{(!paid || (!unlocked && t !== 'exam')) && <I.lock className="w-3.5 h-3.5"/>}</button>)}
       </nav>
     </div>
     <main className="mx-auto max-w-6xl px-4 sm:px-6 py-5 pb-16">
       <AnimatePresence mode="wait"><motion.div key={cur} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} transition={{ duration: .18 }}>
-        {!unlocked && cur !== 'exam' ? <Locked lv={lv} i={i} go={go}/> :
+        {!paid ? <Paywall tr={tr} L={L}/> : !unlocked && cur !== 'exam' ? <Locked lv={lv} i={i} go={go}/> : cur === 'video' ? <VideoGrid list={vids} n={c.n} tr={tr}/> :
          cur === 'letters' ? <Letters lv={lv} go={go}/> : cur === 'words' ? <WordsTab lv={lv}/> : cur === 'phrases' ? <Phrases lv={lv}/> :
          cur === 'grammar' ? <Grammar lv={lv}/> : cur === 'read' ? <Reading lv={lv}/> : cur === 'talk' ? <Talk lv={lv}/> :
          cur === 'write' ? <WriteTab lv={lv}/> : <Exam lv={lv}/>}
@@ -48,7 +54,7 @@ function Locked({ lv, i, go }){ const { u } = useApp();
   return <div className="card p-6 sm:p-8 max-w-xl mx-auto text-center flex flex-col items-center gap-3">
     <span className="grid place-items-center w-14 h-14 rounded-2xl bg-brand-50 text-brand-600 ring-1 ring-brand-200"><I.lock className="w-6 h-6"/></span>
     <h2 className="text-xl font-extrabold text-ink">{u.lockT}</h2><p className="text-ink-2">{u.lockD}</p>
-    <div className="flex flex-wrap justify-center gap-2 mt-2"><a className="btn ghost" href={`#/learn/${lv.tr}/${LEVELS[i - 1].toLowerCase()}`}>{u.goPrev}</a><button className="btn" onClick={() => go('exam')}>{u.takeExam}</button></div>
+    <div className="flex flex-wrap justify-center gap-2 mt-2"><a className="btn ghost" href={`#/learn/${lv.tr}/${LEVELS[i - 1].toLowerCase()}`}>{u.goPrev}</a><button className="btn" onClick={() => go('exam')}>{u.takeExam}</button><a className="btn ghost" href={'#/placement/' + lv.tr}>{u.p.placement}</a></div>
   </div>; }
 
 function H({ children, right = null }){ return <div className="mb-4 flex flex-wrap items-center justify-between gap-3"><h2 className="text-lg sm:text-xl font-extrabold text-ink">{children}</h2>{right && <div className="flex flex-wrap items-center gap-2">{right}</div>}</div>; }
@@ -296,6 +302,9 @@ function ExamResult({ lv, ex, start }){
       <motion.div initial={{ scale: .6 }} animate={{ scale: 1 }} className={`text-6xl font-extrabold ${pass ? 'text-[#14935B]' : 'text-[#D9363E]'}`} dir="ltr">{pct}%</motion.div>
       <span className={`px-3 py-1 rounded-full text-xs font-bold tracking-wider border-2 ${pass ? 'border-[#14935B] text-[#14935B]' : 'border-[#D9363E] text-[#D9363E]'}`}>{pass ? 'PASS' : 'RETRY'} · {lv.L}</span>
       <p className="text-ink max-w-md">{pass ? u.passedMsg : u.failedMsg}</p>
+      {pass && <a href={certFor(lv.tr, lv.L) ? '#/cert/' + certFor(lv.tr, lv.L).id : `#/cert/new/${lv.tr}/${lv.L}`} className="w-full max-w-md rounded-2xl border-[1.5px] border-[#E7C976] bg-gradient-to-br from-[#FFF8E6] to-[#FFFDF7] p-4 flex items-center gap-3 text-start hover:shadow-card transition" data-get-cert>
+        <span className="grid place-items-center w-12 h-12 rounded-full bg-gradient-to-br from-[#F3D98B] to-[#B48A2E] text-[#3F2E08] font-extrabold">{lv.L}</span>
+        <div className="flex-1"><div className="font-extrabold text-ink">{u.p.getCert}</div><div className="text-sm text-ink-2">{u.p.certReady}</div></div><I.next className="w-5 h-5 text-[#B48A2E] rtl:rotate-180"/></a>}
       <div className="flex flex-wrap justify-center gap-2">{pass && i < 5 && <a className="btn" href={`#/learn/${lv.tr}/${LEVELS[i + 1].toLowerCase()}`}>{u.nextLevel} {LEVELS[i + 1]}</a>}<button className={`btn ${pass ? 'ghost' : ''}`} onClick={start}>{u.startNew}</button><a className="btn ghost" href={'#/learn/' + lv.tr}>{u.backLevels}</a></div>
     </div>
     <div className="card p-5 sm:p-6"><h3 className="font-bold text-ink mb-3">{u.review} · {mist.length}</h3>
