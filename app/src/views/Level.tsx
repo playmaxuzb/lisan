@@ -263,9 +263,9 @@ function Exam({ lv }){
   if (ex.done) return <ExamResult lv={lv} ex={ex} start={start}/>;
   const answered = q.picked != null || q.given != null || q.result != null;
   const next = () => { ex.i++; setTyped(''); setKb(false); if (ex.i >= ex.qs.length) finishExam(lv, ex); force(); window.scrollTo({ top: 0 }); };
-  const prompt = (p) => { if (p.listen != null) return <div className="flex items-center gap-3"><button className="grid place-items-center w-16 h-16 rounded-full bg-brand-500 text-white shadow-soft" onClick={() => Speech.say(p.listen, tl)} aria-label={u.play}><I.play className="w-7 h-7"/></button><PlayBtn say={p.listen} tl={tl} slow label={u.speed}/>{p.emo && <span className="text-5xl">{p.emo}</span>}</div>;
+  const prompt = (p) => { if (p.listen != null) return <div className="flex items-center gap-3"><button className="grid place-items-center w-16 h-16 rounded-full bg-brand-500 text-white shadow-soft" onClick={() => Speech.say(p.listen, tl)} aria-label={u.play}><I.play className="w-7 h-7"/></button><PlayBtn say={p.listen} tl={tl} slow label={u.speed}/></div>;
     if (p.gram != null) return <Html className="text-lg font-medium text-ink" html={bodyHTML(String(disp(p.gram)).replace(/[<>&]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;' }[c])), tl).replace(/___/g, '<b>____</b>')} tl={tl}/>;
-    if (p.text != null) return <div className="flex items-center gap-3">{p.emo && <span className="text-5xl">{p.emo}</span>}<span className="text-2xl font-bold text-ink">{p.text}</span></div>;
+    if (p.text != null) return <div className="flex items-center gap-3"><span className="text-2xl font-bold text-ink">{p.text}</span></div>;
     return <div className="flex items-center gap-3 flex-wrap"><Tgt tl={tl} className={`${p.small ? 'text-xl' : 'text-3xl'} font-extrabold text-ink`}>{p.word}</Tgt><PlayBtn say={p.say} tl={tl} label={u.play}/></div>; };
   let body;
   if (q.type === 'mcq') body = <><div className="mb-5">{prompt(q.prompt)}</div><div className="grid gap-2.5 sm:grid-cols-2">{q.opts.map((o, k) => <button key={k} data-opt={o.ok ? 1 : 0} disabled={q.picked != null}

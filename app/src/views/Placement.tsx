@@ -10,17 +10,22 @@ import { useTrack, Spinner, AudioBtn } from '@/views/Track';
 import { Back } from '@/views/Pro';
 
 const fmt = (s, o) => String(s || '').replace(/\{(\w+)\}/g, (_, k) => o[k] != null ? o[k] : '');
-const PER = 6, NEED = 5;
+const PER = 10, NEED = 8;
 function mcq(pool, it, get){ const seen = new Set([get(it)]); const out = [it]; for (const x of shuffle(pool)){ const g = get(x); if (!g || seen.has(g)) continue; seen.add(g); out.push(x); if (out.length >= 4) break; } return shuffle(out); }
+// No pictures in tests: the learner must understand the word or sentence itself.
 function stage(tr, L){
-  const lv = level(tr, L); const V = lv.vocab, Sn = lv.sentences; const qs = []; const vs = shuffle(V).slice(0, 3); const ss = shuffle(Sn).slice(0, 2);
-  vs.slice(0, 2).forEach((it) => qs.push({ kind: 'mean', item: it, opts: mcq(V, it, (x) => x.m).map((x) => ({ label: x.m, ok: x === it })) }));
-  if (vs[2]) qs.push({ kind: 'listen', item: vs[2], opts: mcq(V, vs[2], (x) => x.say).map((x) => ({ label: x.t, ok: x === vs[2], tgt: 1 })) });
-  ss.forEach((it) => qs.push({ kind: 'sent', item: it, opts: mcq(Sn, it, (x) => x.m).map((x) => ({ label: x.m, ok: x === it })) }));
+  const lv = level(tr, L); const V = lv.vocab, Sn = lv.sentences; const qs = [];
+  const vs = shuffle(V).slice(0, 6); const ss = shuffle(Sn).slice(0, 3);
+  const mean = (it) => ({ kind: 'mean', item: it, opts: mcq(V, it, (x) => x.m).map((x) => ({ label: x.m, ok: x === it })) });
+  vs.slice(0, 3).forEach((it) => qs.push(mean(it)));
+  if (vs[3]) qs.push({ kind: 'rev', item: vs[3], opts: mcq(V, vs[3], (x) => x.say).map((x) => ({ label: x.t, ok: x === vs[3], tgt: 1 })) });
+  vs.slice(4, 6).forEach((it) => qs.push({ kind: 'listen', item: it, opts: mcq(V, it, (x) => x.say).map((x) => ({ label: x.t, ok: x === it, tgt: 1 })) }));
+  ss.slice(0, 2).forEach((it) => qs.push({ kind: 'sent', item: it, opts: mcq(Sn, it, (x) => x.m).map((x) => ({ label: x.m, ok: x === it })) }));
+  if (ss[2]) qs.push({ kind: 'lsent', item: ss[2], opts: mcq(Sn, ss[2], (x) => x.m).map((x) => ({ label: x.m, ok: x === ss[2] })) });
   const g = []; lv.grammar.forEach((x) => x.quiz.forEach((q) => g.push(q)));
   if (g.length){ const q = shuffle(g)[0]; qs.push({ kind: 'gram', item: q, opts: shuffle(q.opts.map((o, i) => ({ label: disp(o), ok: i === 0, tgt: 1 }))) }); }
-  while (qs.length < PER){ const it = shuffle(V)[0]; qs.push({ kind: 'mean', item: it, opts: mcq(V, it, (x) => x.m).map((x) => ({ label: x.m, ok: x === it })) }); }
-  return qs.slice(0, PER);
+  while (qs.length < PER){ const it = shuffle(Sn)[0]; qs.push({ kind: 'sent', item: it, opts: mcq(Sn, it, (x) => x.m).map((x) => ({ label: x.m, ok: x === it })) }); }
+  return shuffle(qs.slice(0, PER));
 }
 
 export default function Placement({ tr }){
@@ -28,10 +33,10 @@ export default function Placement({ tr }){
   const [st, setSt] = useState(null);
   useEffect(() => { Packs.load(tl, LEVELS[st ? st.li : 0]); }, [st && st.li]);
   const q = st && !st.done ? st.qs[st.i] : null;
-  useEffect(() => { if (q && q.kind === 'listen'){ const t = setTimeout(() => Speech.say(q.item.say, tl), 250); return () => clearTimeout(t); } }, [st && st.li, st && st.i]);
+  useEffect(() => { if (q && (q.kind === 'listen' || q.kind === 'lsent')){ const t = setTimeout(() => Speech.say(q.item.say, tl), 250); return () => clearTimeout(t); } }, [st && st.li, st && st.i]);
   if (!T) return <div><TopBar><AudioBtn/></TopBar><Spinner/></div>;
   const start = () => setSt({ li: 0, qs: stage(tr, 'A1'), i: 0, right: 0, passed: -1, done: false });
-  const pickAns = (k) => { if (q.picked != null) return; q.picked = k; if (q.opts[k].ok) st.right++; if (q.kind === 'listen' || q.opts[k].tgt) Speech.say(q.item.say || '', tl); force(); };
+  const pickAns = (k) => { if (q.picked != null) return; q.picked = k; if (q.opts[k].ok) st.right++; if (q.kind !== 'gram' && q.kind !== 'rev') Speech.say(q.item.say || '', tl); else if (q.opts[k].tgt && q.kind === 'rev') Speech.say(q.item.say, tl); force(); };
   const next = () => {
     if (st.i + 1 < st.qs.length){ st.i++; force(); return; }
     const ok = st.right >= NEED; const L = LEVELS[st.li];
@@ -66,9 +71,9 @@ export default function Placement({ tr }){
       <div className="flex items-center gap-3 mb-4"><span className="px-2.5 py-1 rounded-lg bg-brand-500 text-white text-xs font-bold">{L}</span><span className="text-sm font-bold text-ink-2" dir="ltr">{st.i + 1}/{PER}</span><Progress value={prog} className="flex-1"/></div>
       <motion.div key={st.li + ':' + st.i} initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="card p-5 sm:p-7">
         <div className="text-xs font-bold uppercase tracking-wider text-brand-600 mb-4">{p['pq_' + q.kind]}</div>
-        <div className="mb-5">{q.kind === 'listen' ? <div className="flex items-center gap-3"><button className="grid place-items-center w-16 h-16 rounded-full bg-brand-500 text-white shadow-soft" onClick={() => Speech.say(q.item.say, tl)} aria-label={u.play}><I.play className="w-7 h-7"/></button><PlayBtn say={q.item.say} tl={tl} slow label={u.speed}/></div>
+        <div className="mb-5">{q.kind === 'rev' ? <div className="text-2xl font-bold text-ink" dir="auto">{q.item.m}</div> : (q.kind === 'listen' || q.kind === 'lsent') ? <div className="flex items-center gap-3"><button className="grid place-items-center w-16 h-16 rounded-full bg-brand-500 text-white shadow-soft" onClick={() => Speech.say(q.item.say, tl)} aria-label={u.play}><I.play className="w-7 h-7"/></button><PlayBtn say={q.item.say} tl={tl} slow label={u.speed}/></div>
           : q.kind === 'gram' ? <Html className="text-lg font-medium text-ink" html={bodyHTML(String(disp(q.item.q)).replace(/[<>&]/g, (ch) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;' }[ch])), tl).replace(/___/g, '<b>____</b>')} tl={tl}/>
-          : <div className="flex items-center gap-3 flex-wrap">{q.item.e && q.kind === 'mean' && <span className="text-4xl">{q.item.e}</span>}<Tgt tl={tl} className={`${q.kind === 'sent' ? 'text-xl' : 'text-3xl'} font-extrabold text-ink`}>{q.item.t}</Tgt><PlayBtn say={q.item.say} tl={tl} label={u.play}/></div>}</div>
+          : <div className="flex items-center gap-3 flex-wrap"><Tgt tl={tl} className={`${q.kind === 'sent' ? 'text-xl' : 'text-3xl'} font-extrabold text-ink`}>{q.item.t}</Tgt><PlayBtn say={q.item.say} tl={tl} label={u.play}/></div>}</div>
         <div className="grid gap-2.5 sm:grid-cols-2">{q.opts.map((o, k) => <button key={k} disabled={q.picked != null} data-opt={o.ok ? 1 : 0} onClick={() => pickAns(k)}
           className={`qopt ${q.picked != null ? (o.ok ? 'right' : q.picked === k ? 'wrong' : '') : ''}`} dir={o.tgt ? tdir(tl) : 'auto'}><span className={o.tgt ? tcls(tl) : ''}>{o.label}</span></button>)}</div>
         {q.picked != null && <div className="mt-6 flex justify-end"><button className="btn" onClick={next} data-next>{u.next}<I.next className="w-4 h-4 rtl:rotate-180"/></button></div>}
