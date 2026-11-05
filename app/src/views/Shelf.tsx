@@ -68,9 +68,11 @@ export default function Shelf({ book = null }){
     const cr = chipRow.current; const top = cr ? cr.offsetTop + cr.offsetHeight + 34 : 74; el.style.setProperty('--top', top + 'px');
     S.dims = { H, ws: H * 0.2, d: H * 0.7, gap: H * 0.04 }; const st = stage.current; st.style.setProperty('--H', H + 'px'); st.style.setProperty('--ws', S.dims.ws + 'px'); st.style.setProperty('--d', S.dims.d + 'px'); };
   /* x of every book: spines step evenly; each open book pushes its neighbours aside by half of its extra width */
-  const layout = () => { const { ws, d, gap } = S.dims; const out = new Array(C); const ext = (d - ws + 1.4 * gap) / 2;
-    const rs = new Array(C); for (let v = 0; v < C; v++) rs[v] = rel(v);
-    for (let v = 0; v < C; v++){ let xx = rs[v] * (ws + gap); for (let w = 0; w < C; w++){ const ow = S.o[w]; if (ow < 1e-3 || w === v) continue; xx += (rs[v] > rs[w] ? 1 : -1) * ext * ow; } out[v] = xx; } return out; };
+  /* real on-screen width of a book while it turns: the spine shrinks with cos, the cover grows with sin */
+  const widthOf = (o) => { const { ws, d, gap } = S.dims; const th = sstep(Math.max(0, Math.min(1, o))) * Math.PI / 2; return ws * Math.cos(th) + d * Math.sin(th) + 1.6 * gap * Math.sin(th); };
+  const layout = () => { const { ws, gap } = S.dims; const out = new Array(C); const rs = new Array(C), ex = new Array(C);
+    for (let v = 0; v < C; v++){ rs[v] = rel(v); ex[v] = S.o[v] < 1e-3 ? 0 : (widthOf(S.o[v]) - ws) / 2; }
+    for (let v = 0; v < C; v++){ let xx = rs[v] * (ws + gap); for (let w = 0; w < C; w++){ if (!ex[w] || w === v) continue; xx += (rs[v] > rs[w] ? 1 : -1) * ex[w]; } out[v] = xx; } return out; };
   const select = (v) => { v = wrapV(v); if (S.sel === v) return; S.sel = v; };
   const centerSel = () => { S.sel = wrapV(Math.round(S.T)); };
 
@@ -89,7 +91,7 @@ export default function Shelf({ book = null }){
       if (Math.abs(S.s) > N * 6){ const sh = Math.round(S.s / N) * N - N; S.s -= sh; S.T -= sh; S.sel = wrapV(S.sel); }
       // while the shelf scrolls (arrows, drag, tabs) the book in the middle is the open one
       if (Math.abs(S.T - S.s) > .02 || (S.drag && S.drag.moved)) S.sel = wrapV(Math.round(S.s));
-      const ko = red ? 1 : 1 - Math.exp(-9 * dt); for (let v = 0; v < C; v++){ const tg = v === S.sel ? 1 : 0; S.o[v] += (tg - S.o[v]) * ko; if (Math.abs(S.o[v] - tg) < 1e-3) S.o[v] = tg; }
+      const ko = red ? 1 : 1 - Math.exp(-(Math.abs(S.T - S.s) > .02 ? 14 : 9) * dt); for (let v = 0; v < C; v++){ const tg = v === S.sel ? 1 : 0; S.o[v] += (tg - S.o[v]) * ko; if (Math.abs(S.o[v] - tg) < 1e-3) S.o[v] = tg; }
       const W = sec.current.clientWidth; const { H, d } = S.dims; const xs = layout(); S.xs = xs;
       for (let v = 0; v < C; v++){ const el = tapes.current[v]; if (!el) continue; const xx = xs[v];
         if (Math.abs(xx) > W / 2 + 1.5 * d){ if (el.style.visibility !== 'hidden') el.style.visibility = 'hidden'; continue; } el.style.visibility = 'visible';
@@ -108,7 +110,7 @@ export default function Shelf({ book = null }){
 
   /* which book is under the pointer (geometry, so it works with the 3D transforms) */
   const hitAt = (cx, cy) => { if (!S.dims || !S.xs || !sec.current) return null; const rc = sec.current.getBoundingClientRect(); const lx = cx - rc.left - rc.width / 2, ly = cy - (rc.top + (S.cy0 || 0)); const { H, ws, d, gap } = S.dims;
-    if (Math.abs(ly) > H * 0.55) return null; let best = null, bd = 1e9; for (let v = 0; v < C; v++){ const half = (ws + (d - ws) * sstep(S.o[v])) / 2 + gap / 2; const dx = Math.abs(S.xs[v] - lx); if (dx < half && dx < bd){ bd = dx; best = v; } } return best; };
+    if (Math.abs(ly) > H * 0.55) return null; let best = null, bd = 1e9; for (let v = 0; v < C; v++){ const half = widthOf(S.o[v]) / 2 + gap / 2; const dx = Math.abs(S.xs[v] - lx); if (dx < half && dx < bd){ bd = dx; best = v; } } return best; };
 
   useEffect(() => { const el = sec.current;
     const down = (e) => { if (S.open || e.button > 0) return; if (e.target.closest && e.target.closest('button,a,.bk-chips')) return; S.drag = { x: e.clientX, T: S.T, moved: false, id: e.pointerId, type: e.pointerType }; };
