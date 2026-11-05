@@ -37,6 +37,16 @@ export const I = {
   grid: P(<><rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/></>),
   cards: P(<><rect x="6" y="3" width="12" height="16" rx="2"/><path d="M3 7v12a2 2 0 0 0 2 2h10"/></>),
   kb: P(<><rect x="2.5" y="6" width="19" height="12" rx="2"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M7 14h10"/></>),
+  flag: P(<><path d="M5 21V4"/><path d="M5 4h11l-2 4 2 4H5"/></>),
+  mic: P(<><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0"/><path d="M12 17.5V21"/></>),
+  book: P(<><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/></>),
+  chart: P(<><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></>),
+  game: P(<><rect x="2.5" y="7" width="19" height="11" rx="5"/><path d="M7 11v3M5.5 12.5h3"/><circle cx="15.5" cy="11.5" r="1" fill="currentColor"/><circle cx="17.5" cy="13.5" r="1" fill="currentColor"/></>),
+  fire: P(<path d="M12 22c4 0 7-2.8 7-6.8 0-3.3-2.2-5.6-3.6-7.3-.4 1.6-1.2 2.8-2.4 3.4.3-3-1-6.3-4-8.3.2 3.2-1.7 5-3 6.8C4.8 11.6 5 13.3 5 15.2 5 19.2 8 22 12 22z"/>),
+  school: P(<><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c2 2 10 2 12 0v-5"/></>),
+  plus: P(<path d="M12 5v14M5 12h14"/>),
+  search: P(<><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></>),
+  bell: P(<><path d="M6 16V11a6 6 0 0 1 12 0v5l1.5 2h-15z"/><path d="M10 20a2 2 0 0 0 4 0"/></>),
   speed: P(<><path d="M12 13l4-4"/><path d="M4.2 17a9 9 0 1 1 15.6 0"/></>),
   google: (p) => <svg viewBox="0 0 48 48" aria-hidden="true" {...p}><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.7 29.2 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.3-.1-2.4-.4-3.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.7 15.1 19 12 24 12c3.1 0 5.8 1.2 7.9 3.1l5.7-5.7C34 6.1 29.3 4 24 4 16.3 4 9.7 8.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 44c5.2 0 9.9-2 13.4-5.2l-6.2-5.2C29.2 35.1 26.7 36 24 36c-5.2 0-9.6-3.3-11.3-7.9l-6.5 5C9.5 39.6 16.2 44 24 44z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.2-2.2 4.2-4.1 5.6l6.2 5.2C37 39.2 44 34 44 24c0-1.3-.1-2.4-.4-3.5z"/></svg>,
 };
@@ -59,7 +69,7 @@ export function PlayBtn({ say, tl, slow = false, alt = false, label = '', classN
 export function PlayPair({ say, tl, u }){ return <span className="inline-flex gap-1.5"><PlayBtn say={say} tl={tl} label={u.play}/><PlayBtn say={say} tl={tl} slow label={u.speed}/></span>; }
 
 /* ---------- target-language text ---------- */
-export const tcls = (tl) => tl === 'ar' ? 'tgt tgt-ar' : tl === 'zh' ? 'tgt tgt-zh' : tl === 'ja' ? 'tgt tgt-ja' : tl === 'ko' ? 'tgt tgt-ko' : 'tgt';
+export const tcls = (tl) => tl === 'ru' ? 'tgt tgt-ru' : tl === 'ar' ? 'tgt tgt-ar' : tl === 'zh' ? 'tgt tgt-zh' : tl === 'ja' ? 'tgt tgt-ja' : tl === 'ko' ? 'tgt tgt-ko' : 'tgt';
 export const tdir = (tl) => tl === 'ar' ? 'rtl' : 'ltr';
 export function Tgt({ tl, children, className = '', as: As = 'span', ...r }){ return <As className={`${tcls(tl)} ${className}`} dir={tdir(tl)} lang={tl} {...r}>{children}</As>; }
 
@@ -114,4 +124,6 @@ export function Seg({ value, options, onChange, className = '' }){
 export function Progress({ value, className = '' }){
   return <div className={`h-2 rounded-full bg-brand-50 overflow-hidden ${className}`}><div className="h-full rounded-full bg-brand-500 transition-all" style={{ width: Math.max(0, Math.min(100, value)) + '%' }}/></div>;
 }
+/* small report-a-mistake button */
+export function ReportBtn({ data, className = '' }){ const { report, u } = useApp(); return <button type="button" className={`inline-grid place-items-center w-8 h-8 rounded-lg text-ink-3 hover:text-[#D9363E] hover:bg-[#FDECEC] transition ${className}`} onClick={(e) => { e.stopPropagation(); report && report(data); }} aria-label={u.x.report} title={u.x.report} data-report><I.flag className="w-4 h-4"/></button>; }
 export const nt = (s, n) => (n === 'zh' || n === 'ja') ? zhc(s || '') : (s || '');

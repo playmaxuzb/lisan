@@ -4,7 +4,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Store, LEVELS, level, Packs, Speech, shuffle, COURSES, PASS, EXAM_N, buildExam, markAnswer, finishExam, checkTyped, norm, disp } from '@/core/engine';
 import { LEARN } from '@/core/strings_app';
 import { Flag } from '@/core/flags';
-import { useApp, useStore, useForce, I, PlayBtn, PlayPair, Tgt, Words, bodyHTML, Html, Seg, Progress, tcls, tdir, nt } from '@/ui/kit';
+import { useApp, useStore, useForce, I, PlayBtn, PlayPair, Tgt, Words, bodyHTML, Html, Seg, Progress, tcls, tdir, nt, ReportBtn } from '@/ui/kit';
+import { SpeakTab, MicCheck } from '@/views/Speak';
 import { TopBar } from '@/views/Home';
 import { useTrack, Spinner, AudioBtn } from '@/views/Track';
 import { WriteTab } from '@/views/Write';
@@ -12,7 +13,7 @@ import { Paywall } from '@/views/Pro';
 import { hasAccess, certFor } from '@/core/pro';
 import { useVideos, videoFits, VideoGrid } from '@/views/Videos';
 
-const TAB_ICON = { video: '▶', letters: 'Aa', words: '🖼', phrases: '💬', grammar: '§', read: '📖', talk: '🗣', write: '✍︎', exam: '✓' };
+const TAB_ICON = { video: '▶', letters: 'Aa', words: '🖼', phrases: '💬', grammar: '§', read: '📖', talk: '🗣', speak: '🎙', write: '✍︎', exam: '✓' };
 
 export default function LevelView({ tr, L, tab }){
   useStore(); const { u } = useApp(); const T = useTrack(tr); const c = COURSES[tr]; const i = LEVELS.indexOf(L);
@@ -22,7 +23,7 @@ export default function LevelView({ tr, L, tab }){
   if (!T) return <div><TopBar><AudioBtn/></TopBar><Spinner/></div>;
   const lv = level(tr, L);
   const vids = (allV || []).filter((v) => v.t === c.t && v.L === L && videoFits(v, c.n, c.t, L));
-  const tabs = [...(lv.alphabet ? ['letters'] : []), 'words', 'phrases', 'grammar', 'read', 'talk', 'write', ...(vids.length ? ['video'] : []), 'exam'];
+  const tabs = [...(lv.alphabet ? ['letters'] : []), 'words', 'phrases', 'grammar', 'read', 'talk', 'speak', 'write', ...(vids.length ? ['video'] : []), 'exam'];
   const paid = hasAccess(tr, L);
   const cur = tabs.includes(tab) ? tab : tabs[0];
   const unlocked = Store.unlocked(tr, i);
@@ -36,14 +37,14 @@ export default function LevelView({ tr, L, tab }){
         <h1 className="text-xl sm:text-2xl font-extrabold text-ink">{LEARN[c.n](c.t)} · <span className="text-brand-600">{L}</span> <span className="text-ink-2 font-semibold text-lg">{u.lv[L]}</span></h1>
       </div>
       <nav className="mt-4 -mx-4 px-4 flex gap-2 overflow-x-auto no-scrollbar pb-1" aria-label="tabs">
-        {tabs.map((t) => <button key={t} onClick={() => go(t)} data-tab={t} className={`chip ${cur === t ? 'on' : ''}`}><span aria-hidden="true" className="text-xs opacity-80">{TAB_ICON[t]}</span>{t === 'video' ? u.p.videos : u.tabs[t]}{(!paid || (!unlocked && t !== 'exam')) && <I.lock className="w-3.5 h-3.5"/>}</button>)}
+        {tabs.map((t) => <button key={t} onClick={() => go(t)} data-tab={t} className={`chip ${cur === t ? 'on' : ''}`}><span aria-hidden="true" className="text-xs opacity-80">{TAB_ICON[t]}</span>{t === 'video' ? u.p.videos : t === 'speak' ? u.x.speak : u.tabs[t]}{(!paid || (!unlocked && t !== 'exam')) && <I.lock className="w-3.5 h-3.5"/>}</button>)}
       </nav>
     </div>
     <main className="mx-auto max-w-6xl px-4 sm:px-6 py-5 pb-16">
       <AnimatePresence mode="wait"><motion.div key={cur} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} transition={{ duration: .18 }}>
         {!paid ? <Paywall tr={tr} L={L}/> : !unlocked && cur !== 'exam' ? <Locked lv={lv} i={i} go={go}/> : cur === 'video' ? <VideoGrid list={vids} n={c.n} tr={tr}/> :
          cur === 'letters' ? <Letters lv={lv} go={go}/> : cur === 'words' ? <WordsTab lv={lv}/> : cur === 'phrases' ? <Phrases lv={lv}/> :
-         cur === 'grammar' ? <Grammar lv={lv}/> : cur === 'read' ? <Reading lv={lv}/> : cur === 'talk' ? <Talk lv={lv}/> :
+         cur === 'grammar' ? <Grammar lv={lv}/> : cur === 'read' ? <Reading lv={lv}/> : cur === 'talk' ? <Talk lv={lv}/> : cur === 'speak' ? <SpeakTab lv={lv}/> :
          cur === 'write' ? <WriteTab lv={lv}/> : <Exam lv={lv}/>}
       </motion.div></AnimatePresence>
     </main>
@@ -110,7 +111,8 @@ function WordsTab({ lv }){
     </div>
     {mode === 'flash' ? <Flash key={theme} items={items} lv={lv}/> :
     <div className="grid gap-3 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4" data-words>
-      {items.map((v) => <div key={v.id} className={`rounded-2xl bg-white border-[1.5px] p-4 flex flex-col items-center text-center gap-1.5 ${weak[v.id] ? 'border-[#F2B8BB]' : 'border-line'}`}>
+      {items.map((v) => <div key={v.id} className={`relative rounded-2xl bg-white border-[1.5px] p-4 flex flex-col items-center text-center gap-1.5 ${weak[v.id] ? 'border-[#F2B8BB]' : 'border-line'}`}>
+        <ReportBtn className="absolute top-1.5 end-1.5 opacity-60 hover:opacity-100" data={{ tr: lv.tr, L: lv.L, kind: 'v', id: v.id, src: v.src, m: v.m, tl, e: v.e, say: v.say }}/>
         <div className="text-[2.6rem] leading-none my-1" aria-hidden="true">{v.e}</div>
         <Tgt tl={tl} className="text-lg font-bold text-ink break-words max-w-full">{v.t}</Tgt>
         {v.pr && <div className="text-xs text-brand-700 break-words max-w-full" dir="auto">{v.pr}</div>}
@@ -131,7 +133,7 @@ function Flash({ items, lv }){
     <motion.div key={v.id + flip} initial={{ rotateY: 70, opacity: 0 }} animate={{ rotateY: 0, opacity: 1 }} className="card p-8 flex flex-col items-center gap-3 text-center min-h-[300px] justify-center">
       <div className="text-6xl" aria-hidden="true">{v.e}</div>
       <Tgt tl={tl} className="text-3xl font-extrabold text-ink">{v.t}</Tgt>
-      <PlayPair say={v.say} tl={tl} u={u}/>
+      <div className="flex items-center gap-1.5"><PlayPair say={v.say} tl={tl} u={u}/><ReportBtn data={{ tr: lv.tr, L: lv.L, kind: 'v', id: v.id, src: v.src, m: v.m, tl, e: v.e, say: v.say }}/></div>
       {flip ? <>{v.pr && <div className="text-brand-700" dir="auto">{v.pr}</div>}<div className="text-xl text-ink-2">{v.m}</div></> : <button className="btn ghost" onClick={() => setFlip(true)}>{u.flip}</button>}
     </motion.div>
     <div className="mt-4 grid grid-cols-2 gap-3"><button className="btn ghost" onClick={() => ans(false)}><I.x className="w-4 h-4"/>{u.didnt}</button><button className="btn" onClick={() => ans(true)}><I.check className="w-4 h-4"/>{u.knew}</button></div>
@@ -145,6 +147,7 @@ export function SentList({ arr, lv, playing = -1 }){
     <div className="flex flex-col gap-1.5"><PlayBtn say={s.say} tl={tl} label={u.play}/><PlayBtn say={s.say} tl={tl} slow label={u.speed}/></div>
     <div className="flex-1 min-w-0"><Tgt tl={tl} className="block text-[1.12rem] font-semibold text-ink leading-relaxed"><Words src={s.src} tl={tl} ctx={s.m} onWord={(w, c) => word(w, c)}/></Tgt>
       {s.pr && <div className="text-sm text-brand-700 mt-0.5" dir="auto">{s.pr}</div>}<div className="text-[.95rem] text-ink-2 mt-1">{s.m}</div></div>
+    <ReportBtn className="opacity-60 hover:opacity-100 flex-none" data={{ tr: lv.tr, L: lv.L, kind: 's', id: s.id || '', src: s.src, m: s.m, tl, say: s.say }}/>
   </div>)}</div>;
 }
 function useChain(lv){ const [idx, setIdx] = useState(-1); const [on, setOn] = useState(false);
@@ -224,9 +227,12 @@ function Talk({ lv }){
             <Tgt tl={tl} className="bt block text-[1.08rem] font-semibold text-ink"><Words src={l.src} tl={tl} ctx={l.m} onWord={(w, c) => word(w, c)}/></Tgt>
             {l.pr && <div className="bt text-sm text-brand-700" dir="auto">{l.pr}</div>}
             <div className="text-sm text-ink-2 mt-0.5" dir="auto">{l.m}</div>
-          </div></div>; })}
+          </div>{!hide && <ReportBtn className="opacity-50 hover:opacity-100 flex-none self-center" data={{ tr: lv.tr, L: lv.L, kind: 'd', id: 'd' + di + ':' + k, src: l.src, m: l.m, tl, say: l.say }}/>}</div>; })}
       </div>
-      {turn && <div className="mt-4 rounded-2xl bg-brand-50 border-[1.5px] border-brand-200 p-4 flex flex-wrap items-center justify-between gap-3"><span className="text-ink">{u.yourTurn}</span><button className="btn sm" onClick={() => resolver.current && resolver.current()}>{u.next}</button></div>}
+      {turn && <div className="mt-4 rounded-2xl bg-brand-50 border-[1.5px] border-brand-200 p-4 flex flex-col gap-3" data-turn>
+        <div className="flex flex-wrap items-center justify-between gap-3"><span className="text-ink font-semibold">{u.x.sayLine}</span><button className="btn sm" onClick={() => resolver.current && resolver.current()}>{u.next}</button></div>
+        {d.lines[act] && <><Tgt tl={tl} className="block text-center text-lg font-bold text-ink">{d.lines[act].t}</Tgt><MicCheck key={act} say={d.lines[act].say} tl={tl} compact/></>}
+      </div>}
     </div>
   </div>;
 }

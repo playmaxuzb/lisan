@@ -10,6 +10,8 @@ body{ font-family:Inter,"IBM Plex Sans Arabic","Noto Sans SC",system-ui,sans-ser
 button{ cursor:pointer; }
 button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible{ outline:2px solid var(--brand); outline-offset:2px; }
 .tgt{ font-family:Inter,"Noto Sans SC",system-ui,sans-serif; }
+/* Russian: Inter misplaces the stress mark on я / ю, Noto Sans draws it correctly */
+.tgt-ru, body [lang="ru"], body [lang="ru"] *{ font-family:"Noto Sans","Segoe UI",Roboto,Arial,sans-serif; }
 .tgt-ar{ font-family:"Amiri","IBM Plex Sans Arabic",serif; font-size:1.12em; line-height:1.9; }
 .tgt-zh{ font-family:"Noto Sans SC",system-ui,sans-serif; }
 .tgt-ja{ font-family:"Noto Sans JP","Noto Sans SC",system-ui,sans-serif; }
@@ -67,3 +69,4 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .qopt:hover:not([disabled]){ border-color:var(--brand); background:#F5F8FF; }
 .qopt.right{ border-color:var(--ok); background:#E8F7EF; } .qopt.wrong{ border-color:var(--bad); background:#FDECEC; }
 }
+@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}

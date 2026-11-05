@@ -1,7 +1,8 @@
 // @ts-nocheck
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import { Store, LEVELS, ensureTrack, level, COURSES } from '@/core/engine';
+import { Store, LEVELS, ensureTrack, level, COURSES, STRESS, setStress, track } from '@/core/engine';
+import { mine } from '@/core/mydict';
 import { LEARN, SELF } from '@/core/strings_app';
 import { Flag } from '@/core/flags';
 import { useApp, useStore, I } from '@/ui/kit';
@@ -18,9 +19,10 @@ function Tools({ tr }){ const { u, toast } = useApp(); const p = u.p; const c = 
   const T = ({ href = null, onClick = null, icon, title, sub, hot = false, data }) => { const cls = `card card-hover p-4 flex items-center gap-3 text-start ${hot ? '!border-brand-500' : ''}`;
     const inner = <><span className={`grid place-items-center w-11 h-11 rounded-xl text-lg font-bold flex-none ${hot ? 'bg-brand-500 text-white' : 'bg-brand-50 text-brand-600 ring-1 ring-brand-200'}`}>{icon}</span><div className="min-w-0"><div className="font-bold text-ink">{title}</div><div className="text-xs text-ink-2">{sub}</div></div></>;
     return href ? <a href={href} className={cls} data-tool={data}>{inner}</a> : <button onClick={onClick} className={cls} data-tool={data}>{inner}</button>; };
-  return <div className="mt-6 grid gap-3 grid-cols-1 sm:grid-cols-3">
+  return <div className="mt-6 grid gap-3 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
     <T href={'#/placement/' + tr} icon="◎" title={p.placement} sub={pl ? p.lastResult + ': ' + pl.L : p.placementSub} data="placement"/>
     <T href={'#/review/' + tr} icon="↻" hot={due > 0} title={p.review} sub={due ? due + ' ' + p.dueN : size(tr) ? size(tr) + ' ' + p.inReview : p.reviewSub} data="review"/>
+    <T href={'#/games/' + tr} icon="🎮" title={u.x.games} sub={u.x.gamesD} data="games"/>
     {offlineSupported() && <T onClick={dl >= 0 ? null : doDl} icon={off ? '✓' : '⤓'} title={off ? p.dlDone : p.offlineT} sub={dl >= 0 ? Math.round(dl * 100) + '%' : off ? mb(sizeOf(tr)) + ' · ' + p.dlRemove : p.offlineD} data="offline"/>}
   </div>; }
 
@@ -30,6 +32,13 @@ export function AudioBtn(){ const { u, openAudio } = useApp(); return <button cl
 
 function TrackVideos({ tr }){ const { u } = useApp(); const c = COURSES[tr]; const all = useVideos(); const list = (all || []).filter((v) => v.t === c.t && videoFits(v, c.n, c.t, ''));
   if (!list.length) return null; return <section className="mt-10"><h2 className="text-xl font-extrabold text-ink mb-4">{u.p.videos}</h2><VideoGrid list={list} n={c.n} tr={tr}/></section>; }
+
+function DictCard({ tr }){ const { u } = useApp(); const x = u.x; const T = track(tr); const n = LEVELS.reduce((a, L) => a + level(tr, L).vocab.length, 0); const my = mine(tr).length;
+  return <a href={'#/dict/' + tr} className="mt-8 card card-hover p-5 sm:p-6 flex items-center gap-4 bg-gradient-to-br from-white to-brand-50" data-dict-card>
+    <span className="grid place-items-center w-14 h-14 rounded-2xl bg-brand-500 text-white flex-none"><I.book className="w-7 h-7"/></span>
+    <div className="flex-1 min-w-0"><div className="font-extrabold text-ink text-lg">{x.dict}</div><div className="text-sm text-ink-2">{x.dictD}</div>
+      <div className="mt-1.5 flex flex-wrap gap-1.5 text-xs"><span className="chip !min-h-[26px] !px-2.5">A1–C2 · {n}+ {x.entries}</span><span className="chip !min-h-[26px] !px-2.5">★ {x.myWords} · {my}</span></div></div>
+    <I.next className="w-5 h-5 text-brand-600 rtl:rotate-180 flex-none"/></a>; }
 
 export default function Track({ tr }){
   useStore(); const { u } = useApp(); const T = useTrack(tr); const c = COURSES[tr];
@@ -62,6 +71,11 @@ export default function Track({ tr }){
             </div>
           </motion.a>; })}
       </div>}
+      {T && <DictCard tr={tr}/>}
+      {c.t === 'ru' && <div className="mt-4 card p-4 flex items-center gap-3" data-stress>
+        <span className="grid place-items-center w-11 h-11 rounded-xl bg-brand-50 text-brand-700 ring-1 ring-brand-200 text-lg font-bold flex-none tgt" lang="ru">а́</span>
+        <div className="flex-1 min-w-0"><div className="font-bold text-ink">{u.x.stressT}</div><div className="text-xs text-ink-2">{u.x.stressD}</div></div>
+        <button onClick={() => setStress(!STRESS.on)} role="switch" aria-checked={STRESS.on} className={`relative w-12 h-7 rounded-full transition flex-none ${STRESS.on ? 'bg-brand-500' : 'bg-[#D5DCE8]'}`}><span className={`absolute top-1 w-5 h-5 rounded-full bg-white shadow transition-all ${STRESS.on ? 'start-6' : 'start-1'}`}/></button></div>}
       <TrackVideos tr={tr}/>
       <div className="mt-8"><button onClick={reset} className={`btn sm ${confirm ? '' : 'ghost'}`}>{u.reset}{confirm ? ' ?' : ''}</button></div>
     </main>

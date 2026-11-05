@@ -11,10 +11,11 @@ import { useApp, useStore, I, Logo, Progress } from '@/ui/kit';
 import { Pro, planOf, paywallOn } from '@/core/pro';
 import { dueCount } from '@/core/srs';
 import { certsOf } from '@/core/pro';
+import { GoalCard } from '@/views/Stats';
 
 function Menu(){ const { u } = useApp(); const p = u.p; const [open, setOpen] = useState(false); const ref = useRef(null);
   useEffect(() => { const f = (e) => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); }; addEventListener('pointerdown', f); return () => removeEventListener('pointerdown', f); }, []);
-  const items = [['#/certs', p.myCerts, I.star], ['#/videos', p.videos, I.play], ['#/pricing', p.plans, I.cards], ['#/verify', p.verifyT, I.check], ...(Pro.admin ? [['#/admin', p.adminT, I.edit]] : [])];
+  const items = [['#/stats', u.x.stats, I.chart], ['#/certs', p.myCerts, I.star], ['#/videos', p.videos, I.play], ['#/pricing', p.plans, I.cards], ['#/verify', p.verifyT, I.check], ['#/schools', u.x.schools, I.school], ...(Pro.admin ? [['#/admin', p.adminT, I.edit]] : [])];
   return <div className="relative" ref={ref}>
     <button className="iconbtn" onClick={() => setOpen(!open)} aria-label={p.menu} aria-expanded={open} data-menu><I.grid/></button>
     {open && <div className="absolute end-0 mt-2 w-60 rounded-2xl bg-white border-[1.5px] border-line shadow-card p-1.5 z-40">{items.map(([h, l, Ic]) =>
@@ -74,6 +75,7 @@ export default function Home(){
     </section>
 
     <main className="mx-auto max-w-6xl px-4 sm:px-6 py-8 sm:py-10">
+      <div className="mb-4"><GoalCard compact/></div>
       <QuickRow/>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {ids.map((tr, i) => { const t = COURSES[tr].t; const k = passedOf(tr); return <motion.a key={tr} href={'#/learn/' + tr} data-course={tr}

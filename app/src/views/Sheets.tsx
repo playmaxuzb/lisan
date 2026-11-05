@@ -2,7 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import { AnimatedNumber } from '@/components/ui/animated-number';
 import { Store, Speech, AUTO_LANGS, lookupWord, disp, track } from '@/core/engine';
-import { useApp, useStore, Sheet, I, PlayPair, Tgt } from '@/ui/kit';
+import { useApp, useStore, Sheet, I, PlayPair, Tgt, ReportBtn } from '@/ui/kit';
+import { saveWord, isSaved } from '@/core/mydict';
 
 /* Slider + a clickable percentage that animates; each click lowers the value by one step and wraps to the top. */
 export function PercentControl({ label, icon: Ic, value, min, max, step, onChange, hint }){
@@ -47,7 +48,7 @@ export function AudioSheet({ open, onClose, tl }){
 }
 
 export function WordSheet({ data, onClose }){
-  const { u } = useApp(); const [info, setInfo] = useState(null);
+  useStore(); const { u, toast } = useApp(); const [info, setInfo] = useState(null);
   useEffect(() => { if (!data) { setInfo(null); return; } const T = track(data.tr); const r = lookupWord(data.tr, data.raw, data.gloss); setInfo({ ...r, tl: T.t }); Speech.say(r.say, T.t); }, [data]);
   const open = !!(data && info);
   return <Sheet open={open} onClose={onClose} dir={u.dir}>{open && <div className="flex flex-col gap-4">
@@ -55,6 +56,10 @@ export function WordSheet({ data, onClose }){
     {info.pr && <div><div className="text-xs font-semibold uppercase tracking-wider text-ink-3">{u.pron}</div><div className="text-lg text-brand-700" dir="auto">{info.pr}</div></div>}
     <div><div className="text-xs font-semibold uppercase tracking-wider text-ink-3">{u.meaning}</div>
       <div className="text-xl text-ink mt-0.5">{info.m ? info.m : <><span className="text-ink-3 text-base">{u.notFound}</span><div className="text-base text-ink-2 mt-1">{data.ctxM}</div></>}</div></div>
-    <button className="btn ghost" onClick={onClose}>{u.close}</button>
+    <div className="flex flex-wrap items-center gap-2">
+      {info.m && (isSaved(data.tr, data.raw) ? <span className="chip on"><I.check className="w-4 h-4"/>{u.x.savedW}</span> : <button className="btn sm" onClick={() => { saveWord(data.tr, data.raw, info.m); toast(u.x.savedW); }} data-save-word><I.star className="w-4 h-4"/>{u.x.saveWord}</button>)}
+      <button className="btn ghost sm" onClick={onClose}>{u.close}</button><span className="flex-1"/>
+      <ReportBtn data={{ tr: data.tr, kind: 'w', src: data.raw, m: info.m || data.ctxM || '', tl: info.tl, say: info.say, e: info.v && info.v.e }}/>
+    </div>
   </div>}</Sheet>;
 }

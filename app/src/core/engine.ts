@@ -19,7 +19,9 @@ const CJKRE=new RegExp(`([${CJK}]) +(?=[${CJK}])`,'g');
 export const zhc = s => String(s).replace(CJKRE,'$1').replace(CJKRE,'$1');
 export const isCJK = s => /[一-鿿]/.test(s);
 export const pick = (s,n) => { if (s && typeof s==='object' && !Array.isArray(s)) return s[n]!=null ? s[n] : (s.en||s.ar||s.ru||Object.values(s)[0]||''); if(Array.isArray(s)) return n==='ar'?s[0]:s[1]; if(typeof s==='string'&&s.includes('::')){const p=s.split('::');return n==='ar'?p[0]:p[1];} return s; };
-export const disp = s => zhc(String(s).replace(/\+(.)/g,'$1́'));
+export const STRESS = { on: (()=>{ try{ return localStorage.getItem('lisan.stress')!=='0'; }catch(e){ return true; } })() };
+export const disp = s => zhc(String(s).replace(/\+(.)/g, STRESS.on ? '$1́' : '$1'));
+export function setStress(on){ STRESS.on=on; try{ localStorage.setItem('lisan.stress', on?'1':'0'); }catch(e){} for (const k in cache) delete cache[k]; Store.emit(); }
 export const sayOf = s => zhc(String(s).replace(/\([^)]*\)/g,' ').replace(/\+/g,'').replace(/́/g,'').replace(/\s+/g,' ').trim());
 const HARAKAT = /[ً-ْٰـ]/g;
 export function norm(s, tl){
@@ -237,8 +239,8 @@ export function buildExam(lv){
   const out = shuffle(Q.slice(0,EXAM_N)); Store.d.last[key]=out.map(q=>q.item.id); Store.save();
   return {qs:out, i:0, done:false};
 }
-let answerHook=null; export function setAnswerHook(f){ answerHook=f; }
-export function markAnswer(lv, q, ok){ const key=lv.tr+':'+lv.L; const weak=Store.weak(key); q.correct=ok; const id=q.item.id; if (answerHook) try{ answerHook(lv.tr, q.item, ok); }catch(e){}
+const answerHooks=[]; export function setAnswerHook(f){ answerHooks.push(f); }
+export function markAnswer(lv, q, ok){ const key=lv.tr+':'+lv.L; const weak=Store.weak(key); q.correct=ok; const id=q.item.id; answerHooks.forEach(h=>{ try{ h(lv.tr, q.item, ok, q.kind); }catch(e){} });
   if (ok){ if (weak[id]){ weak[id]--; if(weak[id]<=0) delete weak[id]; } } else weak[id]=(weak[id]||0)+2; Store.save(); }
 export function finishExam(lv, ex){ ex.done=true; const key=lv.tr+':'+lv.L; const right=ex.qs.filter(q=>q.correct).length; const pct=Math.round(right/ex.qs.length*100);
   Store.d.best[key]=Math.max(Store.d.best[key]||0,pct); if (pct>=PASS){ (Store.d.passed[lv.tr]||(Store.d.passed[lv.tr]={}))[lv.L]=true; } Store.save(); return pct; }

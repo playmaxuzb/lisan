@@ -9,6 +9,9 @@ import { useApp, useStore, I } from '@/ui/kit';
 import { TopBar } from '@/views/Home';
 import { Back } from '@/views/Pro';
 import { Player } from '@/views/Videos';
+import { listReports, setReport, listPartners } from '@/core/report';
+import { Tgt, PlayPair } from '@/ui/kit';
+import { disp } from '@/core/engine';
 
 const dt = (t) => t >= 3.9e12 ? '∞' : t > Date.now() ? new Date(t).toISOString().slice(0, 10) : '—';
 
@@ -18,14 +21,14 @@ export default function Admin({ tab = 'access' }){
     <span className="grid place-items-center w-14 h-14 rounded-2xl bg-brand-50 text-brand-600 ring-1 ring-brand-200"><I.lock className="w-6 h-6"/></span>
     <h1 className="text-xl font-extrabold text-ink">{p.adminT}</h1><p className="text-ink-2">{Auth.user ? p.notAdmin : p.adminSignIn}</p>
     <a className="btn ghost" href="#/profile">{u.home}</a></div></main></div>;
-  const tabs = [['access', p.grants], ['videos', p.videos], ['admins', p.admins], ['shop', p.shop]];
+  const tabs = [['reports', u.x.reports], ['access', p.grants], ['videos', p.videos], ['partners', u.x.partners], ['admins', p.admins], ['shop', p.shop]];
   return <div>
     <TopBar/>
     <main className="mx-auto max-w-5xl px-4 sm:px-6 py-6 pb-16">
       <Back label={u.home}/>
       <h1 className="mt-4 text-2xl sm:text-3xl font-extrabold text-ink">{p.adminT}</h1>
       <nav className="mt-4 flex gap-2 overflow-x-auto no-scrollbar">{tabs.map(([k, l]) => <a key={k} href={'#/admin/' + k} className={`chip ${tab === k ? 'on' : ''}`}>{l}</a>)}</nav>
-      <div className="mt-5">{tab === 'videos' ? <VideosAdmin/> : tab === 'admins' ? <Admins/> : tab === 'shop' ? <Shop/> : <Access/>}</div>
+      <div className="mt-5">{tab === 'reports' ? <Reports/> : tab === 'partners' ? <Partners/> : tab === 'videos' ? <VideosAdmin/> : tab === 'admins' ? <Admins/> : tab === 'shop' ? <Shop/> : <Access/>}</div>
     </main>
   </div>;
 }
@@ -114,3 +117,24 @@ function Shop(){
     <p className="mt-4 text-ink-2 leading-relaxed">{p.shopHelp}</p>
   </div>;
 }
+
+function Reports(){ const { u, toast } = useApp(); const x = u.x; const [st, setSt] = useState('new'); const [list, setList] = useState(null);
+  const load = async () => { setList(null); try { setList(await listReports(st)); } catch (e){ setList([]); toast(u.p.err + ' ' + (e.code || e.message)); } };
+  useEffect(() => { load(); }, [st]);
+  const TY = { audio: x.rAudio, trans: x.rTrans, spell: x.rSpell, pic: x.rPic, other: x.rOther };
+  const mark = async (r, s) => { try { await setReport(r.id, s); setList(list.filter((y) => y.id !== r.id)); } catch (e){ toast(u.p.err); } };
+  return <div>
+    <div className="flex gap-2 mb-4">{[['new', x.rNew], ['done', x.rDone], ['no', x.rDismiss]].map(([k, l]) => <button key={k} className={`chip ${st === k ? 'on' : ''}`} onClick={() => setSt(k)}>{l}</button>)}</div>
+    {!list ? <div className="text-ink-3">…</div> : !list.length ? <div className="card p-6 text-ink-2">{x.rNone}</div> :
+    <div className="flex flex-col gap-3">{list.map((r) => <div key={r.id} className="card p-4 flex flex-col gap-2" data-report-row>
+      <div className="flex flex-wrap items-center gap-2 text-xs"><span className="chip !min-h-[26px] !px-2.5 on">{TY[r.type] || r.type}</span><span className="text-ink-3" dir="ltr">{r.tr} {r.L} · {r.kind} {r.id}</span><span className="text-ink-3 ms-auto" dir="ltr">{new Date(r.at).toLocaleString()}</span></div>
+      <div className="flex items-center gap-3"><div className="flex-1 min-w-0"><Tgt tl={r.tl} className="text-lg font-bold text-ink">{disp(r.src || '')}</Tgt>{r.m && <div className="text-sm text-ink-2" dir="auto">{r.m}</div>}</div>{r.tl && <PlayPair say={r.src} tl={r.tl} u={u}/>}</div>
+      {r.note && <div className="rounded-xl bg-paper border border-line p-2.5 text-sm text-ink" dir="auto">{r.note}</div>}
+      <div className="text-xs text-ink-3" dir="ltr">{x.rFrom}: {r.email || r.user || '—'} · {r.native}</div>
+      {st === 'new' && <div className="flex gap-2"><button className="btn sm" onClick={() => mark(r, 'done')}>{x.rMark}</button><button className="btn ghost sm" onClick={() => mark(r, 'no')}>{x.rDismiss}</button></div>}
+    </div>)}</div>}
+  </div>; }
+function Partners(){ const { u, toast } = useApp(); const x = u.x; const [list, setList] = useState(null);
+  useEffect(() => { listPartners().then(setList).catch((e) => { setList([]); toast(u.p.err); }); }, []);
+  return !list ? <div className="text-ink-3">…</div> : !list.length ? <div className="card p-6 text-ink-2">—</div> :
+    <div className="grid gap-3 sm:grid-cols-2">{list.map((r) => <div key={r.id} className="card p-4 text-sm flex flex-col gap-1"><div className="font-extrabold text-ink text-base" dir="auto">{r.org}</div><div dir="auto">{r.city}</div><div dir="ltr">{r.contact} · {r.students}</div>{r.msg && <div className="text-ink-2" dir="auto">{r.msg}</div>}<div className="text-xs text-ink-3" dir="ltr">{new Date(r.at).toLocaleString()} · {r.lang}</div></div>)}</div>; }
