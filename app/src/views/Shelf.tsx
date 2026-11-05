@@ -116,7 +116,7 @@ export default function Shelf({ book = null }){
     const down = (e) => { if (S.open || e.button > 0) return; if (e.target.closest && e.target.closest('button,a,.bk-chips')) return; S.drag = { x: e.clientX, T: S.T, moved: false, id: e.pointerId, type: e.pointerType }; };
     const move = (e) => { S.mx = e.clientX; S.my = e.clientY; const D = S.drag;
       if (D && !S.open){ const dx = e.clientX - D.x; if (!D.moved && Math.abs(dx) > 6){ D.moved = true; try { el.setPointerCapture(D.id); } catch (er){} } if (D.moved){ S.T = D.T - dx / (S.dims.ws + S.dims.gap); return; } }
-      if (S.inSec && !S.open && e.pointerType === 'mouse'){ const v = hitAt(e.clientX, e.clientY); S.hoverV = v; el.style.cursor = v != null ? 'pointer' : ''; clearTimeout(S.hovT); if (v != null && v !== S.sel) S.hovT = setTimeout(() => { if (S.hoverV === v && Math.abs(S.T - S.s) < .05) select(v); }, 90); } };
+      if (S.inSec && !S.open && e.pointerType === 'mouse'){ const onCtl = e.target.closest && e.target.closest('button,a,.bk-chips,.bk-cap'); const v = onCtl ? null : hitAt(e.clientX, e.clientY); S.hoverV = v; el.style.cursor = v != null ? 'pointer' : ''; clearTimeout(S.hovT); if (v != null && v !== S.sel) S.hovT = setTimeout(() => { if (S.hoverV === v && Math.abs(S.T - S.s) < .05) select(v); }, 140); } };
     const up = (e) => { const D = S.drag; S.drag = null; if (!D) return; if (D.moved){ S.T = Math.round(S.T); centerSel(); return; }
       const v = hitAt(e.clientX, e.clientY); if (v == null) return; if (v === S.sel && S.o[v] > .6) openBook(ids[v % N]); else { select(v); if (D.type !== 'mouse'){ S.T = Math.round(S.T + rel(v)); } } };
     const wheel = (e) => { if (S.open || Math.abs(e.deltaX) <= Math.abs(e.deltaY)) return; e.preventDefault(); S.T += e.deltaX / (S.dims.ws + S.dims.gap) * 0.5; clearTimeout(S.wheelT); S.wheelT = setTimeout(() => { S.T = Math.round(S.T); centerSel(); }, 160); };
@@ -127,7 +127,7 @@ export default function Shelf({ book = null }){
       if (e.key === 'ArrowRight' || e.key === 'ArrowLeft'){ stepRef.current(e.key === 'ArrowRight' ? 1 : -1); e.preventDefault(); } else if (e.key === 'Enter' && document.activeElement === document.body) openBook(ids[S.sel % N]); };
     addEventListener('keydown', key);
     return () => { el.removeEventListener('pointerdown', down); removeEventListener('pointermove', move); removeEventListener('pointerup', up); el.removeEventListener('wheel', wheel); el.removeEventListener('pointerenter', enter); el.removeEventListener('pointerleave', leave); removeEventListener('keydown', key); }; }, [N]);
-  const step = (dlt) => { const base = Math.round(S.s) + rel(S.sel, Math.round(S.s)); S.T = Math.round(base) + dlt; };
+  const step = (dlt) => { clearTimeout(S.hovT); S.hoverV = null; S.T = Math.round(S.T) + dlt; S.sel = wrapV(Math.round(S.s)); };
   stepRef.current = step;
   const jumpTo = (tr) => { const i = ids.indexOf(tr); if (i < 0) return; const v = vNear(i); S.T = v; S.sel = wrapV(v); };
 
