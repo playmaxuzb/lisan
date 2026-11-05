@@ -12,6 +12,7 @@ import { Pro, planOf, paywallOn } from '@/core/pro';
 import { dueCount } from '@/core/srs';
 import { certsOf } from '@/core/pro';
 import { GoalCard } from '@/views/Stats';
+import { canBack, canFwd, goBack, goFwd, onNav } from '@/core/nav';
 
 function Menu(){ const { u } = useApp(); const p = u.p; const [open, setOpen] = useState(false); const ref = useRef(null);
   useEffect(() => { const f = (e) => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); }; addEventListener('pointerdown', f); return () => removeEventListener('pointerdown', f); }, []);
@@ -22,11 +23,19 @@ function Menu(){ const { u } = useApp(); const p = u.p; const [open, setOpen] = 
       <a key={h} href={h} onClick={() => setOpen(false)} className="flex items-center gap-3 rounded-xl px-3 py-2.5 text-ink font-semibold hover:bg-brand-50"><Ic className="w-4.5 h-4.5 w-[18px] h-[18px] text-brand-600"/>{l}</a>)}</div>}
   </div>; }
 
+function NavBtns(){ const { u } = useApp(); const [, rf] = useState(0); useEffect(() => onNav(() => rf((x) => x + 1)), []);
+  const b = 'grid place-items-center w-9 h-9 rounded-full bg-white border-[1.5px] border-line text-ink transition hover:border-brand-500 hover:text-brand-600 disabled:opacity-35 disabled:hover:border-line disabled:hover:text-ink';
+  return <div className="flex items-center gap-1.5 flex-none" data-nav>
+    <button className={b} onClick={goBack} disabled={!canBack() && location.hash.replace(/^#\/?/, '') === ''} aria-label={u.x.back} title={u.x.back} data-nav-back><I.back className="w-[18px] h-[18px] rtl:rotate-180"/></button>
+    <button className={b} onClick={goFwd} disabled={!canFwd()} aria-label={u.x.fwd} title={u.x.fwd} data-nav-fwd><I.next className="w-[18px] h-[18px] rtl:rotate-180"/></button>
+  </div>; }
+
 export function TopBar({ children = null }){
   const { u, go } = useApp(); const p = Store.profile();
   return <header className="sticky top-0 z-30 bg-[#EEF4FF]/85 backdrop-blur border-b border-line/70">
     <div className="mx-auto max-w-6xl px-4 sm:px-6 h-16 flex items-center gap-3">
-      <a href="#/" aria-label={u.home}><Logo small/></a>
+      <NavBtns/>
+      <a href="#/" aria-label={u.home}><Logo small tight/></a>
       <div className="flex-1 min-w-0 flex items-center justify-end gap-2">{children}{p && <Menu/>}</div>
       {p && <a href="#/profile" className="inline-flex items-center gap-2 rounded-full bg-white border-[1.5px] border-line ps-1 pe-3 py-1 hover:border-brand-500 transition" data-profile-link>
         <img src={avatarSrc(p)} alt="" className="w-8 h-8 rounded-full object-cover bg-brand-50"/>

@@ -52,10 +52,10 @@ export const I = {
 };
 
 /* ---------- logo ---------- */
-export function Logo({ small = false }){
+export function Logo({ small = false, tight = false }){
   return <span className="inline-flex items-center gap-2 select-none" dir="ltr">
     <span className={`grid place-items-center rounded-xl bg-brand-500 text-white font-bold shadow-soft ${small ? 'w-8 h-8 text-base' : 'w-10 h-10 text-lg'}`}>L</span>
-    <span className={`font-extrabold tracking-tight text-ink ${small ? 'text-lg' : 'text-xl'}`}>Lisan<span className="text-brand-500 font-semibold ms-1.5" style={{ fontFamily: '"IBM Plex Sans Arabic"' }}>لِسان</span></span>
+    <span className={`font-extrabold tracking-tight text-ink ${small ? 'text-lg' : 'text-xl'} ${tight ? 'hidden sm:inline' : ''}`}>Lisan<span className="text-brand-500 font-semibold ms-1.5" style={{ fontFamily: '"IBM Plex Sans Arabic"' }}>لِسان</span></span>
   </span>;
 }
 

@@ -1,7 +1,7 @@
 // @ts-nocheck
 // Strings for: mistake reports, pronunciation practice, daily goal & streak, reminders, dictionary, statistics, schools, games, stress marks.
 const EN = {
- report:'Report a mistake', reportT:'What is wrong here?', rAudio:'Pronunciation / audio', rTrans:'Translation / meaning', rSpell:'Spelling', rPic:'Picture', rOther:'Something else', rNote:'Comment (optional)', rNotePh:'For example: the stress is on the other syllable', rSend:'Send', rThanks:'Thank you! The team will check it.', rQueued:'Saved — it will be sent when you are online.',
+ back:'Back', fwd:'Forward', report:'Report a mistake', reportT:'What is wrong here?', rAudio:'Pronunciation / audio', rTrans:'Translation / meaning', rSpell:'Spelling', rPic:'Picture', rOther:'Something else', rNote:'Comment (optional)', rNotePh:'For example: the stress is on the other syllable', rSend:'Send', rThanks:'Thank you! The team will check it.', rQueued:'Saved — it will be sent when you are online.',
  reports:'Reports', rNew:'New', rDone:'Fixed', rDismiss:'Not a mistake', rNone:'No reports here.', rFrom:'From', rMark:'Mark as fixed',
  speak:'Speak', speakT:'Pronunciation practice', speakD:'Listen to the model, press the microphone and say it. Green words were clear, red words need another try.', tapMic:'Tap and speak', listening:'Listening…', tryAgain:'Try again', heard:'We heard', perfect:'Excellent pronunciation!', almost:'Good — almost there', retry:'Some words were not clear. Listen again and repeat.',
  noMic:'Speech recognition does not work in this browser. Open Lisan in Chrome (Android or computer) or Safari (iPhone).', micDenied:'Allow access to the microphone to practise speaking.', nothing:'We did not hear anything. Speak a little louder, closer to the phone.', micErr:'The microphone could not start. Check your internet connection and try again.',
@@ -17,7 +17,7 @@ const EN = {
  stressT:'Stress marks', stressD:'Show the stressed vowel: моло́ко', on:'On', off:'Off', more:'More', tools:'Tools'
 };
 const AR = {
- report:'الإبلاغ عن خطأ', reportT:'ما الخطأ هنا؟', rAudio:'النطق / الصوت', rTrans:'الترجمة / المعنى', rSpell:'الإملاء', rPic:'الصورة', rOther:'شيء آخر', rNote:'ملاحظة (اختياري)', rNotePh:'مثلاً: الشدّة على مقطع آخر', rSend:'إرسال', rThanks:'شكراً لك! سيراجعه الفريق.', rQueued:'تم الحفظ — سيُرسَل عند الاتصال بالإنترنت.',
+ back:'رجوع', fwd:'تقدّم', report:'الإبلاغ عن خطأ', reportT:'ما الخطأ هنا؟', rAudio:'النطق / الصوت', rTrans:'الترجمة / المعنى', rSpell:'الإملاء', rPic:'الصورة', rOther:'شيء آخر', rNote:'ملاحظة (اختياري)', rNotePh:'مثلاً: الشدّة على مقطع آخر', rSend:'إرسال', rThanks:'شكراً لك! سيراجعه الفريق.', rQueued:'تم الحفظ — سيُرسَل عند الاتصال بالإنترنت.',
  reports:'البلاغات', rNew:'جديدة', rDone:'تم التصليح', rDismiss:'ليس خطأ', rNone:'لا توجد بلاغات هنا.', rFrom:'من', rMark:'تم التصليح',
  speak:'نطق', speakT:'تدريب على النطق', speakD:'اسمع النطق الصحيح، ثم اضغط على الميكروفون وقله. الكلمات الخضراء كانت واضحة، والحمراء تحتاج محاولة أخرى.', tapMic:'اضغط وتكلّم', listening:'أستمع إليك…', tryAgain:'حاول مرة أخرى', heard:'سمعنا', perfect:'نطق ممتاز!', almost:'جيد — قريب جداً', retry:'بعض الكلمات لم تكن واضحة. اسمع مرة أخرى وكرّر.',
  noMic:'التعرّف على الكلام لا يعمل في هذا المتصفح. افتح لِسان في Chrome (أندرويد أو الكمبيوتر) أو Safari (آيفون).', micDenied:'اسمح بالوصول إلى الميكروفون لتتدرّب على الكلام.', nothing:'لم نسمع شيئاً. تكلّم بصوت أعلى قليلاً وقرّب الهاتف.', micErr:'تعذّر تشغيل الميكروفون. تأكّد من الاتصال بالإنترنت وحاول مرة أخرى.',
@@ -33,7 +33,7 @@ const AR = {
  stressT:'علامات الشدّة', stressD:'إظهار الحرف المشدَّد: моло́ко', on:'تشغيل', off:'إيقاف', more:'المزيد', tools:'أدوات'
 };
 const RU = {
- report:'Сообщить об ошибке', reportT:'Что здесь не так?', rAudio:'Произношение / звук', rTrans:'Перевод / значение', rSpell:'Написание', rPic:'Картинка', rOther:'Другое', rNote:'Комментарий (необязательно)', rNotePh:'Например: ударение на другом слоге', rSend:'Отправить', rThanks:'Спасибо! Команда проверит.', rQueued:'Сохранено — отправим, когда появится интернет.',
+ back:'Назад', fwd:'Вперёд', report:'Сообщить об ошибке', reportT:'Что здесь не так?', rAudio:'Произношение / звук', rTrans:'Перевод / значение', rSpell:'Написание', rPic:'Картинка', rOther:'Другое', rNote:'Комментарий (необязательно)', rNotePh:'Например: ударение на другом слоге', rSend:'Отправить', rThanks:'Спасибо! Команда проверит.', rQueued:'Сохранено — отправим, когда появится интернет.',
  reports:'Сообщения', rNew:'Новые', rDone:'Исправлено', rDismiss:'Не ошибка', rNone:'Сообщений нет.', rFrom:'От', rMark:'Исправлено',
  speak:'Речь', speakT:'Тренировка произношения', speakD:'Послушайте образец, нажмите на микрофон и повторите. Зелёные слова прозвучали чётко, красные нужно повторить.', tapMic:'Нажмите и говорите', listening:'Слушаю…', tryAgain:'Ещё раз', heard:'Мы услышали', perfect:'Отличное произношение!', almost:'Хорошо — почти', retry:'Некоторые слова неразборчивы. Послушайте ещё раз и повторите.',
  noMic:'Распознавание речи не работает в этом браузере. Откройте Lisan в Chrome (Android или компьютер) или Safari (iPhone).', micDenied:'Разрешите доступ к микрофону, чтобы тренировать речь.', nothing:'Мы ничего не услышали. Говорите чуть громче и ближе к телефону.', micErr:'Не удалось включить микрофон. Проверьте интернет и попробуйте снова.',
@@ -49,7 +49,7 @@ const RU = {
  stressT:'Знаки ударения', stressD:'Показывать ударную гласную: моло́ко', on:'Вкл', off:'Выкл', more:'Ещё', tools:'Инструменты'
 };
 const UZ = {
- report:'Xato haqida xabar berish', reportT:'Bu yerda nima xato?', rAudio:'Talaffuz / ovoz', rTrans:'Tarjima / maʼno', rSpell:'Imlo', rPic:'Rasm', rOther:'Boshqa', rNote:'Izoh (ixtiyoriy)', rNotePh:'Masalan: urgʻu boshqa boʻgʻinda', rSend:'Yuborish', rThanks:'Rahmat! Jamoa tekshiradi.', rQueued:'Saqlandi — internet boʻlganda yuboriladi.',
+ back:'Orqaga', fwd:'Oldinga', report:'Xato haqida xabar berish', reportT:'Bu yerda nima xato?', rAudio:'Talaffuz / ovoz', rTrans:'Tarjima / maʼno', rSpell:'Imlo', rPic:'Rasm', rOther:'Boshqa', rNote:'Izoh (ixtiyoriy)', rNotePh:'Masalan: urgʻu boshqa boʻgʻinda', rSend:'Yuborish', rThanks:'Rahmat! Jamoa tekshiradi.', rQueued:'Saqlandi — internet boʻlganda yuboriladi.',
  reports:'Xabarlar', rNew:'Yangi', rDone:'Tuzatildi', rDismiss:'Xato emas', rNone:'Xabarlar yoʻq.', rFrom:'Kimdan', rMark:'Tuzatildi',
  speak:'Nutq', speakT:'Talaffuz mashqi', speakD:'Namunani tinglang, mikrofonni bosing va takrorlang. Yashil soʻzlar aniq eshitildi, qizillarini qayta ayting.', tapMic:'Bosing va gapiring', listening:'Tinglayapman…', tryAgain:'Yana urinib koʻring', heard:'Biz eshitdik', perfect:'Aʼlo talaffuz!', almost:'Yaxshi — deyarli', retry:'Baʼzi soʻzlar aniq emas edi. Yana tinglab, takrorlang.',
  noMic:'Bu brauzerda nutqni tanish ishlamaydi. Lisanni Chrome (Android yoki kompyuter) yoki Safari (iPhone) da oching.', micDenied:'Gapirishni mashq qilish uchun mikrofonga ruxsat bering.', nothing:'Hech narsa eshitilmadi. Biroz balandroq va telefonga yaqinroq gapiring.', micErr:'Mikrofon ishga tushmadi. Internetni tekshirib, qayta urinib koʻring.',
@@ -65,7 +65,7 @@ const UZ = {
  stressT:'Urgʻu belgilari', stressD:'Urgʻuli unlini koʻrsatish: моло́ко', on:'Yoq', off:'Oʻchir', more:'Yana', tools:'Vositalar'
 };
 const ES = {
- report:'Informar de un error', reportT:'¿Qué está mal aquí?', rAudio:'Pronunciación / audio', rTrans:'Traducción / significado', rSpell:'Ortografía', rPic:'Imagen', rOther:'Otra cosa', rNote:'Comentario (opcional)', rNotePh:'Por ejemplo: el acento va en otra sílaba', rSend:'Enviar', rThanks:'¡Gracias! El equipo lo revisará.', rQueued:'Guardado: se enviará cuando tengas conexión.',
+ back:'Atrás', fwd:'Adelante', report:'Informar de un error', reportT:'¿Qué está mal aquí?', rAudio:'Pronunciación / audio', rTrans:'Traducción / significado', rSpell:'Ortografía', rPic:'Imagen', rOther:'Otra cosa', rNote:'Comentario (opcional)', rNotePh:'Por ejemplo: el acento va en otra sílaba', rSend:'Enviar', rThanks:'¡Gracias! El equipo lo revisará.', rQueued:'Guardado: se enviará cuando tengas conexión.',
  reports:'Informes', rNew:'Nuevos', rDone:'Corregido', rDismiss:'No es un error', rNone:'No hay informes.', rFrom:'De', rMark:'Corregido',
  speak:'Hablar', speakT:'Práctica de pronunciación', speakD:'Escucha el modelo, pulsa el micrófono y repítelo. Las palabras verdes se entendieron bien; las rojas necesitan otro intento.', tapMic:'Pulsa y habla', listening:'Escuchando…', tryAgain:'Inténtalo de nuevo', heard:'Hemos oído', perfect:'¡Pronunciación excelente!', almost:'Bien, casi', retry:'Algunas palabras no se entendieron. Escucha otra vez y repite.',
  noMic:'El reconocimiento de voz no funciona en este navegador. Abre Lisan en Chrome (Android u ordenador) o Safari (iPhone).', micDenied:'Permite el acceso al micrófono para practicar la pronunciación.', nothing:'No hemos oído nada. Habla un poco más alto y más cerca del teléfono.', micErr:'No se pudo iniciar el micrófono. Comprueba la conexión e inténtalo de nuevo.',
@@ -81,7 +81,7 @@ const ES = {
  stressT:'Marcas de acento', stressD:'Mostrar la vocal tónica: моло́ко', on:'Sí', off:'No', more:'Más', tools:'Herramientas'
 };
 const ZH = {
- report:'报告错误', reportT:'这里哪里有问题？', rAudio:'发音 / 音频', rTrans:'翻译 / 意思', rSpell:'拼写', rPic:'图片', rOther:'其他', rNote:'备注（可选）', rNotePh:'例如：重音在另一个音节上', rSend:'发送', rThanks:'谢谢！团队会进行检查。', rQueued:'已保存，联网后会自动发送。',
+ back:'返回', fwd:'前进', report:'报告错误', reportT:'这里哪里有问题？', rAudio:'发音 / 音频', rTrans:'翻译 / 意思', rSpell:'拼写', rPic:'图片', rOther:'其他', rNote:'备注（可选）', rNotePh:'例如：重音在另一个音节上', rSend:'发送', rThanks:'谢谢！团队会进行检查。', rQueued:'已保存，联网后会自动发送。',
  reports:'错误报告', rNew:'新的', rDone:'已修正', rDismiss:'不是错误', rNone:'这里没有报告。', rFrom:'来自', rMark:'已修正',
  speak:'口语', speakT:'发音练习', speakD:'先听标准发音，再按下麦克风跟读。绿色的词说得清楚，红色的词需要再试一次。', tapMic:'点击后说话', listening:'正在听…', tryAgain:'再试一次', heard:'我们听到', perfect:'发音非常好！', almost:'不错，差一点', retry:'有些词不够清楚。再听一遍，然后重复。',
  noMic:'此浏览器不支持语音识别。请用 Chrome（安卓或电脑）或 Safari（iPhone）打开 Lisan。', micDenied:'请允许使用麦克风来练习口语。', nothing:'没有听到声音。请大声一点，靠近手机说话。', micErr:'麦克风无法启动。请检查网络后重试。',
@@ -97,7 +97,7 @@ const ZH = {
  stressT:'重音符号', stressD:'显示重读元音：моло́ко', on:'开', off:'关', more:'更多', tools:'工具'
 };
 const DE = {
- report:'Fehler melden', reportT:'Was ist hier falsch?', rAudio:'Aussprache / Audio', rTrans:'Übersetzung / Bedeutung', rSpell:'Schreibung', rPic:'Bild', rOther:'Etwas anderes', rNote:'Kommentar (optional)', rNotePh:'Zum Beispiel: Die Betonung liegt auf einer anderen Silbe', rSend:'Senden', rThanks:'Danke! Das Team prüft es.', rQueued:'Gespeichert – wird gesendet, sobald du online bist.',
+ back:'Zurück', fwd:'Vor', report:'Fehler melden', reportT:'Was ist hier falsch?', rAudio:'Aussprache / Audio', rTrans:'Übersetzung / Bedeutung', rSpell:'Schreibung', rPic:'Bild', rOther:'Etwas anderes', rNote:'Kommentar (optional)', rNotePh:'Zum Beispiel: Die Betonung liegt auf einer anderen Silbe', rSend:'Senden', rThanks:'Danke! Das Team prüft es.', rQueued:'Gespeichert – wird gesendet, sobald du online bist.',
  reports:'Meldungen', rNew:'Neu', rDone:'Behoben', rDismiss:'Kein Fehler', rNone:'Keine Meldungen.', rFrom:'Von', rMark:'Behoben',
  speak:'Sprechen', speakT:'Aussprachetraining', speakD:'Hör dir das Vorbild an, tippe auf das Mikrofon und sprich nach. Grüne Wörter waren deutlich, rote brauchen noch einen Versuch.', tapMic:'Tippen und sprechen', listening:'Ich höre zu…', tryAgain:'Noch einmal', heard:'Wir haben gehört', perfect:'Ausgezeichnete Aussprache!', almost:'Gut – fast', retry:'Einige Wörter waren undeutlich. Hör noch einmal zu und wiederhole.',
  noMic:'Spracherkennung funktioniert in diesem Browser nicht. Öffne Lisan in Chrome (Android oder Computer) oder Safari (iPhone).', micDenied:'Erlaube den Zugriff auf das Mikrofon, um das Sprechen zu üben.', nothing:'Wir haben nichts gehört. Sprich etwas lauter und näher am Telefon.', micErr:'Das Mikrofon konnte nicht starten. Prüfe die Internetverbindung und versuche es erneut.',
@@ -113,7 +113,7 @@ const DE = {
  stressT:'Betonungszeichen', stressD:'Betonten Vokal anzeigen: моло́ко', on:'An', off:'Aus', more:'Mehr', tools:'Werkzeuge'
 };
 const FR = {
- report:'Signaler une erreur', reportT:'Qu’est-ce qui ne va pas ?', rAudio:'Prononciation / audio', rTrans:'Traduction / sens', rSpell:'Orthographe', rPic:'Image', rOther:'Autre chose', rNote:'Commentaire (facultatif)', rNotePh:'Par exemple : l’accent tonique est sur une autre syllabe', rSend:'Envoyer', rThanks:'Merci ! L’équipe va vérifier.', rQueued:'Enregistré — ce sera envoyé dès que vous serez en ligne.',
+ back:'Retour', fwd:'Suivant', report:'Signaler une erreur', reportT:'Qu’est-ce qui ne va pas ?', rAudio:'Prononciation / audio', rTrans:'Traduction / sens', rSpell:'Orthographe', rPic:'Image', rOther:'Autre chose', rNote:'Commentaire (facultatif)', rNotePh:'Par exemple : l’accent tonique est sur une autre syllabe', rSend:'Envoyer', rThanks:'Merci ! L’équipe va vérifier.', rQueued:'Enregistré — ce sera envoyé dès que vous serez en ligne.',
  reports:'Signalements', rNew:'Nouveaux', rDone:'Corrigé', rDismiss:'Pas une erreur', rNone:'Aucun signalement.', rFrom:'De', rMark:'Corrigé',
  speak:'Parler', speakT:'Entraînement à la prononciation', speakD:'Écoutez le modèle, appuyez sur le micro et répétez. Les mots verts étaient clairs, les rouges demandent un nouvel essai.', tapMic:'Appuyez et parlez', listening:'J’écoute…', tryAgain:'Réessayer', heard:'Nous avons entendu', perfect:'Excellente prononciation !', almost:'Bien — presque', retry:'Certains mots n’étaient pas clairs. Réécoutez et répétez.',
  noMic:'La reconnaissance vocale ne fonctionne pas dans ce navigateur. Ouvrez Lisan dans Chrome (Android ou ordinateur) ou Safari (iPhone).', micDenied:'Autorisez l’accès au micro pour vous entraîner à parler.', nothing:'Nous n’avons rien entendu. Parlez un peu plus fort, plus près du téléphone.', micErr:'Le micro n’a pas pu démarrer. Vérifiez la connexion et réessayez.',
@@ -129,7 +129,7 @@ const FR = {
  stressT:'Accents toniques', stressD:'Afficher la voyelle accentuée : моло́ко', on:'Oui', off:'Non', more:'Plus', tools:'Outils'
 };
 const IT = {
- report:'Segnala un errore', reportT:'Che cosa non va qui?', rAudio:'Pronuncia / audio', rTrans:'Traduzione / significato', rSpell:'Ortografia', rPic:'Immagine', rOther:'Altro', rNote:'Commento (facoltativo)', rNotePh:'Per esempio: l’accento è su un’altra sillaba', rSend:'Invia', rThanks:'Grazie! Il team controllerà.', rQueued:'Salvato: verrà inviato appena sei online.',
+ back:'Indietro', fwd:'Avanti', report:'Segnala un errore', reportT:'Che cosa non va qui?', rAudio:'Pronuncia / audio', rTrans:'Traduzione / significato', rSpell:'Ortografia', rPic:'Immagine', rOther:'Altro', rNote:'Commento (facoltativo)', rNotePh:'Per esempio: l’accento è su un’altra sillaba', rSend:'Invia', rThanks:'Grazie! Il team controllerà.', rQueued:'Salvato: verrà inviato appena sei online.',
  reports:'Segnalazioni', rNew:'Nuove', rDone:'Corretto', rDismiss:'Non è un errore', rNone:'Nessuna segnalazione.', rFrom:'Da', rMark:'Corretto',
  speak:'Parlare', speakT:'Allenamento della pronuncia', speakD:'Ascolta il modello, tocca il microfono e ripeti. Le parole verdi erano chiare, quelle rosse vanno ripetute.', tapMic:'Tocca e parla', listening:'Sto ascoltando…', tryAgain:'Riprova', heard:'Abbiamo sentito', perfect:'Pronuncia eccellente!', almost:'Bene, quasi', retry:'Alcune parole non erano chiare. Ascolta di nuovo e ripeti.',
  noMic:'Il riconoscimento vocale non funziona in questo browser. Apri Lisan in Chrome (Android o computer) o Safari (iPhone).', micDenied:'Consenti l’accesso al microfono per allenarti a parlare.', nothing:'Non abbiamo sentito niente. Parla un po’ più forte e più vicino al telefono.', micErr:'Impossibile avviare il microfono. Controlla la connessione e riprova.',
@@ -145,7 +145,7 @@ const IT = {
  stressT:'Segni d’accento', stressD:'Mostra la vocale accentata: моло́ко', on:'Sì', off:'No', more:'Altro', tools:'Strumenti'
 };
 const TR = {
- report:'Hata bildir', reportT:'Burada yanlış olan ne?', rAudio:'Telaffuz / ses', rTrans:'Çeviri / anlam', rSpell:'Yazım', rPic:'Resim', rOther:'Başka bir şey', rNote:'Not (isteğe bağlı)', rNotePh:'Örneğin: vurgu başka hecede', rSend:'Gönder', rThanks:'Teşekkürler! Ekip kontrol edecek.', rQueued:'Kaydedildi — internete bağlanınca gönderilecek.',
+ back:'Geri', fwd:'İleri', report:'Hata bildir', reportT:'Burada yanlış olan ne?', rAudio:'Telaffuz / ses', rTrans:'Çeviri / anlam', rSpell:'Yazım', rPic:'Resim', rOther:'Başka bir şey', rNote:'Not (isteğe bağlı)', rNotePh:'Örneğin: vurgu başka hecede', rSend:'Gönder', rThanks:'Teşekkürler! Ekip kontrol edecek.', rQueued:'Kaydedildi — internete bağlanınca gönderilecek.',
  reports:'Bildirimler', rNew:'Yeni', rDone:'Düzeltildi', rDismiss:'Hata değil', rNone:'Bildirim yok.', rFrom:'Gönderen', rMark:'Düzeltildi',
  speak:'Konuş', speakT:'Telaffuz alıştırması', speakD:'Örneği dinle, mikrofona dokun ve tekrar et. Yeşil kelimeler anlaşıldı, kırmızılar bir deneme daha istiyor.', tapMic:'Dokun ve konuş', listening:'Dinliyorum…', tryAgain:'Tekrar dene', heard:'Duyduğumuz', perfect:'Mükemmel telaffuz!', almost:'İyi — neredeyse', retry:'Bazı kelimeler anlaşılmadı. Tekrar dinle ve söyle.',
  noMic:'Bu tarayıcıda konuşma tanıma çalışmıyor. Lisan’ı Chrome (Android veya bilgisayar) ya da Safari (iPhone) ile aç.', micDenied:'Konuşma alıştırması için mikrofona izin ver.', nothing:'Hiçbir şey duymadık. Biraz daha yüksek sesle, telefona yakın konuş.', micErr:'Mikrofon başlatılamadı. İnternet bağlantını kontrol edip tekrar dene.',
@@ -161,7 +161,7 @@ const TR = {
  stressT:'Vurgu işaretleri', stressD:'Vurgulu ünlüyü göster: моло́ко', on:'Açık', off:'Kapalı', more:'Daha fazla', tools:'Araçlar'
 };
 const JA = {
- report:'間違いを報告', reportT:'どこが間違っていますか？', rAudio:'発音 / 音声', rTrans:'翻訳 / 意味', rSpell:'つづり', rPic:'絵', rOther:'その他', rNote:'コメント（任意）', rNotePh:'例：アクセントは別の音節にあります', rSend:'送信', rThanks:'ありがとうございます！チームが確認します。', rQueued:'保存しました。オンラインになったら送信されます。',
+ back:'戻る', fwd:'進む', report:'間違いを報告', reportT:'どこが間違っていますか？', rAudio:'発音 / 音声', rTrans:'翻訳 / 意味', rSpell:'つづり', rPic:'絵', rOther:'その他', rNote:'コメント（任意）', rNotePh:'例：アクセントは別の音節にあります', rSend:'送信', rThanks:'ありがとうございます！チームが確認します。', rQueued:'保存しました。オンラインになったら送信されます。',
  reports:'報告', rNew:'新規', rDone:'修正済み', rDismiss:'間違いではない', rNone:'報告はありません。', rFrom:'送信者', rMark:'修正済み',
  speak:'話す', speakT:'発音練習', speakD:'お手本を聞いてから、マイクを押して言ってみましょう。緑の単語ははっきり聞こえ、赤の単語はもう一度練習しましょう。', tapMic:'押して話す', listening:'聞いています…', tryAgain:'もう一度', heard:'聞き取った内容', perfect:'すばらしい発音です！', almost:'いいですね、あと少し', retry:'はっきりしない単語がありました。もう一度聞いて繰り返しましょう。',
  noMic:'このブラウザでは音声認識が使えません。Chrome（Android・パソコン）または Safari（iPhone）で Lisan を開いてください。', micDenied:'話す練習をするにはマイクの使用を許可してください。', nothing:'何も聞こえませんでした。もう少し大きな声で、スマートフォンの近くで話してください。', micErr:'マイクを起動できませんでした。インターネット接続を確認してもう一度お試しください。',
@@ -177,7 +177,7 @@ const JA = {
  stressT:'アクセント記号', stressD:'強く読む母音を表示：моло́ко', on:'オン', off:'オフ', more:'その他', tools:'ツール'
 };
 const KO = {
- report:'오류 신고', reportT:'무엇이 잘못되었나요?', rAudio:'발음 / 오디오', rTrans:'번역 / 뜻', rSpell:'철자', rPic:'그림', rOther:'기타', rNote:'메모 (선택)', rNotePh:'예: 강세가 다른 음절에 있어요', rSend:'보내기', rThanks:'감사합니다! 팀에서 확인할게요.', rQueued:'저장했어요. 온라인이 되면 보내집니다.',
+ back:'뒤로', fwd:'앞으로', report:'오류 신고', reportT:'무엇이 잘못되었나요?', rAudio:'발음 / 오디오', rTrans:'번역 / 뜻', rSpell:'철자', rPic:'그림', rOther:'기타', rNote:'메모 (선택)', rNotePh:'예: 강세가 다른 음절에 있어요', rSend:'보내기', rThanks:'감사합니다! 팀에서 확인할게요.', rQueued:'저장했어요. 온라인이 되면 보내집니다.',
  reports:'신고', rNew:'새 신고', rDone:'수정됨', rDismiss:'오류 아님', rNone:'신고가 없습니다.', rFrom:'보낸 사람', rMark:'수정됨',
  speak:'말하기', speakT:'발음 연습', speakD:'원어민 발음을 듣고 마이크를 눌러 따라 말해 보세요. 초록색 단어는 잘 들렸고, 빨간색 단어는 다시 연습이 필요해요.', tapMic:'누르고 말하기', listening:'듣는 중…', tryAgain:'다시 하기', heard:'인식된 말', perfect:'훌륭한 발음이에요!', almost:'좋아요, 거의 다 됐어요', retry:'일부 단어가 분명하지 않았어요. 다시 듣고 따라 해 보세요.',
  noMic:'이 브라우저에서는 음성 인식이 작동하지 않아요. Chrome(안드로이드·컴퓨터) 또는 Safari(iPhone)에서 Lisan을 열어 주세요.', micDenied:'말하기 연습을 하려면 마이크 사용을 허용해 주세요.', nothing:'아무 소리도 들리지 않았어요. 조금 더 크게, 휴대폰 가까이에서 말해 주세요.', micErr:'마이크를 시작할 수 없어요. 인터넷 연결을 확인하고 다시 시도해 주세요.',

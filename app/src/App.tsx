@@ -24,6 +24,7 @@ import Stats from '@/views/Stats';
 import Schools from '@/views/Schools';
 import { initActivity, startClock, onGoal, checkRemindNow } from '@/core/activity';
 import { flushReports } from '@/core/report';
+import { navTrack } from '@/core/nav';
 
 function parseHash(){ const h = decodeURIComponent(location.hash.replace(/^#\/?/, '').replace(/\?.*$/, '')); const p = h.split('/').filter(Boolean); return p; }
 
@@ -39,7 +40,7 @@ export default function App(){
   const tid = useRef(0);
 
   useEffect(() => { Store.load(); initSrs(); initActivity(); startClock(() => routeRef.current); Promise.all([loadCourses(), loadRef(), initAuth()]).then(() => { initPro(); setReady(true); flushReports(); setTimeout(checkRemindNow, 4000); }); Speech.init();
-    const f = () => { setRoute(parseHash()); Speech.stop(); window.scrollTo({ top: 0 }); }; addEventListener('hashchange', f);
+    navTrack(); const f = () => { navTrack(); setRoute(parseHash()); Speech.stop(); window.scrollTo({ top: 0 }); }; addEventListener('hashchange', f);
     const prime = () => { primeAudio(); removeEventListener('pointerdown', prime); }; addEventListener('pointerdown', prime);
     return () => removeEventListener('hashchange', f); }, []);
 
