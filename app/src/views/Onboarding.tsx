@@ -12,6 +12,18 @@ import { useApp, I, Logo } from '@/ui/kit';
 import { AvatarPicker } from '@/views/AvatarPicker';
 import { avatarSrc } from '@/core/avatars';
 
+function UiLang(){ const { u, lang } = useApp(); const [open, setOpen] = useState(false); const ref = useRef(null);
+  useEffect(() => { const f = (e) => { if (ref.current && !ref.current.contains(e.target)) setOpen(false); }; addEventListener('pointerdown', f); return () => removeEventListener('pointerdown', f); }, []);
+  const pick = (l) => { Store.meta.uiLang = l; if (Store.meta.pendingNative && !Store.profile()) Store.meta.pendingNative = l; Store.saveMeta(); setOpen(false); };
+  return <div className="relative" ref={ref}>
+    <button onClick={() => setOpen(!open)} className="inline-flex items-center gap-2 h-10 ps-2 pe-3 rounded-full bg-white border-[1.5px] border-line hover:border-brand-500 font-semibold text-ink text-sm transition" aria-label={u.x.uiLang} data-uilang>
+      <I.globe className="w-4 h-4 text-brand-600"/><Flag lang={lang} size="sm"/><span lang={lang}>{SELF[lang]}</span></button>
+    {open && <div className="absolute end-0 mt-2 w-56 max-h-[70vh] overflow-y-auto rounded-2xl bg-white border-[1.5px] border-line shadow-card p-1.5 z-50">
+      <div className="px-3 pt-1.5 pb-2 text-xs font-semibold text-ink-3">{u.x.uiLang}</div>
+      {activeLangs().map((l) => <button key={l} onClick={() => pick(l)} data-uilang-opt={l} className={`w-full flex items-center gap-3 rounded-xl px-3 py-2.5 text-start font-semibold transition ${l === lang ? 'bg-brand-50 text-brand-700' : 'text-ink hover:bg-mist'}`}><Flag lang={l} size="sm"/><span lang={l}>{SELF[l]}</span>{l === lang && <I.check className="w-4 h-4 ms-auto"/>}</button>)}
+    </div>}
+  </div>; }
+
 export default function Onboarding(){
   const { u, toast } = useApp();
   const p = Store.profile();
@@ -26,7 +38,7 @@ export default function Onboarding(){
       <WaveGridBackground colorBase="#F5F8FF" colorHigh="#3F76FF" gridSize={36} waveAmplitude={0.35} vignette={false}/>
     </div>
     <div className="relative z-10 min-h-screen flex flex-col pointer-events-none">
-      <header className="px-5 sm:px-8 pt-5 flex items-center justify-between"><span className="pointer-events-auto"><Logo/></span></header>
+      <header className="px-5 sm:px-8 pt-5 flex items-center justify-between gap-3"><span className="pointer-events-auto"><Logo/></span><span className="pointer-events-auto"><UiLang/></span></header>
       <main className="flex-1 grid place-items-center px-4 py-8">
         <AnimatePresence mode="wait">
           <motion.div key={step} initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} transition={{ duration: .28 }}
@@ -37,7 +49,6 @@ export default function Onboarding(){
           </motion.div>
         </AnimatePresence>
       </main>
-      <footer className="pb-5 text-center text-xs text-ink-3">A1 · A2 · B1 · B2 · C1 · C2</footer>
     </div>
   </div>;
 }
@@ -59,6 +70,21 @@ function NativeStep({ u, onPick }){
     </div>
   </div>;
 }
+
+function SavedAccounts({ u }){ const [open, setOpen] = useState(false); const [, rf] = useState(0);
+  const list = Object.values(Store.meta.profiles || {}).filter((x) => x.username); if (!list.length) return null;
+  const use = (x) => { Store.meta.current = x.id; Store.saveMeta(); Store.loadProgress(); Store.emit(); location.hash = '#/'; };
+  const rm = (x) => { delete Store.meta.profiles[x.id]; try { localStorage.removeItem('lisan.v2.p.' + x.id); } catch (e){} Store.saveMeta(); rf((k) => k + 1); };
+  return <div className="mt-5">
+    <button type="button" onClick={() => setOpen(!open)} aria-expanded={open} data-saved-accounts className="w-full flex items-center gap-3 rounded-xl bg-mist border-[1.5px] border-[#E2E6EE] hover:border-brand-400 px-3 py-2.5 text-start transition">
+      <span className="flex -space-x-2 rtl:space-x-reverse" dir="ltr">{list.slice(0, 3).map((x) => <img key={x.id} src={avatarSrc(x)} alt="" className="w-8 h-8 rounded-full object-cover bg-brand-50 ring-2 ring-white"/>)}</span>
+      <span className="flex-1 font-semibold text-ink">{u.x.prevAcc} <span className="text-ink-3 font-medium">({list.length})</span></span>
+      <I.next className={`w-4 h-4 text-brand-600 transition-transform ${open ? 'rotate-90' : 'rtl:rotate-180'}`}/></button>
+    {open && <div className="mt-2 flex flex-col gap-2">{list.map((x) => <div key={x.id} className="flex items-center gap-2">
+      <button onClick={() => use(x)} className="flex-1 flex items-center gap-3 rounded-xl bg-white border-[1.5px] border-line hover:border-brand-500 px-3 py-2.5 text-start transition">
+        <img src={avatarSrc(x)} alt="" className="w-9 h-9 rounded-full object-cover bg-brand-50"/><span className="flex-1 font-semibold text-ink"><bdi dir="ltr">@{x.username}</bdi></span><Flag lang={x.native} size="sm"/><I.next className="w-4 h-4 text-brand-600 rtl:rotate-180"/></button>
+      <button onClick={() => rm(x)} className="iconbtn" aria-label={u.x.removeAcc} title={u.x.removeAcc}><I.x/></button></div>)}</div>}
+  </div>; }
 
 function SignInStep({ u, toast, onBack, onDone }){
   const { lang } = useApp();
@@ -95,11 +121,7 @@ function SignInStep({ u, toast, onBack, onDone }){
         <input className="field tracking-[.4em] text-center text-lg" inputMode="numeric" autoComplete="one-time-code" placeholder="••••••" value={code} onChange={(e) => setCode(e.target.value)} aria-label={u.enterCode}/>
         <button className="btn w-full" disabled={busy}>{u.verify}</button></form>
     : <>
-      {Object.values(Store.meta.profiles || {}).filter((x) => x.username).length > 0 && <div className="mt-5 flex flex-col gap-2">
-        {Object.values(Store.meta.profiles).filter((x) => x.username).slice(0, 4).map((x) => <button key={x.id} onClick={() => { Store.meta.current = x.id; Store.saveMeta(); Store.loadProgress(); Store.emit(); location.hash = '#/'; }}
-          className="flex items-center gap-3 rounded-xl bg-white border-[1.5px] border-line hover:border-brand-500 px-3 py-2.5 text-start transition">
-          <img src={avatarSrc(x)} alt="" className="w-9 h-9 rounded-full object-cover bg-brand-50"/><span className="flex-1 font-semibold text-ink"><bdi dir="ltr">@{x.username}</bdi></span><Flag lang={x.native} size="sm"/><I.next className="w-4 h-4 text-brand-600 rtl:rotate-180"/></button>)}
-      </div>}
+      <SavedAccounts u={u}/>
       <div className="mt-6 grid grid-cols-2 p-1 rounded-xl bg-mist border-[1.5px] border-[#E2E6EE]">
         {[['email', u.email, I.mail], ['phone', u.phone, I.phone]].map(([k, l, Ic]) => <button key={k} onClick={() => { setMode(k); setVal(''); }}
           className={`min-h-[40px] rounded-lg text-sm font-semibold inline-flex items-center justify-center gap-2 transition ${mode === k ? 'bg-white text-brand-600 shadow-sm ring-1 ring-line' : 'text-ink-2'}`}><Ic className="w-4 h-4"/>{l}</button>)}

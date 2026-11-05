@@ -45,7 +45,7 @@ export default function App(){
     return () => removeEventListener('hashchange', f); }, []);
 
   const profile = Store.profile();
-  const lang = (profile && profile.native) || Store.meta.pendingNative || detectLang();
+  const lang = (profile && profile.native) || Store.meta.pendingNative || Store.meta.uiLang || detectLang();
   const u = useMemo(() => S(lang), [lang]);
   const toast = (msg) => { const id = ++tid.current; setToasts((l) => [...l, { id, msg }]); setTimeout(() => setToasts((l) => l.filter((x) => x.id !== id)), 2600); };
   useEffect(() => { setToast(toast); onGoal(() => toast(u.x.goalReached)); setNoAudioMsg(u.noAudio); document.documentElement.lang = lang; document.documentElement.dir = u.dir; }, [lang]);

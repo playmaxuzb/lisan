@@ -13,6 +13,7 @@ import { dueCount } from '@/core/srs';
 import { certsOf } from '@/core/pro';
 import { GoalCard } from '@/views/Stats';
 import Shelf from '@/views/Shelf';
+import Footer from '@/views/Footer';
 import { canBack, canFwd, goBack, goFwd, onNav } from '@/core/nav';
 
 function Menu(){ const { u } = useApp(); const p = u.p; const [open, setOpen] = useState(false); const ref = useRef(null);
@@ -90,5 +91,6 @@ export default function Home({ book = null }){
         </div>
       </section>
     </main>
+    <Footer/>
   </div>;
 }

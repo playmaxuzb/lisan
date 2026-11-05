@@ -52,10 +52,20 @@ export const I = {
 };
 
 /* ---------- logo ---------- */
+export function LogoMark({ className = 'w-10 h-10' }){
+  return <svg viewBox="0 0 40 40" className={className} aria-hidden="true">
+    <defs><linearGradient id="lgL" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#4F86FF"/><stop offset="1" stopColor="#1F3FB0"/></linearGradient></defs>
+    <rect width="40" height="40" rx="11" fill="url(#lgL)"/>
+    <path d="M7.5 13.2c4.4-2.2 8.6-2 12 .4v15.6c-3.4-2.2-7.6-2.4-12-.6z" fill="#fff"/>
+    <path d="M32.5 13.2c-4.4-2.2-8.6-2-12 .4v15.6c3.4-2.2 7.6-2.4 12-.6z" fill="#fff" opacity=".92"/>
+    <path d="M10.5 17.2c2.4-.8 4.8-.7 6.6.3M10.5 20.6c2.4-.8 4.8-.7 6.6.3M10.5 24c2.4-.8 4.8-.7 6.6.3M22.9 17.5c1.8-1 4.2-1.1 6.6-.3M22.9 20.9c1.8-1 4.2-1.1 6.6-.3" stroke="#9DBBFF" strokeWidth="1.3" strokeLinecap="round" fill="none"/>
+    <circle cx="31.5" cy="8.5" r="3.2" fill="#FFC24B"/>
+  </svg>;
+}
 export function Logo({ small = false, tight = false }){
-  return <span className="inline-flex items-center gap-2 select-none" dir="ltr">
-    <span className={`grid place-items-center rounded-xl bg-brand-500 text-white font-bold shadow-soft ${small ? 'w-8 h-8 text-base' : 'w-10 h-10 text-lg'}`}>L</span>
-    <span className={`font-extrabold tracking-tight text-ink ${small ? 'text-lg' : 'text-xl'} ${tight ? 'hidden sm:inline' : ''}`}>Lisan<span className="text-brand-500 font-semibold ms-1.5" style={{ fontFamily: '"IBM Plex Sans Arabic"' }}>لِسان</span></span>
+  return <span className="inline-flex items-center gap-2.5 select-none" dir="ltr">
+    <LogoMark className={small ? 'w-9 h-9 drop-shadow-sm' : 'w-11 h-11 drop-shadow'}/>
+    <span className={`font-extrabold tracking-[-.03em] bg-gradient-to-r from-[#141a2e] to-[#2A5EEB] bg-clip-text text-transparent ${small ? 'text-[1.35rem]' : 'text-[1.6rem]'} ${tight ? 'hidden sm:inline' : ''}`} style={{ fontFamily: 'Inter,sans-serif' }}>Lisan</span>
   </span>;
 }
 

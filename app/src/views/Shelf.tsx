@@ -65,6 +65,7 @@ export default function Shelf({ book = null }){
   const vNear = (i) => { const base = Math.round(S.T); let best = base, bd = 1e9; for (let k = -2; k <= 2; k++){ const c2 = Math.floor(base / N) * N + i + k * N; if (Math.abs(c2 - base) < bd){ bd = Math.abs(c2 - base); best = c2; } } return best; };
   const wrapV = (v) => ((v % C) + C) % C;
   const measure = () => { const el = sec.current; if (!el) return; const pr = document.createElement('div'); pr.style.cssText = 'position:absolute;visibility:hidden;height:var(--H)'; el.appendChild(pr); const H = pr.getBoundingClientRect().height; pr.remove();
+    const cr = chipRow.current; const top = cr ? cr.offsetTop + cr.offsetHeight + 34 : 74; el.style.setProperty('--top', top + 'px');
     S.dims = { H, ws: H * 0.2, d: H * 0.7, gap: H * 0.04 }; const st = stage.current; st.style.setProperty('--H', H + 'px'); st.style.setProperty('--ws', S.dims.ws + 'px'); st.style.setProperty('--d', S.dims.d + 'px'); };
   /* x of every book: spines step evenly; each open book pushes its neighbours aside by half of its extra width */
   const layout = () => { const { ws, d, gap } = S.dims; const out = new Array(C); const ext = (d - ws + 1.4 * gap) / 2;
@@ -80,7 +81,7 @@ export default function Shelf({ book = null }){
       const olds = [...m.children].filter((e) => !e.dataset.leaving); m.appendChild(sp); if (reduced() || !olds.length){ olds.forEach((e) => e.remove()); return; }
       sp.animate([{ transform: `translateY(${dir * 105}%)` }, { transform: 'translateY(0)' }], { duration: 600, easing: EASE, fill: 'both' });
       olds.forEach((e) => { e.dataset.leaving = '1'; const a = e.animate([{ transform: 'translateY(0)' }, { transform: `translateY(${-dir * 105}%)` }], { duration: 600, easing: EASE, fill: 'both' }); a.onfinish = () => e.remove(); }); });
-    const ch = chips.current[tr]; const row = chipRow.current; if (ch && row){ const l = ch.offsetLeft - row.clientWidth / 2 + ch.offsetWidth / 2; row.scrollTo({ left: l, behavior: reduced() ? 'auto' : 'smooth' }); } };
+     };
 
   useLayoutEffect(() => { measure(); let raf = 0, last = performance.now();
     const frame = (now) => { const dt = Math.min(0.05, (now - last) / 1000); last = now; if (!S.dims){ raf = requestAnimationFrame(frame); return; }
@@ -102,7 +103,7 @@ export default function Shelf({ book = null }){
       const onB = S.inSec && !S.open && finePointer() && Math.abs(S.mx - bx) < 0.55 * d && Math.abs(S.my - by) < 0.55 * H;
       const tY = onB ? (S.mx - bx) / (0.55 * d) * 8 : 0, tX = onB ? -(S.my - by) / (H / 2) * 5 : 0; S.tY += (tY - S.tY) * (1 - Math.exp(-7 * dt)); S.tX += (tX - S.tX) * (1 - Math.exp(-7 * dt));
       raf = requestAnimationFrame(frame); };
-    raf = requestAnimationFrame(frame); const onR = () => { measure(); S.cy0 = stage.current.offsetTop; }; onR(); addEventListener('resize', onR);
+    raf = requestAnimationFrame(frame); const onR = () => { measure(); S.cy0 = stage.current.offsetTop; }; onR(); addEventListener('resize', onR); try { document.fonts.ready.then(onR); } catch (e){} setTimeout(onR, 600);
     return () => { cancelAnimationFrame(raf); removeEventListener('resize', onR); }; }, [N, n]);
 
   /* which book is under the pointer (geometry, so it works with the 3D transforms) */
