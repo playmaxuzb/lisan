@@ -22,3 +22,8 @@ export function Flag({ lang, size = 'md', className = '' }: { lang: string; size
   const s = { sm: 'w-6 h-4 rounded-[3px]', md: 'w-10 h-[27px] rounded-[5px]', lg: 'w-16 h-11 rounded-md', xl: 'w-20 h-[54px] rounded-lg' }[size];
   return <span aria-hidden="true" className={`inline-flex shrink-0 overflow-hidden ring-1 ring-black/10 shadow-sm [&>svg]:w-full [&>svg]:h-full ${s} ${className}`}>{SVG[FLAG_OF[lang]]}</span>;
 }
+/* the same flag drawn inside another SVG (book covers) */
+export function FlagIn({ lang, x, y, w, h }: { lang: string; x: number; y: number; w: number; h: number }) {
+  const el = SVG[FLAG_OF[lang]]; if (!el) return null;
+  return React.cloneElement(el, { x, y, width: w, height: h, preserveAspectRatio: 'none' });
+}

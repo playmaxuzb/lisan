@@ -43,6 +43,7 @@ export function AudioSheet({ open, onClose, tl }){
       <div className="flex gap-2">{tl && <button className="btn" onClick={() => Speech.say(sample, tl)}><I.play className="w-4 h-4"/>{u.test}</button>}<button className="btn ghost" onClick={onClose}>{u.close}</button></div>
       <p className="text-xs text-ink-3 leading-relaxed">{u.audioNote}</p>
       {tl === 'uz' && <p className="text-xs text-ink-3 leading-relaxed">{u.uzNote}</p>}
+      <p className="text-[11px] text-ink-3" dir="ltr">Voices: VOICEVOX:青山龍星 · VOICEVOX:No.7 · Supertonic · Piper · Kokoro · Matcha</p>
     </div>
   </Sheet>;
 }

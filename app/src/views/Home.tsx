@@ -90,6 +90,5 @@ export default function Home({ book = null }){
         </div>
       </section>
     </main>
-    <footer className="border-t border-line py-6 text-center text-xs text-ink-3">Lisan · لِسان · {LEVELS.join(' · ')}<div className="mt-1 opacity-80" dir="ltr">Voices: VOICEVOX:青山龍星 · VOICEVOX:No.7 · Supertonic · Piper</div></footer>
   </div>;
 }
