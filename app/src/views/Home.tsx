@@ -12,6 +12,7 @@ import { Pro, planOf, paywallOn } from '@/core/pro';
 import { dueCount } from '@/core/srs';
 import { certsOf } from '@/core/pro';
 import { GoalCard } from '@/views/Stats';
+import Shelf from '@/views/Shelf';
 import { canBack, canFwd, goBack, goFwd, onNav } from '@/core/nav';
 
 function Menu(){ const { u } = useApp(); const p = u.p; const [open, setOpen] = useState(false); const ref = useRef(null);
@@ -60,7 +61,7 @@ function QuickRow(){ const { u } = useApp(); const p = u.p; const n = Store.prof
     <span className={`grid place-items-center w-11 h-11 rounded-xl text-lg font-bold flex-none ${hot ? 'bg-brand-500 text-white' : 'bg-brand-50 text-brand-600 ring-1 ring-brand-200'}`}>{ic}</span>
     <div className="min-w-0"><div className="font-bold text-ink truncate">{t}</div><div className="text-xs text-ink-2 truncate">{d}</div></div></a>)}</div>; }
 
-export default function Home(){
+export default function Home({ book = null }){
   useStore(); const { u, lang, go } = useApp(); const p = Store.profile(); const n = p.native;
   const ids = courseIds(n);
   const passedOf = (tr) => LEVELS.filter((L) => Store.passed(tr, L)).length;
@@ -68,39 +69,11 @@ export default function Home(){
   const featIcon = { listen: I.listen, tap: I.tap, pen: I.pen, check: I.exam };
   return <div>
     <TopBar/>
-    <section className="relative h-[340px] sm:h-[380px] overflow-hidden border-b border-line">
-      <div className="absolute inset-0"><WaveGridBackground colorBase="#F5F8FF" colorHigh="#3F76FF" gridSize={34} waveAmplitude={0.3} vignette={false}/></div>
-      <div className="relative z-10 h-full mx-auto max-w-6xl px-4 sm:px-6 flex items-end pb-8 pointer-events-none">
-        <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} className="pointer-events-auto max-w-xl rounded-3xl bg-white/90 backdrop-blur border-[1.5px] border-line shadow-card p-5 sm:p-6">
-          <div className="flex items-center gap-3">
-            <img src={avatarSrc(p)} alt="" className="w-12 h-12 rounded-full object-cover ring-2 ring-brand-500 ring-offset-2 bg-brand-50"/>
-            <div className="min-w-0"><div className="text-ink-2 text-sm">{u.hello},</div><div className="font-extrabold text-xl text-ink truncate"><bdi dir="ltr">@{p.username}</bdi></div></div>
-          </div>
-          <h1 className="mt-4 text-2xl sm:text-3xl font-extrabold text-ink leading-tight">{u.whatLearn}</h1>
-          <div className="mt-2 inline-flex items-center gap-2 text-sm text-ink-2">{u.yourNative}: <Flag lang={n} size="sm"/><b className="text-ink">{SELF[n]}</b>
-            <a href="#/profile" className="text-brand-600 font-semibold hover:underline">{u.change}</a></div>
-        </motion.div>
-      </div>
-    </section>
+    <Shelf book={book}/>
 
     <main className="mx-auto max-w-6xl px-4 sm:px-6 py-8 sm:py-10">
       <div className="mb-4"><GoalCard compact/></div>
       <QuickRow/>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {ids.map((tr, i) => { const t = COURSES[tr].t; const k = passedOf(tr); return <motion.a key={tr} href={'#/learn/' + tr} data-course={tr}
-          initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .04 * i }}
-          className="card card-hover p-5 flex flex-col gap-4">
-          <div className="flex items-center gap-4">
-            <Flag lang={t} size="lg"/>
-            <div className="min-w-0 flex-1"><div className="text-lg font-bold text-ink">{LEARN[n](t)}</div><div className="text-sm text-ink-3" lang={t}>{SELF[t]}</div></div>
-            {dueCount(tr) > 0 && <span className="px-2 py-0.5 rounded-full bg-[#FFF4DA] text-[#7A5200] text-xs font-bold ring-1 ring-[#F2D49B]" title={u.p.review} dir="ltr">↻ {dueCount(tr)}</span>}
-            <span className="iconbtn"><I.next className="rtl:rotate-180"/></span>
-          </div>
-          <div className="flex gap-1.5">{LEVELS.map((L, j) => <span key={L} className={`flex-1 rounded-lg text-center text-[11px] font-bold py-1 ${Store.passed(tr, L) ? 'bg-brand-500 text-white' : Store.unlocked(tr, j) ? 'bg-brand-50 text-brand-700 ring-1 ring-brand-200' : 'bg-mist text-ink-3'}`}>{L}</span>)}</div>
-          <div><div className="flex justify-between text-xs text-ink-2 mb-1.5"><span>{u.progress}</span><span className="font-semibold">{k}/6</span></div><Progress value={k / 6 * 100}/></div>
-        </motion.a>; })}
-      </div>
-
       <InView>{(on) => <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-3">
         {stats.map(([v, l, plus], i) => <div key={i} className="rounded-2xl bg-white border-[1.5px] border-line p-4 sm:p-5">
           <div className="flex items-baseline text-3xl sm:text-4xl font-extrabold text-brand-600 leading-none" dir="ltr"><AnimatedNumber value={on ? v : 0}/>{plus && <span className="ms-0.5">{plus}</span>}</div>

@@ -26,8 +26,9 @@ function Tools({ tr }){ const { u, toast } = useApp(); const p = u.p; const c = 
     {offlineSupported() && <T onClick={dl >= 0 ? null : doDl} icon={off ? '✓' : '⤓'} title={off ? p.dlDone : p.offlineT} sub={dl >= 0 ? Math.round(dl * 100) + '%' : off ? mb(sizeOf(tr)) + ' · ' + p.dlRemove : p.offlineD} data="offline"/>}
   </div>; }
 
-export function useTrack(tr){ const [T, setT] = useState(null); useEffect(() => { let on = true; ensureTrack(tr).then((x) => on && setT(x)); return () => { on = false; }; }, [tr]); return T; }
-export function Spinner(){ return <div className="py-24 grid place-items-center"><div className="w-9 h-9 rounded-full border-4 border-brand-100 border-t-brand-500 animate-spin"/></div>; }
+export function useTrack(tr){ const [T, setT] = useState(null); useEffect(() => { let on = true; const tryLoad = () => ensureTrack(tr).then((x) => on && setT(x)).catch(() => { if (on) setTimeout(tryLoad, 4000); }); tryLoad(); return () => { on = false; }; }, [tr]); return T; }
+export function Spinner(){ const { u } = useApp(); const [off, setOff] = useState(false); useEffect(() => { const t = setTimeout(() => setOff(typeof navigator !== 'undefined' && navigator.onLine === false), 2500); return () => clearTimeout(t); }, []);
+  return <div className="py-24 grid place-items-center gap-4"><div className="w-9 h-9 rounded-full border-4 border-brand-100 border-t-brand-500 animate-spin"/>{off && <p className="max-w-md text-center text-ink-2 px-4" data-offmissing>{u.x.offMissing}</p>}</div>; }
 export function AudioBtn(){ const { u, openAudio } = useApp(); return <button className="iconbtn" onClick={openAudio} aria-label={u.audio} title={u.audio}><I.vol/></button>; }
 
 function TrackVideos({ tr }){ const { u } = useApp(); const c = COURSES[tr]; const all = useVideos(); const list = (all || []).filter((v) => v.t === c.t && videoFits(v, c.n, c.t, ''));

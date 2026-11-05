@@ -1,6 +1,7 @@
 // @ts-nocheck
 // Strings for: mistake reports, pronunciation practice, daily goal & streak, reminders, dictionary, statistics, schools, games, stress marks.
 const EN = {
+ offMissing:'You are offline, and this course has not been downloaded yet. Connect to the internet once and tap “Download for offline” on the course page.', shAll:'All', shEu:'Europe', shAs:'East Asia', shMe:'Middle East & Central Asia', openB:'Open', closeB:'Close', levelsT:'Levels', toolsT:'Tools', contT:'Continue', prevB:'Previous course', nextB:'Next course', openCourse:'Open the course', shelfHint:'Drag, scroll or tap a book', passedN:'passed', fullCourse:'Full course page',
  back:'Back', fwd:'Forward', report:'Report a mistake', reportT:'What is wrong here?', rAudio:'Pronunciation / audio', rTrans:'Translation / meaning', rSpell:'Spelling', rPic:'Picture', rOther:'Something else', rNote:'Comment (optional)', rNotePh:'For example: the stress is on the other syllable', rSend:'Send', rThanks:'Thank you! The team will check it.', rQueued:'Saved — it will be sent when you are online.',
  reports:'Reports', rNew:'New', rDone:'Fixed', rDismiss:'Not a mistake', rNone:'No reports here.', rFrom:'From', rMark:'Mark as fixed',
  speak:'Speak', speakT:'Pronunciation practice', speakD:'Listen to the model, press the microphone and say it. Green words were clear, red words need another try.', tapMic:'Tap and speak', listening:'Listening…', tryAgain:'Try again', heard:'We heard', perfect:'Excellent pronunciation!', almost:'Good — almost there', retry:'Some words were not clear. Listen again and repeat.',
@@ -17,6 +18,7 @@ const EN = {
  stressT:'Stress marks', stressD:'Show the stressed vowel: моло́ко', on:'On', off:'Off', more:'More', tools:'Tools'
 };
 const AR = {
+ offMissing:'أنت بدون إنترنت، وهذا الكورس لم يُحمَّل بعد. اتصل بالإنترنت مرة واحدة واضغط «تحميل للاستخدام بدون إنترنت» في صفحة الكورس.', shAll:'الكل', shEu:'أوروبا', shAs:'شرق آسيا', shMe:'الشرق الأوسط وآسيا الوسطى', openB:'افتح', closeB:'إغلاق', levelsT:'المستويات', toolsT:'أدوات', contT:'تابع', prevB:'الكورس السابق', nextB:'الكورس التالي', openCourse:'افتح الكورس', shelfHint:'اسحب أو مرّر أو اضغط على كتاب', passedN:'مجتاز', fullCourse:'صفحة الكورس كاملة',
  back:'رجوع', fwd:'تقدّم', report:'الإبلاغ عن خطأ', reportT:'ما الخطأ هنا؟', rAudio:'النطق / الصوت', rTrans:'الترجمة / المعنى', rSpell:'الإملاء', rPic:'الصورة', rOther:'شيء آخر', rNote:'ملاحظة (اختياري)', rNotePh:'مثلاً: الشدّة على مقطع آخر', rSend:'إرسال', rThanks:'شكراً لك! سيراجعه الفريق.', rQueued:'تم الحفظ — سيُرسَل عند الاتصال بالإنترنت.',
  reports:'البلاغات', rNew:'جديدة', rDone:'تم التصليح', rDismiss:'ليس خطأ', rNone:'لا توجد بلاغات هنا.', rFrom:'من', rMark:'تم التصليح',
  speak:'نطق', speakT:'تدريب على النطق', speakD:'اسمع النطق الصحيح، ثم اضغط على الميكروفون وقله. الكلمات الخضراء كانت واضحة، والحمراء تحتاج محاولة أخرى.', tapMic:'اضغط وتكلّم', listening:'أستمع إليك…', tryAgain:'حاول مرة أخرى', heard:'سمعنا', perfect:'نطق ممتاز!', almost:'جيد — قريب جداً', retry:'بعض الكلمات لم تكن واضحة. اسمع مرة أخرى وكرّر.',
@@ -33,6 +35,7 @@ const AR = {
  stressT:'علامات الشدّة', stressD:'إظهار الحرف المشدَّد: моло́ко', on:'تشغيل', off:'إيقاف', more:'المزيد', tools:'أدوات'
 };
 const RU = {
+ offMissing:'Вы офлайн, а этот курс ещё не скачан. Подключитесь к интернету один раз и нажмите «Скачать для офлайн» на странице курса.', shAll:'Все', shEu:'Европа', shAs:'Восточная Азия', shMe:'Ближний Восток и Центральная Азия', openB:'Открыть', closeB:'Закрыть', levelsT:'Уровни', toolsT:'Инструменты', contT:'Продолжить', prevB:'Предыдущий курс', nextB:'Следующий курс', openCourse:'Открыть курс', shelfHint:'Листайте, прокручивайте или нажмите на книгу', passedN:'пройдено', fullCourse:'Страница курса',
  back:'Назад', fwd:'Вперёд', report:'Сообщить об ошибке', reportT:'Что здесь не так?', rAudio:'Произношение / звук', rTrans:'Перевод / значение', rSpell:'Написание', rPic:'Картинка', rOther:'Другое', rNote:'Комментарий (необязательно)', rNotePh:'Например: ударение на другом слоге', rSend:'Отправить', rThanks:'Спасибо! Команда проверит.', rQueued:'Сохранено — отправим, когда появится интернет.',
  reports:'Сообщения', rNew:'Новые', rDone:'Исправлено', rDismiss:'Не ошибка', rNone:'Сообщений нет.', rFrom:'От', rMark:'Исправлено',
  speak:'Речь', speakT:'Тренировка произношения', speakD:'Послушайте образец, нажмите на микрофон и повторите. Зелёные слова прозвучали чётко, красные нужно повторить.', tapMic:'Нажмите и говорите', listening:'Слушаю…', tryAgain:'Ещё раз', heard:'Мы услышали', perfect:'Отличное произношение!', almost:'Хорошо — почти', retry:'Некоторые слова неразборчивы. Послушайте ещё раз и повторите.',
@@ -49,6 +52,7 @@ const RU = {
  stressT:'Знаки ударения', stressD:'Показывать ударную гласную: моло́ко', on:'Вкл', off:'Выкл', more:'Ещё', tools:'Инструменты'
 };
 const UZ = {
+ offMissing:'Siz internetsiz holatdasiz va bu kurs hali yuklab olinmagan. Bir marta internetga ulanib, kurs sahifasida «Oflayn uchun yuklab olish» tugmasini bosing.', shAll:'Hammasi', shEu:'Yevropa', shAs:'Sharqiy Osiyo', shMe:'Yaqin Sharq va Markaziy Osiyo', openB:'Ochish', closeB:'Yopish', levelsT:'Darajalar', toolsT:'Vositalar', contT:'Davom etish', prevB:'Oldingi kurs', nextB:'Keyingi kurs', openCourse:'Kursni ochish', shelfHint:'Suring, aylantiring yoki kitobni bosing', passedN:'topshirildi', fullCourse:'Kurs sahifasi',
  back:'Orqaga', fwd:'Oldinga', report:'Xato haqida xabar berish', reportT:'Bu yerda nima xato?', rAudio:'Talaffuz / ovoz', rTrans:'Tarjima / maʼno', rSpell:'Imlo', rPic:'Rasm', rOther:'Boshqa', rNote:'Izoh (ixtiyoriy)', rNotePh:'Masalan: urgʻu boshqa boʻgʻinda', rSend:'Yuborish', rThanks:'Rahmat! Jamoa tekshiradi.', rQueued:'Saqlandi — internet boʻlganda yuboriladi.',
  reports:'Xabarlar', rNew:'Yangi', rDone:'Tuzatildi', rDismiss:'Xato emas', rNone:'Xabarlar yoʻq.', rFrom:'Kimdan', rMark:'Tuzatildi',
  speak:'Nutq', speakT:'Talaffuz mashqi', speakD:'Namunani tinglang, mikrofonni bosing va takrorlang. Yashil soʻzlar aniq eshitildi, qizillarini qayta ayting.', tapMic:'Bosing va gapiring', listening:'Tinglayapman…', tryAgain:'Yana urinib koʻring', heard:'Biz eshitdik', perfect:'Aʼlo talaffuz!', almost:'Yaxshi — deyarli', retry:'Baʼzi soʻzlar aniq emas edi. Yana tinglab, takrorlang.',
@@ -65,6 +69,7 @@ const UZ = {
  stressT:'Urgʻu belgilari', stressD:'Urgʻuli unlini koʻrsatish: моло́ко', on:'Yoq', off:'Oʻchir', more:'Yana', tools:'Vositalar'
 };
 const ES = {
+ offMissing:'Estás sin conexión y este curso aún no se ha descargado. Conéctate a internet una vez y pulsa «Descargar sin conexión» en la página del curso.', shAll:'Todos', shEu:'Europa', shAs:'Asia oriental', shMe:'Oriente Medio y Asia Central', openB:'Abrir', closeB:'Cerrar', levelsT:'Niveles', toolsT:'Herramientas', contT:'Continuar', prevB:'Curso anterior', nextB:'Curso siguiente', openCourse:'Abrir el curso', shelfHint:'Arrastra, desplaza o toca un libro', passedN:'aprobados', fullCourse:'Página del curso',
  back:'Atrás', fwd:'Adelante', report:'Informar de un error', reportT:'¿Qué está mal aquí?', rAudio:'Pronunciación / audio', rTrans:'Traducción / significado', rSpell:'Ortografía', rPic:'Imagen', rOther:'Otra cosa', rNote:'Comentario (opcional)', rNotePh:'Por ejemplo: el acento va en otra sílaba', rSend:'Enviar', rThanks:'¡Gracias! El equipo lo revisará.', rQueued:'Guardado: se enviará cuando tengas conexión.',
  reports:'Informes', rNew:'Nuevos', rDone:'Corregido', rDismiss:'No es un error', rNone:'No hay informes.', rFrom:'De', rMark:'Corregido',
  speak:'Hablar', speakT:'Práctica de pronunciación', speakD:'Escucha el modelo, pulsa el micrófono y repítelo. Las palabras verdes se entendieron bien; las rojas necesitan otro intento.', tapMic:'Pulsa y habla', listening:'Escuchando…', tryAgain:'Inténtalo de nuevo', heard:'Hemos oído', perfect:'¡Pronunciación excelente!', almost:'Bien, casi', retry:'Algunas palabras no se entendieron. Escucha otra vez y repite.',
@@ -81,6 +86,7 @@ const ES = {
  stressT:'Marcas de acento', stressD:'Mostrar la vocal tónica: моло́ко', on:'Sí', off:'No', more:'Más', tools:'Herramientas'
 };
 const ZH = {
+ offMissing:'你现在处于离线状态，这门课程还没有下载。请联网一次，并在课程页面点击“下载以离线使用”。', shAll:'全部', shEu:'欧洲', shAs:'东亚', shMe:'中东与中亚', openB:'打开', closeB:'关闭', levelsT:'级别', toolsT:'工具', contT:'继续学习', prevB:'上一门课程', nextB:'下一门课程', openCourse:'打开课程', shelfHint:'拖动、滚动或点击一本书', passedN:'已通过', fullCourse:'课程页面',
  back:'返回', fwd:'前进', report:'报告错误', reportT:'这里哪里有问题？', rAudio:'发音 / 音频', rTrans:'翻译 / 意思', rSpell:'拼写', rPic:'图片', rOther:'其他', rNote:'备注（可选）', rNotePh:'例如：重音在另一个音节上', rSend:'发送', rThanks:'谢谢！团队会进行检查。', rQueued:'已保存，联网后会自动发送。',
  reports:'错误报告', rNew:'新的', rDone:'已修正', rDismiss:'不是错误', rNone:'这里没有报告。', rFrom:'来自', rMark:'已修正',
  speak:'口语', speakT:'发音练习', speakD:'先听标准发音，再按下麦克风跟读。绿色的词说得清楚，红色的词需要再试一次。', tapMic:'点击后说话', listening:'正在听…', tryAgain:'再试一次', heard:'我们听到', perfect:'发音非常好！', almost:'不错，差一点', retry:'有些词不够清楚。再听一遍，然后重复。',
@@ -97,6 +103,7 @@ const ZH = {
  stressT:'重音符号', stressD:'显示重读元音：моло́ко', on:'开', off:'关', more:'更多', tools:'工具'
 };
 const DE = {
+ offMissing:'Du bist offline und dieser Kurs ist noch nicht heruntergeladen. Verbinde dich einmal mit dem Internet und tippe auf der Kursseite auf „Für offline herunterladen“.', shAll:'Alle', shEu:'Europa', shAs:'Ostasien', shMe:'Naher Osten & Zentralasien', openB:'Öffnen', closeB:'Schließen', levelsT:'Stufen', toolsT:'Werkzeuge', contT:'Weitermachen', prevB:'Vorheriger Kurs', nextB:'Nächster Kurs', openCourse:'Kurs öffnen', shelfHint:'Ziehen, scrollen oder ein Buch antippen', passedN:'bestanden', fullCourse:'Kursseite',
  back:'Zurück', fwd:'Vor', report:'Fehler melden', reportT:'Was ist hier falsch?', rAudio:'Aussprache / Audio', rTrans:'Übersetzung / Bedeutung', rSpell:'Schreibung', rPic:'Bild', rOther:'Etwas anderes', rNote:'Kommentar (optional)', rNotePh:'Zum Beispiel: Die Betonung liegt auf einer anderen Silbe', rSend:'Senden', rThanks:'Danke! Das Team prüft es.', rQueued:'Gespeichert – wird gesendet, sobald du online bist.',
  reports:'Meldungen', rNew:'Neu', rDone:'Behoben', rDismiss:'Kein Fehler', rNone:'Keine Meldungen.', rFrom:'Von', rMark:'Behoben',
  speak:'Sprechen', speakT:'Aussprachetraining', speakD:'Hör dir das Vorbild an, tippe auf das Mikrofon und sprich nach. Grüne Wörter waren deutlich, rote brauchen noch einen Versuch.', tapMic:'Tippen und sprechen', listening:'Ich höre zu…', tryAgain:'Noch einmal', heard:'Wir haben gehört', perfect:'Ausgezeichnete Aussprache!', almost:'Gut – fast', retry:'Einige Wörter waren undeutlich. Hör noch einmal zu und wiederhole.',
@@ -113,6 +120,7 @@ const DE = {
  stressT:'Betonungszeichen', stressD:'Betonten Vokal anzeigen: моло́ко', on:'An', off:'Aus', more:'Mehr', tools:'Werkzeuge'
 };
 const FR = {
+ offMissing:'Vous êtes hors ligne et ce cours n’est pas encore téléchargé. Connectez-vous une fois à internet et touchez « Télécharger hors ligne » sur la page du cours.', shAll:'Tous', shEu:'Europe', shAs:'Asie de l’Est', shMe:'Moyen-Orient et Asie centrale', openB:'Ouvrir', closeB:'Fermer', levelsT:'Niveaux', toolsT:'Outils', contT:'Continuer', prevB:'Cours précédent', nextB:'Cours suivant', openCourse:'Ouvrir le cours', shelfHint:'Glissez, faites défiler ou touchez un livre', passedN:'réussis', fullCourse:'Page du cours',
  back:'Retour', fwd:'Suivant', report:'Signaler une erreur', reportT:'Qu’est-ce qui ne va pas ?', rAudio:'Prononciation / audio', rTrans:'Traduction / sens', rSpell:'Orthographe', rPic:'Image', rOther:'Autre chose', rNote:'Commentaire (facultatif)', rNotePh:'Par exemple : l’accent tonique est sur une autre syllabe', rSend:'Envoyer', rThanks:'Merci ! L’équipe va vérifier.', rQueued:'Enregistré — ce sera envoyé dès que vous serez en ligne.',
  reports:'Signalements', rNew:'Nouveaux', rDone:'Corrigé', rDismiss:'Pas une erreur', rNone:'Aucun signalement.', rFrom:'De', rMark:'Corrigé',
  speak:'Parler', speakT:'Entraînement à la prononciation', speakD:'Écoutez le modèle, appuyez sur le micro et répétez. Les mots verts étaient clairs, les rouges demandent un nouvel essai.', tapMic:'Appuyez et parlez', listening:'J’écoute…', tryAgain:'Réessayer', heard:'Nous avons entendu', perfect:'Excellente prononciation !', almost:'Bien — presque', retry:'Certains mots n’étaient pas clairs. Réécoutez et répétez.',
@@ -129,6 +137,7 @@ const FR = {
  stressT:'Accents toniques', stressD:'Afficher la voyelle accentuée : моло́ко', on:'Oui', off:'Non', more:'Plus', tools:'Outils'
 };
 const IT = {
+ offMissing:'Sei offline e questo corso non è ancora stato scaricato. Collegati a internet una volta e tocca «Scarica per offline» nella pagina del corso.', shAll:'Tutti', shEu:'Europa', shAs:'Asia orientale', shMe:'Medio Oriente e Asia centrale', openB:'Apri', closeB:'Chiudi', levelsT:'Livelli', toolsT:'Strumenti', contT:'Continua', prevB:'Corso precedente', nextB:'Corso successivo', openCourse:'Apri il corso', shelfHint:'Trascina, scorri o tocca un libro', passedN:'superati', fullCourse:'Pagina del corso',
  back:'Indietro', fwd:'Avanti', report:'Segnala un errore', reportT:'Che cosa non va qui?', rAudio:'Pronuncia / audio', rTrans:'Traduzione / significato', rSpell:'Ortografia', rPic:'Immagine', rOther:'Altro', rNote:'Commento (facoltativo)', rNotePh:'Per esempio: l’accento è su un’altra sillaba', rSend:'Invia', rThanks:'Grazie! Il team controllerà.', rQueued:'Salvato: verrà inviato appena sei online.',
  reports:'Segnalazioni', rNew:'Nuove', rDone:'Corretto', rDismiss:'Non è un errore', rNone:'Nessuna segnalazione.', rFrom:'Da', rMark:'Corretto',
  speak:'Parlare', speakT:'Allenamento della pronuncia', speakD:'Ascolta il modello, tocca il microfono e ripeti. Le parole verdi erano chiare, quelle rosse vanno ripetute.', tapMic:'Tocca e parla', listening:'Sto ascoltando…', tryAgain:'Riprova', heard:'Abbiamo sentito', perfect:'Pronuncia eccellente!', almost:'Bene, quasi', retry:'Alcune parole non erano chiare. Ascolta di nuovo e ripeti.',
@@ -145,6 +154,7 @@ const IT = {
  stressT:'Segni d’accento', stressD:'Mostra la vocale accentata: моло́ко', on:'Sì', off:'No', more:'Altro', tools:'Strumenti'
 };
 const TR = {
+ offMissing:'Çevrimdışısın ve bu kurs henüz indirilmedi. Bir kez internete bağlan ve kurs sayfasında «Çevrimdışı için indir»e dokun.', shAll:'Tümü', shEu:'Avrupa', shAs:'Doğu Asya', shMe:'Orta Doğu ve Orta Asya', openB:'Aç', closeB:'Kapat', levelsT:'Seviyeler', toolsT:'Araçlar', contT:'Devam et', prevB:'Önceki kurs', nextB:'Sonraki kurs', openCourse:'Kursu aç', shelfHint:'Sürükle, kaydır veya bir kitaba dokun', passedN:'geçildi', fullCourse:'Kurs sayfası',
  back:'Geri', fwd:'İleri', report:'Hata bildir', reportT:'Burada yanlış olan ne?', rAudio:'Telaffuz / ses', rTrans:'Çeviri / anlam', rSpell:'Yazım', rPic:'Resim', rOther:'Başka bir şey', rNote:'Not (isteğe bağlı)', rNotePh:'Örneğin: vurgu başka hecede', rSend:'Gönder', rThanks:'Teşekkürler! Ekip kontrol edecek.', rQueued:'Kaydedildi — internete bağlanınca gönderilecek.',
  reports:'Bildirimler', rNew:'Yeni', rDone:'Düzeltildi', rDismiss:'Hata değil', rNone:'Bildirim yok.', rFrom:'Gönderen', rMark:'Düzeltildi',
  speak:'Konuş', speakT:'Telaffuz alıştırması', speakD:'Örneği dinle, mikrofona dokun ve tekrar et. Yeşil kelimeler anlaşıldı, kırmızılar bir deneme daha istiyor.', tapMic:'Dokun ve konuş', listening:'Dinliyorum…', tryAgain:'Tekrar dene', heard:'Duyduğumuz', perfect:'Mükemmel telaffuz!', almost:'İyi — neredeyse', retry:'Bazı kelimeler anlaşılmadı. Tekrar dinle ve söyle.',
@@ -161,6 +171,7 @@ const TR = {
  stressT:'Vurgu işaretleri', stressD:'Vurgulu ünlüyü göster: моло́ко', on:'Açık', off:'Kapalı', more:'Daha fazla', tools:'Araçlar'
 };
 const JA = {
+ offMissing:'オフラインです。このコースはまだダウンロードされていません。一度インターネットに接続して、コースページの「オフライン用にダウンロード」を押してください。', shAll:'すべて', shEu:'ヨーロッパ', shAs:'東アジア', shMe:'中東・中央アジア', openB:'開く', closeB:'閉じる', levelsT:'レベル', toolsT:'ツール', contT:'続きから', prevB:'前のコース', nextB:'次のコース', openCourse:'コースを開く', shelfHint:'ドラッグ、スクロール、または本をタップ', passedN:'合格', fullCourse:'コースページ',
  back:'戻る', fwd:'進む', report:'間違いを報告', reportT:'どこが間違っていますか？', rAudio:'発音 / 音声', rTrans:'翻訳 / 意味', rSpell:'つづり', rPic:'絵', rOther:'その他', rNote:'コメント（任意）', rNotePh:'例：アクセントは別の音節にあります', rSend:'送信', rThanks:'ありがとうございます！チームが確認します。', rQueued:'保存しました。オンラインになったら送信されます。',
  reports:'報告', rNew:'新規', rDone:'修正済み', rDismiss:'間違いではない', rNone:'報告はありません。', rFrom:'送信者', rMark:'修正済み',
  speak:'話す', speakT:'発音練習', speakD:'お手本を聞いてから、マイクを押して言ってみましょう。緑の単語ははっきり聞こえ、赤の単語はもう一度練習しましょう。', tapMic:'押して話す', listening:'聞いています…', tryAgain:'もう一度', heard:'聞き取った内容', perfect:'すばらしい発音です！', almost:'いいですね、あと少し', retry:'はっきりしない単語がありました。もう一度聞いて繰り返しましょう。',
@@ -177,6 +188,7 @@ const JA = {
  stressT:'アクセント記号', stressD:'強く読む母音を表示：моло́ко', on:'オン', off:'オフ', more:'その他', tools:'ツール'
 };
 const KO = {
+ offMissing:'오프라인 상태이며 이 과정은 아직 다운로드되지 않았어요. 한 번 인터넷에 연결한 뒤 과정 페이지에서 ‘오프라인용 다운로드’를 누르세요.', shAll:'전체', shEu:'유럽', shAs:'동아시아', shMe:'중동·중앙아시아', openB:'열기', closeB:'닫기', levelsT:'단계', toolsT:'도구', contT:'이어서 하기', prevB:'이전 과정', nextB:'다음 과정', openCourse:'과정 열기', shelfHint:'끌거나 스크롤하거나 책을 누르세요', passedN:'통과', fullCourse:'과정 페이지',
  back:'뒤로', fwd:'앞으로', report:'오류 신고', reportT:'무엇이 잘못되었나요?', rAudio:'발음 / 오디오', rTrans:'번역 / 뜻', rSpell:'철자', rPic:'그림', rOther:'기타', rNote:'메모 (선택)', rNotePh:'예: 강세가 다른 음절에 있어요', rSend:'보내기', rThanks:'감사합니다! 팀에서 확인할게요.', rQueued:'저장했어요. 온라인이 되면 보내집니다.',
  reports:'신고', rNew:'새 신고', rDone:'수정됨', rDismiss:'오류 아님', rNone:'신고가 없습니다.', rFrom:'보낸 사람', rMark:'수정됨',
  speak:'말하기', speakT:'발음 연습', speakD:'원어민 발음을 듣고 마이크를 눌러 따라 말해 보세요. 초록색 단어는 잘 들렸고, 빨간색 단어는 다시 연습이 필요해요.', tapMic:'누르고 말하기', listening:'듣는 중…', tryAgain:'다시 하기', heard:'인식된 말', perfect:'훌륭한 발음이에요!', almost:'좋아요, 거의 다 됐어요', retry:'일부 단어가 분명하지 않았어요. 다시 듣고 따라 해 보세요.',

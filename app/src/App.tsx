@@ -40,7 +40,7 @@ export default function App(){
   const tid = useRef(0);
 
   useEffect(() => { Store.load(); initSrs(); initActivity(); startClock(() => routeRef.current); Promise.all([loadCourses(), loadRef(), initAuth()]).then(() => { initPro(); setReady(true); flushReports(); setTimeout(checkRemindNow, 4000); }); Speech.init();
-    navTrack(); const f = () => { navTrack(); setRoute(parseHash()); Speech.stop(); window.scrollTo({ top: 0 }); }; addEventListener('hashchange', f);
+    navTrack(); const f = () => { navTrack(); const r = parseHash(); setRoute(r); Speech.stop(); if (r[0] !== 'book' && !(r.length === 0 && document.querySelector('[data-book-detail]') && getComputedStyle(document.querySelector('[data-book-detail]')).visibility === 'visible')) window.scrollTo({ top: 0 }); }; addEventListener('hashchange', f);
     const prime = () => { primeAudio(); removeEventListener('pointerdown', prime); }; addEventListener('pointerdown', prime);
     return () => removeEventListener('hashchange', f); }, []);
 
@@ -75,7 +75,7 @@ export default function App(){
   else if (route[0] === 'placement' && own(route[1])) view = <Placement key={route[1]} tr={route[1]}/>;
   else if (route[0] === 'learn' && route[1] && COURSES[route[1]] && COURSES[route[1]].n === profile.native){
     view = route[2] ? <LevelView key={route[1] + route[2]} tr={route[1]} L={route[2].toUpperCase()} tab={route[3]}/> : <Track key={route[1]} tr={route[1]}/>;
-  } else view = <Home/>;
+  } else view = <Home book={route[0] === 'book' && own(route[1]) ? route[1] : null}/>;
 
   return <Ctx.Provider value={ctx}>
     <div dir={u.dir} className="min-h-screen">{view}</div>

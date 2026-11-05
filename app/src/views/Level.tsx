@@ -18,6 +18,7 @@ const TAB_ICON = { video: '▶', letters: 'Aa', words: '🖼', phrases: '💬', 
 export default function LevelView({ tr, L, tab }){
   useStore(); const { u } = useApp(); const T = useTrack(tr); const c = COURSES[tr]; const i = LEVELS.indexOf(L);
   useEffect(() => { Packs.load(c.t, L); }, [tr, L]);
+  useEffect(() => { if (LEVELS.includes(L)){ Store.d.lastPlace = { tr, L, tab: tab || '', at: Date.now() }; Store.save(); } }, [tr, L, tab]);
   const allV = useVideos();
   if (i < 0){ location.hash = '#/learn/' + tr; return null; }
   if (!T) return <div><TopBar><AudioBtn/></TopBar><Spinner/></div>;
